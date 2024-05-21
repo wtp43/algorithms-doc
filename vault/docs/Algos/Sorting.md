@@ -2,15 +2,6 @@
 title:  "Sorting"
 created: 2022-12-15
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Sorting
 
 
@@ -20,7 +11,6 @@ def closest_values(arr):
 	min_val, i = min((arr[i] - arr[i-1], i) for i in range(1, len(arr)))
 	return min_val, i 
 ```
-
 # Implementation
 
 ```python

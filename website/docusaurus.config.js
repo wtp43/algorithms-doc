@@ -8,8 +8,6 @@ import { themes as prismThemes } from "prism-react-renderer";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 
-import PrismLight from "./src/utils/prismLight";
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AlgoDocs",
@@ -17,11 +15,6 @@ const config = {
   favicon: "img/favicon.ico",
   staticDirectories: ["public", "static"],
   scripts: ["https://unpkg.com/prismjs@1.23.0/components/prism-markdown.js"],
-
-  plugins: [
-    ["@orama/plugin-docusaurus-v3", { customCss: "./src/css/custom.css" }],
-  ],
-
   markdown: {
     format: "detect",
     mermaid: true,
@@ -93,7 +86,21 @@ const config = {
       }),
     ],
   ],
-
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
   stylesheets: [
     {
       href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
@@ -128,6 +135,7 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          { type: "search", position: "right" },
         ],
       },
       footer: {
@@ -138,7 +146,7 @@ const config = {
             items: [
               {
                 label: "Algorithms",
-                to: "/docs/intro",
+                to: "/docs/Revision%20Feb%202024",
               },
             ],
           },

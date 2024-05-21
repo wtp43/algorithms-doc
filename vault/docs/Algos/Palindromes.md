@@ -3,12 +3,7 @@ title:  "Palindromes"
 created: 2023-01-21
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 
 # Palindromes

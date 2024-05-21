@@ -4,12 +4,6 @@ title:  "LC 5. Longest Palindromic Substring"
 created: 2023-02-01
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
 
 # Description
 

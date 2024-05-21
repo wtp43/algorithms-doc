@@ -2,15 +2,6 @@
 title:  "Trees"
 created: 2023-01-05
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Trees
 
 It is usually easier to consider one-indexed arrays. Let the root be at index 1, then the two children of a node $i$ are at $2i$ and $2i + 1$

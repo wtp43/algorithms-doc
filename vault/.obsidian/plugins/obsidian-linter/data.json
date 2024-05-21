@@ -31,7 +31,7 @@
     },
     "remove-yaml-keys": {
       "enabled": true,
-      "yaml-keys-to-remove": "`dg-publish:\ntags"
+      "yaml-keys-to-remove": ""
     },
     "yaml-key-sort": {
       "enabled": false,
@@ -276,7 +276,20 @@
       "name": ""
     }
   ],
-  "customRegexes": [],
+  "customRegexes": [
+    {
+      "label": "toc",
+      "find": "> ?\\[\\!summary](-|\\+)? Contents\\n(>.*?\\n|>.*)*",
+      "replace": "",
+      "flags": "gm"
+    },
+    {
+      "label": "toc2",
+      "find": "style: number\\nmin_depth:1\\nmax_depth:6 \\n>```",
+      "replace": "",
+      "flags": "gm"
+    }
+  ],
   "commonStyles": {
     "aliasArrayStyle": "multi-line",
     "tagArrayStyle": "multi-line",

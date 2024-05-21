@@ -2,15 +2,6 @@
 title:  "Sparse Table"
 created: 2022-12-16
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Sparse Table
 
 ## Brute Force Solutions

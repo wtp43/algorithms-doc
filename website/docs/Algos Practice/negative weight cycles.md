@@ -1,3 +1,3 @@
 ---
 ---
-![Pasted-image-20221205185608.png](</Algos/attachments/Pasted-image-20221205185608.png>)
+![[Pasted image 20221205185608.png]]- Overall sum of the cycle becomes negative

@@ -1,21 +1,10 @@
 ---
 id: Revision Feb 2024
-aliases: []
+aliases: 
 created: ""
 ---
-
+	
 ---
-
-> [!summary]- Contents
->
-> ```toc
-> style: number
-> min_depth:1
-> max_depth:6
-> ```
->
-> Initial complete review of all studied concepts
-
 # Structuring a Solution
 
 ### Find a starting point

@@ -38,7 +38,7 @@ https://interviewing.io/guides/system-design-interview/part-two#about-these-15-f
 - Web servers are unreachable directly by clients
 - For better security, private IPs are used for communication between servers (only reachable between servers in the same network)
 - By adding a load balancer and second server, if server 1 goes offline, all the traffic will be routed to server 2
-![Pasted-image-20240312060004.png](</Interview-Prep-2024/attachments/Pasted-image-20240312060004.png>)
+![[Pasted image 20240312060004.png]]
 
 ### Database Replication
 #### Master/slave relationship
@@ -99,7 +99,7 @@ https://interviewing.io/guides/system-design-interview/part-two#about-these-15-f
 	- Producer can post message to queue even when consumer is unavailable to process it
 	- Consumer can read messages from queue even when producer is unavailable
 	- Producers/Consumers can be scaled independently
-![Pasted-image-20240312063941.png](</Interview-Prep-2024/attachments/Pasted-image-20240312063941.png>)
+	![[Pasted image 20240312063941.png]]
 
 ### Logging, metrics, automation 
 - Logging: can be done at per server level, or use tools to aggregate them to a centralized service
@@ -240,7 +240,7 @@ Do we need to inform users who are throttled?
 - Tokens refilled at preset rates periodically
 - Generally necessary to have different buckets for different API endpoints
 	- If we need to throttle requests based on IP addresses, each IP address requires a bucket
-![Pasted-image-20240322142254.png](</Interview-Prep-2024/attachments/Pasted-image-20240322142254.png>)
+![[Pasted image 20240322142254.png]]
 ##### Leaking Bucket
 >Requests processed at fixed rate
 >But bursts of traffic can fill up queue with old requests and if they are not processed in time, recent requests will be rate limited
@@ -248,17 +248,17 @@ Do we need to inform users who are throttled?
 - Requests pulled from queue and processed at regular intervals
 - **Bucket size**
 - **Outflow rate**: how many requests can be processed at a fixed rate
-![Pasted-image-20240322142406.png](</Interview-Prep-2024/attachments/Pasted-image-20240322142406.png>)
+![[Pasted image 20240322142406.png]]
 ##### Fixed Window Counter
 - Divides timeline into fix-sized time windows
 - Assign counter for each window
 - Each request increments counter by one
 - Once counter reaches predefined threshold, new requests are dropped until a new time window starts
-![Pasted-image-20240322142431.png](</Interview-Prep-2024/attachments/Pasted-image-20240322142431.png>)
+![[Pasted image 20240322142431.png]]
 **Potential Problem**
 - Burst of traffic at edges of time windows can cause more requests than
 - Ex: 1 minute windows are allowed 5 requests, but there is 10 allowed here in 1 minute
-![Pasted-image-20240322142555.png](</Interview-Prep-2024/attachments/Pasted-image-20240322142555.png>)
+![[Pasted image 20240322142555.png]]
 ##### Sliding Window Log
 - Keep track of request timestamps (cached in sorted sets of Redis)
 - When new request comes in, remove all outdated timestamps (any timestamps not within the current window)
@@ -266,12 +266,12 @@ Do we need to inform users who are throttled?
 - Reject request (still keep it's timestamp in log) if log size is greater than allowed count
 - Requires a lot of memory to store timestamps 
 - Rate limiting very accurate, any rolling window will not exceed rate limit
-![Pasted-image-20240322143142.png](</Interview-Prep-2024/attachments/Pasted-image-20240322143142.png>)
+![[Pasted image 20240322143142.png]]
 
 ##### Sliding Window Counter
 - Requests in current window + requests in the previous window * overlap percentage of
 the rolling window and previous window
-![Pasted-image-20240322143537.png](</Interview-Prep-2024/attachments/Pasted-image-20240322143537.png>)
+![[Pasted image 20240322143537.png]]
 #### High-level Architecture
 - Store counter in cache
 - Redis offers INCR and EXPIRE (sets timeout for counter, automatically deleted after)
@@ -290,7 +290,7 @@ pg 64
 - Scale data tier by sharding
 - Split tiers into individual services (message queues) 
 - Monitor system and use automation tools
-![Pasted-image-20240312065728.png](</Interview-Prep-2024/attachments/Pasted-image-20240312065728.png>)
+![[Pasted image 20240312065728.png]]
 - Only one data center is shown but there can be moredd
 # Other Topics
 ## Dynamic content caching

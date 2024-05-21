@@ -4,12 +4,6 @@ title:  "LC 3. Longest Substring Without Repeating Characters"
 created: 2023-01-23
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
 
 # Description
 

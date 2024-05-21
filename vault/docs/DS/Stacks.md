@@ -44,7 +44,7 @@ Always remember to clear non empty stack at the end of loops
 		- For instance A = 1axxx, B = 1bxxx. If a > b then A > B
 - There is however 1 case that doesn't work, monotonically increasing, which we need to handle separately
 - Wrong intuition: keep a stack of the largest numbers in increasing order and remove the last number. However, this is reduced to "the largest k numbers which is O(nlogn)". The one difference here is that we do not care about the order. So we deduce that this problem should be solved in O(n). Generally for stacks, we just care about the current and previous number. If the condition is met, we can continuously compare and pop from the stack until the condition is broken.
-- ![[Pasted image 20230124003324.png]]
+![[Pasted image 20230124003324.png]]
 
 - [ ] [[LC-901. Online Stock Span]]
 	- Why do we start from the back?

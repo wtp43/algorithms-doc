@@ -120,7 +120,7 @@ So the total time complexity of `MST-PRIM` is the sum of executing steps 1 throu
 > 				'F': set(['G'])})
 
 
-![Pasted-image-20221208044247.png](</Algos/attachments/Pasted-image-20221208044247.png>)
+![[Pasted image 20221208044247.png]]
 
 ## Optimizations
 - Suppose we know that the cost for every edge is bounded by U

@@ -1,0 +1,11 @@
+{
+	"id": "python-scripter",
+	"name": "Python Scripter",
+	"version": "1.0.7",
+	"minAppVersion": "0.15.0",
+	"description": "Run Python scripts directly as Obsidian commands.",
+	"author": "Nick Allison",
+	"authorUrl": "https://github.com/nickrallison",
+	"fundingUrl": "https://github.com/sponsors/nickrallison",
+	"isDesktopOnly": true
+}

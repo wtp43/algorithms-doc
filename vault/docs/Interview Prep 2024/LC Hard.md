@@ -2,12 +2,7 @@
 created: ""
 ---
 ---
->[!summary]- Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 # LC Hard
 ## Backtrack
 #### Build sentence by inserting spaces into string given dictionary of valid words

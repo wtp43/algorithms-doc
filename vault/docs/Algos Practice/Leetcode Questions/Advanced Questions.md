@@ -4,12 +4,6 @@ title:  "Advanced Questions"
 created: 2023-01-29
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
 # Todo
 https://leetcode.com/problems/maximum-average-pass-ratio/description/
 https://leetcode.com/problems/minimum-operations-to-halve-array-sum/description/

@@ -674,7 +674,7 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/descripti
 
 #### Vertical Order Traversal
 
-![Pasted-image-20240304190355.png](</attachments/Pasted-image-20240304190355.png>)
+![[Pasted image 20240304190355.png]]
 res:`[[4],[9,5],[3,0,1],[8,2],[7]]`
 
 - BFS with root set to col 0

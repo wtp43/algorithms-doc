@@ -18,8 +18,8 @@ Topological sort simply involves **running DFS on an entire graph and adding ea
 - Each [[Graph Theory#Directed Acyclic Graphs (DAG)|DAG]] has at least one topological sort, they are not unique
 
 > [!example]+ 
-![Pasted-image-20230106154005.png](</Algos/attachments/Pasted-image-20230106154005.png>)
-![Pasted-image-20230106154013.png](</Algos/attachments/Pasted-image-20230106154013.png>)
+> ![[Pasted image 20230106154005.png]]
+> ![[Pasted image 20230106154013.png]]
 
 
 

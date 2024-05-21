@@ -5,12 +5,7 @@ created: 2022-12-10
 ---
 
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 # Quick Sort
 Divide and conquer. Unstable sort (due to the swapping). Studies show quicksort perform better on small datasets.

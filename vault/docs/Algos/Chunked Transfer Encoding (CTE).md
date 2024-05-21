@@ -3,12 +3,6 @@ title:  "Chunked Transfer Encoding (CTE)"
 created: 2023-01-13
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
 
 # Description
 

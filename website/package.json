@@ -16,8 +16,9 @@
   "dependencies": {
     "@docusaurus/core": "3.3.2",
     "@docusaurus/preset-classic": "3.3.2",
+    "@docusaurus/theme-common": "3.3.2",
+    "@easyops-cn/docusaurus-search-local": "^0.40.1",
     "@mdx-js/react": "^3.0.0",
-    "@orama/plugin-docusaurus-v3": "^2.0.18",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "prismjs": "^1.29.0",

@@ -9,7 +9,7 @@ created: 2022-12-15
 # Counting Sort
 Stable sort. Count occurrences of each unique element in array and stores it in an auxiliary array. Then calculate the cumulative sum of the elements of the count array. Use the cumulative sum to place the numbers in the correct position.
 
-![Pasted-image-20221215155937.png](</Algos/attachments/Pasted-image-20221215155937.png>)
+![[Pasted image 20221215155937.png]]
 
 > [!danger]+ Intuition
 > Useful for keys are integers. I.e. [('msft', 1), ('aapl', 2)] or [-3,-2, 1, -20]. Linear in the range of the elements.

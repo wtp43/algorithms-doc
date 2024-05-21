@@ -2,7 +2,7 @@
   "showInlineTitle": false,
   "spellcheck": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./attachments",
+  "attachmentFolderPath": "/attachments",
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "vimMode": true,

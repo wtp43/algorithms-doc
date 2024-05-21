@@ -2,15 +2,6 @@
 title:  "Cyclic Sort"
 created: 2023-01-06
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Cyclic Sort
 Swap numbers of array until they are in the correct place.
 Iterate until you find missing/duplicate number.

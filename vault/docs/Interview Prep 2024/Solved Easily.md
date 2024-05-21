@@ -2,12 +2,7 @@
 created: ""
 ---
 ---
->[!summary]- Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 # Arrays
 # Binary Trees
 ### Trim a Binary Search Tree

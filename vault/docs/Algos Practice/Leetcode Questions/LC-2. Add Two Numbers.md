@@ -4,12 +4,6 @@ title:  "LC 2. Add Two Numbers"
 created: 2023-01-06
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
 
 # Description
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.

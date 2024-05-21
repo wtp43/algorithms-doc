@@ -3,13 +3,6 @@ title:  "Bidirectional Dictionary"
 created: 2023-01-22
 ---
 
->[!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
-
 # Description
 Here is a class for a bidirectional `dict`, inspired by [Finding key from value in Python dictionary](https://stackoverflow.com/questions/7657457/finding-key-from-value-in-python-dictionar) and modified to allow the following 2) and 3).
 
