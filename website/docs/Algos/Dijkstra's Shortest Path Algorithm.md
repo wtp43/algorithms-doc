@@ -13,7 +13,6 @@
 3. Insert `(start,0)` into PQ and loop while PQ is not empty
 4. Iterate over all edges outwards from current node and relax each edge appending the neighbouring node if it was relaxed,
 
-
 # Implementation
 
 **Complexity:** O(E log V)

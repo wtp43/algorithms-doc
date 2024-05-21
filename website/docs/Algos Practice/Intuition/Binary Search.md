@@ -1,19 +1,16 @@
 ---
 ---
 
-- [ ] [[LC-1752. Check if Array Is Sorted and Rotated]] (Find the pivot if sorted array is rotated)
-- Important to note that the first and last num are connected
+[LC-1752. Check if Array Is Sorted and Rotate](</docs/Algos Practice/Leetcode Questions/LC-1752. Check if Array Is Sorted and Rotated.md>)- Important to note that the first and last num are connected
 - Check if the next number is bigger: This can only happen once if sorted and rotated
 	- nums[i] > nums[(1+i)%n]
 
 
-- [ ] [[LC-153. Find Minimum in Rotated Sorted Array]]
-- Update the min every loop. The min will not always land on j or always on i
+[LC-153. Find Minimum in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-153. Find Minimum in Rotated Sorted Array.md>)- Update the min every loop. The min will not always land on j or always on i
 - `If nums[j] > nums[mid]: the min has to be on the left
 
 
-- [ ] [[LC-33. Search in Rotated Sorted Array]]
-
+[LC-33. Search in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-33. Search in Rotated Sorted Array.md>)
 >[!danger]+ Intuition
 >   enumerate possibilities
 > 

@@ -1,21 +1,10 @@
 ---
 id: Revision Feb 2024
-aliases: []
+aliases: 
 created: ""
 ---
-
+	
 ---
-
-> [!summary]- Contents
->
-> ```toc
-> style: number
-> min_depth:1
-> max_depth:6
-> ```
->
-> Initial complete review of all studied concepts
-
 # Structuring a Solution
 
 ### Find a starting point
@@ -685,7 +674,7 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/descripti
 
 #### Vertical Order Traversal
 
-![[Pasted image 20240304190355.png]]
+![Pasted-image-20240304190355.png](</attachments/Pasted-image-20240304190355.png>)
 res:`[[4],[9,5],[3,0,1],[8,2],[7]]`
 
 - BFS with root set to col 0
@@ -1042,7 +1031,6 @@ def longestPalindromeSubseq(self, s: str) -> int:
 
 - It's only necessary to store the result of the subsequence
 - ie: `dp[i][j]` is not the result of the array `[i:j]`
--
 
 #### Length of Longest Subsequence that Sums to Target
 

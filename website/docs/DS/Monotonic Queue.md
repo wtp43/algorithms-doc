@@ -14,10 +14,8 @@ for i from 1 to n:
 
 Before actually adding an element to the queue, we remove values which are smaller than the current value, this way we can keep a non-increasing sequence.
 
-- [ ] [[LC-739. Daily Temperatures]]
-
-- [ ] [[LC-862. Shortest Subarray with Sum at Least K]] (MONOQUEUE + PREFIX SUM)
-- subarray is contiguous
+[LC-739. Daily Temperatures](</docs/Algos Practice/Leetcode Questions/LC-739. Daily Temperatures.md>)
+[LC-862. Shortest Subarray with Sum at Least K](</docs/Algos Practice/Leetcode Questions/LC-862. Shortest Subarray with Sum at Least K.md>)- subarray is contiguous
 - contains negative numbers
 - maintain the (index, prefixsum from 0 to index) in a monoqueue
 - when the prefix sum is smaller than the last prefix sum in the monoqueue, pop the last element
@@ -48,8 +46,7 @@ Because in the sliding window when we move `start` (typically when we incremen
 ```
 
 
-- [ ] [[LC-1425. Constrained Subsequence Sum]]
-	- Find the maximum sum of a non-empty subsequence such that every two consecutive integers in the subsequence nums(i) and nums(j) for i < j satisfies j-i <= k
+[LC-1425. Constrained Subsequence Su](</docs/Algos Practice/Leetcode Questions/LC-1425. Constrained Subsequence Sum.md>)	- Find the maximum sum of a non-empty subsequence such that every two consecutive integers in the subsequence nums(i) and nums(j) for i < j satisfies j-i <= k
 	- This reduces to a DP problem. Include or not include the current num. Try to find a recurrence relation
 	- The recurrence relation is ``dp[i+K] = nums[i+K] + max(0, dp[i], dp[i+1], ..., dp[i+K-1])``
 	- It will be useful for us to find the maximum sums for the last k-1 subsequences that end on i for i in range(i,k)

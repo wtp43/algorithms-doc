@@ -14,8 +14,7 @@
 - Sort by (nums[i], i) then sort again by the index i and return the largest k elements: O(NlogN)
 - Keep a heap of the largest k items (nums[i], i). If cur num is smaller than the top of the heap, continue. If it is bigger, pop the top of the heap and insert the cur num: O(NlogK)
 
-- [ ] [[LC-853. Car Fleet]]
-- Finding intersections
+[LC-853. Car Fleet](</docs/Algos Practice/Leetcode Questions/LC-853. Car Fleet.md>)- Finding intersections
 - Sort by starting position and traverse backwards
 	- We want to traverse backwards because the last car starts in a fleet of its own.
 	- It gives us more information than the first car (we don't know how fast this fleet will end up going because we don't know when the cars in front will stop merging)

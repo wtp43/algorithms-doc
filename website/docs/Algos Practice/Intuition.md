@@ -1,12 +1,5 @@
 ---
 ---
->- [ ] [!summary]+ Contents
->```toc
->style: number
->min_depth:1
->max_depth:6
->```
-
 Here, we are interested in building our intuition. In other words, our ability to reduce a hard problem to a simpler one. 
 
 
@@ -20,8 +13,7 @@ Here, we are interested in building our intuition. In other words, our ability t
 - If he number to the left of the current number doesn't exist, we can try to build a subsequence
 - Another possible solution is using union_find
 
-[[LC-14. Longest Common Prefix]]: T(O(len()))
-- Find the longest common prefix that exists among all strings
+[LC-14. Longest Common Prefix](</docs/Algos Practice/Leetcode Questions/LC-14. Longest Common Prefix.md>)- Find the longest common prefix that exists among all strings
 - Update the common prefix after checking all strings in each loop
 https://leetcode.com/problems/is-subsequence/description/
 https://leetcode.com/problems/unique-email-addresses/
@@ -29,8 +21,7 @@ https://leetcode.com/problems/distinct-subsequences/
 
 # Backtracking
 
-[[LC-131. Palindrome Partitioning]]
-- We want to partition a string s such that every substring of the partition is a palindrome
+[LC-131. Palindrome Partitioning](</docs/Algos Practice/Leetcode Questions/LC-131. Palindrome Partitioning.md>)- We want to partition a string s such that every substring of the partition is a palindrome
 - When backtracking, it's important to determine if we are at a valid step. Only if we are do we proceed to the next step (continue recursing).
 https://leetcode.com/problems/palindromic-substrings/description/
 
@@ -40,25 +31,21 @@ knights tour
 
 # Brainteasers
 
-[[LC-1007. Minimum Domino Rotations For Equal Row]]
-- We have to immediately recognize that it doesn't matter where we check but that every single domino must have at least one of the two numbers present.
+[LC-1007. Minimum Domino Rotations For Equal Row](</docs/Algos Practice/Leetcode Questions/LC-1007. Minimum Domino Rotations For Equal Row.md>)- We have to immediately recognize that it doesn't matter where we check but that every single domino must have at least one of the two numbers present.
 - So if any domino doesn't have the top or bottom number of the first domino, no rotations are possible
 
 
 # Binary Search
-[[LC-1752. Check if Array Is Sorted and Rotated]] (Find the pivot if sorted array is rotated)
-- Important to note that the first and last num are connected
+[LC-1752. Check if Array Is Sorted and Rotate](</docs/Algos Practice/Leetcode Questions/LC-1752. Check if Array Is Sorted and Rotated.md>)- Important to note that the first and last num are connected
 - Check if the next number is bigger: This can only happen once if sorted and rotated
 	- nums[i] > nums[(1+i)%n]
 
 
-[[LC-153. Find Minimum in Rotated Sorted Array]]
-- Update the min every loop. The min will not always land on j or always on i
+[LC-153. Find Minimum in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-153. Find Minimum in Rotated Sorted Array.md>)- Update the min every loop. The min will not always land on j or always on i
 - `If nums[j] > nums[mid]: the min has to be on the left
 
 
-[[LC-33. Search in Rotated Sorted Array]]
-
+[LC-33. Search in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-33. Search in Rotated Sorted Array.md>)
 >[!danger]+ Intuition
 >   enumerate possibilities
 > 
@@ -121,24 +108,20 @@ https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/sol
 
 ## Union Find (Cycle detection)
 Works for undirected graphs
-[[LC-684. Redundant Connection]]
-- This is the case where the tree has no cycles and is an undirected graph. Then we just need to remove one of the two edges that make up the node with indegree 2.
+[LC-684. Redundant Connection](</docs/Algos Practice/Leetcode Questions/LC-684. Redundant Connection.md>)- This is the case where the tree has no cycles and is an undirected graph. Then we just need to remove one of the two edges that make up the node with indegree 2.
 - Use union find to detect if nodes u,v in the edge (u,v) have the same parent. If they do, this edge is redundant
 
-[[LC-685. Redundant Connection II]]
--  A valid graph in this context is a single rooted tree (directed graph) with no cycles. This graph is given a single extra edge.
+[LC-685. Redundant Connection II](</docs/Algos Practice/Leetcode Questions/LC-685. Redundant Connection II.md>)-  A valid graph in this context is a single rooted tree (directed graph) with no cycles. This graph is given a single extra edge.
 - An edge that is redundant if it is one of two edges that enter the same node or an edge in a cycle. In the case that both scenario happens, we need to remove the edge inside the cycle otherwise it only solves one of the two problems.
 - Since we are not sure which edge to remove to ensure that the node has indegree of 1, we have to keep track both edges. We want to remove the edge that is part of a cycle if there exists one. 
 - It will help to store the previous node of each node in a dictionary.
 - Union find will help us detect the cycle
 
-[[LC-261. Graph Valid Tree]]
-- A valid tree has 1 connected component with no cycles
+[LC-261. Graph Valid Tree](</docs/Algos Practice/Leetcode Questions/LC-261. Graph Valid Tree.md>)- A valid tree has 1 connected component with no cycles
 - Reduces to redundant connection
 - An extra check is required at the end to see if the edges have connected all the components
 
-[[LC-323. Number of Connected Components in an Undirected Graph]]
-- Union find
+[LC-323. Number of Connected Components in an Undirected Graph](</docs/Algos Practice/Leetcode Questions/LC-323. Number of Connected Components in an Undirected Graph.md>)- Union find
 - Reduce the number of connected components every time we take the union of nodes u and v
 
 
@@ -150,8 +133,7 @@ When building out adjacency lists  for directed graphs, we need to make sure the
 
 In BFS, we need to do a check prior to adding the node to the queue. In DFS, it may not always be necessary to do a pre-check, we can check in the base case of the function call.
 
-[[LC-1971. Find if Path Exists in Graph]] (Valid Path)
-- Union find and connect all edges. 
+[LC-1971. Find if Path Exists in Graph](</docs/Algos Practice/Leetcode Questions/LC-1971. Find if Path Exists in Graph.md>)- Union find and connect all edges. 
 	- Check if find(source) == find(destination) are the same. Don't check the parents because the path may not have been flattened yet.
 - DFS
 	- return True if cur_node == destination
@@ -162,8 +144,7 @@ In BFS, we need to do a check prior to adding the node to the queue. In DFS, it 
 
 
 
-[[LC-200. Number of Islands]]
-- '1' is marked as land while '0' is water
+[LC-200. Number of Islands](</docs/Algos Practice/Leetcode Questions/LC-200. Number of Islands.md>)- '1' is marked as land while '0' is water
 - Start DFS at every '1' while marking them as '0' to indicate they are visited
 - Increment number of islands every time dfs is started at '1'
 
@@ -172,25 +153,21 @@ In BFS, we need to do a check prior to adding the node to the queue. In DFS, it 
 - Recursively sum up the area of the island by returning 1 + dfs(all dirs)
 
 
-[[LC-417. Pacific Atlantic Water Flow]] (Starting dfs such that the results can be reused in the next dfs call)
-- Find all the squares that flow to and from the pacific/atlantic
+[LC-417. Pacific Atlantic Water Flow](</docs/Algos Practice/Leetcode Questions/LC-417. Pacific Atlantic Water Flow.md>)- Find all the squares that flow to and from the pacific/atlantic
 The naive approach would be to BFS from each cell. It repeats computation because any result can only be applied to that cell. Start from the ocean(outer borders) and work backwards. The results here are used for multiple cells because every cell we visit must be connected to the ocean. 
 
-[[LC-994. Rotting Oranges]] (Parallel BFS)
-- Since one fresh orange can be affected by multiple oranges, we want to find the shortest time in which it will be affected. 
+[LC-994. Rotting Oranges](</docs/Algos Practice/Leetcode Questions/LC-994. Rotting Oranges.md>)- Since one fresh orange can be affected by multiple oranges, we want to find the shortest time in which it will be affected. 
 - We need to modify our BFS to run in parallel. We can do this by keeping track of which iteration we are on using a delimiter in the queue and starting BFS at all rotten oranges. 
 - Instead of a delimiter, we can also iterate the length of the current queue.
 
-[[LC-207. Course Schedule]]
-- Cycle detection but in a directed graph
+[LC-207. Course Schedule](</docs/Algos Practice/Leetcode Questions/LC-207. Course Schedule.md>)- Cycle detection but in a directed graph
 - We can use topological sort which implements DFS
 	- We have three states: unvisited, currently visiting, visited
 	- A cycle is detected if we reach a node that we are currently visiting
 - Append, the 
 - Direction is important: Since this is a one to many relationship ``[course, prerequisite1], we need to build our edges directed in this way: graph[i].append(j)
 
-[[LC-286. Walls and Gates]] (Parallel BFS)
-- We want to find the distance from every empty cell to the nearest gate. 
+[LC-286. Walls and Gates](</docs/Algos Practice/Leetcode Questions/LC-286. Walls and Gates.md>)- We want to find the distance from every empty cell to the nearest gate. 
 - Instead of running DFS from every gate and taking the min (this results in extra computation), run BFS in parallel starting from each gate. 
 - Thus we are guaranteed the shortest route. The distance to the cell is only updated if it is not inf and in the case it isn't, we know we have already visited it taking a shorter path.
 - To run BFS in parallel, use a for loop to pop all items in the q at the current state with dist = i. After all these are popped increment dist
@@ -246,8 +223,7 @@ https://leetcode.com/problems/task-scheduler/description/
 
 # Linked List
 
-[[LC-206. Reverse Linked List]]
-- The 3 components we need are prev, cur, and tmp. We need to store the next link because it is being updated.
+[LC-206. Reverse Linked List](</docs/Algos Practice/Leetcode Questions/LC-206. Reverse Linked List.md>)- The 3 components we need are prev, cur, and tmp. We need to store the next link because it is being updated.
 
 [[LC-234. Palindrome Linked List]] 
 
@@ -292,8 +268,7 @@ https://leetcode.com/problems/top-k-frequent-words/solutions/2516165/top-k-frequ
 - Sort by (nums[i], i) then sort again by the index i and return the largest k elements: O(NlogN)
 - Keep a heap of the largest k items (nums[i], i). If cur num is smaller than the top of the heap, continue. If it is bigger, pop the top of the heap and insert the cur num: O(NlogK)
 
-[[LC-853. Car Fleet]]
-- Finding intersections
+[LC-853. Car Fleet](</docs/Algos Practice/Leetcode Questions/LC-853. Car Fleet.md>)- Finding intersections
 - Sort by starting position and traverse backwards
 	- We want to traverse backwards because the last car starts in a fleet of its own.
 	- It gives us more information than the first car (we don't know how fast this fleet will end up going because we don't know when the cars in front will stop merging)
@@ -324,8 +299,7 @@ Always remember to clear non empty stack at the end of loops
 	- Popping criteria: we can only partially use the previous bars if the current bar's height is higher
 	- We cannot extend a bar if the next bar is shorter. In this case, we calculate the maximum area using all the previous bars that are taller than the current bar. Pop  all previous bars while simultaneously calculating the area using the current height and the number of bars higher than it that have been popped.
 
-[[LC-735. Asteroid Collision]]
-- Asteroid collisions where the larger of the asteroid stays intact, negative moves left, positive moves right
+[LC-735. Asteroid Collision](</docs/Algos Practice/Leetcode Questions/LC-735. Asteroid Collision.md>)- Asteroid collisions where the larger of the asteroid stays intact, negative moves left, positive moves right
 - Store a stack of asteroids that we have already processed
 - Compare the top of the stack with the current asteroid
 	- Enumerate all possibilities
@@ -333,10 +307,8 @@ Always remember to clear non empty stack at the end of loops
 	- Then append the asteroid only if the last popped asteroid was not equal to it in size
 		- Very useful to use while else, if we break then we don't go to the else
 
-[[LC-402. Remove K Digits]]
-- Remove k digits to get the smallest number
-- This is extremely similar to [[LC-84. Largest Rectangle in Histogram]]
-- We want to pop everything before the current item if cur_item < stack[-1]
+[LC-402. Remove K Digits](</docs/Algos Practice/Leetcode Questions/LC-402. Remove K Digits.md>)- Remove k digits to get the smallest number
+[LC-84. Largest Rectangle in Histogra](</docs/Algos Practice/Leetcode Questions/LC-84. Largest Rectangle in Histogram.md>)- We want to pop everything before the current item if cur_item < stack[-1]
 - Both these algorithms are greedy.
 	- It's important to figure out the criteria of when to add and pop to the stack
 	- In this question, we want to pop a number from the resulting number stack if the cur number is smaller than the prev
@@ -344,10 +316,9 @@ Always remember to clear non empty stack at the end of loops
 		- For instance A = 1axxx, B = 1bxxx. If a > b then A > B
 - There is however 1 case that doesn't work, monotonically increasing, which we need to handle separately
 - Wrong intuition: keep a stack of the largest numbers in increasing order and remove the last number. However, this is reduced to "the largest k numbers which is O(nlogn)". The one difference here is that we do not care about the order. So we deduce that this problem should be solved in O(n). Generally for stacks, we just care about the current and previous number. If the condition is met, we can continuously compare and pop from the stack until the condition is broken.
-- ![[Pasted image 20230124003324.png]]
+![Pasted-image-20230124003324.png](</Algos-Practice/Leetcode-Questions/attachments/Pasted-image-20230124003324.png>)
 
-[[LC-901. Online Stock Span]]
-
+[LC-901. Online Stock Span](</docs/Algos Practice/Leetcode Questions/LC-901. Online Stock Span.md>)
 ```python
 class StockSpanner:
 
@@ -364,8 +335,7 @@ class StockSpanner:
 ```
 - It's important to push the span back (update) after every pop. 
 
-[[LC-456. 132 Pattern]] (Preprocessing min stack + strictly decreasing stack)
-- Since we want i < j < k and nums[i] < nums[k] < nums[j], it would be useful to have the minimum nums[i] at each iteration. 
+[LC-456. 132 Pattern](</docs/Algos Practice/Leetcode Questions/LC-456. 132 Pattern.md>)- Since we want i < j < k and nums[i] < nums[k] < nums[j], it would be useful to have the minimum nums[i] at each iteration. 
 - Then we iterate the array backwards 
 	- if nums[j] <= min_array[j]
 		- continue, because we dont have a valid nums[i] to use
@@ -375,8 +345,7 @@ class StockSpanner:
 	- check if stack and stack[-1] < nums[j]. Then we have a valid k and i
 	- Append the current j to the stack
 
-[[LC-394. Decode String]]
-- To convert a string '100' to integer: k = k * 10 + int(c)
+[LC-394. Decode String](</docs/Algos Practice/Leetcode Questions/LC-394. Decode String.md>)- To convert a string '100' to integer: k = k * 10 + int(c)
 	- Another way is to store the a num stack with delimiter [#,1,0,0,#]
 - The hard part is dealing with nested strings
 	- Every time we reach a ``'['``  , we need to push the current string back onto the stack
@@ -398,8 +367,7 @@ One property to note is that, it is not possible for multiple merges after one d
 - ie: bbb - bb - ccc - b, for k = 3
 - This is because bbb would have already been deleted. Thus, we only have to look at the top of the stack after deleting
 
-[[LC-32. Longest Valid Parentheses]]
-What is important? Where the last valid open bracket was.
+[LC-32. Longest Valid Parentheses](</docs/Algos Practice/Leetcode Questions/LC-32. Longest Valid Parentheses.md>)What is important? Where the last valid open bracket was.
 Thus, we should store the index.
 When we can update the longest valid parenthesis?
 When we have popped an open bracket off the stack.
@@ -408,10 +376,8 @@ We store the last invalid index before the next opening bracket at the start of 
 Length = j-i+1
 This is because j and i are indices. (j-i) just gives us the difference.
 
-[[LC-85. Maximal Rectangle]]
-![](https://assets.leetcode.com/uploads/2020/09/14/maximal.jpg)
-Similar to [[LC-84. Largest Rectangle in Histogram]]. The first step is to recognize the [[Best Theoretical Time Complexity (BTTC)]]
-
+[LC-85. Maximal Rectangle](</docs/Algos Practice/Leetcode Questions/LC-85. Maximal Rectangle.md>)![](https://assets.leetcode.com/uploads/2020/09/14/maximal.jpg)
+[LC-84. Largest Rectangle in Histogra](</docs/Algos Practice/Leetcode Questions/LC-84. Largest Rectangle in Histogram.md>)
 To find all the rectangles, we have to look at every possible i,j. So the BTTC is O(NM).
 To build our bars for the histogram, we can set the current row as the y axis and use DP. If the current cell is a 0, we cannot reuse the height form the previous rows, otherwise we can extend the bar.
 
@@ -443,13 +409,11 @@ Maximum Sum Subarray of Size K
 	- `counter -= nums[start]
 	- start += 1
 
-[[LC-209. Minimum Size Subarray Sum]]
-- Find the smallest window where sum is at least target
+[LC-209. Minimum Size Subarray Su](</docs/Algos Practice/Leetcode Questions/LC-209. Minimum Size Subarray Sum.md>)- Find the smallest window where sum is at least target
 - First find a window, then make it smaller while still satisfying the constraints.
 
 
-[[LC-239. Sliding Window Maximum]]
-- Find the maximum of all k sized windows
+[LC-239. Sliding Window Maximu](</docs/Algos Practice/Leetcode Questions/LC-239. Sliding Window Maximum.md>)- Find the maximum of all k sized windows
 - Brute force: iterate all k sized windows. Time complexity: N-k+1 windows and k elements in each window = O(NK)
 - Keep a monotonic decreasing stack of elements
 	- For every new element, pop all elements smaller than it in the deque
@@ -459,13 +423,11 @@ Maximum Sum Subarray of Size K
 	- We don't need a full heap because we are only interested in the biggest item in a window of size k
 	- This is possible because we don't need all the items 
 
-[[LC-340. Longest Substring with At Most K Distinct Characters]]
-- Keep track of all frequencies of characters. 
+[LC-340. Longest Substring with At Most K Distinct Characters](</docs/Algos Practice/Leetcode Questions/LC-340. Longest Substring with At Most K Distinct Characters.md>)- Keep track of all frequencies of characters. 
 - When you reach a window containing k+1 characters, move start up until len(frequency) = k.  
 - O(n)
 
-[[LC-904. Fruit Into Baskets]] (Reduction of LC-340)
-- Window size can only have 2 distinct characters instead of k
+[LC-904. Fruit Into Baskets](</docs/Algos Practice/Leetcode Questions/LC-904. Fruit Into Baskets.md>)- Window size can only have 2 distinct characters instead of k
 - Brute force:
 	- O(n^3)
 	- Loop on the left index, the right index, and the current index in between left and right
@@ -473,35 +435,29 @@ Maximum Sum Subarray of Size K
 - Update the max_count during every iteration (not just until we reach k+1 sized windows)
 - O(n)
 
-[[LC-424. Longest Repeating Character Replacement]]
-How is the biggest window made?
+[LC-424. Longest Repeating Character Replacement](</docs/Algos Practice/Leetcode Questions/LC-424. Longest Repeating Character Replacement.md>)How is the biggest window made?
 >It is the window containing the most number of repeated character (character with the highest frequency) + k other letters
 
 
-[[LC-3. Longest Substring Without Repeating Characters]]
-- Keep set of seen letters
+[LC-3. Longest Substring Without Repeating Characters](</docs/Algos Practice/Leetcode Questions/LC-3. Longest Substring Without Repeating Characters.md>)- Keep set of seen letters
 - If current letter has already appeared, move the start of the window up while simultaneously deleting the letter at index: start
 
-[[LC-567. Permutation in String]]
-- Check if s2 contains a permutation of s1
+[LC-567. Permutation in String](</docs/Algos Practice/Leetcode Questions/LC-567. Permutation in String.md>)- Check if s2 contains a permutation of s1
 -  self.dictEquals(d1,d2) while moving up the sliding window and updating d2 (decrement the frequency of the previous window start, increment the current char)
 - If we use Counter(), we can compare them directly (d1 == d2) instead of rewriting a dictionary comparison function
 
-[[LC-438. Find All Anagrams in a String]]
-- Similar to permutation in string
+[LC-438. Find All Anagrams in a String](</docs/Algos Practice/Leetcode Questions/LC-438. Find All Anagrams in a String.md>)- Similar to permutation in string
 - Keep counters of all characters
 - Increment current letter, move window up, decrement the character at the previous start
 
-[[LC-76. Minimum Window Substring]]
-- Find the smallest window that contains all letters of t in s including duplicates. (This can be reduced to permutation in string)
+[LC-76. Minimum Window Substring](</docs/Algos Practice/Leetcode Questions/LC-76. Minimum Window Substring.md>)- Find the smallest window that contains all letters of t in s including duplicates. (This can be reduced to permutation in string)
 
 For minimum window strategies:
 - Find a valid window first
 	- Iteratively make the window smaller by moving up the start index
 	- Check if the current smaller window still satisfies the constraints and update the minimum window
 
-[[LC-713. Subarray Product Less Than K]]
-- We notice there are only positive numbers.
+[LC-713. Subarray Product Less Than K](</docs/Algos Practice/Leetcode Questions/LC-713. Subarray Product Less Than K.md>)- We notice there are only positive numbers.
 - First determine what an invalid state for the window would be
 - For each new window, we can make j-i+1 windows that end on the element j
 	- The only new windows we can add are only the ones that include the new element j.
@@ -545,8 +501,7 @@ Find three elements in an array that sum to the target
 - Again, hashset the complement
 - O(n)
 
-[[LC-189. Rotate Array]]
-- k = k mod n
+[LC-189. Rotate Array](</docs/Algos Practice/Leetcode Questions/LC-189. Rotate Array.md>)- k = k mod n
 - reverse the entire array
 - reverse the first k (0->k-1)
 - reverse the last k
@@ -581,8 +536,7 @@ one-based
 
 # Fast and Slow Pointers
 
-[[LC-876. Middle of the Linked List]]
-- Use two pointers that both start at the head
+[LC-876. Middle of the Linked List](</docs/Algos Practice/Leetcode Questions/LC-876. Middle of the Linked List.md>)- Use two pointers that both start at the head
 - While p2 and p2.next, move p1 up by one while p2 up by 2
 - The middle will be at p1
 

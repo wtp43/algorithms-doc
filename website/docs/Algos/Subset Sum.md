@@ -2,15 +2,6 @@
 title:  "Subset Sum"
 created: 2023-01-13
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Subset Sum (Dynamic Programming)
 Given a set of positive integers and an integer `k`, check if there is any non-empty subset that sums to `k`.
 Backtracking would take O($n * 2^n$)

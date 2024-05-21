@@ -26,8 +26,7 @@ return ans;
 
 
 https://leetcode.com/problems/frequency-of-the-most-frequent-element/
-[[LC-1838. Frequency of the Most Frequent Element]] (Shrinkable Window)
-- Return the maximum possible frequency of an element after performing at most k operations (increment the element at index i by 1)
+[LC-1838. Frequency of the Most Frequent Element](</docs/Algos Practice/Leetcode Questions/LC-1838. Frequency of the Most Frequent Element.md>)- Return the maximum possible frequency of an element after performing at most k operations (increment the element at index i by 1)
 - Sliding window problem,  
 - the key is to find out the valid condition: 
 - `k + sum >= size * max`  

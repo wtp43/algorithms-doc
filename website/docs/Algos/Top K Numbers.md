@@ -2,15 +2,6 @@
 title:  "Kth Largest"
 created: 2023-01-13
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Top K Numbers
 Use a min heap to keep track of the k largest numbers. Fill the heap up with k numbers. If the current number is smaller than the heap minimum, continue. If it is bigger, pop the top of the heap and push this number onto the heap.
 

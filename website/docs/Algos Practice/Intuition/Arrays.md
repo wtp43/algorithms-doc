@@ -12,12 +12,10 @@ Number of items in an array = j-i+1
 - If he number to the left of the current number doesn't exist, we can try to build a subsequence
 - Another possible solution is using union_find
 
-- [x] [[LC-14. Longest Common Prefix]]: T(O(len()))
-- Find the longest common prefix that exists among all strings
+[LC-14. Longest Common Prefix](</docs/Algos Practice/Leetcode Questions/LC-14. Longest Common Prefix.md>)- Find the longest common prefix that exists among all strings
 - Update the common prefix after checking all strings in each loop
 
-- [x] [[LC-392. Is Subsequence]]
-	- two pointers 
+[LC-392. Is Subsequence](</docs/Algos Practice/Leetcode Questions/LC-392. Is Subsequence.md>)	- two pointers 
 	- returns true if the pointer corresponding to the subsequence is equal to n after all iterations
 
 - [ ] https://leetcode.com/problems/unique-email-addresses/

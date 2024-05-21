@@ -10,12 +10,7 @@ tags:
 created: 2023-01-06
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 
 # Hashmap
@@ -192,5 +187,4 @@ class MyHashMap:
 
 # Related
 
-- [[LC-706. Design HashMap]]
-- https://runestone.academy/ns/books/published/pythonds/SortSearch/Hashing.html
+[LC-706. Design HashMap](</docs/Algos Practice/Leetcode Questions/LC-706. Design HashMap.md>)- https://runestone.academy/ns/books/published/pythonds/SortSearch/Hashing.html

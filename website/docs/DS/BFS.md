@@ -54,9 +54,7 @@ def reconstruct_path(start, end, prev):
 # Multisource BFS
 Append all sources to a q and iterate the q in chunks/layers.
 
-[[LC-286. Walls and Gates]]
-[[LC-994. Rotting Oranges]]
-
+[LC-286. Walls and Gates](</docs/Algos Practice/Leetcode Questions/LC-286. Walls and Gates.md>)[LC-994. Rotting Oranges](</docs/Algos Practice/Leetcode Questions/LC-994. Rotting Oranges.md>)
 
 # Related Problems
 

@@ -27,8 +27,7 @@ But this isn't ideal! In an interview, and when solving difficult problems in ge
 
 The only way to get good at challenging your assumptions is lots of practice. Working in a group with other people preparing for code interviews can help too - learning how other people see problems will widen your own way of seeing problems.
 
-[[LC-120. Triangle]]
-
+[LC-120. Triangle](</docs/Algos Practice/Leetcode Questions/LC-120. Triangle.md>)
 [Best Theoretical Time Complexity (BTTC)](</docs/Algos Practice/Best Theoretical Time Complexity (BTTC).md>)
 
 # Recognizing NP-Hard Problems

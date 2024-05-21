@@ -2,8 +2,7 @@
 ---
 Linked List
 
-- [ ] [[LC-206. Reverse Linked List]]
-- The 3 components we need are prev, cur, and tmp. We need to store the next link because it is being updated.
+[LC-206. Reverse Linked List](</docs/Algos Practice/Leetcode Questions/LC-206. Reverse Linked List.md>)- The 3 components we need are prev, cur, and tmp. We need to store the next link because it is being updated.
 
 - [ ] [[LC-234. Palindrome Linked List]] 
 

@@ -2,15 +2,6 @@
 title:  "Maximum Frequency Stack"
 created: 2023-01-24
 ---
-
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Maximum Frequency Stack
 Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.
 

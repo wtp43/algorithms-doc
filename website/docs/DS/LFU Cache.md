@@ -3,14 +3,6 @@ title:  "LFU Cache"
 created: 2023-01-06
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # LFU Cache
 Design and implement a data structure for a [Least Frequently Used (LFU)](https://en.wikipedia.org/wiki/Least_frequently_used) cache.
 

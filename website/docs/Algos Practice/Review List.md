@@ -27,17 +27,8 @@ After reviewing, update applications for each algo
 - [ ] Monotonic Queue
 - [ ] Sparse Table  *
 - [ ] Stacks
-	- [ ] [[LC-84. Largest Rectangle in Histogram]]
-	- [ ] [[LC-735. Asteroid Collision]]
-	- [ ] [[LC-402. Remove K Digits]]
-	- [ ] [[LC-456. 132 Pattern]]
-	- [ ] [[LC-901. Online Stock Span]]
-	- [ ] [[LC-394. Decode String]]
-	- [ ] [[LC-1209. Remove All Adjacent Duplicates in String II]]
-	- [ ] [[LC-32. Longest Valid Parentheses]]
-	- [ ] [[LC-85. Maximal Rectangle]]
-	- [ ] [[LC-739. Daily Temperatures]]
-- [ ] Trees (Todo - Incomplete notes)
+[LC-84. Largest Rectangle in Histogra](</docs/Algos Practice/Leetcode Questions/LC-84. Largest Rectangle in Histogram.md>)[LC-735. Asteroid Collision](</docs/Algos Practice/Leetcode Questions/LC-735. Asteroid Collision.md>)[LC-402. Remove K Digits](</docs/Algos Practice/Leetcode Questions/LC-402. Remove K Digits.md>)[LC-456. 132 Pattern](</docs/Algos Practice/Leetcode Questions/LC-456. 132 Pattern.md>)[LC-901. Online Stock Span](</docs/Algos Practice/Leetcode Questions/LC-901. Online Stock Span.md>)[LC-394. Decode String](</docs/Algos Practice/Leetcode Questions/LC-394. Decode String.md>)	- [ ] [[LC-1209. Remove All Adjacent Duplicates in String II]]
+[LC-32. Longest Valid Parentheses](</docs/Algos Practice/Leetcode Questions/LC-32. Longest Valid Parentheses.md>)[LC-85. Maximal Rectangle](</docs/Algos Practice/Leetcode Questions/LC-85. Maximal Rectangle.md>)[LC-739. Daily Temperatures](</docs/Algos Practice/Leetcode Questions/LC-739. Daily Temperatures.md>)- [ ] Trees (Todo - Incomplete notes)
 - [x] Trie
 - [x] Union Find
 
@@ -61,23 +52,20 @@ After reviewing, update applications for each algo
 	- [ ] Cycle Detection
 
 ### Review 
-- 
 ## Arrays
-[Kadane's Algorith](</docs/Algos/Kadane's Algorithm.md>)- 
-## Binary Search
+[Kadane's Algorith](</docs/Algos/Kadane's Algorithm.md>)## Binary Search
 - [x] Bisect-right
 - [x] Bisect-left
 - [x] Binary search
 
 ## Sliding Window
-[Sliding Window](</docs/Algos Practice/Intuition/Sliding Window.md>)	- Shrinkable/non-shrinkable approach
+[LC-239. Sliding Window Maximu](</docs/Algos Practice/Leetcode Questions/LC-239. Sliding Window Maximum.md>)	- Shrinkable/non-shrinkable approach
 
 ## Sorts
 [Quick Sort](</docs/Algos/Quick Sort.md>)
 ## Data Structures
 [Fibonacci Heap](</docs/DS/Fibonacci Heap.md>)### Review
-- [[LC-1752. Check if Array Is Sorted and Rotated]]  
-	- Compare all neighbour elements `(a,b)` in `A`,  
+[LC-1752. Check if Array Is Sorted and Rotate](</docs/Algos Practice/Leetcode Questions/LC-1752. Check if Array Is Sorted and Rotated.md>)	- Compare all neighbour elements `(a,b)` in `A`,  
 		the case of `a > b` can happen at most once.
 		
 		Note that the first element and the last element are also connected.
@@ -87,10 +75,8 @@ After reviewing, update applications for each algo
 		we can rotate and make `b` the first element.  
 		Else, return `false`.
 
-- [[LC-153. Find Minimum in Rotated Sorted Array]]
-
+[LC-153. Find Minimum in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-153. Find Minimum in Rotated Sorted Array.md>)
 # Intuition
 - Smallest difference (array, bst nodes)
 	- Sort then 1 pass: nlogn
 	- in order traversal (BST)
-	- 

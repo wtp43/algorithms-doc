@@ -3,8 +3,7 @@
 
 # Dynamic Programming
 - [ ] 01 Knapsack
-	- [ ] [[LC-2008. Maximum Earnings From Taxi]]
-
+[LC-2008. Maximum Earnings From Taxi](</docs/Algos Practice/Leetcode Questions/LC-2008. Maximum Earnings From Taxi.md>)
 
 
 - [ ] https://leetcode.com/problems/minimum-cost-to-split-an-array/description/
@@ -56,19 +55,16 @@ for i in reversed(range(n)):
 
 [[LC-416. Partition Equal Subset Sum]]
 - Subset sum (01 knapsack)
-[[LC-474. Ones and Zeroes]]
-- Iterating each word will allow us to save space so we don't have to recount the number of 0's and 1's in each word
+[LC-474. Ones and Zeroes](</docs/Algos Practice/Leetcode Questions/LC-474. Ones and Zeroes.md>)- Iterating each word will allow us to save space so we don't have to recount the number of 0's and 1's in each word
 - Consider only the possible indices we have to check
 - In this case # of 0s...m, # of 1s...n
 - We also want to iterate backwards, range(n,`A[0]`-1,-1), because we do not want to rewrite previous calculations by including the previous string. Doing this bottom up may result in duplicated count of the current word
 
-[[LC-120. Triangle]]
-- <mark style="background: #cc085d;">Prove validity of assumptions!! </mark>
+[LC-120. Triangle](</docs/Algos Practice/Leetcode Questions/LC-120. Triangle.md>)- <mark style="background: #cc085d;">Prove validity of assumptions!! </mark>
 - This immediately suggests that we should be working from top to bottom. But is this actually necessary? Could we go from bottom to top instead? Going top to bottom results in paths where some cells can take two paths while others only one. Going bottom up, every cell will have two paths they can take. 
 
 [[LC-740. Delete and Earn]]
-- Reduces to [[LC-198. House Robber]]
-- If we take `nums[i]`, we delete all `nums[i-1], nums[i+1]`
+[LC-198. House Robber](</docs/Algos Practice/Leetcode Questions/LC-198. House Robber.md>)- If we take `nums[i]`, we delete all `nums[i-1], nums[i+1]`
 - Key takeaway: We never have to worry about `nums[i+1]`
 	- Always only use the past. Never worry about the future results.
 	- If we take `nums[i+1]`  in the future, that step wouldn't let us take `nums[i-1]` which is our current num
@@ -88,8 +84,7 @@ for i in reversed(range(n)):
 	- If s1(i) == s2(i): we can increment `dp[i-1][j-1]`
 	- else: `max(dp[i%2][j-1], dp[(i-1)%2][j])`
 	- `return dp[n%2][m]` : Make sure to check whether to return (n%2) or (n-1)%2. Do an example (len(s1) == 1 vs len(s1) == 0)
-- [ ] [[LC-518. Coin Change II]]
-	- to optimize space, we realize that we only need a 1D array with length amount+1
+[LC-518. Coin Change II](</docs/Algos Practice/Leetcode Questions/LC-518. Coin Change II.md>)	- to optimize space, we realize that we only need a 1D array with length amount+1
 	- we cannot loop the amount by all coins (coins in the inner loop) because we would get permutations
 		- consider amount = 7 with coins `[2,5]`: using all coins, `dp[7] = dp[7-5] + dp[7-2]`
 		- by looping on coins first, we preserve the above DP definition as `dp[j]="number of ways to get sum 'j' using 'previous /first i coins'
@@ -101,8 +96,7 @@ for i in reversed(range(n)):
 
 # Advanced DP
 
-- [ ] [[LC-2218. Maximum Value of K Coins From Piles]]
-- https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/solutions/1889647/python-bottom-up-dp-solution/
+[LC-2218. Maximum Value of K Coins From Piles](</docs/Algos Practice/Leetcode Questions/LC-2218. Maximum Value of K Coins From Piles.md>)- https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/solutions/1889647/python-bottom-up-dp-solution/
 - https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/solutions/1887010/java-c-python-top-down-dp-solution/?orderBy=most_votes
 - https://leetcode.com/problems/split-array-largest-sum/description/
 
@@ -116,8 +110,7 @@ Then prove it (by induction).
 - Bottom up dynamic programming that only uses O(n) space
 
 Always consider the state of each `dp[i][j]`
-- Like in [[LC-474. Ones and Zeroes]]
-- `dp[i][j]` is a different state for every new word
+[LC-474. Ones and Zeroes](</docs/Algos Practice/Leetcode Questions/LC-474. Ones and Zeroes.md>)- `dp[i][j]` is a different state for every new word
 - To avoid duplicates, we have to iterate backwards when updating max subsets
 - Otherwise, if we do it bottom up, we may end up using the same word twice
 

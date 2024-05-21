@@ -3,12 +3,7 @@ title:  "Maze solving Algorithms"
 created: 2023-01-05
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 
 # Maze solving Algorithms
@@ -47,5 +42,4 @@ Choose an arbitrary direction to go toward.
 
 
 # Related
-- [[LC-489. Robot Room Cleaner]]
-- https://en.wikipedia.org/wiki/Maze-solving_algorithm#Wall_follower
+[LC-489. Robot Room Cleaner](</docs/Algos Practice/Leetcode Questions/LC-489. Robot Room Cleaner.md>)- https://en.wikipedia.org/wiki/Maze-solving_algorithm#Wall_follower

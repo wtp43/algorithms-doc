@@ -4,13 +4,11 @@ Max heaps
 To make a max heap, push -x for x in array onto a min heap.
 
 # Heaps
-- [ ] [[LC-23. Merge k Sorted Lists]]
-- Put the head of each linked list on a heap
+[LC-23. Merge k Sorted Lists](</docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md>)- Put the head of each linked list on a heap
 - Extend the resulting linked list
 - If the extended tail has a next node, put it back on the heap
 
-- [ ] [[LC-1851. Minimum Interval to Include Each Query]]
-- Find the smallest interval that can include each query (array of nums)
+[LC-1851. Minimum Interval to Include Each Query](</docs/Algos Practice/Leetcode Questions/LC-1851. Minimum Interval to Include Each Query.md>)- Find the smallest interval that can include each query (array of nums)
 - Sort queries and intervals
 - Put all intervals ``[l,r]`` that include q onto the heap with key ``[l-r+1, r]``
 - Pop all intervals where `r` < q
@@ -25,8 +23,7 @@ To make a max heap, push -x for x in array onto a min heap.
 
 # Advanced Heaps
 
-[[LC-2386. Find the K-Sum of an Array]]
-- Find the k-th largest array where nums contains positive and negative numbers
+[LC-2386. Find the K-Sum of an Array](</docs/Algos Practice/Leetcode Questions/LC-2386. Find the K-Sum of an Array.md>)- Find the k-th largest array where nums contains positive and negative numbers
 - Maxheap (minheap with -nums)
 - Keep a sorted list of abs(nums) in increasing order
 - The next biggest sum sum can either be:

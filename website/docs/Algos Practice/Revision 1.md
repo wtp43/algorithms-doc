@@ -6,7 +6,6 @@
 - Minimum sum path
 	- Watch out for input constraints (especially if negative numbers exist)
 	- Watch out for cycles
-	- 
 ## Recursion 
 Tail end recursion:pass computations as function argument
 ## Arrays 
@@ -24,7 +23,6 @@ Tail end recursion:pass computations as function argument
 	- update max length
 
 - longest common prefix
-	- 
 
 ## Sliding Window
 [1838. Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)

@@ -62,5 +62,4 @@ class Circular_queue():
 >![enqueue and dequeue operation of the circular queue](https://cdn.programiz.com/sites/tutorial2program/files/circular-queue-program.png "Working of circular queue")
 
 # Applications
-- [[LC-622. Design Circular Queue]]
-- [[LC-174. Dungeon Game]]
+[LC-622. Design Circular Queue](</docs/Algos Practice/Leetcode Questions/LC-622. Design Circular Queue.md>)[LC-174. Dungeon Game](</docs/Algos Practice/Leetcode Questions/LC-174. Dungeon Game.md>)

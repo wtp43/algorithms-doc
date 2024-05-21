@@ -27,8 +27,7 @@ This will take O(n) to search for each child and in the worst case, the depth is
 # Use Cases
 
 [Connected Components](</docs/DS/Connected Components.md>)- Start DFS at every node (except if it's already been visited) and mark all reachable nodes as being part of the same component
-- [[LC-200. Number of Islands]]
-
+[LC-200. Number of Islands](</docs/Algos Practice/Leetcode Questions/LC-200. Number of Islands.md>)
 ## Depth-First-Search Traversals
 
 ### Pre-order Traversal

@@ -14,7 +14,6 @@ Dp is about managing states.
 3. Find edge case
 	1. ie: handle impossible cases, input not big enough for target
 ### Top down
-- 
 
 
 ## Sliding Window

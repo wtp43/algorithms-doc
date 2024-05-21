@@ -3,12 +3,7 @@ title:  "Palindromes"
 created: 2023-01-21
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 
 # Palindromes
@@ -16,8 +11,7 @@ max_depth:6
 647. Palindromic Substrings
 
 ## Palindrome Partitioning (Backtracking since we have to check all characters to reach a valid set of substrings)
-- [[LC-131. Palindrome Partitioning]]
-
+[LC-131. Palindrome Partitioning](</docs/Algos Practice/Leetcode Questions/LC-131. Palindrome Partitioning.md>)
 # Expand around the Center approach
 O($N^2$)
 

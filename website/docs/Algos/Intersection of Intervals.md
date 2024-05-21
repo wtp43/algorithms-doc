@@ -3,12 +3,7 @@ title:  "Intersection of Intervals"
 created: 2023-01-05
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
+
 
 # Solving Interval Problems
 1. Sort intervals/pairs in increasing order of the start position.

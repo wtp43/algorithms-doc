@@ -7,4 +7,4 @@
 
 
 # Applications
-[[LC-641. Design Circular Deque]]
+[LC-641. Design Circular Deque](</docs/Algos Practice/Leetcode Questions/LC-641. Design Circular Deque.md>)

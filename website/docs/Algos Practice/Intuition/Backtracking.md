@@ -3,21 +3,16 @@
 It's important to remember that backtracking is just DFS except we can visit a node n times. Time complexity O(n!)
 
 # Backtracking
-- [x] <mark style="background: #cc085d;">+</mark> [[LC-51. N-Queens]]
-- [ ] Maze Solving 
+[LC-51. N-Queens](</docs/Algos Practice/Leetcode Questions/LC-51. N-Queens.md>)- [ ] Maze Solving 
 - [ ] Knights Tour
 - [ ] Hamiltonian Paths
-- [ ] [[LC-489. Robot Room Cleaner]]
-
-- [ ] [[LC-131. Palindrome Partitioning]]
-- We want to partition a string s such that every substring of the partition is a palindrome
+[LC-489. Robot Room Cleaner](</docs/Algos Practice/Leetcode Questions/LC-489. Robot Room Cleaner.md>)
+[LC-131. Palindrome Partitioning](</docs/Algos Practice/Leetcode Questions/LC-131. Palindrome Partitioning.md>)- We want to partition a string s such that every substring of the partition is a palindrome
 - When backtracking, it's important to determine if we are at a valid step. Only if we are do we proceed to the next step (continue recursing).
 
 
-- [ ] [[LC-647. Palindromic Substrings]]
-
-- [ ] [[LC-131. Palindrome Partitioning]]
-- We want to partition a string s such that every substring of the partition is a palindrome
+[LC-647. Palindromic Substrings](</docs/Algos Practice/Leetcode Questions/LC-647. Palindromic Substrings.md>)
+[LC-131. Palindrome Partitioning](</docs/Algos Practice/Leetcode Questions/LC-131. Palindrome Partitioning.md>)- We want to partition a string s such that every substring of the partition is a palindrome
 - When backtracking, it's important to determine if we are at a valid step. Only if we are do we proceed to the next step (continue recursing).
 # Advanced Backtracking
 [[LC-465. Optimal Account Balancing]]

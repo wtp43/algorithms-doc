@@ -33,8 +33,7 @@ def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         return res
 ```
 
-- [ ] [[LC-112. Path Sum]]
-	- Find if there is a path from root-to-leaf, leaf = node with no children
+[LC-112. Path Su](</docs/Algos Practice/Leetcode Questions/LC-112. Path Sum.md>)	- Find if there is a path from root-to-leaf, leaf = node with no children
 ```python
 def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         if not root:

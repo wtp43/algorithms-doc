@@ -12,8 +12,7 @@ Find three elements in an array that sum to the target
 - Again, hashset the complement
 - O(n)
 
-- [ ] [[LC-189. Rotate Array]]
-- k = k mod n
+[LC-189. Rotate Array](</docs/Algos Practice/Leetcode Questions/LC-189. Rotate Array.md>)- k = k mod n
 - reverse the entire array
 - reverse the first k (0->k-1)
 - reverse the last k

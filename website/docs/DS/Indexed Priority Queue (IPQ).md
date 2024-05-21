@@ -3,14 +3,6 @@ title:  "Indexed Priority Queue"
 created: 2022-12-12
 ---
 
->[!summary]+ Contents
->```toc
-style: number
-min_depth:1
-max_depth:6 
->```
-
-
 # Indexed Priority Queue (Binary)
 1. Assign index values to all the keys forming a bidirectional mapping using a bidirectional hashtable (maintain two dictionaries)
 

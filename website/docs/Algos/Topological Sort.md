@@ -3,8 +3,6 @@ title: Topological Sort
 created: 2022-12-10
 ---
 
->[!summary]+ Contents
->```toc 
 style: number 
 min_depth: 1 
 max_depth: 6
@@ -115,9 +113,7 @@ def topsort(edges, n):
 ```
 # Applications
 ## Scheduling Problems
-[[LC-207. Course Schedule]]
-[[LC-210. Course Schedule II]]
-
+[LC-207. Course Schedule](</docs/Algos Practice/Leetcode Questions/LC-207. Course Schedule.md>)[LC-210. Course Schedule II](</docs/Algos Practice/Leetcode Questions/LC-210. Course Schedule II.md>)
 
 
 # Related
