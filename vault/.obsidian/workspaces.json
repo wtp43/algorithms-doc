@@ -1,0 +1,584 @@
+{
+  "LC": {
+    "main": {
+      "id": "3b259073ed097626",
+      "type": "split",
+      "children": [
+        {
+          "id": "2eb17bba0f43f534",
+          "type": "split",
+          "children": [
+            {
+              "id": "dc1255501b70bceb",
+              "type": "tabs",
+              "dimension": 72.45179063360881,
+              "children": [
+                {
+                  "id": "9ffe78d062173027",
+                  "type": "leaf",
+                  "pane-relief:history-v1": {
+                    "pos": 0,
+                    "stack": [
+                      {
+                        "state": "{}",
+                        "eState": "{}"
+                      }
+                    ]
+                  },
+                  "state": {
+                    "type": "markdown",
+                    "state": {
+                      "file": "Goals/Stop Wasting Time (ADHD).md",
+                      "mode": "source",
+                      "backlinks": false,
+                      "source": false
+                    }
+                  }
+                },
+                {
+                  "id": "f44ebd594259721c",
+                  "type": "leaf",
+                  "pane-relief:history-v1": {
+                    "pos": 0,
+                    "stack": [
+                      {
+                        "state": "{}",
+                        "eState": "{}"
+                      }
+                    ]
+                  },
+                  "state": {
+                    "type": "markdown",
+                    "state": {
+                      "file": "Books/Getting Real - The Smarter, Faster, Easier Way to Build a Web Application.md",
+                      "mode": "source",
+                      "backlinks": false,
+                      "source": false
+                    }
+                  }
+                },
+                {
+                  "id": "08c5487163edc475",
+                  "type": "leaf",
+                  "pane-relief:history-v1": {
+                    "pos": 0,
+                    "stack": [
+                      {
+                        "state": "{}",
+                        "eState": "{}"
+                      }
+                    ]
+                  },
+                  "state": {
+                    "type": "style-settings",
+                    "state": {}
+                  }
+                }
+              ],
+              "currentTab": 1
+            },
+            {
+              "id": "55a1649499597c39",
+              "type": "tabs",
+              "dimension": 27.548209366391184,
+              "children": [
+                {
+                  "id": "2e6f7c302586ae59",
+                  "type": "leaf",
+                  "pane-relief:history-v1": {
+                    "pos": 0,
+                    "stack": [
+                      {
+                        "state": "{}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Job Applications",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Job Applications.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":17},\"to\":{\"line\":14,\"ch\":17}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Todo",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Todo",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":0},\"to\":{\"line\":6,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":17},\"to\":{\"line\":14,\"ch\":17}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Master Todo List",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Master Todo List.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Todo",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "2022-02-11 - Invest in startup",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Goals/2022-02-11 - Invest in startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Dashboard",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Todo",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Projects/Todo.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Dashboard",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Goals",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Goals/Goals.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Dashboard",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "VIM",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/VIM.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}},\"scroll\":3}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Dashboard",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Project Board",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Projects/Project Board.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "Goals",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Goals/Goals.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "2023-10-18 - Master Yabai",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Goals/2023-10-18 - Master Yabai.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      },
+                      {
+                        "title": "Dashboard",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Dashboard.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":8},\"to\":{\"line\":13,\"ch\":8}}}"
+                      },
+                      {
+                        "title": "Goals",
+                        "icon": "lucide-trello",
+                        "state": "{\"type\":\"kanban\",\"state\":{\"file\":\"Goals/Goals.md\"}}",
+                        "eState": "{}"
+                      },
+                      {
+                        "title": "2022-02-11 - Invest in startup",
+                        "icon": "lucide-file",
+                        "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Goals/2022-02-11 - Invest in startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                        "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                      }
+                    ]
+                  },
+                  "state": {
+                    "type": "markdown",
+                    "state": {
+                      "file": "Projects/Master Todo List.md",
+                      "mode": "source",
+                      "backlinks": false,
+                      "source": false
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "direction": "horizontal"
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "0612b6e93da102f9",
+      "type": "split",
+      "children": [
+        {
+          "id": "cbe25c5d94f37c08",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "602e749129210847",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "file-explorer",
+                "state": {
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "92db9c16a9d82e93",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "tag:#prio",
+                  "matchingCase": true,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "62d998da8c83e79a",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "starred",
+                "state": {}
+              }
+            },
+            {
+              "id": "1b81a5d72690bbbe",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "bookmarks",
+                "state": {}
+              }
+            }
+          ],
+          "currentTab": 1
+        }
+      ],
+      "direction": "horizontal",
+      "width": 288,
+      "collapsed": true
+    },
+    "right": {
+      "id": "2b3a55884ce239a9",
+      "type": "split",
+      "children": [
+        {
+          "id": "e4a73a6afb6e881a",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "6bd8944ad57375a2",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "Books/Getting Real - The Smarter, Faster, Easier Way to Build a Web Application.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "de251980df73cfeb",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "outgoing-link",
+                "state": {
+                  "file": "Books/Getting Real - The Smarter, Faster, Easier Way to Build a Web Application.md",
+                  "linksCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "0a8f00c4fde7f70e",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "alphabetical",
+                  "useHierarchy": true
+                }
+              }
+            },
+            {
+              "id": "f3a79918bb64f248",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "Books/Getting Real - The Smarter, Faster, Easier Way to Build a Web Application.md"
+                }
+              }
+            },
+            {
+              "id": "22c7582bdb479a05",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "advanced-tables-toolbar",
+                "state": {}
+              }
+            },
+            {
+              "id": "708b8864c047f8aa",
+              "type": "leaf",
+              "pane-relief:history-v1": {
+                "pos": 0,
+                "stack": [
+                  {
+                    "state": "{}",
+                    "eState": "{}"
+                  }
+                ]
+              },
+              "state": {
+                "type": "all-properties",
+                "state": {
+                  "sortOrder": "frequency"
+                }
+              }
+            }
+          ],
+          "currentTab": 5
+        }
+      ],
+      "direction": "horizontal",
+      "width": 300,
+      "collapsed": true
+    },
+    "left-ribbon": {
+      "hiddenItems": {
+        "darlal-switcher-plus:Open in Headings Mode": false,
+        "darlal-switcher-plus:Open Symbols for the active editor": false,
+        "templater-obsidian:Templater": false,
+        "templates:Insert template": false,
+        "command-palette:Open command palette": false,
+        "workspaces:Manage workspace layouts": false,
+        "digitalgarden:Digital Garden Publication Center": false
+      }
+    },
+    "active": "f44ebd594259721c",
+    "workspaces-plus:settings-v1": {
+      "explorerFoldState": [
+        "Code/Devops",
+        "Code/Frontend",
+        "Code/Web Development",
+        "Goals",
+        "Projects"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ProgressProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "IgnoredProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "AutoProperties": {
+    "enabled": false,
+    "properties": []
+  },
+  "EditMode": {
+    "mode": "All Single",
+    "properties": []
+  },
+  "KanbanHelper": {
+    "enabled": true,
+    "boards": [
+      {
+        "property": "status",
+        "boardName": "Project Board"
+      },
+      {
+        "property": "Type",
+        "boardName": "Goals"
+      }
+    ]
+  },
+  "UIElements": {
+    "enabled": false
+  }
+}

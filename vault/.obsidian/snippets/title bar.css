@@ -1,0 +1,35 @@
+.is-popout-window .view-header-nav-buttons {
+  display: none; 
+}
+
+div[aria-label="Close window"]{
+    display: none !important;
+}
+
+div[aria-label="Minimize"]{
+    display: none !important;
+}
+
+div[aria-label="Restore down"]{
+    display: none !important;
+}
+
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container{
+    padding-right: 0px;
+}
+
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after{
+    display: none;
+}
+
+div[class="tree-item nav-file recent-files-file"]{
+    padding-left: 7px;
+}
+
+div[class="workspace-tabs mod-active mod-stacked mod-top mod-top-left-space"] > .workspace-tab-header-container{
+    display: none;
+}
+
+body.anp-card-layout .workspace .workspace-tabs.mod-stacked .workspace-tab-container{
+    padding: 0px;
+}

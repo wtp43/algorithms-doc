@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "3b259073ed097626",
+    "type": "split",
+    "children": [
+      {
+        "id": "98196acffbbd2fea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80be7a9064291c03",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0612b6e93da102f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbe25c5d94f37c08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "602e749129210847",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "92db9c16a9d82e93",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "dijk",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "62d998da8c83e79a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2b3a55884ce239a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4a73a6afb6e881a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bd8944ad57375a2",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "de251980df73cfeb",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "22c7582bdb479a05",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "708b8864c047f8aa",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "0bddfe6b80d346fa",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "templater-obsidian:Templater": false,
+      "float-search:Search Obsidian In Modal": false
+    }
+  },
+  "active": "80be7a9064291c03",
+  "lastOpenFiles": [
+    "docs/Algos Practice/Leetcode Questions/attachments/Pasted image 20230124003324.png",
+    "docs/Algos Practice/Leetcode Questions/attachments/Pasted image 20230107152902.png",
+    "docs/Algos Practice/Leetcode Questions/attachments/Pasted image 20230105162825.png",
+    "docs/Algos Practice/Leetcode Questions/attachments",
+    "docs/Algos Practice/Leetcode Questions/Python.md",
+    "docs/Algos Practice/Leetcode Questions/LC-994. Rotting Oranges.md",
+    "docs/Algos Practice/Leetcode Questions/LC-986. Interval List Intersections.md",
+    "docs/Algos Practice/Leetcode Questions/LC-977. Squares of a Sorted Array.md",
+    "docs/Algos Practice/Leetcode Questions/LC-981. Time Based Key-Value Store.md",
+    "docs/Algos Practice/Leetcode Questions/LC-973. K Closest Points to Origin.md",
+    "docs/Algos Practice/Leetcode Questions/LC-904. Fruit Into Baskets.md",
+    "docs/Algos Practice/Leetcode Questions/LC-953. Verifying an Alien Dictionary.md",
+    "docs/Algos Practice/Leetcode Questions/LC-902. Numbers At Most N Given Digit Set.md",
+    "docs/Algos Practice/Leetcode Questions/LC-901. Online Stock Span.md",
+    "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
+    "docs/Algos Practice/Leetcode Questions/LC-881. Boats to Save People.md",
+    "docs/Algos Practice/Leetcode Questions/LC-876. Middle of the Linked List.md",
+    "docs/Algos Practice/Leetcode Questions/LC-862. Shortest Subarray with Sum at Least K.md",
+    "docs/Algos Practice/Leetcode Questions/LC-853. Car Fleet.md",
+    "docs/Algos Practice/Leetcode Questions/LC-85. Maximal Rectangle.md",
+    "docs/Algos Practice/Leetcode Questions/LC-84. Largest Rectangle in Histogram.md",
+    "docs/Algos Practice/Leetcode Questions/LC-79. Word Search.md",
+    "docs/Algos Practice/Leetcode Questions/LC-787. Cheapest Flights Within K Stops.md",
+    "docs/Algos Practice/Leetcode Questions/LC-76. Minimum Window Substring.md",
+    "docs/Algos Practice/Leetcode Questions/LC-743. Network Delay Time.md",
+    "docs/Algos Practice/Leetcode Questions/LC-740. Delete and Earn.md",
+    "docs/Algos Practice/Leetcode Questions/LC-74. Search a 2D Matrix.md",
+    "docs/Algos Practice/Leetcode Questions/LC-739. Daily Temperatures.md",
+    "docs/Algos Practice/Leetcode Questions/LC-735. Asteroid Collision.md",
+    "docs/Algos Practice/Leetcode Questions",
+    "Leetcode Questions/attachments/Pasted image 20230124003324.png",
+    "Leetcode Questions/attachments/Pasted image 20230107152902.png",
+    "Leetcode Questions/attachments/Pasted image 20230105162825.png",
+    "Leetcode Questions/attachments",
+    "Leetcode Questions",
+    "Math/Statistics/attachments/Pasted image 20230211175247.png",
+    "Revision Feb 2024.md~",
+    "Interview Prep 2024/attachments/Pasted image 20240322143537.png",
+    "Interview Prep 2024/attachments/Pasted image 20240322143142.png",
+    "Interview Prep 2024/attachments/Pasted image 20240322142555.png",
+    "Interview Prep 2024/attachments/Pasted image 20240322142431.png",
+    "Interview Prep 2024/attachments",
+    "Interview Prep 2024/mic.scpt",
+    "Interview Prep 2024/Retrieve UI Elements.scpt",
+    "Interview Prep 2024",
+    "Scripts copy/mic.scpt"
+  ]
+}

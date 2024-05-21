@@ -1,0 +1,8 @@
+.kanban-plugin__board > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+}
+.kanban-plugin__scroll-container.kanban-plugin__horizontal {
+    overflow-y: auto;
+}

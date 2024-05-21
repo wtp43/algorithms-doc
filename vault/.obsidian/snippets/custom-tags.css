@@ -1,0 +1,66 @@
+.tag { }
+
+    .cm-hashtag,
+    .tag {
+        background-color: var(--text-accent);
+        border: none;
+        color: rgb(238, 236, 236);
+        font-size: 13px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        padding-block: 1px;
+        margin: 0px 0px;
+        cursor: pointer;
+    }
+    /* border-radius and padding need to be separated as editing view
+        has split css selector for "#" and "<tag-word>" */
+    .tag {
+        border-radius: 14px;
+        padding-inline: 8px;
+    }
+    .cm-hashtag-begin {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        padding-left: 8px;
+    }
+    .cm-hashtag-end {
+        border-top-right-radius: 14px;
+        border-bottom-right-radius: 14px;
+        padding-right: 8px;
+    }
+
+
+    /* i comment out background-color as it doesn't look good on hover
+        due to how obsidian split between "#" and "<tag-word>" */
+    .cm-s-obsidian span.cm-hashtag:is(.cm-hashtag-begin,.cm-hashtag-end):hover,
+    .tag:hover {
+        color: white;
+        /*
+        background-color: var(--text-accent-hover);
+        */
+    }
+
+
+    /* attribute selector "$=" matches tags that ends with that word
+        where as "^=" matches tags that starts with that tag */
+
+    .cm-s-obsidian span.cm-hashtag[class$="prio"],
+    .tag[href^="#prio"]
+        { background-color: #c00955b9; }
+
+    .cm-s-obsidian span.cm-hashtag[class$="low"],
+    .tag[href^="#low"]
+        { background-color: rgb(34, 176, 58); }
+
+    .cm-s-obsidian span.cm-hashtag[class$="code"],
+    .tag[href^="#code"]
+        { background-color: rgb(18, 117, 223); }
+
+    .cm-s-obsidian span.cm-hashtag[class$="algos"],
+    .tag[href^="#algos"]
+        { background-color: rgb(50, 144, 165); }
+	
+	.cm-s-obsidian span.cm-hashtag[class$="project"],
+	.tag[href^="#project"]
+		{ background-color: rgba(31, 0, 107, 0.9); }

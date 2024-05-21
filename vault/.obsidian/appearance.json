@@ -1,0 +1,15 @@
+{
+  "accentColor": "#b8d6e5",
+  "cssTheme": "Border",
+  "translucency": false,
+  "theme": "moonstone",
+  "showViewHeader": false,
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "kanban-swimlanes",
+    "custom-admonitions.0d5b30",
+    "custom-tags",
+    "title bar"
+  ],
+  "nativeMenus": true
+}
