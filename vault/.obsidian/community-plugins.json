@@ -1,7 +1,6 @@
 [
   "obsidian-style-settings",
   "darlal-switcher-plus",
-  "obsidian-git",
   "templater-obsidian",
   "dataview",
   "auto-note-mover",
@@ -13,5 +12,6 @@
   "quickadd",
   "pane-relief",
   "float-search",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-git"
 ]
