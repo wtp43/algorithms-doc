@@ -1,9 +1,6 @@
 ---
 dg-publish: true
 title:  "LC 5. Longest Palindromic Substring"
-tags:
-- lc-medium
-- dp
 created: 2023-02-01
 ---
 

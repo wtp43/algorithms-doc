@@ -1,9 +1,6 @@
 ---
 dg-publish: true
 title:  "LC 2. Add Two Numbers"
-tags:
-- linked-list
-- lc-medium
 created: 2023-01-06
 ---
 

@@ -1042,7 +1042,6 @@ def longestPalindromeSubseq(self, s: str) -> int:
 
 - It's only necessary to store the result of the subsequence
 - ie: `dp[i][j]` is not the result of the array `[i:j]`
--
 
 #### Length of Longest Subsequence that Sums to Target
 

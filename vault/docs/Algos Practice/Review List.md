@@ -61,10 +61,8 @@ After reviewing, update applications for each algo
 	- [ ] Cycle Detection
 
 ### Review 
-- 
 ## Arrays
 - [ ] [[Kadane's Algorithm]]
-- 
 ## Binary Search
 - [x] Bisect-right
 - [x] Bisect-left
@@ -97,4 +95,3 @@ After reviewing, update applications for each algo
 - Smallest difference (array, bst nodes)
 	- Sort then 1 pass: nlogn
 	- in order traversal (BST)
-	- 

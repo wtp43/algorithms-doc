@@ -1,9 +1,6 @@
 ---
 dg-publish: true
 title:  "LC 3. Longest Substring Without Repeating Characters"
-tags:
-- lc-medium
-- sliding-window
 created: 2023-01-23
 ---
 

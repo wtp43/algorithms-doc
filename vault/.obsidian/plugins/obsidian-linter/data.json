@@ -243,7 +243,7 @@
       "dedupe-alias-key": true,
       "dedupe-tag-key": true,
       "dedupe-array-keys": true,
-      "ignore-keys": ""
+      "ignore-keys": "\n"
     },
     "sort-yaml-array-values": {
       "enabled": false,

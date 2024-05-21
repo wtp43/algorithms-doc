@@ -1,8 +1,6 @@
 ---
 dg-publish: true
 title:  "Advanced Questions"
-tags:
-- lc-hard
 created: 2023-01-29
 ---
 
