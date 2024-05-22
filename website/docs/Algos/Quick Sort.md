@@ -13,12 +13,15 @@ Divide and conquer. Unstable sort (due to the swapping). Studies show quicksort 
 1. Divide array into subarrays using a pivot element.
 	- Elements less than pivot are moved to the left, while elements greater are moved to the right
 2. Repeat divide and conquer until subarray contains a single element
-![[Pasted image 20230203155122.png]]
+![Pasted-image-20230203155122.png](</Pasted-image-20230203155122.png>)
 
-> [!example]+ 
-> ![[Pasted image 20230106161914.png]]
+:::example[example] 
+
+
+:::
+![Pasted-image-20230106161914.png](</Pasted-image-20230106161914.png>)
 > The pivots are picked using the rightmost element of the array each time.
-> ![[Pasted image 20230106161854.png]]
+![Pasted-image-20230106161854.png](</Pasted-image-20230106161854.png>)
 > 
 
 # Merge Sort vs Quick Sort
@@ -80,10 +83,16 @@ fun partition(input : T[], low: int, high: int) : int
 
 ## Optimized Complexity
 
->[!Time Complexity]
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >In the worse case the complexity can reach O(n^2) if pivots are picked poorly. It has average time complexity O(nlogn).
 
->[!Space Complexity]
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

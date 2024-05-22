@@ -1,7 +1,10 @@
 ---
 ---
 
->[!Note]
+:::Note[Note] 
+
+
+:::
 >Greedy Algorithm: Start from one vertex and keep adding edges with the lowest weight until we get a minimum spanning tree
 >Complexity: O(E log V)
 # Pseudocode
@@ -100,7 +103,10 @@ So the total time complexity of `MST-PRIM` is the sum of executing steps 1 throu
 ## Source
 - https://stackoverflow.com/questions/20430740/time-complexity-of-prims-algorithm
 
->[!example]
+:::example[example] 
+
+
+:::
 >```python
 >graph = Graph(directed=False)
 >graph.add_edge('A', 'B', 2)
@@ -120,7 +126,7 @@ So the total time complexity of `MST-PRIM` is the sum of executing steps 1 throu
 > 				'F': set(['G'])})
 
 
-![[Pasted image 20221208044247.png]]
+![Pasted-image-20221208044247.png](</Pasted-image-20221208044247.png>)
 
 ## Optimizations
 - Suppose we know that the cost for every edge is bounded by U

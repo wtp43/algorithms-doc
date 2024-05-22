@@ -36,7 +36,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 >Maintain a carry. 
 
 # Implementation
@@ -66,7 +69,10 @@ class Solution:
 	return s.next
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 O(max(l1 + l2)) because we iterate at most max(l1 + l2) times while building the linked list.
  

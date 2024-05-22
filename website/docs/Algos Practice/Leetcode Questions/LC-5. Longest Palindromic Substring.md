@@ -10,7 +10,10 @@ created: 2023-02-01
 # Brute Force
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Implementation
 ```python
@@ -46,7 +49,10 @@ def longestPalindrome(self, s):
         return s[p_start:p_start + max_p]
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 
 # Related

@@ -55,9 +55,15 @@ def max_interval_intersec(S):
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

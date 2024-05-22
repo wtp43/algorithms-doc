@@ -9,7 +9,10 @@ created: 2023-01-13
 
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Implementation
 
@@ -60,7 +63,10 @@ class Codec:
         return output
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 
 # Related

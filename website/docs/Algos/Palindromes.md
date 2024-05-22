@@ -25,9 +25,15 @@ O($N^2$)
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

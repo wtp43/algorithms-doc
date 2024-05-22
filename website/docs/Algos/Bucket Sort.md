@@ -13,8 +13,11 @@ Useful for when the input is uniformly distributed over a range or there are flo
 
 Stable if the underlying sort is stable
 
-> [!danger]+ Intuition
-> Bucket sort/count sort is extremely useful (sorting in O(n) time) when you know the maximum number in the array. Then you can insert all items into a list of buckets then pop the items from the bucket sequentially.
+:::danger[danger] 
+
+Bucket sort/count sort is extremely useful (sorting in O(n) time) when you know the maximum number in the array. Then you can insert all items into a list of buckets then pop the items from the bucket sequentially.
+
+:::
 
 
 
@@ -59,10 +62,16 @@ A degenerate case of bucket sort ([[Counting Sort#Unstable version (without cumu
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O($nlogn$), occurs if elements are all placed into the same buckets.
 [Insertion Sort](</docs/Algos/Insertion Sort.md>)
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(n+k) where n is the number of elements and k is the number of buckets formed.
 
 

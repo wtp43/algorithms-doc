@@ -10,7 +10,10 @@ created: 2023-01-23
 # Brute Force
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Implementation
 ```python
@@ -28,7 +31,10 @@ def lengthOfLongestSubstring(self, s: str) -> int:
 	return max_length
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 
 # Related

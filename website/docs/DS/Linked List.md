@@ -14,9 +14,15 @@ created: 2022-12-10
 
 ## Optimized Complexity
 
->[!Time Complexity]
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

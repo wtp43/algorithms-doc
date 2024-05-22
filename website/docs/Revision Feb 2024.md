@@ -350,8 +350,11 @@ def uniquePathsIII(self, grid: List[List[int]]) -> int:
 
 ## Binary Search
 
-> [!danger] Intuition
-> Determine whether left or right bisect is needed. This is relevant for questions where more than one 'target' or 'x' can satisfy the conditions (but do we want the biggest 'target' or smallest 'target'). The 'target' to be searched is usually found on some range (which is sorted by default).
+:::danger[danger] 
+
+Determine whether left or right bisect is needed. This is relevant for questions where more than one 'target' or 'x' can satisfy the conditions (but do we want the biggest 'target' or smallest 'target'). The 'target' to be searched is usually found on some range (which is sorted by default).
+
+:::
 
 ### Search for "X" on a Range
 
@@ -674,7 +677,7 @@ https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/descripti
 
 #### Vertical Order Traversal
 
-![[Pasted image 20240304190355.png]]
+![Pasted-image-20240304190355.png](</Pasted-image-20240304190355.png>)
 res:`[[4],[9,5],[3,0,1],[8,2],[7]]`
 
 - BFS with root set to col 0
@@ -1996,8 +1999,12 @@ def longest_consecutive_sequence(nums):
 2. Scan the sorted intervals, and maintain an "active set" for overlapping intervals. At most times, we do not need to use an explicit set to store them. Instead, we just need to maintain several key parameters, e.g. the number of overlapping intervals (count), the minimum ending point among all overlapping intervals (minEnd).
 3. If the interval that we are currently checking overlaps with the active set, which can be characterized by cur.start > minEnd, we need to renew those key parameters or change some states.
 4. If the current interval does not overlap with the active set, we just drop current active set, record some parameters, and create a new active set that contains the current interval.
-   > [!hint]+ Using Heaps
-   > Heaps may be helpful in keeping track of interval with earliest end
+
+:::note[note] 
+
+Heaps may be helpful in keeping track of interval with earliest end
+
+:::
 
 ### Merge Intervals
 

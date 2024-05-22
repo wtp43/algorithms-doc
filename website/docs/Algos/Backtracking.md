@@ -31,9 +31,15 @@ def backtrack(candidate):
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 # Spiral Backtracking
 

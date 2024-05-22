@@ -25,9 +25,15 @@ created: 2023-01-06
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 
@@ -63,8 +69,11 @@ Reference: https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-
 ## Separate Chaining: 
 - Common data structures used to implement chaining include: linked list, arrays, binary trees, self balancing trees, etc
 - Disadvantage is that a lot of memory used to build linked lists could have just been to increase the table size
-> [!question]+ 
-> **How do you maintain O(1) insertion and lookup time complexity once the hashmap gets really full and linked list chains are long?** 
+:::question[question] 
+
+**How do you maintain O(1) insertion and lookup time complexity once the hashmap gets really full and linked list chains are long?** 
+
+:::
 > 
 > Sol: Create new hashmap with larger capacitiy and rehash all the items inside the old hashmap 
 
@@ -180,9 +189,15 @@ class MyHashMap:
 
 ## Optimized Complexity
 
->[!Time Complexity]
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 # Related

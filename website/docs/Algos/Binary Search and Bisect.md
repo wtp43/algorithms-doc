@@ -8,7 +8,10 @@ created: 2023-01-06
 
 # Binary Search and Bisects
 
->[!Note]
+:::Note[Note] 
+
+
+:::
 >Binary Search should be equal to Bisect_left in the case of no duplicates
 
 ## Bisect Left

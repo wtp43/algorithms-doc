@@ -11,8 +11,11 @@
 
 
 [LC-33. Search in Rotated Sorted Array](</docs/Algos Practice/Leetcode Questions/LC-33. Search in Rotated Sorted Array.md>)
->[!danger]+ Intuition
->   enumerate possibilities
+:::danger[danger] 
+
+enumerate possibilities
+
+:::
 > 
 1. `we are in the left portion ([6789] 123)
 	    - `target > nums[mid]: i=mid+1

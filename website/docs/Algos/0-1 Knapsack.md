@@ -41,7 +41,10 @@ if __name__ == '__main__':
 # Intuition
 Greedy algorithm only works for fractional knapsack. DP needed for 0-1 knapsack
 [LC-2008. Maximum Earnings From Taxi](</docs/Algos Practice/Leetcode Questions/LC-2008. Maximum Earnings From Taxi.md>)
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Bottom-Up Implementation
 `dp[i][c]` will represent the maximum knapsack profit for capacity ‘c’ calculated from the first ‘i’ items
@@ -90,7 +93,10 @@ def main():
 main()
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 # How to find the selected items?
 
@@ -111,9 +117,12 @@ Let’s understand this from the above example:
 7.  So items going into the knapsack are {B, D}.
 
 
-> [!important]+ Why this works
-> If we included the current item i, then our weight cannot be equal to `dp[i-1][capacity]`.
-> Otherwise, we excluded the current item and its weight is equal to `dp[i-1][capacity]`. 
+:::important[important] 
+
+If we included the current item i, then our weight cannot be equal to `dp[i-1][capacity]`.
+Otherwise, we excluded the current item and its weight is equal to `dp[i-1][capacity]`. 
+
+:::
 
 ```python
 def print_selected_elements(dp, weights, profits, capacity):

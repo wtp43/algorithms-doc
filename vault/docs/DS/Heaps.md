@@ -1,7 +1,7 @@
 ---
 ---
 
->[!Time complexity to build heap]
+>[!note] Time complexity to build heap
 >O(n) to build using sift_down starting from the last parent
 
 # Implementation

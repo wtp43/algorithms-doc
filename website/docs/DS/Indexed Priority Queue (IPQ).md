@@ -158,7 +158,10 @@ class IPQ:
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >Sink/Swim: O(logn)
 >Update/decrease_key/increase_key: O(logn)
 >Build heap: O(n)
@@ -166,7 +169,10 @@ class IPQ:
 
 
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 # Related
 

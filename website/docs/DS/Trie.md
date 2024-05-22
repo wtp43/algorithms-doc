@@ -59,9 +59,15 @@ Then we are guaranteed O(n) instead of O(nlogn) for the sort.
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

@@ -4,7 +4,10 @@
 - Dijkstra's algorithm is a [[Shortest and Longest Path on DAG#Single Source Shortest Path (1 root)|SSSP]] algorithm for graphs with **non-negative edge weights**. However, in the real word, many applications can be modelled as graphs with non-negative weights
 - This constraint is imposed to ensure that once a node has been visited, its optimal distance cannot be improved
 [Topological Sort](</docs/Algos/Topological Sort.md>)
->[!Intuition]
+:::Intuition[Intuition] 
+
+
+:::
 >Greedy algorithms work because once the next 'node' has been visited, it's optimal distance cannot be improved
 
 # Overview
@@ -76,8 +79,11 @@ def find_shortest_path(self, start, end):
 
 # Stopping Early
 
-> [!question]+ 
-> **Suppose you know the destination node you're trying to reach is 'e' and you start at node 's', do you still have to visit every node in the graph?**
+:::question[question] 
+
+**Suppose you know the destination node you're trying to reach is 'e' and you start at node 's', do you still have to visit every node in the graph?**
+
+:::
 > 
 > Yes, in the worst case. However, it is possible to stop early once you have finished visiting the destination node. The main idea for stopping early is that Dijkstra's algorithm processes each next most promising node in order. So if the destination node has been visited, its shortest distance will not change as more future nodes are visited.
 
@@ -146,16 +152,22 @@ def dijkstra(self, start):
 
 A D-ary heap speeds up decrease key operations at the expense of more costly removals. 
 
-> [!danger]+ Intuition
-> More children means a flatter tree with smaller depth.
-> This means it requires less work to swim but more work to sink since you have to check the parent node against D children.
+:::danger[danger] 
+
+More children means a flatter tree with smaller depth.
+This means it requires less work to swim but more work to sink since you have to check the parent node against D children.
+
+:::
 
 
 ## Optimal D-ary Heap degree
 
 
-> [!question]+ Question
-> **What is the optimal D-ary heap degree to maximize performance of Dijkstra's algorithm?**
+:::question[question] 
+
+**What is the optimal D-ary heap degree to maximize performance of Dijkstra's algorithm?**
+
+:::
 > 
 > A: In general $D = E/V$ is the best degree to use balance removals against decrease\_key operations improving Dijkstra's time complexity to $O(E \log_{E/V}(V))$ which is much better especially for dense graphs which have lots of decrease_key operations
 

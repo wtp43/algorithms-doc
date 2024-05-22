@@ -10,11 +10,14 @@ created: 2022-12-15
 Places an unsorted element at its suitable place in each iteration.
 **Insertion sort is a stable sort**. During the selection sort process, we will only swap the ordering of any two items if the item on the right is less than the item to its left. Therefore, the ordering of two equivalent items will always be preserved in insertion sort.
 
-> [!danger]+ Intuition
-> The insertion sort is useful when:
-> - the array is has a small number of elements
-> - there are only a few elements left to be sorted
-> - the array is almost sorted
+:::danger[danger] 
+
+The insertion sort is useful when:
+- the array is has a small number of elements
+- there are only a few elements left to be sorted
+- the array is almost sorted
+
+:::
 
 # Implementation
 
@@ -46,10 +49,16 @@ print(data)
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O($n^2$)
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(1) for storing the key
 
 

@@ -9,7 +9,9 @@ export default function AdmonitionWrapper(props) {
     props.type !== "warning" ||
     props.type !== "danger"
   ) {
-    return <Admonition title={props.title} type="tip" {...props} />;
+    return (
+      <Admonition title={props.title.replace("-", " ")} type="tip" {...props} />
+    );
   }
   return <Admonition {...props} />;
 }

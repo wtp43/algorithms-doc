@@ -31,10 +31,16 @@ def majorityElement(self, nums):
 
 ## Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O(n)
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(1)
 
 

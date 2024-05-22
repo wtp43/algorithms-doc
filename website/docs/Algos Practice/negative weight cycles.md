@@ -1,3 +1,3 @@
 ---
 ---
-![[Pasted image 20221205185608.png]]- Overall sum of the cycle becomes negative
+![Pasted-image-20221205185608.png](</Pasted-image-20221205185608.png>)

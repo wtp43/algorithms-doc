@@ -12,7 +12,10 @@ A fast alternative to a binary search when the elements are uniformly distribute
 Binary search always goes to the middle. If the target is closer to the first element, interpolation search will start search toward the beginning
 
 
-> [!important]+ $mid = lo + \frac{(target - nums[lo]) * (hi-lo)}{nums[hi] - nums[lo]}$
+:::important[important] 
+
+
+:::
 > 
 
 # Implementation
@@ -61,9 +64,15 @@ if __name__ == '__main__':
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O(log(log(n))) if array is uniformly distributed
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 # Related

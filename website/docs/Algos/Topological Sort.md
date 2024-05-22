@@ -17,15 +17,21 @@ Topological sort simply involves **running DFS on an entire graph and adding ea
 - Such an ordering cannot exist if the graph contains a directed cycle
 - Each [[Graph Theory#Directed Acyclic Graphs (DAG)|DAG]] has at least one topological sort, they are not unique
 
-> [!example]+ 
-> ![[Pasted image 20230106154005.png]]
-> ![[Pasted image 20230106154013.png]]
+:::example[example] 
+
+
+:::
+![Pasted-image-20230106154005.png](</Pasted-image-20230106154005.png>)
+![Pasted-image-20230106154013.png](</Pasted-image-20230106154013.png>)
 
 
 
 
 
->[!Purpose]
+:::Purpose[Purpose] 
+
+
+:::
 >Gives an ordering where each vertex can be processed before it's successors. This allows us to seek the shortest/longest path from x to y in a DAG
 
 # DFS Implementation
@@ -71,10 +77,16 @@ def dfs_topsort(self, graph, node, vis, ordering):
 
 ## Optimized Complexity
 
->[!Time Complexity]
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O(V + E)
 
->[!Space Complexity]
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(d)
 
 # Kahn's Topological Sort Algorithm

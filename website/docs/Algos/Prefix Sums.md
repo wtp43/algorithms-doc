@@ -11,14 +11,20 @@ sum i to j = `prefix[j] - prefix[i-1]`
 # Brute Force
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Implementation
 ```python
 
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 
 
 # Related

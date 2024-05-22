@@ -16,9 +16,15 @@ Dynamic Programming is an algorithmic paradigm that solves a given complex probl
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

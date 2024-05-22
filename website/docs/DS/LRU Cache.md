@@ -83,10 +83,16 @@ class LRUCache:
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >Lookup: O(1)
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(n)
 
 

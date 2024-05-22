@@ -50,10 +50,16 @@ def merge_sort(nums):
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >O(nlogn)
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(n)
 
 

@@ -1,7 +1,7 @@
 ---
 ---
 ## Adjacency Matrix
-![[Pasted image 20221202190928.png]]
+![Pasted-image-20221202190928.png](</Pasted-image-20221202190928.png>)
 Pros
 - Useful for dense graphs with many edges
 - Allows for matrix operations
@@ -11,7 +11,7 @@ Cons
 - Iterating over all edges takes O($V^2$) time
 
 ## Adjacency List
-![[Pasted image 20221202190703.png]]
+![Pasted-image-20221202190703.png](</Pasted-image-20221202190703.png>)
 Pros
 - Space efficient for sparse graphs
 - Iterating over all edges
@@ -70,7 +70,7 @@ graph.add_edge(4, 3, 11)
 graph.print_matrix()
 ```
 
-![[Pasted image 20221205181815.png]]
+![Pasted-image-20221205181815.png](</Pasted-image-20221205181815.png>)
 
 ## Adjacency list
 - Use dictionary and store a set containing values as pairs of (node, weight)

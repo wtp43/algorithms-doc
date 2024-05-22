@@ -1,7 +1,10 @@
 ---
 ---
 
->[!Time complexity to build heap]
+:::note[note] 
+
+
+:::
 >O(n) to build using sift_down starting from the last parent
 
 # Implementation
@@ -78,7 +81,10 @@ heapq.heappush(pq, 1)
 heapq.heappop(pq)
 ```
 
->[!Applications]
+:::Applications[Applications] 
+
+
+:::
 >Build priority queue with get_min and insert in O(logn)
 
 

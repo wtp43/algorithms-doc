@@ -11,12 +11,12 @@ import rehypeKatex from "rehype-katex";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "AlgoDocs",
-  tagline: "ALgorithms are cool",
+  tagline: "Algorithms are cool",
   favicon: "img/favicon.ico",
   staticDirectories: ["public", "static"],
   scripts: ["https://unpkg.com/prismjs@1.23.0/components/prism-markdown.js"],
   markdown: {
-    format: "md",
+    format: "detect",
     mermaid: true,
     preprocessor: ({ filePath, fileContent }) => {
       return fileContent.replaceAll("{{MY_VAR}}", "MY_VALUE");
@@ -67,26 +67,27 @@ const config = {
         docs: {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          // admonitions: {
-          //   keywords: [
-          //     "note",
-          //     "tip",
-          //     "info",
-          //     "warning",
-          //     "danger",
-          //     // "example",
-          //     // "Time Complexity",
-          //     // "Space Complexity",
-          //     // "bug",
-          //     // "Note",
-          //     // "Intuition",
-          //     // "question",
-          //     // "attention",
-          //     // "Applications",
-          //     // "intuition",
-          //   ],
-          //   extendDefaults: true,
-          // },
+          admonitions: {
+            keywords: [
+              "note",
+              "tip",
+              "info",
+              "warning",
+              "danger",
+              "example",
+              "Time-Complexity",
+              "Space-Complexity",
+              "bug",
+              "Note",
+              "Intuition",
+              "question",
+              "attention",
+              "Applications",
+              "intuition",
+              "Purpose",
+            ],
+            extendDefaults: true,
+          },
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -149,9 +150,9 @@ const config = {
             position: "left",
             label: "Algorithms",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/wtp43/algorithms-doc",
             label: "GitHub",
             position: "right",
           },
@@ -175,7 +176,7 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                to: "/",
               },
               {
                 label: "GitHub",

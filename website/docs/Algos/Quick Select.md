@@ -46,9 +46,15 @@ def findKthLargest(self, nums: List[int], k: int) -> int:
 
 ## Optimized Complexity
 
->[!Time Complexity]
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

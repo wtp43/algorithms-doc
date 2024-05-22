@@ -58,7 +58,10 @@ class Circular_queue():
 
 ```
 
->[!example]
+:::example[example] 
+
+
+:::
 >![enqueue and dequeue operation of the circular queue](https://cdn.programiz.com/sites/tutorial2program/files/circular-queue-program.png "Working of circular queue")
 
 # Applications

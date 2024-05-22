@@ -16,8 +16,11 @@ When you look up an item in a bloom filter, the possible answers are:
 Only supports insert and lookup operations. Can't iterate or delete.
 
 
-> [!danger]+ Intuition
-> Useful for when knowing something is definitely not present or possibly present would be helpful. 
+:::danger[danger] 
+
+Useful for when knowing something is definitely not present or possibly present would be helpful. 
+
+:::
 > 
 > For instance, say we wanted to query a large database stored on a rotating hard drive (slow to read from). Before querying the disk, we could check for the record in a bloom filter and see if it's definitely not in there.
 
@@ -104,10 +107,16 @@ class Bloom_filter(object):
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >Look up and insert are O(1)
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(1)
 
 # Applications

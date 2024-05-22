@@ -41,7 +41,10 @@
  - $n-1$ edges
  - Remove a maximum of e - n + 1 edges from a complete graph to construct a spanning tree
  
->[!Note]
+:::Note[Note] 
+
+
+:::
 >The total number of spanning trees with `n` vertices that can be created from a complete graph is equal to $n^{(n-2)}$
 
 ## Minimum Spanning Tree
@@ -55,12 +58,18 @@
 
 # Problems in Graph Theory
 ## [[Graph Theory#Connected Graph|Connectivity]]
->[!question]
+:::question[question] 
+
+
+:::
 Does there exist a path between node A and node B?
 [Union Find (Disjoint Sets)](</docs/DS/Union Find (Disjoint Sets).md>)[BFS](</docs/DS/BFS.md>)[DFS](</docs/DS/DFS.md>)[Strongly Connected Components](</docs/DS/Strongly Connected Components.md>)1. [[Tarjan's Strongy Connected Component Algorithm]]
 [Kosaraju's Algorith](</docs/Algos/Kosaraju's Algorithm.md>)
 ## Negative Cycles
->[!question]
+:::question[question] 
+
+
+:::
 Does my weighted digraph have any negative cycles? If so, where?
 [Bellman Ford's Algorith](</docs/Algos/Bellman Ford's Algorithm.md>)[Floyd-Warshall's Algorith](</docs/Algos/Floyd-Warshall's Algorithm.md>)
 ## [[Graph Theory#Minimum Spanning Tree|Minimum Spanning Tree]] Algorithms

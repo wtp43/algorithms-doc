@@ -15,7 +15,6 @@
 - [ ] The problem is a classical combinatorial problem: there are h+v moves to do from start to finish, h=m−1 horizontal moves, and v=n−1 vertical ones. One could choose when to move to the right, i.e. to define h horizontal moves, and that will fix vertical ones. Or, one could choose when to move down, i.e. to define v vertical moves, and that will fix horizontal ones.
 
 
-
-![Pasted-image-20230203202802.png](</Algos-Practice/Intuition/attachments/Pasted-image-20230203202802.png>)
+![Pasted-image-20230203202802.png](</Pasted-image-20230203202802.png>)
 
 - [ ] https://leetcodethehardway.com/tutorials/math/combinatorics

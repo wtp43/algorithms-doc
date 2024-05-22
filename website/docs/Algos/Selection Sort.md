@@ -10,8 +10,11 @@ created: 2022-12-15
 Not stable. The swap that occurs at the end of each iteration can change the relative order of items having the same value./
 
 
-> [!example]+ Example
-> Suppose you sorted 4a 2 3 4b 1 with selection sort.
+:::example[example] 
+
+Suppose you sorted 4a 2 3 4b 1 with selection sort.
+
+:::
 > 
 > The first "round" will go through each element looking for the minimum element. it will find that 1 is the minimum element. then it will swap the 1 into the first spot. this will cause the 4 in the first spot to go into the last spot: 1 2 3 4b 4a
 
@@ -46,9 +49,15 @@ To make this stable, insert of swapping values, insert the 'least value' at the 
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
 
->[!Space Complexity]+
+
+:::
+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

@@ -33,8 +33,11 @@ Degree of node = # of children it has (not including grand children)
 7. If there are more than two mappings for the same degree, then apply union operation to those roots such that the min-heap property is maintained
 
 
-> [!danger]+ Intuition
-> To minimize the heights of trees after unions, we have to merge in a way such that the degree of the last tree is at most "max degree". We should then merge trees with similar degrees which guarantees that the maximum degree will be the max degree pre-merge + 1
+:::danger[danger] 
+
+To minimize the heights of trees after unions, we have to merge in a way such that the degree of the last tree is at most "max degree". We should then merge trees with similar degrees which guarantees that the maximum degree will be the max degree pre-merge + 1
+
+:::
 
 # Max Degree
 A binomial tree with degree d has $2^d$ nodes. 
@@ -132,7 +135,10 @@ print('the minimum value removed: {}'.format(fibonacci_heap.extract_min()))
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >
 | Operation    | Complexity |
 | ------------ | ---------- |
@@ -144,7 +150,10 @@ print('the minimum value removed: {}'.format(fibonacci_heap.extract_min()))
 | Delet eNode   | O(logn)    | 
 
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 
 
 

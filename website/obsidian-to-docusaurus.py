@@ -14,10 +14,10 @@ attachments_directory = 'public'
 def change_callout(match):
     callout_content = match.captures(3)
     callout_title = match.groups(2)[0]
-    callout_type = match.groups(1)[0].lstrip(" [!").rstrip("]")
+    callout_type = match.groups(1)[0].lstrip(" [!").rstrip("]").replace(" ", "-")
     docusaurus_callout = f":::{callout_type}[{callout_title}] \n"
     for line in callout_content:
-        docusaurus_callout += '\n' + line.lstrip("\n >")
+        docusaurus_callout += '\n' + line.lstrip("\n> ")
 
     docusaurus_callout += "\n\n:::"
     return docusaurus_callout
@@ -41,30 +41,30 @@ def process_file(file_path):
                     filename = os.path.basename(filepath).rstrip(".md")
                     lines[i] = f'[{filename}](</{filepath}>)'
 
-            attachment = re.search(r'\!\[\[(.*?)\]\]', lines[i])
+            attachment = re.search(r'!\[\[(.*?)\]\]', lines[i])
             if attachment:
                 pattern = attachment.group(1)
                 pattern = pattern.replace(" ", "-")
                 filepath = next((os.path.join(root, name) for root, dirs, files in os.walk(attachments_directory) for name in files if pattern in name), None)
-                if filepath and "attachments" in filepath:
+                if filepath in filepath:
                     # omit duplicate public/
                     filepath = filepath.replace(" ", "-")
                     filepath = filepath[7:]
-                    lines[i] = f'\n![{pattern}](</{filepath}>)\n'
+                    lines[i] = f'![{pattern}](</{filepath}>)\n'
                     print(lines[i])
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
 
-    # # Change obsidian callouts [!note]\n<TEXT to docusaurus ***note TEXT\n***
-    # with open(file_path, 'r') as file:
-    #     # pattern = re.compile(r">(\[!\D+?\])(\n>.+)*")
-    #     reg0 = regex.compile(r"> ?\[!(.+?)\]\+?(.*)(\n> .+)*", regex.MULTILINE)
-    #     # reg0 = regex.compile(r"> (\[!\D+?\]).*", regex.MULTILINE)
-    #     modified_callouts = reg0.sub(lambda m: change_callout(m), file.read())
+    # Change obsidian callouts [!note]\n<TEXT to docusaurus ***note TEXT\n***
+    with open(file_path, 'r') as file:
+        # pattern = re.compile(r">(\[!\D+?\])(\n>.+)*")
+        reg0 = regex.compile(r"> ?\[!(.+?)\]\+?(.*)(\n> .+)*", regex.MULTILINE)
+        # reg0 = regex.compile(r"> (\[!\D+?\]).*", regex.MULTILINE)
+        modified_callouts = reg0.sub(lambda m: change_callout(m), file.read())
 
-    # with open(file_path, 'w') as file:
-    #     file.writelines(modified_callouts)
+    with open(file_path, 'w') as file:
+        file.writelines(modified_callouts)
 directory = 'docs'
 
 # Delete the directory and all its contents
@@ -84,19 +84,7 @@ def copy_vault(src, docs_dir, attachments_dir):
         shutil.copytree(src, docs_dir, ignore=shutil.ignore_patterns('attachments'))
 
         # Copy all attachments
-        for root, dirs, files in os.walk(src):
-            for dir_name in dirs:
-                src_dir = os.path.join(root, dir_name)
-                # Construct the corresponding destination path
-                relative_path = os.path.relpath(src_dir, src)
-                print('relative_path', docs_dir, dir_name )
-                if dir_name == "attachments":
-                    dst_dir = os.path.join(attachments_dir, relative_path)
-                    # Ensure the destination directory exists
-                    os.makedirs(os.path.dirname(dst_dir), exist_ok=True)
-                    # Copy the directory
-                    dst_dir = dst_dir.replace(" ", "-") 
-                    shutil.copytree(src_dir, dst_dir)
+        shutil.copytree('../vault/attachments', attachments_dir) 
 
     except PermissionError:
         print("Error: Permission denied while copying directory '{}'.".format(src))

@@ -10,9 +10,12 @@ created: 2022-12-10
 # D-ary Heap
 Each node can have up to D children.
 
- >[!danger]+ Intuition
-> More children means a flatter tree with smaller depth.
-> This means it requires less work to swim but more work to sink since you have to check the parent node against D children.
+ :::danger[danger] 
+
+More children means a flatter tree with smaller depth.
+This means it requires less work to swim but more work to sink since you have to check the parent node against D children.
+
+:::
 
 [Dijkstra's Shortest Path Algorith](</docs/Algos/Dijkstra's Shortest Path Algorithm.md>)
 D-ary heaps also have better locality of reference for larger D in the dequeue operation. (https://stackoverflow.com/questions/29126428/binary-heaps-vs-d-ary-heaps)
@@ -75,7 +78,10 @@ class D_aryHeap:
 
 ## Optimized Complexity
 
->[!Time Complexity]+
+:::Time-Complexity[Time Complexity] 
+
+
+:::
 >Notice that the maximum height for n nodes is $log_kn$
 >Building the heap is still O(n) 
 >Swim: $O(log_kn)$
@@ -83,7 +89,10 @@ class D_aryHeap:
 >Swim < Sink
 
 
->[!Space Complexity]+
+:::Space-Complexity[Space Complexity] 
+
+
+:::
 >O(n) to store all the 
 
 

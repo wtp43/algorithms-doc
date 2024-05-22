@@ -14,7 +14,10 @@ Note that :
 
 # Intuition
 
->[!danger]+ Intuition
+:::danger[danger] 
+
+
+:::
 
 # Implementation
 Subclassing dict
@@ -40,7 +43,10 @@ class bidict(dict):
         super(bidict, self).__delitem__(key)
 ```
 
->[!example]+ 
+:::example[example] 
+
+
+:::
 >```python
 bd = bidict({'a': 1, 'b': 2})  
 print(bd)                     # {'a': 1, 'b': 2}                 
