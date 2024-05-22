@@ -315,6 +315,7 @@ Always remember to clear non empty stack at the end of loops
 	- It's also important that we iterate list to right.
 		- For instance A = 1axxx, B = 1bxxx. If a > b then A > B
 - There is however 1 case that doesn't work, monotonically increasing, which we need to handle separately
+
 ![Pasted-image-20230124003324.png](</Algos-Practice/Leetcode-Questions/attachments/Pasted-image-20230124003324.png>)
 
 [LC-901. Online Stock Span](</docs/Algos Practice/Leetcode Questions/LC-901. Online Stock Span.md>)

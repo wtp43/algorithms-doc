@@ -12,9 +12,10 @@ docs_directory = 'docs'
 attachments_directory = 'public'
 
 def change_callout(match):
-    callout_content = match.captures(2)
+    callout_content = match.captures(3)
+    callout_title = match.groups(2)[0]
     callout_type = match.groups(1)[0].lstrip(" [!").rstrip("]")
-    docusaurus_callout = f":::{callout_type} \n"
+    docusaurus_callout = f":::{callout_type}[{callout_title}] \n"
     for line in callout_content:
         docusaurus_callout += '\n' + line.lstrip("\n >")
 
@@ -49,21 +50,21 @@ def process_file(file_path):
                     # omit duplicate public/
                     filepath = filepath.replace(" ", "-")
                     filepath = filepath[7:]
-                    lines[i] = f'![{pattern}](</{filepath}>)\n'
+                    lines[i] = f'\n![{pattern}](</{filepath}>)\n'
                     print(lines[i])
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
 
-    # Change obsidian callouts [!note]\n<TEXT to docusaurus ***note TEXT\n***
-    with open(file_path, 'r') as file:
-        # pattern = re.compile(r">(\[!\D+?\])(\n>.+)*")
-        reg0 = regex.compile(r"> (\[!\D+?\]\+?)(\n> .+)+", regex.MULTILINE)
-        # reg0 = regex.compile(r"> (\[!\D+?\]).*", regex.MULTILINE)
-        modified_callouts = reg0.sub(lambda m: change_callout(m), file.read())
+    # # Change obsidian callouts [!note]\n<TEXT to docusaurus ***note TEXT\n***
+    # with open(file_path, 'r') as file:
+    #     # pattern = re.compile(r">(\[!\D+?\])(\n>.+)*")
+    #     reg0 = regex.compile(r"> ?\[!(.+?)\]\+?(.*)(\n> .+)*", regex.MULTILINE)
+    #     # reg0 = regex.compile(r"> (\[!\D+?\]).*", regex.MULTILINE)
+    #     modified_callouts = reg0.sub(lambda m: change_callout(m), file.read())
 
-    with open(file_path, 'w') as file:
-        file.writelines(modified_callouts)
+    # with open(file_path, 'w') as file:
+    #     file.writelines(modified_callouts)
 directory = 'docs'
 
 # Delete the directory and all its contents

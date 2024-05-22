@@ -16,7 +16,7 @@ const config = {
   staticDirectories: ["public", "static"],
   scripts: ["https://unpkg.com/prismjs@1.23.0/components/prism-markdown.js"],
   markdown: {
-    format: "detect",
+    format: "md",
     mermaid: true,
     preprocessor: ({ filePath, fileContent }) => {
       return fileContent.replaceAll("{{MY_VAR}}", "MY_VALUE");
@@ -67,6 +67,26 @@ const config = {
         docs: {
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+          // admonitions: {
+          //   keywords: [
+          //     "note",
+          //     "tip",
+          //     "info",
+          //     "warning",
+          //     "danger",
+          //     // "example",
+          //     // "Time Complexity",
+          //     // "Space Complexity",
+          //     // "bug",
+          //     // "Note",
+          //     // "Intuition",
+          //     // "question",
+          //     // "attention",
+          //     // "Applications",
+          //     // "intuition",
+          //   ],
+          //   extendDefaults: true,
+          // },
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

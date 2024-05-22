@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "LC-23. Merge k Sorted Lists",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":16.338815789473685}"
+                },
+                {
                   "title": "Revision Feb 2024",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Revision Feb 2024.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -424,7 +430,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
+                "file": "docs/DS/Binary Search Tree (BST).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -533,7 +539,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
+                "file": "docs/DS/Binary Search Tree (BST).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -559,7 +565,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
+                "file": "docs/DS/Binary Search Tree (BST).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -618,7 +624,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md"
+                "file": "docs/DS/Binary Search Tree (BST).md"
               }
             }
           }
@@ -643,6 +649,7 @@
   },
   "active": "80be7a9064291c03",
   "lastOpenFiles": [
+    "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
     "docs/Revision Feb 2024.md",
     "docs/Algos/intro.md",
     "docs/Algos Practice/Intuition/Untitled.md",
@@ -680,7 +687,6 @@
     "docs/Algos/Subset Sum.md",
     "docs/Algos/Sweep Line.md",
     "docs/Algos/Tail Recursion.md",
-    "docs/Algos/Top K Frequent Elements.md",
     "docs/Algos Practice/Leetcode Questions/attachments",
     "docs/Algos Practice/Leetcode Questions",
     "Leetcode Questions/attachments",
