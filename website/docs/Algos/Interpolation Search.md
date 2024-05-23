@@ -15,8 +15,8 @@ Binary search always goes to the middle. If the target is closer to the first el
 :::important[important] 
 
 
+
 :::
-> 
 
 # Implementation
 
@@ -66,9 +66,9 @@ if __name__ == '__main__':
 
 :::Time-Complexity[Time Complexity] 
 
+O(log(log(n))) if array is uniformly distributed
 
 :::
->O(log(log(n))) if array is uniformly distributed
 
 :::Space-Complexity[Space Complexity] 
 

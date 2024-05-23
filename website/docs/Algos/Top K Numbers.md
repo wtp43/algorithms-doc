@@ -30,10 +30,10 @@ def findKthLargest(self, nums: List[int], k: int) -> int:
 
 :::Time-Complexity[Time Complexity] 
 
+O(NlogK) 
+Logk is the complexity to extract/insert into the heap. Then we need to do it for N numbers
 
 :::
->O(NlogK) 
->Logk is the complexity to extract/insert into the heap. Then we need to do it for N numbers
 
 :::Space-Complexity[Space Complexity] 
 

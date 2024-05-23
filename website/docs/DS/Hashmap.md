@@ -73,9 +73,9 @@ Reference: https://cs.stackexchange.com/questions/11029/why-is-it-best-to-use-a-
 
 **How do you maintain O(1) insertion and lookup time complexity once the hashmap gets really full and linked list chains are long?** 
 
+Sol: Create new hashmap with larger capacitiy and rehash all the items inside the old hashmap 
+
 :::
-> 
-> Sol: Create new hashmap with larger capacitiy and rehash all the items inside the old hashmap 
 
 
 ## Open Addressing

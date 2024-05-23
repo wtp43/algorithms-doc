@@ -43,9 +43,9 @@
  
 :::Note[Note] 
 
+The total number of spanning trees with `n` vertices that can be created from a complete graph is equal to $n^{(n-2)}$
 
 :::
->The total number of spanning trees with `n` vertices that can be created from a complete graph is equal to $n^{(n-2)}$
 
 ## Minimum Spanning Tree
 - Spanning tree in which sum of weight of edges are minimized

@@ -85,15 +85,15 @@ class LRUCache:
 
 :::Time-Complexity[Time Complexity] 
 
+Lookup: O(1)
 
 :::
->Lookup: O(1)
 
 :::Space-Complexity[Space Complexity] 
 
+O(n)
 
 :::
->O(n)
 
 
 

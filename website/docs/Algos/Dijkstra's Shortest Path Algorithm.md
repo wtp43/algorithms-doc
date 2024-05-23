@@ -6,9 +6,9 @@
 [Topological Sort](</docs/Algos/Topological Sort.md>)
 :::Intuition[Intuition] 
 
+Greedy algorithms work because once the next 'node' has been visited, it's optimal distance cannot be improved
 
 :::
->Greedy algorithms work because once the next 'node' has been visited, it's optimal distance cannot be improved
 
 # Overview
 1. Initialize `dist` array to `math.inf` with `dist[start]=0` 
@@ -83,9 +83,9 @@ def find_shortest_path(self, start, end):
 
 **Suppose you know the destination node you're trying to reach is 'e' and you start at node 's', do you still have to visit every node in the graph?**
 
+Yes, in the worst case. However, it is possible to stop early once you have finished visiting the destination node. The main idea for stopping early is that Dijkstra's algorithm processes each next most promising node in order. So if the destination node has been visited, its shortest distance will not change as more future nodes are visited.
+
 :::
-> 
-> Yes, in the worst case. However, it is possible to stop early once you have finished visiting the destination node. The main idea for stopping early is that Dijkstra's algorithm processes each next most promising node in order. So if the destination node has been visited, its shortest distance will not change as more future nodes are visited.
 
 ```python
 import heapq
@@ -167,9 +167,9 @@ This means it requires less work to swim but more work to sink since you have to
 
 **What is the optimal D-ary heap degree to maximize performance of Dijkstra's algorithm?**
 
+A: In general $D = E/V$ is the best degree to use balance removals against decrease\_key operations improving Dijkstra's time complexity to $O(E \log_{E/V}(V))$ which is much better especially for dense graphs which have lots of decrease_key operations
+
 :::
-> 
-> A: In general $D = E/V$ is the best degree to use balance removals against decrease\_key operations improving Dijkstra's time complexity to $O(E \log_{E/V}(V))$ which is much better especially for dense graphs which have lots of decrease_key operations
 
 
 [Fibonacci Heap](</docs/DS/Fibonacci Heap.md>)Fibonacci heap gives Dijkstra's algorithm a time complexity of $O(E + Vlog(V))$. However, in practice, Fibonacci heaps are very difficult to implement and have a large enough constant amortized overhead to make them impractical unless your graph is quite large.

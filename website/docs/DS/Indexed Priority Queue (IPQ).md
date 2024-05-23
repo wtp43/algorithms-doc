@@ -160,11 +160,11 @@ class IPQ:
 
 :::Time-Complexity[Time Complexity] 
 
+Sink/Swim: O(logn)
+Update/decrease_key/increase_key: O(logn)
+Build heap: O(n)
 
 :::
->Sink/Swim: O(logn)
->Update/decrease_key/increase_key: O(logn)
->Build heap: O(n)
 
 
 

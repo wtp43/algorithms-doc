@@ -3,10 +3,10 @@
 
 :::Note[Note] 
 
+Greedy Algorithm: Start from one vertex and keep adding edges with the lowest weight until we get a minimum spanning tree
+Complexity: O(E log V)
 
 :::
->Greedy Algorithm: Start from one vertex and keep adding edges with the lowest weight until we get a minimum spanning tree
->Complexity: O(E log V)
 # Pseudocode
 1. Initialize minimum spanning tree with a any vertex
 2. Find all edges that connect the tree to new vertices. Add the minimum edge to the tree
@@ -105,20 +105,20 @@ So the total time complexity of `MST-PRIM` is the sum of executing steps 1 throu
 
 :::example[example] 
 
+```python
+graph = Graph(directed=False)
+graph.add_edge('A', 'B', 2)
+graph.add_edge('A', 'C', 3)
+graph.add_edge('B', 'C', 1)
+graph.add_edge('B', 'D', 1)
+graph.add_edge('B', 'E', 4)
+graph.add_edge('C', 'F', 5)
+graph.add_edge('D', 'E', 1)
+graph.add_edge('E', 'F', 1)
+graph.add_edge('F', 'G', 1)
+mst, total_cost = prim(graph, 'A')
 
 :::
->```python
->graph = Graph(directed=False)
->graph.add_edge('A', 'B', 2)
->graph.add_edge('A', 'C', 3)
->graph.add_edge('B', 'C', 1)
->graph.add_edge('B', 'D', 1)
->graph.add_edge('B', 'E', 4)
->graph.add_edge('C', 'F', 5)
->graph.add_edge('D', 'E', 1)
->graph.add_edge('E', 'F', 1)
->graph.add_edge('F', 'G', 1)
->mst, total_cost = prim(graph, 'A')
 >
 >assert(total_cost==29)
 >assert(mst == {'A': set(['B']), 'B': set(['C', 'D']), 

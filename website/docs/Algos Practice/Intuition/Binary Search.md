@@ -15,8 +15,8 @@
 
 enumerate possibilities
 
+
 :::
-> 
 1. `we are in the left portion ([6789] 123)
 	    - `target > nums[mid]: i=mid+1
 	    - ``nums[i] <= target < nums[mid] j=mid-1

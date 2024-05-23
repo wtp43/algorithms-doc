@@ -64,15 +64,15 @@ A degenerate case of bucket sort ([[Counting Sort#Unstable version (without cumu
 
 :::Time-Complexity[Time Complexity] 
 
+O($nlogn$), occurs if elements are all placed into the same buckets.
 
 :::
->O($nlogn$), occurs if elements are all placed into the same buckets.
 [Insertion Sort](</docs/Algos/Insertion Sort.md>)
 :::Space-Complexity[Space Complexity] 
 
+O(n+k) where n is the number of elements and k is the number of buckets formed.
 
 :::
->O(n+k) where n is the number of elements and k is the number of buckets formed.
 
 
 # Related

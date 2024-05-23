@@ -38,9 +38,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 :::danger[danger] 
 
+Maintain a carry. 
 
 :::
->Maintain a carry. 
 
 # Implementation
 ```python

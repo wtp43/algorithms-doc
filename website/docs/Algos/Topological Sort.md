@@ -30,9 +30,9 @@ Topological sort simply involves **running DFS on an entire graph and adding ea
 
 :::Purpose[Purpose] 
 
+Gives an ordering where each vertex can be processed before it's successors. This allows us to seek the shortest/longest path from x to y in a DAG
 
 :::
->Gives an ordering where each vertex can be processed before it's successors. This allows us to seek the shortest/longest path from x to y in a DAG
 
 # DFS Implementation
 
@@ -79,15 +79,15 @@ def dfs_topsort(self, graph, node, vis, ordering):
 
 :::Time-Complexity[Time Complexity] 
 
+O(V + E)
 
 :::
->O(V + E)
 
 :::Space-Complexity[Space Complexity] 
 
+O(d)
 
 :::
->O(d)
 
 # Kahn's Topological Sort Algorithm
 Find vertices with no incoming edges and removing all outgoing edges from these vertices.

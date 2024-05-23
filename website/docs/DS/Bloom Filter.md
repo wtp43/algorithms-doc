@@ -20,9 +20,9 @@ Only supports insert and lookup operations. Can't iterate or delete.
 
 Useful for when knowing something is definitely not present or possibly present would be helpful. 
 
+For instance, say we wanted to query a large database stored on a rotating hard drive (slow to read from). Before querying the disk, we could check for the record in a bloom filter and see if it's definitely not in there.
+
 :::
-> 
-> For instance, say we wanted to query a large database stored on a rotating hard drive (slow to read from). Before querying the disk, we could check for the record in a bloom filter and see if it's definitely not in there.
 
 ## Bitmap Size
 The larger the bitmap, the less likely false positives are.
@@ -109,15 +109,15 @@ class Bloom_filter(object):
 
 :::Time-Complexity[Time Complexity] 
 
+Look up and insert are O(1)
 
 :::
->Look up and insert are O(1)
 
 :::Space-Complexity[Space Complexity] 
 
+O(1)
 
 :::
->O(1)
 
 # Applications
 [LRU Cache](</docs/DS/LRU Cache.md>)# Related

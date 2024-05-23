@@ -82,16 +82,16 @@ def radix_sort_MSD_for_strings (array, i):
 
 :::Time-Complexity[Time Complexity] 
 
+O(n+k)
 
 :::
->O(n+k)
 
 :::Space-Complexity[Space Complexity] 
 
+O(max).
+If we take very large digit numbers or the number of other bases like 32-bit and 64-bit numbers then it can perform in linear time however the intermediate sort takes large space.
 
 :::
->O(max).
->If we take very large digit numbers or the number of other bases like 32-bit and 64-bit numbers then it can perform in linear time however the intermediate sort takes large space.
 This makes radix sort space inefficient. This is the reason why this sort is not used in software libraries.
 
 

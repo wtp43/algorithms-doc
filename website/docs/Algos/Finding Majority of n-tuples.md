@@ -30,16 +30,16 @@ return arg_1st_max
 
 :::Time-Complexity[Time Complexity] 
 
+O($n^2k$)
+The average complexity is O($nk$) but O($n^2k$) because of the use of a dictionary. In the worst case, your hash map will degenerate into a linked list and you will suffer an O(N) penalty for lookups, as well as inserts and deletions, both of which require a lookup operation.
 
 :::
->O($n^2k$)
->The average complexity is O($nk$) but O($n^2k$) because of the use of a dictionary. In the worst case, your hash map will degenerate into a linked list and you will suffer an O(N) penalty for lookups, as well as inserts and deletions, both of which require a lookup operation.
 
 :::Space-Complexity[Space Complexity] 
 
+O(n)
 
 :::
->O(n)
 
 # Related
 [Boyer-Moore Voting Algorith](</docs/Algos/Boyer-Moore Voting Algorithm.md>)

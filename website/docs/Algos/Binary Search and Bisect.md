@@ -10,9 +10,9 @@ created: 2023-01-06
 
 :::Note[Note] 
 
+Binary Search should be equal to Bisect_left in the case of no duplicates
 
 :::
->Binary Search should be equal to Bisect_left in the case of no duplicates
 
 ## Bisect Left
 - Returns the index of the first num $\leq$ x

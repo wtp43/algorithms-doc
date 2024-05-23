@@ -3,9 +3,9 @@
 
 :::note[note] 
 
+O(n) to build using sift_down starting from the last parent
 
 :::
->O(n) to build using sift_down starting from the last parent
 
 # Implementation
 
@@ -83,9 +83,9 @@ heapq.heappop(pq)
 
 :::Applications[Applications] 
 
+Build priority queue with get_min and insert in O(logn)
 
 :::
->Build priority queue with get_min and insert in O(logn)
 
 
 # Related

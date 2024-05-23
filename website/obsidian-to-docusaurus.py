@@ -59,7 +59,7 @@ def process_file(file_path):
     # Change obsidian callouts [!note]\n<TEXT to docusaurus ***note TEXT\n***
     with open(file_path, 'r') as file:
         # pattern = re.compile(r">(\[!\D+?\])(\n>.+)*")
-        reg0 = regex.compile(r"> ?\[!(.+?)\]\+?(.*)(\n> .+)*", regex.MULTILINE)
+        reg0 = regex.compile(r"> ?\[!(.+?)\]\+?(.*)(\n>.+)*", regex.MULTILINE)
         # reg0 = regex.compile(r"> (\[!\D+?\]).*", regex.MULTILINE)
         modified_callouts = reg0.sub(lambda m: change_callout(m), file.read())
 

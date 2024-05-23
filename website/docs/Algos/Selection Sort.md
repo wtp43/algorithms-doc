@@ -14,9 +14,9 @@ Not stable. The swap that occurs at the end of each iteration can change the rel
 
 Suppose you sorted 4a 2 3 4b 1 with selection sort.
 
+The first "round" will go through each element looking for the minimum element. it will find that 1 is the minimum element. then it will swap the 1 into the first spot. this will cause the 4 in the first spot to go into the last spot: 1 2 3 4b 4a
+
 :::
-> 
-> The first "round" will go through each element looking for the minimum element. it will find that 1 is the minimum element. then it will swap the 1 into the first spot. this will cause the 4 in the first spot to go into the last spot: 1 2 3 4b 4a
 
 # Implementation
 

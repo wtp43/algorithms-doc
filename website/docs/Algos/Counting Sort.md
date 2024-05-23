@@ -122,15 +122,15 @@ def counting_sort(nums):
 
 :::Time-Complexity[Time Complexity] 
 
+The algorithm is only in linear time if k = max(n) is in O(n)
 
 :::
->The algorithm is only in linear time if k = max(n) is in O(n)
 
 :::Space-Complexity[Space Complexity] 
 
+O(n + max_val - min_val)
 
 :::
->O(n + max_val - min_val)
 
 # Related
 [Radix Sort](</docs/Algos/Radix Sort.md>)

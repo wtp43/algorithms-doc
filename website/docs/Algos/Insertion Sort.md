@@ -51,15 +51,15 @@ print(data)
 
 :::Time-Complexity[Time Complexity] 
 
+O($n^2$)
 
 :::
->O($n^2$)
 
 :::Space-Complexity[Space Complexity] 
 
+O(1) for storing the key
 
 :::
->O(1) for storing the key
 
 
 

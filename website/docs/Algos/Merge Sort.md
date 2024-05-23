@@ -52,15 +52,15 @@ def merge_sort(nums):
 
 :::Time-Complexity[Time Complexity] 
 
+O(nlogn)
 
 :::
->O(nlogn)
 
 :::Space-Complexity[Space Complexity] 
 
+O(n)
 
 :::
->O(n)
 
 
 

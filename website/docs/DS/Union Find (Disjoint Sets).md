@@ -2,9 +2,9 @@
 ---
 :::note[note] 
 
+Union Find stores the index of each element's parent 
 
 :::
->Union Find stores the index of each element's parent 
 
 ## Union Find Optimizations
 

@@ -45,9 +45,9 @@ class bidict(dict):
 
 :::example[example] 
 
+```python
 
 :::
->```python
 bd = bidict({'a': 1, 'b': 2})  
 print(bd)                     # {'a': 1, 'b': 2}                 
 print(bd.inverse)             # {1: ['a'], 2: ['b']}

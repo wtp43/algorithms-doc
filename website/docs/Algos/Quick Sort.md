@@ -85,9 +85,9 @@ fun partition(input : T[], low: int, high: int) : int
 
 :::Time-Complexity[Time Complexity] 
 
+In the worse case the complexity can reach O(n^2) if pivots are picked poorly. It has average time complexity O(nlogn).
 
 :::
->In the worse case the complexity can reach O(n^2) if pivots are picked poorly. It has average time complexity O(nlogn).
 
 :::Space-Complexity[Space Complexity] 
 
