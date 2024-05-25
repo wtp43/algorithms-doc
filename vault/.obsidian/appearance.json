@@ -8,8 +8,7 @@
   "enabledCssSnippets": [
     "kanban-swimlanes",
     "custom-admonitions.0d5b30",
-    "custom-tags",
-    "title bar"
+    "custom-tags"
   ],
   "nativeMenus": true
 }

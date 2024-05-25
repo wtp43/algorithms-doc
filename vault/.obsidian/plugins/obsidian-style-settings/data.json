@@ -29,10 +29,7 @@
   "Editor@@ul-marker-restore": true,
   "Editor@@h2-color-select": "h2-color-customized",
   "Editor@@h3-color-select": "h3-color-customized",
-  "Editor@@h3-color@@light": "#C7339C",
   "Editor@@h1-color-select": "h1-color-customized",
-  "Editor@@h1-color@@light": "#373D44",
-  "Editor@@h2-color@@light": "#4974D0",
   "Editor@@h3-size": "1.1em",
   "Editor@@h2-size": "1.2em",
   "Components@@icon-autohide": false,
@@ -47,9 +44,10 @@
   "Appearance-light@@color-green-rgb@@light": "#9FD600",
   "Editor@@inline-title-divider-remove": false,
   "Editor@@h1-size": "1.4em",
-  "Editor@@h4-color@@light": "#0CCDA9",
   "Editor@@callout-style-select": "callout-style-4",
   "Editor@@h5-size": "1em",
   "Editor@@h5-color-select": "h5-color-customized",
-  "Editor@@h5-color@@light": "#FFB700"
+  "Appearance-light@@card-border-radius-light": "0px",
+  "Appearance-light@@card-shadow-light": "0",
+  "Editor@@border-focus-mode": false
 }

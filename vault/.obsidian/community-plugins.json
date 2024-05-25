@@ -1,5 +1,4 @@
 [
-  "obsidian-style-settings",
   "darlal-switcher-plus",
   "templater-obsidian",
   "dataview",
@@ -12,7 +11,7 @@
   "quickadd",
   "pane-relief",
   "float-search",
-  "obsidian-minimal-settings",
   "obsidian-git",
-  "python-scripter"
+  "python-scripter",
+  "obsidian-style-settings"
 ]
