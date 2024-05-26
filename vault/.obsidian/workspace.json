@@ -50,7 +50,7 @@
                 {
                   "title": "Untitled",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
@@ -458,13 +458,133 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "String Manipulation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/String Manipulation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":50},\"to\":{\"line\":7,\"ch\":50}}}"
+                },
+                {
+                  "title": "Prim's Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Prefix Sums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Subset Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Subset Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "Backtracking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Backtracking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Brainteasers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Combinatorics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Graphs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Graphs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}},\"scroll\":2}"
+                },
+                {
+                  "title": "Brainteasers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":22},\"to\":{\"line\":34,\"ch\":22}},\"scroll\":4.782581840642372}"
+                },
+                {
+                  "title": "Prefix Sums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":14},\"to\":{\"line\":29,\"ch\":14}},\"scroll\":8.026315789473685}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":2}"
+                },
+                {
+                  "title": "Brainteasers",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Prefix Sums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":6.480852378011118}"
+                },
+                {
+                  "title": "Prefix Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Prefix Sums",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Prefix Sum",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "LC-90. Subsets II",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
+                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -549,8 +669,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -575,7 +694,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
+                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -601,7 +720,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
+                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -660,7 +779,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md"
+                "file": "docs/Algos Practice/Intuition/Sliding Window.md"
               }
             }
           }
@@ -685,12 +804,23 @@
   },
   "active": "244beaad1eadcade",
   "lastOpenFiles": [
+    "docs/Algos/String Manipulation.md",
+    "docs/Algos/Prim's Algorithm.md",
+    "docs/Algos/Prefix Sums.md",
+    "docs/Algos/Prefix Sums.md",
+    "docs/Algos/Subset Sum.md",
+    "docs/Algos Practice/Intuition/Backtracking.md",
+    "docs/Algos Practice/Intuition/Binary Search.md",
+    "docs/Algos Practice/Intuition/Brainteasers.md",
+    "docs/Algos Practice/Intuition/Combinatorics.md",
+    "docs/Algos Practice/Intuition/Graphs.md",
+    "docs/Algos Practice/Intuition/Prefix Sum.md",
+    "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
     "docs/DS/Heaps.md",
     "docs/Revision Feb 2024.md",
     "docs/DS/Binary Search Tree (BST).md",
     "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
     "docs/Algos/intro.md",
-    "docs/Algos Practice/Intuition/Untitled.md",
     "docs/Algos Practice/Understanding the Question.md",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",
@@ -712,17 +842,6 @@
     "docs/Algos/Boyer-Moore Voting Algorithm.md",
     "docs/Algos/Bellman Ford's Algorithm.md",
     "docs/Algos/Algorithms Database.md",
-    "docs/Algos/Greedy Algorithm.md",
-    "docs/Algos/index.md",
-    "docs/Algos/Graham Scan.md",
-    "docs/Algos/Floyd's Cycle Detection Algorithm.md",
-    "docs/Algos/Dynamic Programming.md",
-    "docs/Algos/Dijkstra's Shortest Path Algorithm.md",
-    "docs/Algos/Cyclic Sort.md",
-    "docs/Algos/Cycle Detection in Directed Graphs.md",
-    "docs/Algos/Sorting.md",
-    "docs/Algos/Sorts.md",
-    "docs/Algos/Subset Sum.md",
     "docs/Algos Practice/Leetcode Questions/attachments",
     "docs/Algos Practice/Leetcode Questions",
     "Leetcode Questions/attachments",

@@ -1,5 +1,30 @@
 ---
 ---
+# Binary Search
+
+> [!tip] Intuition
+> Useful when f(x) is monotonically increasing/decreasing and the range for which x exists on is very large
+
+
+## Structure
+
+- The only difference in the following 3 types of binary search is what happens when f(x) is equal to the target
+EXCALIDRAW DIAGRAM HERE
+### Discrete Binary Search
+- Return  
+```python
+
+
+```
+
+### Bisect Left 
+- lo will be the first index for which f(lo) <= target 
+
+### Bisect Right
+- lo will be the first index for which f(lo) > target 
+- hi will be the greatest index for which f(lo) <= target
+## Applications
+
 
 - [ ] [[LC-1752. Check if Array Is Sorted and Rotated]] (Find the pivot if sorted array is rotated)
 - Important to note that the first and last num are connected

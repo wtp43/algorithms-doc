@@ -1,6 +1,15 @@
 ---
 ---
+# Graphs
+
+# Topological Search
+
+## Intuition
+### Identifying Cycles
+
+
 - [ ] Prims
+
 - [ ] Kruskals
 - [ ] Dijkstras
 - [ ] Topological Sort
