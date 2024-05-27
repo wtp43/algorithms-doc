@@ -460,6 +460,42 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Easy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Logic.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
+                },
+                {
+                  "title": "Revision Feb 2024",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Revision Feb 2024.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":50},\"to\":{\"line\":15,\"ch\":50}},\"scroll\":5}"
+                },
+                {
+                  "title": "Subsets",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Subsets.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Combinatorics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":18},\"to\":{\"line\":28,\"ch\":18}}}"
+                },
+                {
+                  "title": "Sliding Window",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Sliding Window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
                   "title": "String Manipulation",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/String Manipulation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -584,7 +620,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
+                "file": "docs/Algos Practice/Intuition/Coding Style.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "971fafe4acacf486",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algos Practice/Intuition/Logic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -592,7 +650,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -669,7 +727,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -694,7 +753,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
+                "file": "docs/Algos Practice/Intuition/Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -720,7 +779,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algos Practice/Intuition/Sliding Window.md",
+                "file": "docs/Algos Practice/Intuition/Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -779,7 +838,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algos Practice/Intuition/Sliding Window.md"
+                "file": "docs/Algos Practice/Intuition/Logic.md"
               }
             }
           }
@@ -788,8 +847,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -802,8 +860,16 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "244beaad1eadcade",
+  "active": "971fafe4acacf486",
   "lastOpenFiles": [
+    "docs/Algos Practice/Intuition/Coding Style.md",
+    "docs/DS/Heaps.md",
+    "docs/Algos Practice/Intuition/Logic.md",
+    "docs/Revision Feb 2024.md",
+    "docs/Algos Practice/Intuition/Subsets.md",
+    "docs/Algos/Untitled.md",
+    "docs/Algos Practice/Intuition/Combinatorics.md",
+    "docs/Algos Practice/Intuition/Sliding Window.md",
     "docs/Algos/String Manipulation.md",
     "docs/Algos/Prim's Algorithm.md",
     "docs/Algos/Prefix Sums.md",
@@ -812,12 +878,9 @@
     "docs/Algos Practice/Intuition/Backtracking.md",
     "docs/Algos Practice/Intuition/Binary Search.md",
     "docs/Algos Practice/Intuition/Brainteasers.md",
-    "docs/Algos Practice/Intuition/Combinatorics.md",
     "docs/Algos Practice/Intuition/Graphs.md",
     "docs/Algos Practice/Intuition/Prefix Sum.md",
     "docs/Algos Practice/Leetcode Questions/LC-90. Subsets II.md",
-    "docs/DS/Heaps.md",
-    "docs/Revision Feb 2024.md",
     "docs/DS/Binary Search Tree (BST).md",
     "docs/Algos Practice/Leetcode Questions/LC-23. Merge k Sorted Lists.md",
     "docs/Algos/intro.md",
@@ -837,11 +900,6 @@
     "Untitled",
     "docs/Algos Practice/Leetcode Questions/Intuition.md",
     "attachments",
-    "docs/DS/Strongly Connected Components.md",
-    "docs/Algos/Counting Sort.md",
-    "docs/Algos/Boyer-Moore Voting Algorithm.md",
-    "docs/Algos/Bellman Ford's Algorithm.md",
-    "docs/Algos/Algorithms Database.md",
     "docs/Algos Practice/Leetcode Questions/attachments",
     "docs/Algos Practice/Leetcode Questions",
     "Leetcode Questions/attachments",

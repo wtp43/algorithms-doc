@@ -18,3 +18,13 @@
 ![[Pasted image 20230203202802.png]]
 
 - [ ] https://leetcodethehardway.com/tutorials/math/combinatorics
+
+
+
+
+## DP
+### Count number of answers 'with some conditions' that end in 'X'
+https://leetcode.com/problems/student-attendance-record-ii/solutions/101639/pure-math-and-easy-to-understand-python-o-n-solution/
+
+### DFS with States
+https://leetcode.com/problems/student-attendance-record-ii/description/

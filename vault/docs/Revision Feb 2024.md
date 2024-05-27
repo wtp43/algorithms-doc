@@ -13,6 +13,7 @@ created: ""
 - Can I start from the minimum element?
   - Determine if this starting point passes edge cases
 - ## What algorithms and data structures can I use?
+- Does order in which we do the operations matter?
 
 ## Intuition
 
@@ -841,6 +842,11 @@ n | (n+1)
 n & -n
 
 ```
+
+### Minimum Operations to Form Subsequence with Target Sum
+https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/
+
+
 
 ### Brian Kernighan's Algorithm
 
@@ -2622,6 +2628,20 @@ sorted(d.key(),key=d.get)
 
 ### Arithmetic Sequence Sum
 $sum = (A[1] + A[n]) * n/2$ where `A[1], A[n]` are the first and last terms of the sequence and `n` is the length of the sequence
+
+#### Minimum Possible Sum of Array with n distinct positive integers such that no two integers sum to Target
+https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
+- The only possible integers that break this rule are numbers less than target
+- We can take at most target//2 integers
+```python
+def minimumPossibleSum(self, n: int, target: int) -> int:
+	x = target//2
+	if n < x:
+		return (1+n)*n//2%(10**9+7)
+	total = (1+x)*x//2
+	n -= x
+	return (total+(target+target+n-1)*n//2) % (10**9+7)
+```
 
 ### GCD for a List of Numbers
 
