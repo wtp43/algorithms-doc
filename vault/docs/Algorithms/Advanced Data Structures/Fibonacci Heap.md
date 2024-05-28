@@ -150,6 +150,6 @@ print('the minimum value removed: {}'.format(fibonacci_heap.extract_min()))
 
 
 # Related
-- [[Heaps]]
+- [[Heap Implementation]]
 - [[Indexed D-ary Heap]]
 - [[Indexed Priority Queue (IPQ)]]

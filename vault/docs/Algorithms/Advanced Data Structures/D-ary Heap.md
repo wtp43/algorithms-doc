@@ -89,6 +89,6 @@ class D_aryHeap:
 
 
 # Related
-- [[Heaps]]
+- [[Heap Implementation]]
 - [[Indexed D-ary Heap]]
 - [[Indexed Priority Queue (IPQ)]]

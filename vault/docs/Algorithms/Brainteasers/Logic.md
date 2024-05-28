@@ -55,3 +55,10 @@ You are given an array `processorTime` representing the time each processor be
 
 ## Hashmap
 https://leetcode.com/problems/count-special-quadruplets/description/
+
+
+## Shortest Distance between 2 alphabet letters (Wrapping Allowed)
+```python
+    dist_btw = abs(ord(s[j])- ord(t[j]))
+    dist_around = 26-dist_btw
+```

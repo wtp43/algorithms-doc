@@ -30,6 +30,7 @@ We use a hashmap to find if a previous prefix_sum exists.
 ## Applications
 
 ### Sum of Ranges
+https://leetcode.com/problems/subarray-sum-equals-k/description/
 
 ### Tracking Valid Subarrays
 

@@ -31,6 +31,6 @@ created: 2022-12-13
 
 
 # Related
-- [[Heaps]]
+- [[Heap Implementation]]
 - [[D-ary Heap]]
 - [[Indexed Priority Queue (IPQ)]]

@@ -2468,10 +2468,10 @@ def maximum_border_length(w):
 ```python
 def KMP(s, t):
 	w = t + "#" + s
-	n = len(w)
+	n = len(t)
 	f = [0] * n # init f[0] = 0
 	k = 0 # current longest border length
-	for i in range(1, n): # compute f[i]
+	for i in range(1, len(w)): # compute f[i]
 		while w[k] != w[i] and k > 0:
 			k = f[k - 1] # mismatch: try the next border
 		if w[k] == w[i]: # last characters match
@@ -2483,7 +2483,9 @@ def KMP(s, t):
 ```
 
 Space/Time Complexity: O(m + n)
-
+##### Searching for All Occurrences
+https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/
+- Don't return after once match
 ### Isomorphic Strings (Mapping)
 
 ```python
