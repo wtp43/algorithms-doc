@@ -2,16 +2,13 @@
 title: Topological Sort
 created: 2022-12-10
 ---
+# Topological Sort
+- Sort the graph in an order such that no vertex appears before another vertex that has an edge to it.
+- The ordering does not have to be unique
+## Topological Sort Using DFS
+- Post-Order Traversal
 
-style: number 
-min_depth: 1 
-max_depth: 6
-
-
-# Topological Sort Using DFS
-Produces a list of all vertices in an order such that no vertex appears before another vertex that has an edge to it.
-
-Topological sort simply involves **running DFS on an entire graph and adding each node to the global ordering of nodes, but only after all of a node's children are visited**. This ensures that parent nodes will be ordered before their child nodes, and honours the forward direction of edges in the ordering. The ordering is not unique.
+ **Run DFS on an entire graph and add each node to the global ordering of nodes, but only after all of a node's children are visited**. This ensures that parent nodes will be ordered before their child nodes, and honors the forward direction of edges in the ordering. 
 
 - Orders the vertices on a line such that all directed edges go from left to right
 - Such an ordering cannot exist if the graph contains a directed cycle
@@ -69,15 +66,10 @@ def dfs_topsort(self, graph, node, vis, ordering):
 	vis[node] = 2
 ```
 
-## Optimized Complexity
+- Time Complexity: O(V + E)
+- Space Complexity: O(depth)
 
->[!Time Complexity]
->O(V + E)
-
->[!Space Complexity]
->O(d)
-
-# Kahn's Topological Sort Algorithm
+## Kahn's Topological Sort Algorithm
 Find vertices with no incoming edges and removing all outgoing edges from these vertices.
 
 Maintain in-degree information of all graph vertices.
@@ -111,12 +103,51 @@ def topsort(edges, n):
 	return top_order
 
 ```
-# Applications
-## Scheduling Problems
+## Applications
+
+### DAG Scheduling
+
+https://leetcode.com/problems/parallel-courses-ii/description/
+
+```python
+class Solution:
+    def minNumberOfSemesters(self, n: int, relations: List[List[int]], k: int) -> int:
+        in_degrees = [0]*n
+        graph = defaultdict(list)
+        for u,v in relations:
+            in_degrees[v-1] += 1
+            graph[u-1].append(v-1)
+
+        @lru_cache(None)
+        def dfs(mask, in_degrees):
+            if not mask:
+                return 0
+            # nodes that can be taken (if bit is 1)
+            nodes = [i for i in range(n) if mask & 1 << i and in_degrees[i] == 0]
+            ans = math.inf
+            # Check all combinations with size k
+            for k_nodes in combinations(nodes, min(k, len(nodes))):
+                new_mask, new_in_degrees = mask, list(in_degrees)
+                # set bit for all nodes in combination
+                for node in k_nodes:
+                    new_mask ^= 1 << node
+                    for child in graph[node]:
+                        new_in_degrees[child] -= 1
+                # recurse
+                ans = min(ans, 1+dfs(new_mask, tuple(new_in_degrees)))
+            return ans
+        return dfs((1<<n)-1, tuple(in_degrees))
+```
+
+#### Parallel Courses II
+
+- Without the requirement `k`, this would be a topological problem
+- Why do we need DP? There is no optimal subproblem on which course should be taken first.
+### Scheduling Problems
 [[LC-207. Course Schedule]]
 [[LC-210. Course Schedule II]]
 
 
 
-# Related
+## Related
 - [[Cycle Detection in Directed Graphs]]

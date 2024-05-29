@@ -81,7 +81,7 @@ def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
 
 ## DP Tricks
 
-- Memoizing with dictionary by using sets/lists as keys
+- Memoizing with dictionary by using sets as keys
 
 # Essentials
 
@@ -100,7 +100,7 @@ def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
 
 https://leetcode.com/problems/sum-of-distances/description/
 
-- Store occurences/indices in dictionary
+- Store occurrences/indices in dictionary
 - Iterate all indices of each key in the dictionary
 - Build prefix and suffix sum for each key
 - Complexity: O(n) for each number + O(n) to sum
@@ -251,6 +251,7 @@ def permuteUnique(self, nums: List[int]) -> List[List[int]]:
 - keep track of how many numbers are needed (only backtrack if available numbers is enough for remaining numbers needed)
 
 ```python
+# Get all combinations of size k for elements in 1..n
 def combine(self, n: int, k: int) -> List[List[int]]:
 	combination, res = [], []
 
@@ -259,11 +260,13 @@ def combine(self, n: int, k: int) -> List[List[int]]:
 			res.append(combination.copy())
 			return
 
-		remain = (n+1) - i
+		remain = n - i + 1
 		available = remain-need
 
 		for j in range(i, i + available + 1):
 			combination.append(j)
+			backtrack(i, combination)
+			combination.pop()
 	return res
 ```
 

@@ -9,6 +9,24 @@ This is common when merging intervals (stock span, largest rectangle in histogra
 
 Always remember to clear non empty stack at the end of loops
 
+## Applications
+
+https://leetcode.com/problems/score-of-parentheses/
+
+### 
+
+```python
+ def scoreOfParentheses(self, s: str) -> int:
+    stack = [0]
+    for x in s:
+        if x == '(':
+            stack.append(0)
+        else:
+            v = stack.pop()
+            stack[-1] += max(2*v, 1)
+    return stack[0]
+```
+
 ## Useful tools we can make with stacks
 - Monotonically inc/dec stacks
 - Strictly inc/dec stacks

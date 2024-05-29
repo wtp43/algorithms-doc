@@ -3,9 +3,69 @@
 # Binary Search
 
 > [!tip] Intuition
-> Useful when f(x) is monotonically increasing/decreasing and the range for which x exists on is very large
+> Can be used when `f(x)` is monotonically increasing/decreasing and the range for which `x` exists on is very large
 
+- Binary Search should be equal to Bisect Left in the case of no duplicates
 
+## Bisect Left
+- lo will be the first num $\leq$ x
+- Repeatedly move right border towards the left if there are duplicates
+- ``if target == arr[mid]: hi = mid-1
+
+```python
+def bisect_left(arr, x):
+	i = 0
+	j = len(arr)-1
+	while i <= j:
+		mid = i + (j - i)//2
+		if arr[mid] >= x:
+			j = mid - 1
+		else:
+			i = mid + 1
+	return i
+```
+
+## Bisect Right
+- lo will be the first num > x
+- hi will be the greatest num <= x
+- ``if target == arr[mid]: lo = mid+1
+
+## Implementation
+
+- Implementation differs only at the equality comparison
+- Bisect left:
+	- If condition is met:
+		- always decrease right
+-  Bisect right
+	- If condition is met:
+		- always increase left
+
+```python
+def bisect_left(arr, x):
+	lo = 0
+	hi = len(arr)-1
+	while lo <= hi:
+		mid = lo + (hi - lo)//2
+    # in bisect left, to return lo, the condition must be strictly > or strictly <
+		if arr[mid] < x:
+			lo = mid + 1
+		else:
+			hi = mid - 1
+	return lo
+
+lo = first position where arr[lo] > x
+hi = position before lo
+	lo = 0
+	hi = len(arr)-1
+	while lo <= hi:
+		mid = lo + (hi - lo)//2
+		if arr[mid] <= x:
+			lo = mid + 1
+		else:
+			hi = mid - 1
+	return lo
+
+# Related
 ## Structure
 
 - The only difference in the following 3 types of binary search is what happens when f(x) is equal to the target
@@ -23,7 +83,166 @@ EXCALIDRAW DIAGRAM HERE
 ### Bisect Right
 - lo will be the first index for which f(lo) > target 
 - hi will be the greatest index for which f(lo) <= target
+
 ## Applications
+
+### Replacing DP
+
+#### Minimize Maximum Difference of Pairs
+
+- we don't need DP here because the minimum difference between two pairs occur next to each in a sorted array
+- DP solution:
+- Binary search
+  - Sort (differences will be minimized)
+  - Binary search the maximum difference on range (0, max difference of all pairs)
+
+```python
+def minimizeMax(self, nums: List[int], p: int) -> int:
+	nums.sort()
+	lo = 0
+	hi = nums[-1]-nums[0]
+	n = len(nums)
+	while lo <= hi:
+		mid = lo + (hi-lo)//2
+		cnt = i = 0
+		while i < n-1:
+			if nums[i+1] - nums[i] <= mid:
+				cnt += 1
+				## skip the 2nd num used in the pair
+				i += 1
+			i += 1
+		if cnt < p:
+			lo = mid+1
+		else:
+			hi = mid-1
+	return lo
+	# nLogV + nlogn, V = maximum difference in array,
+	# in each step of the binary search (total logV steps)
+	# we have to determine how many pairs are valid (n steps)
+```
+#### Kth Smallest Pair Distance
+https://leetcode.com/problems/find-k-th-smallest-pair-distance
+```python
+    def smallestDistancePair(self, nums: List[int], k: int) -> int:
+        start = 0
+        end = max(nums)
+        n = len(nums)
+        # sort to calc min distances iteratively
+        nums.sort()
+        # how many pairs have less distance than cur
+        def count(nums, dist):
+            ans = i = j = 0
+            while i < n or j < n:
+                while j < n and nums[j] - nums[i] <= dist:
+                    j += 1
+                ans += j-i-1
+                i += 1
+            return ans
+
+        while start <= end:
+            mid = start + (end-start)//2
+            if count(nums,mid) < k:
+                start = mid + 1
+            else:
+                end = mid - 1
+        return start
+```
+
+#### Largest Subarray Sum After K Splits
+
+https://leetcode.com/problems/split-array-largest-sum/description/
+
+```python
+def splitArray(self, nums: List[int], k: int) -> int:
+        def count(nums, limit):
+            ans = 1
+            cur = 0
+            for x in nums:
+                if cur + x > limit:
+                    ans += 1
+                    cur = 0
+                cur += x
+            return ans
+
+        start, end = max(nums), sum(nums)
+        while start <= end:
+            mid = start + (end-start)//2
+            if count(nums, mid) <=  k:
+                end = mid-1
+            else:
+                start = mid+1
+        return start
+```
+
+#### Kth Smallest Number in Multiplication Table
+
+https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/description/
+
+```python
+    def findKthNumber(self, m: int, n: int, k: int) -> int:
+        def count(x):
+            ans = 0
+            for i in range(1, m+1):
+                ans += min(x//i, n)
+            return ans
+        lo, hi = 1, m*n
+        while lo <= hi:
+            mid = (lo + hi)//2
+            if count(mid) < k:
+                lo = mid+1
+            else:
+                hi = mid-1
+        return lo
+```
+
+### Median of Two Sorted Arrays
+
+https://leetcode.com/problems/median-of-two-sorted-arrays/description/
+
+- O(m+n): Merge both arrays and then binary search
+- O(log(m + n)): smart binary search
+  https://leetcode.com/problems/median-of-two-sorted-arrays/editorial/
+
+
+### Practice Problems
+
+#### Kth Smallest Amount With Single Denomination Combination
+
+https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/
+
+```python
+    def findKthSmallest(self, coins: List[int], k: int) -> int:
+        n = len(coins)
+        d = defaultdict(list)
+        # lcm of all combinations: O(2**n)
+        for i in range(1, n+1):
+            for comb in itertools.combinations(coins, i):
+                d[len(comb)].append(math.lcm(*comb))
+
+        def count(d, target):
+            ans = 0
+            for i in range(1, n+1):
+                for lcm in d[i]:
+                    ans += target // lcm * pow(-1, i+1)
+            return ans
+        start, end = min(coins), min(coins) * k
+        while start<= end:
+            mid = (start + end) // 2
+            c = count(d, mid)
+            if c >= k:
+                # continue iterating until we find a valid number
+                end = mid -1
+            else:
+                start = mid+ 1
+        if count(d, start) >= k:
+            return start
+        else:
+            return end
+```
+
+
+
+
 
 
 - [ ] [[LC-1752. Check if Array Is Sorted and Rotated]] (Find the pivot if sorted array is rotated)

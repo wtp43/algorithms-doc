@@ -21,3 +21,7 @@ Number of items in an array = j-i+1
 	- returns true if the pointer corresponding to the subsequence is equal to n after all iterations
 
 - [ ] https://leetcode.com/problems/unique-email-addresses/
+
+
+## Circular Array
+https://leetcode.com/problems/maximize-greatness-of-an-array/submissions/1271130762/

@@ -40,27 +40,7 @@
 	- [ ] https://leetcode.com/problems/critical-connections-in-a-network/
 
 
-## Union Find (Cycle detection)
-Works for undirected graphs
-- [ ] [[LC-684. Redundant Connection]]
-- This is the case where the tree has no cycles and is an undirected graph. Then we just need to remove one of the two edges that make up the node with indegree 2.
-- Use union find to detect if nodes u,v in the edge (u,v) have the same parent. If they do, this edge is redundant
 
-- [ ] [[LC-685. Redundant Connection II]]
--  A valid graph in this context is a single rooted tree (directed graph) with no cycles. This graph is given a single extra edge.
-- An edge that is redundant if it is one of two edges that enter the same node or an edge in a cycle. In the case that both scenario happens, we need to remove the edge inside the cycle otherwise it only solves one of the two problems.
-- Since we are not sure which edge to remove to ensure that the node has indegree of 1, we have to keep track both edges. We want to remove the edge that is part of a cycle if there exists one. 
-- It will help to store the previous node of each node in a dictionary.
-- Union find will help us detect the cycle
-
-- [ ] [[LC-261. Graph Valid Tree]]
-- A valid tree has 1 connected component with no cycles
-- Reduces to redundant connection
-- An extra check is required at the end to see if the edges have connected all the components
-
-- [ ] <mark style="background: #FD4E00;">M</mark> [[LC-323. Number of Connected Components in an Undirected Graph]] 
-- Union find
-- Reduce the number of connected components every time we take the union of nodes u and v
 
 
 ## DFS

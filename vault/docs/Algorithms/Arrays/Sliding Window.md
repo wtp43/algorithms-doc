@@ -1,10 +1,12 @@
 ---
 ---
-
+# Sliding Window
 - Sum of window and prefix sums are useful
-- <mark style="background: #FFB86CA6;">What is the state of the window we need to keep track of?</mark>
+- What is the state of the window we need to keep track of?
 
-Generally, sliding window only works for positive numbers. 
+
+> [!note] Sliding Window Restriction
+> Sliding window only works for positive numbers as it assumes increasing the window size will also increase the current counter.
 
 Check validity of window.
 The number of starting positions for the window is the number of elements in the array = j-i+1
@@ -22,7 +24,6 @@ for (; j < N; ++j) {
 }
 return ans;
 ```
-
 
 
 https://leetcode.com/problems/frequency-of-the-most-frequent-element/
@@ -93,4 +94,4 @@ public:
 - [ ]   930.  [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/discuss/186683/)
 - [ ]   992.  [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC%2B%2BPython-Sliding-Window)
 
-# [[Dynamic Programming (DP)#DP + Sliding Window]]
+##  Advanced: Sliding Window + DP

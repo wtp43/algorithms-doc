@@ -1,37 +1,31 @@
 ---
 ---
->[!note]
->Union Find stores the index of each element's parent 
+# Union Find
+- Stores an array indicating which elements in the array are connected to each other
+- Can be augmented to store additional information about each component (size, sum, etc.)
 
+>[!note]
+>Union Find stores the index of each element's parent in an array.
 ## Union Find Optimizations
 
-- Weighted union: Keep track of size to keep balanced trees. Root of subtree with lesser number of nodes points towards the root of subtree with larger amount of nodes which leads to reduction of tree's height
+### Weighted Union (by Size or Rank): 
+- Keep track of size to keep balanced trees. Root of subtree with lesser number of nodes points towards the root of subtree with larger amount of nodes which leads to reduction of tree's height
 	- These will not necessarily result in binary trees
 	- This limits the total depth of the tree to O(logn) because the depth of nodes only in the smaller tree will now increase by one and the depth of the deepest node in the combined tree can only be at most one deeper than the deepest node before the trees were combined. The total number of nodes in the combined tree is therefore at least twice the number in the smaller subtree. Thus the depth of any node can be increased at most logn times where n equivalences are processed (since each addition to the depth must be accompanied by at least doubling the size of the tree).
 	- https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/UnionFind.html
-- Path compression when finding parents
-- Weighted Union by Rank
-	- Instead of saving the size, save the rank/height of the trees
-```python
-# x and y are not in same set, so we merge them
-if xRoot.rank < yRoot.rank 
-  xRoot.parent := yRoot 
-else if xRoot.rank > yRoot.rank
-  yRoot.parent := xRoot
-else
- xRoot.parent := yRoot
- yRoot.rank   := yRoot.rank + 1
-```
+### Path Compression
+- Shorten path to parent
 
-## Disjoint Sets to find longest consecutive sequence in a set
 
+## Python Implementation
+- We can either union by rank/height or size
 
 ```python
 class Union_find:
 	def __init__(self,n):
 		self.n = n
 		self.parent = list(range(n))
-		self.size = [1]*n
+		self.rank = [1]*n
 
 	#Path compression used to shorten path to parent O(loglogn)
 	def find(self,x):
@@ -39,31 +33,34 @@ class Union_find:
 			self.parent[x] = self.find(self.parent[x])
 		return self.parent[x]
 
-	#Observe that it is the parents of i,j that are being merged
+	# Union modifies the parent array
 	def union(self, x, y):
-		i = self.find(x)
-		j = self.find(y)
-		
-		if i == j:
+		px = self.find(x)
+		py = self.find(y)
+
+		if px == py:
 			return
 		# bigger parent stays the parent
-		if self.size[i] < self.size[j]:
-			self.parent[i] = j
-			self.size[j] += self.size[i]
+		if self.rank[px] == self.rank[py]:gg
+			self.parent[px] = py
+			self.rank[py] += 1
+		elif self.rank[px] < self.rank[py]:
+			self.parent[px] = py
 		else:
-			self.parent[j] = self.parent[i]
-			self.size[i] += self.size[j]
-			
-	def union(self, x, y):
-        xr, yr = self.find(x), self.find(y)
-        if xr == yr:
-            return False
-        if self.sz[xr] < self.sz[yr]:
-            xr, yr = yr, xr
-        self.par[yr] = xr
-        self.sz[xr] += self.sz[yr]
-        return True
+			SElf.rank[py] = self.rank[px]
 ```
+
+## Applications
+
+### Connected Components
+- Union all edges (u, v)
+- Alternatively, Start DFS at the next unvisited node
+  - Increment components by one, update visited nodes
+
+
+### Find Longest Consecutive Sequence in a set
+  - Keep track of seen numbers in hash map
+  - Union current current component to existing components
 
 ```python
 def longest_consecutive_sequence(nums):
@@ -80,7 +77,7 @@ def longest_consecutive_sequence(nums):
 	return max(uf.size) if nums else 0
 ```
 
-## Cycle Detection for Undirected Graphs
+### Cycle Detection for Undirected Graphs
 
 - UF does not work for directed graphs
 - Create UF for number of vertices
@@ -107,3 +104,24 @@ When we say 'a union b' we cannot make out the direction of edge
 But, incase of undirected graphs, each connected component is equivalent to a set. So union-find can be used to detect a cycle. Whenever you try to perform union on two vertices belonging to the same connected component, we can say that cycle exists.
 
 Source: https://stackoverflow.com/questions/61167751/can-we-detect-cycles-in-directed-graph-using-union-find-data-structure
+
+### Examples
+[[LC-684. Redundant Connection]]
+- This is the case where the tree has no cycles and is an undirected graph. Then we just need to remove one of the two edges that make up the node with indegree 2.
+- Use union find to detect if nodes u,v in the edge (u,v) have the same parent. If they do, this edge is redundant
+
+ [[LC-685. Redundant Connection II]]
+-  A valid graph in this context is a single rooted tree (directed graph) with no cycles. This graph is given a single extra edge.
+- An edge that is redundant if it is one of two edges that enter the same node or an edge in a cycle. In the case that both scenario happens, we need to remove the edge inside the cycle otherwise it only solves one of the two problems.
+- Since we are not sure which edge to remove to ensure that the node has indegree of 1, we have to keep track both edges. We want to remove the edge that is part of a cycle if there exists one. 
+- It will help to store the previous node of each node in a dictionary.
+- Union find will help us detect the cycle
+
+[[LC-261. Graph Valid Tree]]
+- A valid tree has 1 connected component with no cycles
+- Reduces to redundant connection
+- An extra check is required at the end to see if the edges have connected all the components
+
+[[LC-323. Number of Connected Components in an Undirected Graph]] 
+- Union find
+- Reduce the number of connected components every time we take the union of nodes u and v
