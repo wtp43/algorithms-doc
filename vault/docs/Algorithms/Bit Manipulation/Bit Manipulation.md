@@ -4,6 +4,7 @@ created: 2023-01-04
 ---
 # Bit Manipulation
 
+<<<<<<< HEAD
 ## Bit Operations
 
 - Largest bit will be greater than all other bits combined
@@ -178,6 +179,14 @@ def hasAllCodes(self, s: str, k: int) -> bool:
 
 
 https://leetcode.com/problems/find-the-k-th-lucky-number/?envType=weekly-question&envId=2024-05-29
+=======
+### Bit Operation Properties
+```python
+a^b is equivalent to subtracting b from a
+a^b == 0 if and  only if a == b
+```
+
+>>>>>>> 5a71c508d3099d93f3f323e8771832c0fd64195d
 # Related
 https://leetcode.com/problems/sum-of-two-integers/solutions/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/
 
