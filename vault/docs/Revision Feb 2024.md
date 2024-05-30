@@ -2482,6 +2482,18 @@ def KMP(s, t):
 	return f
 ```
 
+```python
+def longestPrefix(self, s: str) -> str:
+	a = [0]*len(s) 
+	k = 0
+	for i in range(1,len(s)): 
+		k = a[i-1]
+		while k and s[k] != s[i]: 
+			k = a[k-1]
+		f[i] = k + (s[k]==s[i]) 
+	return a[:f[-1]]
+```
+
 Space/Time Complexity: O(m + n)
 ##### Searching for All Occurrences
 https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/

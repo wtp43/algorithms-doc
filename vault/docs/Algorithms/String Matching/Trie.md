@@ -4,7 +4,7 @@ created: 2023-01-06
 ---
 # Trie
 
-# Implementation
+## Implementation
 
 ```python
 class TrieNode:
@@ -50,19 +50,11 @@ class Trie:
         return True
 ```
 
-# Pre Order Traversal
+## Optimization:  Pre Order Traversal
 To find all words in sorted order, iterate the alphabet instead of sorting the words.
 Then we are guaranteed O(n) instead of O(nlogn) for the sort.
 
-
-## Optimizations
-
-## Optimized Complexity
-
->[!Time Complexity]+
-
->[!Space Complexity]+
-
-
-
-# Related
+## Practice Problems
+- [ ] [[LC-1268. Search Suggestions System]]
+- Preorder traversal of a trie
+	- Do not sort. Loop the alphabet instead

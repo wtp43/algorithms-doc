@@ -332,7 +332,7 @@
                 {
                   "title": "Trees",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Trees.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Search Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
@@ -398,7 +398,7 @@
                 {
                   "title": "Graph Structures",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Advanced Data Structures/Graph Structures.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Graph Structures.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
@@ -754,7 +754,7 @@
                 {
                   "title": "Segment Tree",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Segment Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Segment Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -820,7 +820,7 @@
                 {
                   "title": "Binary Lifting",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Lifting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Lifting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -904,7 +904,7 @@
                 {
                   "title": "Binary Lifting",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Lifting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Lifting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
@@ -1000,13 +1000,143 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Revision Feb 2024",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Revision Feb 2024.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2490,\"ch\":0},\"to\":{\"line\":2490,\"ch\":0}},\"scroll\":2496.0509868421054}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Revision Feb 2024.md",
+                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d6ae885c084a9a1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Binary Search",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Arrays",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Arrays.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":126,\"ch\":15},\"to\":{\"line\":126,\"ch\":15}},\"scroll\":111.33082706766918}"
+                },
+                {
+                  "title": "Binary Search Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Search Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
+                },
+                {
+                  "title": "Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Graph Structures",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Graph Structures.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Graph Theory",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Graph Theory.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":83.37993421052632}"
+                },
+                {
+                  "title": "Segment Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Segment Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Trie",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":5},\"to\":{\"line\":4,\"ch\":5}},\"scroll\":4}"
+                },
+                {
+                  "title": "Trie 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Trie",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "Trie 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Trie",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
+                },
+                {
+                  "title": "Knuth-Morris-Pratt (KMP)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":10},\"to\":{\"line\":64,\"ch\":10}},\"scroll\":53.27568922305765}"
+                },
+                {
+                  "title": "Trie 1",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Trie 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "String Matching",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/String Matching.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Revision Feb 2024",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Revision Feb 2024.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2514,\"ch\":0},\"to\":{\"line\":2440,\"ch\":0}},\"scroll\":2422.4975074775675}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -1014,7 +1144,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -1091,8 +1221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -1117,7 +1246,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Revision Feb 2024.md",
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1143,7 +1272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Revision Feb 2024.md",
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1202,7 +1331,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Revision Feb 2024.md"
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md"
               }
             }
           }
@@ -1224,10 +1353,23 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "fd3cf59eb9ab8047",
+  "active": "5d6ae885c084a9a1",
   "lastOpenFiles": [
-    "docs/TODO/Revision 1.md",
+    "docs/Algorithms/Binary Search/Binary Search.md",
+    "docs/Algorithms/Arrays/Arrays.md",
+    "docs/Algorithms/Binary Tree/Tree.md",
+    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
+    "docs/Algorithms/Graphs/Graph Structures.md",
+    "docs/Algorithms/Advanced Data Structures/Binary Search Tree (BST).md",
+    "docs/Algorithms/Graphs/Graph Theory.md",
+    "docs/Algorithms/Binary Tree/Segment Tree.md",
+    "docs/Algorithms/String Matching/Trie.md",
+    "docs/Algorithms/String Matching/Trie 1.md",
+    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+    "docs/Algorithms/String Matching/String Matching.md",
+    "docs/Revision Feb 2024.md",
     "docs/Algorithms/Arrays/Prefix Sums.md",
+    "docs/TODO/Revision 1.md",
     "docs/Algorithms/Arrays/Subset Sum.md",
     "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
@@ -1240,23 +1382,10 @@
     "docs/Algorithms/Hash Map/Hashing.md",
     "docs/Algorithms/Graphs/Graphs.md",
     "docs/Algorithms/Combinatorics and Number Theory/Mathematics.md",
-    "docs/Basic Strategies/Data Structures.md",
-    "docs/Algorithms/Arrays/Sliding Window Template.md",
-    "docs/Untitled.md",
-    "docs/TODO/Range Minimum Query Problem.md",
-    "docs/TODO/negative weight cycles.md",
-    "docs/Algorithms/Graphs/DFS.md",
-    "docs/Algorithms/Advanced Data Structures/DS.md",
-    "docs/Algorithms/Stacks/Minimum Queue.md",
-    "docs/Algorithms/Stacks/Monotonic Queue.md",
     "docs/Algorithms/Stacks",
     "docs/Algorithms/Hash Map",
-    "docs/Algorithms/Graphs/BFS.md",
     "docs/Algos/Arrays/Untitled",
-    "docs/Algos/Arrays/Untitled.md",
-    "docs/Algorithms/Intervals/Segment Tree.md",
     "docs/Algorithms/Binary Tree",
-    "docs/Algorithms/Sorting Algorithms/Top K Numbers.md",
     "docs/Algorithms/Intervals",
     "docs/Algos Practice/Palindromes",
     "docs/Algorithms/String Matching",
