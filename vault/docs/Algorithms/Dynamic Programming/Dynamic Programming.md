@@ -8,9 +8,32 @@ created: 2023-01-31
 	- A problem is said to have overlapping subproblems if the problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems.
 -   **Optimal Substructure**
 	- A problem is said to have optimal substructure **if an optimal solution can be constructed from optimal solutions of its subproblems**.
+	- The decisions we make depends on previously made decisions, which is very typical of a problem involving subsequences.
 
 >[!note] Intuition
 >Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
+
+
+## List of Common Problems
+> Problems for which Greedy don't work for. Build intuition by using good test cases.
+- 0-1 Knapsack
+- Subset Sum
+- Longest Increasing Subsequence
+- Minimum Set/Vertex Cover
+	- Test case `[0-3, 1-6, 4-7]`
+	- Greedy would take `1-6` first resulting in a suboptimal covering
+- Counting all possible paths from top left to bottom right corner of a matrix
+- Longest Common Subsequence
+- Longest Path in a Directed Acyclic Graph (DAG)
+- Coin Change
+- Longest Palindromic Subsequence
+- Rod Cutting
+- Edit Distance
+- Bitmask Dynamic Programming
+- Digit Dynamic Programming
+- Dynamic Programming on Trees
+
+
 ## Common Applications
 
 ### Subsequences

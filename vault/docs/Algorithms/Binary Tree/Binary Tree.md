@@ -237,3 +237,29 @@ def verifyPreorder(self, preorder: List[int]) -> bool:
   - pop from stack if we encounter a smaller number than top of stack
     - This means we are now on the left side of the tree, new nodes cannot be greater than this parent value
   - add to stack if we encounter numbers greater than the current (we are in the right side of the tree)
+
+
+### LCA 
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/
+- If we are at the LCA, then p and q must be on different sides of the tree
+
+```python
+def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        def dfs(node):
+            if not node:
+                return None
+            if node == p or node == q:
+                return node
+            
+            left = dfs(node.left)
+            right = dfs(node.right)
+
+            if left and right:
+                return node
+            elif left:
+                return left
+            else:
+                return right
+        
+        return dfs(root)
+```

@@ -29,10 +29,17 @@ We use a Hash Map to find if a previous prefix sum exists.
 [[LC-523. Continuous Subarray Sum]]
 - Reduces to subarray sum equals k. 
 - Initialize `prefix_sums[0] = 1` for the case that we use the entire prefix_sum
+
+## Range Based Problems
+
+### Difference Array + Binary Search
+
 ## Applications
 
 ### Sum of Ranges
 https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+
 
 ### Tracking Valid Subarrays
 
@@ -89,6 +96,44 @@ def maxChunksToSorted(self, arr: List[int]) -> int:
             if maxPrefix <= minSuffix[i+1]:
                 partition += 1
         return partition
+```
+
+
+## Tracking Multiple Prefixes
+### Count Triplets
+https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
+
+- Use one map to store number of occurrences
+- Use another map to store the 'total contributions' of the previous occurrences
+	- Here, we want the lengths of all previous subarrays that have the same prefix
+	- We can do so by storing the cumulative distance of all x's to 0
+
+```python
+def countTriplets(self, arr: List[int]) -> int:
+        res = 0
+        prefix = 0
+        # Store occurences
+        count = defaultdict(int)
+        # Base case: The current array[:i] satisfies the requirement
+        count[0] = 1
+        # Store cumulative distance from 0 to ith element where key = prefix[i]
+        indices_sum = defaultdict(int)
+
+        # Iterating through the array
+        for i in range(len(arr)):
+            prefix ^= arr[i]
+            res += count[prefix] * i - indices_sum[prefix]
+
+            # ---x----x----x
+            # ---i----j-----k:
+            # to get m's contribution :
+            # k-i-1 + j-j-1
+            # -1 because i < j <=k, so we can't pick i to be j 
+
+            # Updating total count of current XOR value
+            indices_sum[prefix] += i+1
+            count[prefix] += 1
+        return res
 ```
 
 ### Sweep Line

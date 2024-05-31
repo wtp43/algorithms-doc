@@ -46,6 +46,34 @@ n | (n+1)
 #Extract last set bit
 n & -n
 
+#Isolate rightmost 1-bit and set all others bits to 0
+n & (-n) 
+
+```
+
+### Keeping Track of Numbers + Splitting Them Into Groups 
+- Find the two numbers that occur only once in an array of numbers that occur twice
+- If a number occurs twice, the XOR of both of them is 0
+- Use a mask to first get the XOR of the two missing numbers
+- To separate them, we need a second XOR mask that has the rightmost bit of the first mask set to 1. 
+```python
+def singleNumber(self, nums: int) -> List[int]:
+        # difference between two numbers (x and y) which were seen only once
+        bitmask = 0
+        for num in nums:
+            bitmask ^= num
+        
+        # rightmost 1-bit diff between x and y
+        diff = bitmask & (-bitmask)
+        
+        x = 0
+        for num in nums:
+            # bitmask which will contain only x
+            if num & diff:
+                x ^= num
+        
+        return [x, bitmask^x]
+                
 ```
 
 ### Minimum Operations to Form Subsequence with Target Sum
