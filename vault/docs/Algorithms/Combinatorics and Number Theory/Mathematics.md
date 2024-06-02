@@ -33,7 +33,7 @@ def addToArrayForm(self, num: List[int], k: int) -> List[int]:
         return [int(i) for i in str(k)] + num if k else num
 ```
 
-
+- Division is transitive
 ## Factorization
 
 ### Finding kth Factor of n

@@ -34,9 +34,7 @@ created: 2023-01-31
 - Dynamic Programming on Trees
 
 
-## Common Applications
-
-### Subsequences
+## Subsequences
 #### Longest Increasing Subsequence (LIS)
 
 - DP: 0(n^2)
@@ -120,5 +118,53 @@ def coinChange(self, coins: List[int], amount: int) -> int:
 
 ```
 
+## Largest Subset
+### Largest Divisible Subset
+https://leetcode.com/problems/largest-divisible-subset/
+
+```python
+def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
+        
+        def EDS(i):
+            """ recursion with memoization """
+            if i in memo:
+                return memo[i]
+            
+            tail = nums[i]
+            maxSubset = []
+            # Check which previous subset can be extended with nums[i]
+            for p in range(0, i):
+                if tail % nums[p] == 0:
+                    subset = EDS(p)
+                    if len(maxSubset) < len(subset):
+                        maxSubset = subset
+            
+            # extend the found max subset with the current tail.
+            maxSubset = maxSubset.copy()
+            maxSubset.append(tail)
+            
+            memo[i] = maxSubset
+            return maxSubset
+        
+        # test case with empty set
+        if len(nums) == 0: 
+            return []
+        
+        # sort is important because of transitivity of division
+        # if a | b and b | c then a | c
+        nums.sort()
+
+        # memoize largest subset that ends on nums[i]
+        memo = {}
+    
+        # Find the largest divisible subset
+        return max([EDS(i) for i in range(len(nums))], key=len)
+```
+
+## Bitmask DP 
+- Space optimization for subset
+### Minimum Vertex Cover
+https://leetcode.com/problems/smallest-sufficient-team/description
+- Optimization: Remove all inputs that are subsets of another
 # Related
 ## [[LC-174. Dungeon Game]]

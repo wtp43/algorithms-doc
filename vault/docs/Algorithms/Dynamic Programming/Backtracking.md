@@ -38,11 +38,14 @@ def backtrack(candidate):
 
 ## Applications
 
-### Item Matching/Distribution
+### Knapsack/Item Matching/Distribution/Subset
 https://leetcode.com/problems/distribute-repeating-integers/
+-     Greedy does not work because assigning the greatest x to the greatest y is not optimal
+	- Consider `quantities=[a,a,a,a,b,b,b], groups=[2,2,3]`, greedy would take 3 'a's 
+- This problem reduces to 0/1 Knapsack. Greedy only works for fractional knapsack 
 ```python
 def canDistribute(self, nums: List[int], quantity: List[int]) -> bool:
-    # why does greedy not work here
+
     count = Counter(nums)
     n = len(quantity)
     # we only need the len(quantity) greatest numbers

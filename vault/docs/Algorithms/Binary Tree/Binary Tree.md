@@ -33,6 +33,25 @@ def closestValue(self, root: TreeNode, target: float) -> int:
 	return closes
 ```
 
+#### Pruning
+https://leetcode.com/problems/binary-tree-pruning/
+- Delete all subtrees without a '1'
+
+```python
+def pruneTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+        def dfs(root):
+            if not root:
+                return False
+            left = dfs(root.left)
+            right = dfs(root.right)
+            if not left:
+                root.left = None
+            if not right:
+                root.right = None
+            return root.val == 1 or left or right
+        return root if dfs(root) else None
+```
+
 ### Width Type Questions
 
 - ie: check for completeness
@@ -262,4 +281,38 @@ def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -
                 return right
         
         return dfs(root)
+```
+
+
+
+### Generating All Possible BST
+https://leetcode.com/problems/unique-binary-search-trees-ii/
+- Take the product of all left and right trees for root = i
+```python 
+def generateTrees(self, n: int) -> List[Optional[TreeNode]]:
+        res = []
+        @lru_cache(None)
+        def dfs(x,y):
+            res = []
+            if x >= y:
+                return [None]
+            if x == y-1:
+                return [TreeNode(x)]
+            #pick root
+            for i in range(x,y):
+                left = dfs(x, i)
+                right = dfs(i+1, y)
+                for l in left:
+                    for r in right:
+                        res.append(TreeNode(i, l, r))
+            return res
+        
+        for i in range(1,n+1):
+            left = dfs(1,i)
+            right = dfs(i+1, n+1)
+            for l in left:
+                for r in right:
+                    res.append(TreeNode(i, l, r))
+
+        return res
 ```

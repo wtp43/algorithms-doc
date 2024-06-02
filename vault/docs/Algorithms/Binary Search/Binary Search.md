@@ -195,6 +195,53 @@ https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/descri
         return lo
 ```
 
+
+## Binary Search + Greedy
+>[!intuition] Tip
+>Greedy: Greedily find the first strongest worker that can complete task[j]. If it isn't possible check if it is possible with pills.
+>The best worker[i] to increase is not the weakest one or the strongest one but the one with smallest difference = task[j]-worker, for a worker that has not yet been assigned. Use bisect_left and SortedList with O(logn) removal from a list). 
+https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/
+```python
+# sorted list has removal in logn
+from sortedcontainers import SortedList
+
+class Solution:
+    def maxTaskAssign(self, tasks: List[int], workers: List[int], pills: int, strength: int) -> int:
+        n = len(workers)
+        tasks.sort()
+        workers.sort()
+        def valid(k):
+            # take k strongest workers
+            W = SortedList(workers[n-k:])
+            p = pills
+            # we cannot greedily assign the pills
+            # have to search for the smallest (strength + workers[i] that is greater than the current task)
+            for t in tasks[:k][::-1]:
+                #limit search to workers[x:n-x]
+                ind = W.bisect_left(t)
+                if ind < len(W):
+                    W.pop(ind)
+                elif p > 0:
+                    ind = W.bisect_left(t - strength)
+
+                    if ind < len(W):
+                        W.pop(ind)
+                        p -= 1
+                else:
+                    return False
+            return len(W) == 0
+
+        lo,hi = 0, min(len(workers), len(tasks))
+        while lo <= hi:
+            mid = (lo+hi)//2
+            if valid(mid):
+                lo = mid+1
+            else:
+                hi = mid-1
+        return hi
+```
+
+
 ### Median of Two Sorted Arrays
 
 https://leetcode.com/problems/median-of-two-sorted-arrays/description/
