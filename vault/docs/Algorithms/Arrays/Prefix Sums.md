@@ -1,6 +1,6 @@
 ---
 ---
-# Prefix Sums
+# Prefix Sums/ Frequency Map
 - Can be used if dealing with Subarrays
 - Store some 'useful value' for all prefixes in an array
 - Don't forget the base cases for the prefix sums
@@ -29,6 +29,13 @@ We use a Hash Map to find if a previous prefix sum exists.
 [[LC-523. Continuous Subarray Sum]]
 - Reduces to subarray sum equals k. 
 - Initialize `prefix_sums[0] = 1` for the case that we use the entire prefix_sum
+## Frequency Map 
+- Frequency map can also be thought of as a prefix sum
+### Find Subarray with Bitwise & Closest to K
+https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
+- & property: monotonically decreasing
+- Sliding window + frequency map to store all ith bits
+- Decrease window if mask < k, frequency map helps restore the ith bit to 1 if the freq[i] == j-i, where j-i is the length of the decreased window length
 
 ## Range Based Problems
 
@@ -39,7 +46,36 @@ We use a Hash Map to find if a previous prefix sum exists.
 ### Sum of Ranges
 https://leetcode.com/problems/subarray-sum-equals-k/description/
 
+```python
+def minimumDifference(self, nums: List[int], k: int) -> int:
+        res = abs(nums[0]-k)
+        mask = nums[0]
+        freq = [0]*32
+        i = 0
+        # freq map is helpful to restore bitmask
+        for j in range(len(nums)):
+            for ind in range(32):
+                if nums[j] & 1<<ind:
+                    freq[ind] += 1
+            mask &= nums[j]
+            res =min(res, abs(mask-k))
+            while mask < k and i < j:
+                for ind in range(32):
+                    if nums[i] & 1<<ind:
+                        freq[ind] -= 1
+                    if freq[ind] == j-i:
+                        mask |= 1<<ind
+                res =min(res, abs(mask-k))
+                i += 1
+        return res
+```
 
+
+### Minimum Operations to Make All Array Elements Equal
+
+![[Pasted image 20240604181855.png]]
+Source: https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/solutions/3341928/c-java-python3-prefix-sums-binary-search/
+- 
 
 ### Tracking Valid Subarrays
 

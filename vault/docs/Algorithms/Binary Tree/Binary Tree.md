@@ -316,3 +316,9 @@ def generateTrees(self, n: int) -> List[Optional[TreeNode]]:
 
         return res
 ```
+
+
+### Traversing Through Parent
+- Approach 1: DFS and build undirected graph with edges from parent <-> child, then BFS on undirected graph
+- Approach 2: Store parents of each node in hash map and DFS with distance counter
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/

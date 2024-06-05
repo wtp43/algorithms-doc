@@ -14,15 +14,15 @@
 
 ```python
 def bisect_left(arr, x):
-	i = 0
-	j = len(arr)-1
+	lo = 0
+	hi = len(arr)-1
 	while i <= j:
-		mid = i + (j - i)//2
+		mid = lo + (hi - lo)//2
 		if arr[mid] >= x:
-			j = mid - 1
+			hi = mid - 1
 		else:
-			i = mid + 1
-	return i
+			lo = mid + 1
+	return lo
 ```
 
 ## Bisect Right

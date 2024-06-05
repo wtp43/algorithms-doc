@@ -150,4 +150,4 @@ class Solution:
 
 
 ## Related
-- [[Cycle Detection in Directed Graphs]]
+- [[Cycle Detection]]

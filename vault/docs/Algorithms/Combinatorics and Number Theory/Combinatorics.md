@@ -23,8 +23,14 @@
 
 
 ## DP
+- Useful for aggregating multiple combinations/permutations
+
 ### Count number of answers 'with some conditions' that end in 'X'
 https://leetcode.com/problems/student-attendance-record-ii/solutions/101639/pure-math-and-easy-to-understand-python-o-n-solution/
 
 ### DFS with States
 https://leetcode.com/problems/student-attendance-record-ii/description/
+
+
+### Count in Valid Intervals
+https://leetcode.com/problems/plates-between-candles/description/

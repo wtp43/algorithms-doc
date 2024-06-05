@@ -1,6 +1,12 @@
 ---
 ---
 # Two pointers
+
+## Subsequences
+- Useful for subsequences since order is important unlike subsets
+### Largest Subsequence Prefix 
+https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/description/?envType=daily-question&envId=2024-06-03
+
 - [ ] TwoSum: 
 Find two elements in an array that sum to the target
 - Sort then two pointers
