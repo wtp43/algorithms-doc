@@ -104,6 +104,8 @@ https://leetcode.com/problems/single-number-ii/description/?envType=study-plan-v
 - Set most significant bit to zero and compare result to zero
   `x & (x-1) == 0`
 
+### AND + XOR Distributive Property
+https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/solutions/1163992/java-c-python-easy-and-concise-o-1-space/
 ### Subtraction under modulo 2
 
 - XOR operator is equivalent to subtraction under modulo 2

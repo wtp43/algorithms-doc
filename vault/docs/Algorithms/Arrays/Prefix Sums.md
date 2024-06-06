@@ -29,19 +29,49 @@ We use a Hash Map to find if a previous prefix sum exists.
 [[LC-523. Continuous Subarray Sum]]
 - Reduces to subarray sum equals k. 
 - Initialize `prefix_sums[0] = 1` for the case that we use the entire prefix_sum
-## Frequency Map 
-- Frequency map can also be thought of as a prefix sum
+
 ### Find Subarray with Bitwise & Closest to K
 https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
 - & property: monotonically decreasing
 - Sliding window + frequency map to store all ith bits
 - Decrease window if mask < k, frequency map helps restore the ith bit to 1 if the freq[i] == j-i, where j-i is the length of the decreased window length
 
-## Range Based Problems
 
 ### Difference Array + Binary Search
 
-## Applications
+### Longest Subarray with Sum = k
+- Keep track of current sum
+```python
+def subarraySum(self, nums: List[int], k: int) -> int:
+        prefix_sums = Counter()
+        prefix_sums[0] = 1
+        cur = 0
+        count = 0
+        for i in range(len(nums)):
+            cur += nums[i]
+            count += prefix_sums[cur-k]
+            prefix_sums[cur] += 1
+        return count
+```
+
+#### Longest Subarray with Sum k = 1
+https://leetcode.com/problems/longest-well-performing-interval/description/
+- Categorize elements as either 1 or -1 
+```python
+# We want the longest subarray where the elements > 8 are strictly more than the elements that are <= 8
+def longestWPI(self, hours: List[int]) -> int:]
+        prefix = defaultdict(int)
+        cur = res = 0
+        for i,h in enumerate(hours):
+            cur += 1 if h > 8 else -1
+            if cur > 0:
+                res = max(i+1, res)
+            if not prefix[cur]:
+                prefix[cur] = i+1
+            if cur-1 in prefix:
+                res = max(res, i-prefix[cur-1]+1)
+        return res
+```
 
 ### Sum of Ranges
 https://leetcode.com/problems/subarray-sum-equals-k/description/
@@ -174,3 +204,30 @@ def countTriplets(self, arr: List[int]) -> int:
 
 ### Sweep Line
 https://leetcode.com/problems/corporate-flight-bookings/description/
+
+
+### Storing Prefix States
+https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
+A k-bit flip is choosing a subarray of length k from nums and simultaneously changing every 0 in the subarray to 1, and every 1 in the subarray to 0.
+Return the minimum number of k-bit flips required so that there is no 0 in the array. If it is not possible, return -1.
+- Continuously flip the leftmost bit
+- It is not possible if there are still 0s in the last k window after flipping all bits to the left.
+
+```python
+def minKBitFlips(self, nums: List[int], k: int) -> int:
+        cur = res = 0
+        state = [0]*len(nums) 
+        for i,x in enumerate(nums):
+            if i >= k:
+	            # clear the action by the element last previously inside the window
+	            # for a window of size k, it's elements are [1..k] inclusive
+	            # So we XOR the state of the element at 0
+                cur ^= state[i-k]
+            if cur == nums[i]:
+                if (i+k>len(nums)):
+                    return -1
+                state[i] = 1
+                cur ^= 1
+                res += 1
+        return res
+```
