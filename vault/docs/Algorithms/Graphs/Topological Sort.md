@@ -3,8 +3,9 @@ title: Topological Sort
 created: 2022-12-10
 ---
 # Topological Sort
-- Sort the graph in an order such that no vertex appears before another vertex that has an edge to it.
+- Sort the graph in an ord/er such that no vertex appears before another vertex that has an edge to it.
 - The ordering does not have to be unique
+
 ## Topological Sort Using DFS
 - Post-Order Traversal
 
@@ -104,6 +105,7 @@ def topsort(edges, n):
 
 ```
 ## Applications
+> Use topological sort when there is a dependency on the edges
 
 ### DAG Scheduling
 
@@ -143,11 +145,13 @@ class Solution:
 
 - Without the requirement `k`, this would be a topological problem
 - Why do we need DP? There is no optimal subproblem on which course should be taken first.
-### Scheduling Problems
+
 [[LC-207. Course Schedule]]
 [[LC-210. Course Schedule II]]
 
-
+### Scheduling
+#### Find All Possible Recipes From Given Supplies
+https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/
 
 ## Related
 - [[Cycle Detection]]

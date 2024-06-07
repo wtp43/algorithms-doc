@@ -105,7 +105,22 @@ def minimumDifference(self, nums: List[int], k: int) -> int:
 
 ![[Pasted image 20240604181855.png]]
 Source: https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/solutions/3341928/c-java-python3-prefix-sums-binary-search/
-- 
+
+```python
+def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
+        nums.sort()
+        n = len(nums)
+        prefix = [0]*(n+1)
+        prefix[1] = nums[0]
+        for i in range(1,len(nums)):
+            prefix[i+1] = prefix[i] + nums[i] - nums[i-1]
+        res = []
+        for q in queries:
+            i = bisect_left(nums, q)
+            res.append((q*i - prefix[i]) + (prefix[n]-))
+        return res
+
+```
 
 ### Tracking Valid Subarrays
 
