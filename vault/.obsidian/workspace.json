@@ -1030,6 +1030,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Knuth-Morris-Pratt (KMP)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":0},\"to\":{\"line\":15,\"ch\":0}},\"scroll\":3.45083381253594}"
+                },
+                {
                   "title": "Bit Manipulation",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Bit Manipulation/Bit Manipulation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -1142,7 +1148,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -1227,7 +1233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 408.5,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -1252,7 +1259,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1278,7 +1285,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1337,7 +1344,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md"
+                "file": "docs/Algorithms/Binary Tree/Segment Tree.md"
               }
             }
           }
@@ -1361,6 +1368,13 @@
   },
   "active": "5d6ae885c084a9a1",
   "lastOpenFiles": [
+    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+    "docs/Algorithms/Mathematics/Mathematics.md",
+    "docs/Algorithms/Mathematics",
+    "docs/Algorithms/Graphs/Eulerian Path.md",
+    "docs/Algorithms/Graphs/Cycle Detection.md",
+    "docs/Algorithms/Arrays/Sequences.md",
+    "attachments/Pasted image 20240604181855.png",
     "docs/Building Intuition.md",
     "docs/Algorithms/Queue/Queue Simulation.md",
     "docs/Algorithms/Queue",
@@ -1386,18 +1400,12 @@
     "attachments/Pasted image 20240601175345.png",
     "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
-    "docs/Algorithms/Arrays/Arrays.md",
-    "docs/Algorithms/Binary Tree/Tree.md",
-    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
-    "docs/Algorithms/Graphs/Graph Structures.md",
-    "docs/Algorithms/Advanced Data Structures/Binary Search Tree (BST).md",
     "docs/Algorithms/Linked List",
     "docs/Algorithms/Stacks",
     "docs/Algorithms/Hash Map",
     "docs/Algos/Arrays/Untitled",
     "docs/Algorithms/Binary Tree",
     "docs/Algorithms/Intervals",
-    "docs/Algos Practice/Palindromes",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",
     "attachments/Pasted image 20221205181815.png",
@@ -1405,7 +1413,6 @@
     "attachments/Pasted image 20221208044205.png",
     "attachments/Pasted image 20221208044235.png",
     "attachments/Pasted image 20221208044247.png",
-    "attachments/Pasted image 20221215155937.png",
-    "attachments/Pasted image 20230106154005.png"
+    "attachments/Pasted image 20221215155937.png"
   ]
 }
