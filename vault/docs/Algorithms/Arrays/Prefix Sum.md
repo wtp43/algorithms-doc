@@ -53,7 +53,6 @@ def subarraySum(self, nums: List[int], k: int) -> int:
             prefix_sums[cur] += 1
         return count
 ```
-
 #### Longest Subarray with Sum k = 1
 https://leetcode.com/problems/longest-well-performing-interval/description/
 - Categorize elements as either 1 or -1 
@@ -100,6 +99,23 @@ def minimumDifference(self, nums: List[int], k: int) -> int:
         return res
 ```
 
+### Find Subarray Divisible by K with at Least 2 Elements
+https://leetcode.com/problems/continuous-subarray-sum/
+```python
+def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+        prefix = defaultdict(lambda: math.inf)
+        prefix[0] = -1
+        cur = 0
+        for i in range(len(nums)):
+            cur = (cur + nums[i])%k
+            if cur in prefix:
+                if prefix[cur]+1 < i:
+                    return True
+            else:
+                # we only want the earliest occurrence of the subarray
+                prefix[cur] = i
+        return False
+```
 
 ### Minimum Operations to Make All Array Elements Equal
 

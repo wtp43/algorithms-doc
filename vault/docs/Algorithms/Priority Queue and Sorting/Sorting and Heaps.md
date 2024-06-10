@@ -1,9 +1,11 @@
 ---
 ---
-Max heaps
-To make a max heap, push -x for x in array onto a min heap.
 
 # Heaps
+> Useful for when order matters
+## Max heaps
+To make a max heap, push -x for x in array onto a min heap.
+
 - [ ] [[LC-23. Merge k Sorted Lists]]
 - Put the head of each linked list on a heap
 - Extend the resulting linked list
@@ -23,8 +25,28 @@ To make a max heap, push -x for x in array onto a min heap.
 - [ ] https://leetcode.com/problems/trapping-rain-water-ii/description/
 - [ ] https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/
 
-## Heaps
-> Useful for finding the next greatest number
+### Max Profit from Sequential Projects with Minimum Capital Requirement
+https://leetcode.com/problems/ipo/description
+- Greedy: 
+```python
+def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
+        # we want to start with projects with the lowest capital but highest profits
+        # so we push all projects with requirement <= current money onto a maxheap
+        projects = list(zip(capital, profits))
+        projects.sort()
+        n = len(profits)
+        pq = []
+        i = 0
+        for j in range(k):
+            while i < n and projects[i][0] <= w:
+                heappush(pq, -projects[i][1])
+                i += 1
+            if not pq:
+                break
+            w += -heappop(pq)
+        return w
+
+```
 
 ### Maximum Total Area of All Possible Rectangles
 Amazon games have introduced a new mathematical game for kids. You will be given n sticks and the player is required to form rectangles from those sticks.  
@@ -61,6 +83,29 @@ def total_area(nums):
 			if nums2-nums3 <= 1:
 				heappush(nums, n2)
 	return area
+```
+
+### Find K Pairs with Smallest Sums Given Two Non Decreasing Arrays
+https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description
+- Push smallest pairs on to the heap, we do this a max of 2k times
+- Keep track of pairs that have been added to avoid duplicates. 
+
+```python
+def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
+        pq = [(nums1[0]+ nums2[0], 0, 0)]
+        res = []
+        seen = set([(0,0)])
+        while k and pq:
+            s, i, j = heappop(pq)
+            res.append([nums1[i], nums2[j]])
+            if i < len(nums1) - 1 and (i+1, j) not in seen:
+                heappush(pq, (nums1[i+1] + nums2[j], i+1, j))
+                seen.add((i+1, j))
+            if j < len(nums2) - 1 and (i, j+1) not in seen:
+                heappush(pq, (nums1[i] + nums2[j+1], i, j+1))
+                seen.add((i, j+1))
+            k -= 1
+        return res
 ```
 
 

@@ -33,6 +33,30 @@ We want to take the biggest amount at every step. Track this to help solve the p
 ## When Greedy Works
 - If you want an algorithm that employs a greedy method, you should show the problem satisfies the greedy choice property (every locally optimal choice implies a globally optimal choice).
 
+##
+
+### Max Profit from Sequential Projects with Minimum Capital Requirement
+https://leetcode.com/problems/ipo/description
+- Greedy: Take the highest profit project with the lowest required capital
+- Use max heap of profits to manage which projects are available to take 
+```python
+def findMaximizedCapital(self, k: int, w: int, profits: List[int], capital: List[int]) -> int:
+        # we want to start with projects with the lowest capital but highest profits
+        # so we push all projects with requirement <= current money onto a maxheap
+        projects = list(zip(capital, profits))
+        projects.sort()
+        n = len(profits)
+        pq = []
+        i = 0
+        for j in range(k):
+            while i < n and projects[i][0] <= w:
+                heappush(pq, -projects[i][1])
+                i += 1
+            if not pq:
+                break
+            w += -heappop(pq)
+        return w
+```
 
 ### Minimum Initial Energy
 https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/
@@ -40,6 +64,8 @@ https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/
 -  why? we want to start with the highest minimum cost with the lowest actual cost. 
 -  this results in the next step being able to handle a higher minimum cost
 -  sort key is `x[1]-x[0]` but we want it descending hence the reversed polarity
+
+
 
 ```python
 def minimumEffort(self, tasks):
