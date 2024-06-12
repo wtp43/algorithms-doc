@@ -94,3 +94,12 @@ def findSmallestInteger(self, nums: List[int], value: int) -> int:
                 stop = i
 	    return value * count[stop] + stop
 ```
+
+
+
+
+## Number Theory
+
+### Fractions
+https://en.wikipedia.org/wiki/Mediant_(mathematics)#Properties
+- Mediant Property: $\frac{a}{c} < \frac{a+b}{c+d} < \frac{b}{d}$ 

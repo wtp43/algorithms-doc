@@ -149,8 +149,10 @@ https://leetcode.com/problems/find-k-th-smallest-pair-distance
 ```
 
 #### Largest Subarray Sum After K Splits
-
 https://leetcode.com/problems/split-array-largest-sum/description/
+- Subarray sum is monotonic
+- Binary search on minimum sum possible
+- Count number of partitions required for current sum limit 
 
 ```python
 def splitArray(self, nums: List[int], k: int) -> int:

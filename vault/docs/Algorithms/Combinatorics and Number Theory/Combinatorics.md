@@ -34,3 +34,39 @@ https://leetcode.com/problems/student-attendance-record-ii/description/
 
 ### Count in Valid Intervals
 https://leetcode.com/problems/plates-between-candles/description/
+
+
+
+## Counting
+
+### Sum Vowels of All Substrings
+https://leetcode.com/problems/vowels-of-all-substrings/
+- For a vowel at position i, how many substrings can be made with it? 
+	- Group 1: There are i letters before it
+	- Group 2: n-i letters after it
+	- Append the ith vowel to one of the groups
+
+```python
+def countVowels(self, word: str) -> int:
+        total = 0
+        vowels = set('aeiou')
+        for i,c in enumerate(word):
+            if c in vowels:
+               total += (i+1)*(len(word)-i)
+        return total
+```
+
+### Sum Distinct Score of All Substrings
+From that problem, we use the fact that each character appears in (i + 1) * (n - i) substrings. However, it does not contribute to the appeal of substrings on the left that already include that character. 
+- Store indices of previous occurrences of the current character
+```python
+def appealSum(self, s: str) -> int:
+        prev = defaultdict(lambda: -1)
+        res = 0
+        n = len(s)
+        for i,ch in enumerate(s):
+            res += (i-prev[ch]) * (n-i)
+            prev[ch] = i
+        return res
+
+```

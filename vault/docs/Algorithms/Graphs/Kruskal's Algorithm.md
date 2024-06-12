@@ -22,5 +22,5 @@ mst_weight = sum(t[2] for t in mst)
 
 ## Optimizations
 - Suppose we know that the cost for every edge is bounded by U
-- Using [[Counting Sort| count sort]] allows us to upper bound the sort to O(E + U)
+- Using [[Count Sort| count sort]] allows us to upper bound the sort to O(E + U)
 - Union find 

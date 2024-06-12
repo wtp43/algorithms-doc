@@ -54,7 +54,7 @@ def bucket_sort(nums, n_buckets):
 
 ## Optimizations
 
-A degenerate case of bucket sort ([[Counting Sort#Unstable version (without cumulative sum), works only for integers|unstable count sort]]) runs in o(n) time.
+A degenerate case of bucket sort ([[Count Sort#Unstable version (without cumulative sum), works only for integers|unstable count sort]]) runs in o(n) time.
 
 
 ## Optimized Complexity

@@ -6,7 +6,7 @@ created: 2022-12-15
 
 
 
-# Counting Sort
+# Count Sort
 Stable sort. Count occurrences of each unique element in array and stores it in an auxiliary array. Then calculate the cumulative sum of the elements of the count array. Use the cumulative sum to place the numbers in the correct position.
 
 ![[Pasted image 20221215155937.png]]
@@ -43,18 +43,18 @@ def counting_sort(nums):
 # if min_val is low
 def count_sort(nums):
 	n = len(nums)
-	k = max(n)
-	b = [0] * k
+	# b = buckets of nums
+	b = [0] * (max(n)+1)
 
 	# store count
 	for i in range(n):
 		b[nums[i]] += 1
 	
 	k = 0
-	for i in range(n):
+	for i in range(max(n)+1):
 		while b[i] > 0:
 			b[i] -= 1
-			nums[k] = i
+			nums[k] = nums[i]
 			k += 1
 		
 
@@ -82,7 +82,7 @@ def counting_sort(nums):
 
 	# place nums backwards to ensure stableness
 	for num in reversed(nums):
-		# count[num] -=1 because this stores the count but the index of the output is 0-based
+		# count[num] -=1 first because this stores the count but the index of the output is 0-based
 		count[num] -= 1
 		output[count[num]] = num
 	return output

@@ -118,6 +118,47 @@ def coinChange(self, coins: List[int], amount: int) -> int:
 
 ```
 
+
+## 0/1 Knapsack
+
+### Maximum Number of Achievable Transfer Requests
+https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/description/
+- Note: Tuples are hashable in python, lists are not
+```python
+def maximumRequests(self, n: int, requests: List[List[int]]) -> int:
+        @lru_cache(None)
+        def dfs(i, a):
+            if i == len(requests):
+                return 0 if not any(a) else -math.inf
+            arr = list(a)
+            arr[requests[i][0]] -= 1
+            arr[requests[i][1]] += 1
+            x = dfs(i+1, tuple(arr))
+            y = dfs(i+1, a)
+            return max(1+x,y)
+        return dfs(0, tuple([0]*n))
+```
+
+### Number of Ways to Achieve At Least K
+https://leetcode.com/problems/profitable-schemes/
+ - Optimization (reduce states): use `min(minProfit, p + profit[i])` instead of `p + profit[i]` to reduce states
+	 - suppose the current profit is greater than minProfit
+	 - then the number of ways is the same for `dfs(i, mem, p)` and `dfs(i, mem, p+1)`
+	 - By reducing the states, we can use more memoized results
+
+```python
+def profitableSchemes(self, n: int, minProfit: int, group: List[int], profit: List[int]) -> int:
+        @lru_cache(None)
+        def dfs(i, mem, p):
+            if i >= len(group):
+                return 1 if p >= minProfit else 0
+            tot = dfs(i+1, mem, p)%(10**9+7)
+            if group[i] <= mem:
+                tot += dfs(i+1, mem-group[i], min(minProfit, p+profit[i]))
+            return  tot %(10**9+7)
+        
+        return dfs(0,n, 0)
+```
 ## Largest Subset
 ### Largest Divisible Subset
 https://leetcode.com/problems/largest-divisible-subset/
@@ -166,5 +207,120 @@ def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
 ### Minimum Vertex Cover
 https://leetcode.com/problems/smallest-sufficient-team/description
 - Optimization: Remove all inputs that are subsets of another
-# Related
+
+### Maximum Total Reward 
+> Take any untaken reward as long as it is less than your current reward. You start with reward = 0
+https://leetcode.com/problems/maximum-total-reward-using-operations-ii/
+- Use bit mask to indicate which number is taken
+- binary 1001 means 3 and 1 are taken
+
+```python
+def maxTotalReward(self, rewardValues: List[int]) -> int:
+        rewardValues = sorted(set(rewardValues))
+        # at the beginning, the x is 0, we set the first bit of binary to indicate x is 0.
+        x = 1
+        for num in rewardValues:
+            # for each reward, only the x < reward can be used
+            # so we only keep the x < reward as validX
+            validX = x & ((1 << num) - 1)
+
+            # for each value in validX, we add num to it
+            # for example, if we have x = 5 (binary 100000) and num = 6
+            # then we will have new x = 11, whose binary = 10000000000
+            # == (100000) << 6
+            x |= validX << num 
+        
+        # return the largest x as the result
+        return rewardValues[-1] + x.bit_length() - 1
+
+```
+
+### Distinct Subsequences
+- Store number of words that end with the current letter
+-  recurrence relation: `f(s) = f(s[:n-1])*2+1 - freq[s[n-1]]`
+```python
+def distinctSubseqII(self, s: str) -> int:
+        # recurrence relation: f(s) = f(s[:n-1])-freq[s[n-1]] * 2+ 1
+        # store number of words that end with current letter
+        res = 0
+        freq = defaultdict(int)
+        for c in s:
+            # we can make res amount of sequences by appending c to all of them
+            # then account for the subsequence 'c'
+            tmp = freq[c]
+            freq[c] = res+1
+            # minus all previous subsequences ending with c to prevent double counting
+            res = (res*2+1 - tmp)% (10**9+7)
+        return res 
+```
+
+
+
+## General DP
+
+### Largest Sum of Averages for at Most K Partitions
+https://leetcode.com/problems/largest-sum-of-averages/description/
+- Mediant property of fractions means we want to partition as much as possible since average <= sum 
+- Try every index except 0 as a partition
+```python
+def largestSumOfAverages(self, nums: List[int], k: int) -> float:
+        dp = {}
+
+        def dfs(n, k):
+            if (n, k) in dp:
+                return dp[n, k]
+            if n < k:
+                return 0
+            if k == 1:
+                dp[n, k] = sum(nums[:n])/n
+                return dp[n,k]
+
+            cur = dp[n, k] = 0
+            # try partitioning at at all indices except for 0
+            for i in range(n - 1, 0, -1):
+                cur += nums[i]
+                dp[n, k] = max(dp[n, k], dfs(i, k - 1) + cur /(n - i))
+            return dp[n, k]
+        return dfs(len(nums), k)
+
+```
+### Restore The Array
+https://leetcode.com/problems/restore-the-array/description/?envType=study-plan-v2&envId=dynamic-programming-grandmaster
+- Return the number of possible partitions of s such that each partition of s is less than k
+```python
+def numberOfArrays(self, s: str, k: int) -> int:
+        n = len(s)
+        dp = [0]*(n+1)
+        dp[0] = 1
+        m = len(str(k))
+        for i in range(n):
+            j = i
+            x = j-10
+            for j in range(max(0, i-m+1), i+1):
+                if s[j] != '0' and int(s[j:i+1])<=k:
+                    dp[i+1] = (dp[i+1] + dp[j]) % (10**9+7)
+        return dp[n]
+```
+
+### Handshakes That Don't Cross
+https://leetcode.com/problems/handshakes-that-dont-cross/
+- 2n people stand in a circle
+- How many ways can n handshakes occur such that none cross
+	- The current person can only shake hands with someone if there is an even amount of people between them
+- Choose two people to be the split between the left and right side
+```python
+def numberOfWays(self, numPeople: int) -> int:
+        n = numPeople//2
+        dp = [0]*(n+1)
+        dp[0] = 1
+        for i in range(1,n+1):
+            for j in range(i):
+                # choose 2 people to be pivot 
+                # there are 2i-2 people to choose for the left
+                # there are then 2i-2j-2 to choose for the right 
+                dp[i] += dp[j] * dp[i-j-1]
+                dp[i] %= 10**9+7
+        return dp[n]
+
+```
 ## [[LC-174. Dungeon Game]]
