@@ -24,7 +24,7 @@
 
 ## DP
 - Useful for aggregating multiple combinations/permutations
-
+- Find recurrence relation with a previous state
 ### Count number of answers 'with some conditions' that end in 'X'
 https://leetcode.com/problems/student-attendance-record-ii/solutions/101639/pure-math-and-easy-to-understand-python-o-n-solution/
 
@@ -36,8 +36,50 @@ https://leetcode.com/problems/student-attendance-record-ii/description/
 https://leetcode.com/problems/plates-between-candles/description/
 
 
+### Count Number of Texts
+https://leetcode.com/problems/count-number-of-texts/description/
+```python
+def countTexts(self, pressedKeys: str) -> int:
+        n = len(pressedKeys)
+        dp = [0]*(n+1)
+        dp[0] = 1
+        m = 10**9+7
+        prev = pressedKeys[0]
+        for i in range(1, n+1):
+            dp[i] = dp[i-1]%m
+            if i >= 2 and pressedKeys[i-1] == pressedKeys[i-2]:
+                dp[i] = (dp[i] + dp[i-2])%m
+                if i >= 3 and pressedKeys[i-1] == pressedKeys[i-3]:
+                    dp[i] = (dp[i] + dp[i-3])%m
+                    if i >= 4 and pressedKeys[i-1] == pressedKeys[i-4] and pressedKeys[i-1] in '79':
+                        dp[i] = (dp[i] + dp[i-4])%m
+
+        return dp[n]
+```
+
+
+
+## Permutations and Combinations
+### Number of Ways to Reach a Position After Exactly k Steps
+> Go from start to end on an infinite number line in exactly k steps
+https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/description/
+- We have k items -> k! orderings
+- We have two types of items (left or right) which are indistinguishable -> divide by left! and right!
+- This is equal to k choose left (which is equivalent to k choose right)
+
+```python
+def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:
+        diff = endPos - startPos
+        mod = 10**9+7
+        if (k - abs(diff))%2 != 0 or abs(startPos-endPos) > k:
+            return 0
+        return comb(k, (k-abs(diff))//2) % mod
+```
 
 ## Counting
+
+
+
 
 ### Sum Vowels of All Substrings
 https://leetcode.com/problems/vowels-of-all-substrings/
