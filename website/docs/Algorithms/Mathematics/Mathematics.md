@@ -36,8 +36,7 @@ def addToArrayForm(self, num: List[int], k: int) -> List[int]:
 - Division is transitive
 
 ## Min/Max Manhattan Distance using Chebyshev Distance
- >**Chebyshev distance** (or **Tchebychev distance**), **maximum metric**, or **L∞ metric**[[1]](https://en.wikipedia.org/wiki/Chebyshev_distance#cite_note-1) is a [metric](https://en.wikipedia.org/wiki/Metric_(mathematics) "Metric (mathematics)") defined on a [real coordinate space](https://en.wikipedia.org/wiki/Real_coordinate_space "Real coordinate space") where the [distance](https://en.wikipedia.org/wiki/Distance "Distance") between two [points](https://en.wikipedia.org/wiki/Point_(geometry) "Point (geometry)") is the greatest of their differences along any coordinate dimension
-
+[Backtracking 1](</docs/Algorithms/Dynamic Programming/Backtracking 1.md>)
 https://codeforces.com/blog/entry/57534
 **Max difference in a 1D array**
 $Gap_x$=$max⁡(x)−min⁡(x)$

@@ -10,8 +10,11 @@ created: 2023-01-31
 	- A problem is said to have optimal substructure **if an optimal solution can be constructed from optimal solutions of its subproblems**.
 	- The decisions we make depends on previously made decisions, which is very typical of a problem involving subsequences.
 
->[!note] Intuition
->Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
+:::note[note] 
+
+Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
+
+:::
 
 
 ## List of Common Problems
@@ -417,8 +420,11 @@ def tallestBillboard(self, rods: List[int]) -> int:
 ```
 
 #### Reduce to 0($n^2$), Combinations to DP
->[!tip] State Reduction
-> Notice that since we are looking for the max sum and not the count of all partitions, we don't need to generate/keep track of all combinations
+:::tip[tip] 
+
+Notice that since we are looking for the max sum and not the count of all partitions, we don't need to generate/keep track of all combinations
+
+:::
 
 - Save the higher sum the two subsets in a dictionary with `diff` as the keys
 - If we were to skip (not use for either support) the new rod, then `dp` would not change. That's why we are initializing `new_dp` by copying `dp`. It implicitly considers this option.
@@ -452,4 +458,4 @@ https://stackoverflow.com/questions/21273505/memoization-algorithm-time-complexi
 - Ex: Word Break Problem 
 	- Use of **memoization** reduces worst case time complexity to O($n^2$) since `SegmentString` is only called on suffixes of the original input string, and that there are only O(n) suffixes
 
-## [[LC-174. Dungeon Game]]
+[LC-174. Dungeon Game](</docs/Some Leetcode Questions/LC-174. Dungeon Game.md>)

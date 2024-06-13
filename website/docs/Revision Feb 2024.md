@@ -13,6 +13,7 @@ created: ""
 - Can I start from the minimum element?
   - Determine if this starting point passes edge cases
 - ## What algorithms and data structures can I use?
+- Does order in which we do the operations matter?
 
 ## Intuition
 
@@ -80,7 +81,7 @@ def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
 
 ## DP Tricks
 
-- Memoizing with dictionary by using sets/lists as keys
+- Memoizing with dictionary by using sets as keys
 
 # Essentials
 
@@ -99,7 +100,7 @@ def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
 
 https://leetcode.com/problems/sum-of-distances/description/
 
-- Store occurences/indices in dictionary
+- Store occurrences/indices in dictionary
 - Iterate all indices of each key in the dictionary
 - Build prefix and suffix sum for each key
 - Complexity: O(n) for each number + O(n) to sum
@@ -250,6 +251,7 @@ def permuteUnique(self, nums: List[int]) -> List[List[int]]:
 - keep track of how many numbers are needed (only backtrack if available numbers is enough for remaining numbers needed)
 
 ```python
+# Get all combinations of size k for elements in 1..n
 def combine(self, n: int, k: int) -> List[List[int]]:
 	combination, res = [], []
 
@@ -258,11 +260,13 @@ def combine(self, n: int, k: int) -> List[List[int]]:
 			res.append(combination.copy())
 			return
 
-		remain = (n+1) - i
+		remain = n - i + 1
 		available = remain-need
 
 		for j in range(i, i + available + 1):
 			combination.append(j)
+			backtrack(i, combination)
+			combination.pop()
 	return res
 ```
 
@@ -844,6 +848,11 @@ n | (n+1)
 n & -n
 
 ```
+
+### Minimum Operations to Form Subsequence with Target Sum
+https://leetcode.com/problems/minimum-operations-to-form-subsequence-with-target-sum/description/
+
+
 
 ### Brian Kernighan's Algorithm
 
@@ -2468,10 +2477,10 @@ def maximum_border_length(w):
 ```python
 def KMP(s, t):
 	w = t + "#" + s
-	n = len(w)
+	n = len(t)
 	f = [0] * n # init f[0] = 0
 	k = 0 # current longest border length
-	for i in range(1, n): # compute f[i]
+	for i in range(1, len(w)): # compute f[i]
 		while w[k] != w[i] and k > 0:
 			k = f[k - 1] # mismatch: try the next border
 		if w[k] == w[i]: # last characters match
@@ -2482,8 +2491,22 @@ def KMP(s, t):
 	return f
 ```
 
-Space/Time Complexity: O(m + n)
+```python
+def longestPrefix(self, s: str) -> str:
+	a = [0]*len(s) 
+	k = 0
+	for i in range(1,len(s)): 
+		k = a[i-1]
+		while k and s[k] != s[i]: 
+			k = a[k-1]
+		f[i] = k + (s[k]==s[i]) 
+	return a[:f[-1]]
+```
 
+Space/Time Complexity: O(m + n)
+##### Searching for All Occurrences
+https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i/
+- Don't return after once match
 ### Isomorphic Strings (Mapping)
 
 ```python
@@ -2628,6 +2651,20 @@ sorted(d.key(),key=d.get)
 
 ### Arithmetic Sequence Sum
 $sum = (A[1] + A[n]) * n/2$ where `A[1], A[n]` are the first and last terms of the sequence and `n` is the length of the sequence
+
+#### Minimum Possible Sum of Array with n distinct positive integers such that no two integers sum to Target
+https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array/description/
+- The only possible integers that break this rule are numbers less than target
+- We can take at most target//2 integers
+```python
+def minimumPossibleSum(self, n: int, target: int) -> int:
+	x = target//2
+	if n < x:
+		return (1+n)*n//2%(10**9+7)
+	total = (1+x)*x//2
+	n -= x
+	return (total+(target+target+n-1)*n//2) % (10**9+7)
+```
 
 ### GCD for a List of Numbers
 
