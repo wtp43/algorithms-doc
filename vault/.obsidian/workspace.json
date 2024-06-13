@@ -450,184 +450,6 @@
             }
           },
           {
-            "id": "244beaad1eadcade",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Easy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Brainteasers/Logic.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":3},\"to\":{\"line\":1,\"ch\":3}}}"
-                },
-                {
-                  "title": "Revision Feb 2024",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Revision Feb 2024.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":50},\"to\":{\"line\":15,\"ch\":50}},\"scroll\":5}"
-                },
-                {
-                  "title": "Subsets",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Subsets.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":7,\"ch\":0}}}"
-                },
-                {
-                  "title": "Untitled",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos/Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Combinatorics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":28,\"ch\":18},\"to\":{\"line\":28,\"ch\":18}}}"
-                },
-                {
-                  "title": "Sliding Window",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Sliding Window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "String Manipulation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/String Manipulation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":50},\"to\":{\"line\":7,\"ch\":50}}}"
-                },
-                {
-                  "title": "Prim's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Prefix Sums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Subset Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Subset Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Backtracking",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Backtracking 1.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Brainteasers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Brainteasers/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Combinatorics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Graphs",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Graphs.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":19},\"to\":{\"line\":7,\"ch\":19}},\"scroll\":2}"
-                },
-                {
-                  "title": "Brainteasers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Brainteasers/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":2}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":22},\"to\":{\"line\":34,\"ch\":22}},\"scroll\":4.782581840642372}"
-                },
-                {
-                  "title": "Prefix Sums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":29,\"ch\":14},\"to\":{\"line\":29,\"ch\":14}},\"scroll\":8.026315789473685}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}},\"scroll\":2}"
-                },
-                {
-                  "title": "Brainteasers",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Brainteasers/Brainteasers.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
-                },
-                {
-                  "title": "Prefix Sums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":0},\"to\":{\"line\":36,\"ch\":0}},\"scroll\":6.480852378011118}"
-                },
-                {
-                  "title": "Prefix Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Prefix Sums",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sums.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Prefix Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algos Practice/Intuition/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "LC-90. Subsets II",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Some Leetcode Questions/LC-90. Subsets II.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Coding Style.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "971fafe4acacf486",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -948,50 +770,6 @@
             }
           },
           {
-            "id": "58bc7db00ea3ed80",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Arrays/Subset Sum.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8711333c5ebc2609",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sums.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fd3cf59eb9ab8047",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -1028,6 +806,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dynamic Programming (DP)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":127.98300438596492}"
+                },
+                {
+                  "title": "Dynamic Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":325,\"ch\":0},\"to\":{\"line\":325,\"ch\":0}},\"scroll\":309.78913260219343}"
+                },
+                {
+                  "title": "Segment Tree",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Segment Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":14},\"to\":{\"line\":57,\"ch\":14}},\"scroll\":17.234649122807017}"
                 },
                 {
                   "title": "Knuth-Morris-Pratt (KMP)",
@@ -1148,7 +944,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -1156,7 +952,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -1259,7 +1055,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1285,7 +1081,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1344,7 +1140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md"
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
               }
             }
           }
@@ -1353,7 +1149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -1368,8 +1165,19 @@
   },
   "active": "5d6ae885c084a9a1",
   "lastOpenFiles": [
-    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+    "docs/Algorithms/Binary Tree/Segment Tree.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "docs/TODO/Intuition.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
+    "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
+    "docs/Coding Style.md",
+    "docs/Algorithms/Brainteasers/Logic.md",
+    "docs/Algorithms/Arrays/Subset Sum.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
+    "docs/Algorithms/Priority Queue and Sorting/Sorting and Heaps.md",
+    "docs/Algorithms/Priority Queue and Sorting/Count Sort.md",
+    "docs/Algorithms/Arrays/Prefix Sum.md",
+    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
     "docs/Algorithms/Mathematics",
     "docs/Algorithms/Graphs/Eulerian Path.md",
     "docs/Algorithms/Graphs/Cycle Detection.md",
@@ -1386,20 +1194,9 @@
     "docs/Algorithms/Priority Queue and Sorting/Quick Sort.md",
     "docs/Algorithms/Priority Queue and Sorting/Quick Select.md",
     "docs/Algorithms/Priority Queue and Sorting/Merge Sort.md",
-    "docs/Algorithms/Priority Queue and Sorting/K Problems.md",
-    "docs/Algorithms/Priority Queue and Sorting/Insertion Sort.md",
-    "docs/Algorithms/Priority Queue and Sorting/Heap.md",
-    "docs/Algorithms/Priority Queue and Sorting/Cyclic Sort.md",
-    "docs/Algorithms/Priority Queue and Sorting/Counting Sort.md",
-    "docs/Algorithms/Priority Queue and Sorting/Bucket Sort.md",
     "docs/Algorithms/Priority Queue and Sorting",
-    "docs/Algorithms/Geometry/Graham Scan.md",
-    "docs/Algorithms/Geometry/Geometry.md",
     "docs/Algorithms/Geometry",
-    "docs/Algorithms/Binary Tree/Binary Tree.md",
     "attachments/Pasted image 20240601175345.png",
-    "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
-    "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Linked List",
     "docs/Algorithms/Stacks",
     "docs/Algorithms/Hash Map",
