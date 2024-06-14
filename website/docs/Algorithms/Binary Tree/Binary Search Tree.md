@@ -1,8 +1,3 @@
----
-<<<<<<< HEAD
-title:  "Trees"
-created: 2023-01-05
----
 ## Binary Search Tree
 
 ```python

@@ -2,7 +2,7 @@
 ---
 
 # Heaps
-> Useful for when order matters
+> Often useful for scheduling/assigning the next available smallest/largest element to a subset. 
 ## Max heaps
 To make a max heap, push -x for x in array onto a min heap.
 
@@ -108,7 +108,23 @@ def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[Lis
         return res
 ```
 
+## Building Valid Subsequence
+> Heaps are useful for providing the next available smallest/largest element. 
 
+### [Divide Array Into Increasing Sequences](https://leetcode.com/problems/divide-array-into-increasing-sequences/)
+>Given an integer array `nums` sorted in non-decreasing order and an integer `k`, return `true` if this array can be divided into one or more disjoint increasing subsequences of length at least `k`
+- DFS is not useful here since sequences can start to overlap
+```python
+def canDivideIntoSubsequences(self, nums: List[int], k: int) -> bool:
+        freq = Counter(nums)
+        mx = max(freq.values())
+        seq = [0]*mx
+        for i in range(len(nums)):
+            l = heappop(seq)
+            heappush(seq, l+1)
+        return seq[0] >= k
+```
+- There is an optimal O($n$) solution but the goal is to recognize when a heap could be useful
 # Advanced Heaps
 
 [[LC-2386. Find the K-Sum of an Array]]

@@ -128,5 +128,48 @@ O(n + max_val - min_val)
 
 :::
 
+## Frequency Map/Counting Problems 
+- Count frequency of all elements
+- Loop starting from min num and increment `freq[i]` 
+### Minimum Increment to Make Array Unique 
+https://leetcode.com/problems/minimum-increment-to-make-array-unique/description/
+- Frequency map of all elements
+- Increment duplicates repeatedly until count is 1 for that specific num
+```python
+def minIncrementForUnique(self, nums: List[int]) -> int:
+	n = len(nums)
+	mx = max(nums)
+	res = 0
+	freq = [0]*(n+mx+1)
+	for x in nums:
+		freq[x] += 1
+	for i in range(len(freq)):
+		if freq[i] <= 1:
+			continue
+		freq[i+1] += freq[i]-1
+		res += freq[i]-1
+	return res
+```
+
+### Maximum Product After K Increments
+- Greedily increment the smallest elements
+```python
+def maximumProduct(self, nums: List[int], k: int) -> int:
+	freq = Counter(nums)
+	i = min(nums)
+	while k > 0:
+		ops = min(k, freq[i])
+		freq[i] -= ops
+		k -= ops
+		freq[i+1] += ops
+		if not freq[i]:
+			del freq[i]
+		i += 1
+	res = 1
+	for k in freq:
+		for i in range(freq[k]):
+			res = (res*k%(10**9+7))
+	return res
+```
 # Related
 [Radix Sort](</docs/Algorithms/Priority Queue and Sorting/Radix Sort.md>)

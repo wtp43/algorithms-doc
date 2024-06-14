@@ -140,5 +140,33 @@ To build our bars for the histogram, we can set the current row as the y axis an
 # Monotonic Stack
 https://leetcode.com/problems/daily-temperatures/description/
 
+>[!tip] Monotonically decreasing or increasing stack?
+> The stack should contain 'possible' starting points for future elements.
+> Sanity check: no pairs inside the stack should produce a valid answer 
 
+## Common Operations
+- For the current element, check possible answers with the stack while invalidating elements. Append the current element
+- Binary search can be useful to find closest valid starting point in the stack
 
+## Advanced: Monotonic Stack + Two Pointers
+
+### [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)
+> Max width of pair `(i,j)` for which `i < j` such that only `nums[i] <= nums[j]` regardless of any nums in between
+- Key observation (why two pointers work): we only need to check for wider ramps
+- O($n\log n$): 1 pass, build monotonically decreasing stack and binary search smallest valid index in stack
+- O($2n$): Build monotonically decreasing stack first. Iterate j in reverse, compare with last element of stack. 
+	- Update widest ramp and increment i if possible
+```python
+def maxWidthRamp(self, A):
+        res = 0
+        stack = []
+        for i in range(len(A)):
+            if not stack or A[i] < A[stack[-1]]:
+                stack.append(i)
+        i = len(stack)-1
+        for j in range(len(A)-1, -1, -1):
+            while i >= 0 and A[j] >= A[stack[i]]:
+                res = max(res, j-stack[i])
+                i -= 1
+        return res
+```

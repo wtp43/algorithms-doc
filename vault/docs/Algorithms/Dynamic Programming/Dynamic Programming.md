@@ -336,7 +336,6 @@ def numberOfArrays(self, s: str, k: int) -> int:
         m = len(str(k))
         for i in range(n):
             j = i
-            x = j-10
             for j in range(max(0, i-m+1), i+1):
                 if s[j] != '0' and int(s[j:i+1])<=k:
                     dp[i+1] = (dp[i+1] + dp[j]) % (10**9+7)
