@@ -125,6 +125,49 @@ def canDivideIntoSubsequences(self, nums: List[int], k: int) -> bool:
         return seq[0] >= k
 ```
 - There is an optimal O($n$) solution but the goal is to recognize when a heap could be useful
+
+## Scheduling Questions
+### [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/) or [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+> As always, returning an actual combination is more time consuming than figuring out if a combination is possible.
+
+- Always iterate the heap in a cycle whenever there is a wait time specified after completing a task
+- Push updated task counts only after completing a cycle
+
+```python
+def rearrangeString(self, s: str, k: int) -> str:
+        if k == 0:
+            return s
+        freq = Counter(s)
+        pq = [[-freq[ch], ch] for ch in freq]
+        heapify(pq)
+        s = ''
+        cur = 0
+        while cur <= 0:
+            cur = k 
+            updated = []
+            while pq and cur > 0:
+                cur -= 1
+                cnt, ch = heappop(pq)
+                if -cnt > 1:
+                    updated.append([cnt+1, ch])
+                s += ch
+            
+            for x in updated:
+                heappush(pq, x)
+
+        return s if not pq else ''
+```
+
+`ABC...K__..._ABC...K__..._ABC...K__.....`, where A...K occurs max_freq times, _ denotes idle time, and there is N space between A's. This schedule would have length L = (max_freq-1) * (N+1) + (n_max_freq-1) + 1, where +1 is for the initial starting time
+
+```python
+def leastInterval(self, tasks: List[str], n: int) -> int:
+        freq = list(Counter(tasks).values())
+        max_freq = max(freq)
+        n_max_freq = freq.count(max_freq)
+        return max(len(tasks), (max_freq-1) * (n+1) + n_max_freq)
+```
+
 # Advanced Heaps
 
 [[LC-2386. Find the K-Sum of an Array]]

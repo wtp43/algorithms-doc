@@ -95,13 +95,17 @@ def longestPalindromeSubseq(self, s: str) -> int:
 	return dp[0][-1]
 ```
 
-#### Length of Longest Subsequence that Sums to Target
-
-https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/
-
+#### [Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)
 - Similar to coin change problem
 - Base case: sum 0 has subsequence length 0
 - Iterate over nums, update dp for num to target
+- **We iterate in reverse while updating the longest subsequence to avoid using the same num twice. This works because the recurrence relation: smaller sequences do not depend on larger sequences**
+	- This is important because we are using 1-D dp, we don't need to iterate in reverse if we store the results in `dp[i][j] = max(dp[i][j], dp[i-1][j-num]+1)` where $i$ represents the results using only the first $i$ nums 
+	- Example of when iterating in ascending order would fail for 1-D dp
+		- nums = `[4, 2]`, target = 4
+		- first loop, dp = `[0,0,0,0,1]`
+		- second loop, dp = `[0,0,1,0,2]`,  `dp[2]` is updated first to be 1, then `dp[4]` is updated using `dp[2]`
+		- Iterating in reverse would prevent overwriting the results of the previous loop
 
 ```python
 def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
@@ -115,6 +119,7 @@ def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
         return dp[target] if dp[target] != -math.inf else -
 
 # Coin Change
+# The difference with coin change is that coins are not unique and order does not matter
 def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [math.inf]*(amount+1)
         dp[0] = 0

@@ -7,9 +7,8 @@ Stable sort. Count occurrences of each unique element in array and stores it in 
 
 ![[Pasted image 20221215155937.png]]
 
-> [!danger]+ Intuition
-> Useful for keys are integers. I.e. [('msft', 1), ('aapl', 2)] or [-3,-2, 1, -20]. Linear in the range of the elements.
-
+> [!note]+ Viability of Count Sort
+> Count sort is only really viable, time complexity less than O($n\log n$) if the length of the frequency map used is bounded by O($n$)
 
 # Implementation
 
@@ -111,13 +110,10 @@ def counting_sort(nums):
     return output
 ```
 
-# Complexity
-
->[!Time Complexity]+
->The algorithm is only in linear time if k = max(n) is in O(n)
-
->[!Space Complexity]+
->O(n + max_val - min_val)
+## Time/Space Complexity
+- Count sort is only linear in time complexity if $k$ is O($n$), where $k$ is the length of the frequency map
+- Space Complexity is: O($n$ + max_val - min_val)
+https://stackoverflow.com/questions/27668792/why-is-counting-sort-not-used-for-large-inputs
 
 ## Frequency Map/Counting Problems 
 - Count frequency of all elements

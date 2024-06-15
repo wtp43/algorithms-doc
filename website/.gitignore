@@ -3,7 +3,7 @@
 
 # Production
 /build
-
+vault/.obsidian/workspace.json
 # Generated files
 .docusaurus
 .cache-loader

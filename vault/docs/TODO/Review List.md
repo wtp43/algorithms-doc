@@ -76,7 +76,7 @@ After reviewing, update applications for each algo
  - [[Quick Sort]]
 
 ## Data Structures
- - [[Sorting and Heaps]]
+ - [[Heaps]]
 ### Review
 - [[LC-1752. Check if Array Is Sorted and Rotated]]  
 	- Compare all neighbour elements `(a,b)` in `A`,  

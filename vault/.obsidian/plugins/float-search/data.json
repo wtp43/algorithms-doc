@@ -1,6 +1,11 @@
 {
   "searchViewState": {
-    "query": "dijk"
+    "query": " path:\"docs/Algorithms/Binary Tree/Binary Search Tree.md\"",
+    "matchingCase": true,
+    "explainSearch": false,
+    "collapseAll": false,
+    "extraContext": false,
+    "sortOrder": "alphabetical"
   },
   "showFilePath": false
 }
