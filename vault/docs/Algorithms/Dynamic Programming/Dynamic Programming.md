@@ -13,6 +13,39 @@ created: 2023-01-31
 >[!note] Intuition
 >Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
 
+## Efficient Iteration (Reducing Search Space and States)
+> Choosing the right input to iterate over can significantly reduce the search space.
+### [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
+>Given a list of preferred hats per person, count the number of ways each person is wearing a different preferred hat. 
+- There are 40 types of hats and at most 10 people.
+- Iterate over all 40 hats instead of `10*40` hats for every person
+	- O($k \cdot n \cdot 2 ^n$) vs O($k \cdot n\cdot 2^{k}$)
+```python
+def numberWays(self, hats: List[List[int]]) -> int:
+        @lru_cache(None)
+        def dp(hat, mask):
+            if mask == complete:
+                return 1
+            if hat > 40:
+                return 0
+            ans = dp(hat+1, mask)
+            for person in hats_to_people[hat]:
+                if mask & (1<<person) == 0:
+                    ans = (ans + dp(hat+1, mask|(1<<person)))%mod
+            return ans%mod
+
+        n = len(hats)
+        mod = 10**9+7
+        complete = 2**n-1
+
+        hats_to_people = defaultdict(list)
+        for i in range(len(hats)):
+            for hat in hats[i]:
+                hats_to_people[hat].append(i)
+        return dp(0, 0)
+```
+- Time complexity O($k \cdot n \cdot 2 ^n$): There are $k$ states for hat and $2^n$ states for mask. At each state, you have to iterate over all possible people for that hat for a max cost of 0($n$)
+- Space Complexity  O($k \cdot 2 ^n$): The total number of states
 
 ## List of Common Problems
 > Problems for which Greedy don't work for. Build intuition by using good test cases.

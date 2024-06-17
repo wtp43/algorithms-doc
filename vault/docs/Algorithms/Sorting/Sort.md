@@ -29,3 +29,36 @@
 	- Compare all adjacent pairs
 		- not sorted if: `j >= words[i][j+1]` or 
 			- (`words[i][j] != words[i+1][j] and order_map[words[i][j]] > order_map[words[i + 1][j]])
+
+
+## Why Order Matters
+- Greedy: we want to match the largest possible element to minimize differences
+
+### [Put Boxes Into the Warehouse II](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/)
+> Boxes can be inserted in any order and from the left or right. Boxes are blocked if there is some room in the warehouse that is less than the height of the box
+![](https://assets.leetcode.com/uploads/2020/08/30/22.png)
+
+![](https://assets.leetcode.com/uploads/2020/08/30/22-1.png)
+
+- By sorting, we guarantee that the tallest possible box is matched with the warehouse. The actual ordering will be different as subsequent warehouses may have lower heights.
+- Since all taller boxes than the current warehouse are unable to move past, they won't be considered again
+- Try to match either the left or right warehouse
+```python
+def maxBoxesInWarehouse(self, boxes: List[int], warehouse: List[int]) -> int:
+        boxes.sort()
+        res = 0
+        box_i = len(boxes)-1
+        i = 0
+        j = len(warehouse)-1
+
+        while i <= j and box_i >= 0:
+            if boxes[box_i] <= warehouse[i]:
+                res += 1
+                i += 1
+            elif boxes[box_i] <= warehouse[j]:
+                res += 1
+                j -= 1
+            box_i -= 1
+        return res
+
+```
