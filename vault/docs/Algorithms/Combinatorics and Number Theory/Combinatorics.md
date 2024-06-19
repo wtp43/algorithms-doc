@@ -79,7 +79,10 @@ def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:
 ## Counting
 
 
+### Number of Ways to Get from Top-Left to Bottom-Right
+> Only down and right moves are allowed
 
+$\frac{(m+n-2)!}{(m-1)!(n-1)!}$ $=$ ${m+n-2}\choose{n-1}$
 
 ### Sum Vowels of All Substrings
 https://leetcode.com/problems/vowels-of-all-substrings/

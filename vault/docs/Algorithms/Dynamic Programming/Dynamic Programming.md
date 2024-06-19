@@ -13,6 +13,10 @@ created: 2023-01-31
 >[!note] Intuition
 >Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
 
+## Recognizing DP
+- A problem cannot be greedily solved if choosing an element affects the profit/reward of another element
+	- Ex: House Robber (taking $i^{th}$ element means you can't take the previous element)
+
 ## Efficient Iteration (Reducing Search Space and States)
 > Choosing the right input to iterate over can significantly reduce the search space.
 ### [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
@@ -65,6 +69,8 @@ def numberWays(self, hats: List[List[int]]) -> int:
 - Bitmask Dynamic Programming
 - Digit Dynamic Programming
 - Dynamic Programming on Trees
+- Longest Palindrome O($n^2$):dp, O($n$): Manacher's algorithm
+- Longest Arithmetic Sequence O($n^2$)
 
 ## Optimization (State Reduction)
 - Notice when it's not needed to generate all combinations
@@ -76,9 +82,44 @@ def numberWays(self, hats: List[List[int]]) -> int:
 	- States are reduced from Exponential -> Polynomial
 #### Traversing duplicate states
 - For DP, not backtracking, we generally only need to traverse on the suffix/prefix 
-## Subsequences
-#### Longest Increasing Subsequence (LIS)
 
+
+## Fibonacci 
+
+### Maximum Total Damage With Spell Casting
+> Find max profit given i-2, i-1, i+1, i+2 cannot be taken if i is taken
+
+```python
+def maximumTotalDamage(self, power: List[int]) -> int:      
+        dp = [0]*3
+        freq = Counter(power)
+        arr = [0, 0, 0] + sorted(freq)
+        for i in range(3, len(arr)):
+            k = arr[i]
+            if arr[i]-arr[i-1] > 2:
+                dp[i%3] = dp[i%3-1] + k*freq[k]
+            elif arr[i]-arr[i-2] > 2:
+                dp[i%3] = max(dp[i%3-1], dp[i%3-2] + k*freq[k])
+            else:
+                dp[i%3] = max(dp[i%3-1], dp[i%3] + k*freq[k])
+        return dp[(len(arr)-1)%3]
+```
+
+## Matrix Path
+## General 
+
+### Maximal Square
+```python
+
+```
+
+### Maximal Rectangle
+
+
+## Subsequences
+> Generally uses hash map to save previously seen sequences with 'x' property
+
+### Longest Increasing Subsequence (LIS)
 - DP: 0($n^2$)
 - Approach 1: Build LIS
 - Approach 2: Binary search for first position cur num is smaller than `sequence[i]`
@@ -128,7 +169,7 @@ def longestPalindromeSubseq(self, s: str) -> int:
 	return dp[0][-1]
 ```
 
-#### [Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)
+### [Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)
 - Similar to coin change problem
 - Base case: sum 0 has subsequence length 0
 - Iterate over nums, update dp for num to target
@@ -165,6 +206,19 @@ def coinChange(self, coins: List[int], amount: int) -> int:
 
 ```
 
+### [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+- hash map of longest sequences at i with sequence diff
+```python
+def longestArithSeqLength(self, nums: List[int]) -> int:
+        dp = defaultdict(lambda:1)
+        for i in range(len(nums)):
+            for j in range(i):
+                diff = nums[i]-nums[j]
+                # store index and diff
+                dp[i, diff] = dp[j, diff] + 1
+
+        return max(dp.values())
+```
 
 ## 0/1 Knapsack
 

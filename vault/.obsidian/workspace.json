@@ -500,7 +500,7 @@
             }
           },
           {
-            "id": "d2d7666f6cfeebc4",
+            "id": "a254acb5283e81c1",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -508,84 +508,27 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Combinatorics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":85,\"ch\":0},\"to\":{\"line\":85,\"ch\":0}},\"scroll\":66.37039768745855}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Revision Feb 2024.md",
+                "file": "docs/Algorithms/Stacks/Stacks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ad2feadbd0189691",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Mathematics/Mathematics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0dfb6b09fe32529f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64599cfb9d0c3366",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -632,7 +575,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://cp-algorithms.com/data_structures/segment_tree.html",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -689,7 +632,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -715,7 +658,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -774,7 +717,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Binary Tree/Segment Tree.md"
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
               }
             }
           }
@@ -797,19 +740,20 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "64599cfb9d0c3366",
+  "active": "346d3555ccbb365d",
   "lastOpenFiles": [
-    "docs/Algorithms/Mathematics/Mathematics.md",
-    "docs/Revision Feb 2024.md",
+    "docs/Algorithms/Stacks/Stacks.md",
+    "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "docs/Revision Feb 2024.md",
+    "docs/Algorithms/Binary Tree/Segment Tree.md",
+    "docs/Algorithms/Mathematics/Mathematics.md",
     "docs/Algorithms/Sorting/Sort.md",
     "docs/Algorithms/Sorting/Heaps.md",
     "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
     "docs/TODO/Intuition.md",
     "docs/Algorithms/Brainteasers/Logic.md",
-    "docs/Algorithms/Binary Tree/Segment Tree.md",
     "docs/Algorithms/Sorting/Count Sort.md",
-    "docs/Algorithms/Stacks/Stacks.md",
     "docs/Algorithms/Greedy/Greedy Algorithm.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
@@ -827,7 +771,6 @@
     "docs/Algorithms/Queue/Queue Simulation.md",
     "docs/Algorithms/Queue",
     "docs/Algorithms/Sorting/Top K Problems.md",
-    "docs/Algorithms/Sorting/Top K Numbers.md",
     "docs/Algorithms/Sorting",
     "docs/Algorithms/Geometry",
     "attachments/Pasted image 20240601175345.png",
