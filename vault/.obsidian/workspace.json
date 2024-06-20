@@ -486,13 +486,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dynamic Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":28},\"to\":{\"line\":63,\"ch\":48}},\"scroll\":80.82649075826512}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -601,8 +607,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -632,7 +637,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -658,7 +663,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -717,7 +722,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
+                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md"
               }
             }
           }
@@ -742,9 +747,9 @@
   },
   "active": "346d3555ccbb365d",
   "lastOpenFiles": [
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Stacks/Stacks.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Revision Feb 2024.md",
     "docs/Algorithms/Binary Tree/Segment Tree.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
