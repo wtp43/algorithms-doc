@@ -128,19 +128,44 @@ To find all the rectangles, we have to look at every possible i,j. So the BTTC i
 To build our bars for the histogram, we can set the current row as the y axis and use DP. If the current cell is a 0, we cannot reuse the height form the previous rows, otherwise we can extend the bar.
 
 
-# Monotonic Stack
+## Monotonic Stack
 https://leetcode.com/problems/daily-temperatures/description/
 
 :::tip[tip] 
 
-The stack should contain 'possible' starting points for future elements.
-Sanity check: no pairs inside the stack should produce a valid answer 
+The stack should contain only 'valid' starting points for future elements.
+Sanity check: The current element must be able to form a valid calculation (not necessarily the min/max) with at least 1 element in the stack (given it is non-empty after pruning)
 
 :::
 
-## Common Operations
+### Common Operations
 - For the current element, check possible answers with the stack while invalidating elements. Append the current element
 - Binary search can be useful to find closest valid starting point in the stack
+
+### [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- We an only build a rectangle with the min height of all previous columns with 1's
+- Build prefix sum of column heights, then for every row, calculate max area from a monotonically decreasing stack of column heights
+```python
+def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        m = len(matrix)
+        n = len(matrix[0])
+        heights = [0]*n
+        ans = 0
+        for i in range(m):
+            stack = [-1]
+            for j in range(n+1):
+                if j != n:
+                    if matrix[i][j] == "1":
+                        heights[j] += 1
+                    else:
+                        heights[j] = 0
+                while stack[-1] != -1 and (j == n or heights[j] < heights[stack[-1]]):
+                    h = heights[stack.pop()]
+                    w = j - stack[-1] -1
+                    ans = max(ans, h*w)
+                stack.append(j)
+        return ans    
+```
 
 ## Advanced: Monotonic Stack + Two Pointers
 
@@ -164,3 +189,5 @@ def maxWidthRamp(self, A):
                 i -= 1
         return res
 ```
+
+

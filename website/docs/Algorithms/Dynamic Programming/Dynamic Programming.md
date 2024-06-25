@@ -16,6 +16,43 @@ Useful for subsequences or when there is no greedy solution. DP problems are ess
 
 :::
 
+## Recognizing DP
+- A problem cannot be greedily solved if choosing an element affects the profit/reward of another element
+	- Ex: House Robber (taking $i^{th}$ element means you can't take the previous element)
+
+## Efficient Iteration (Reducing Search Space and States)
+> Choosing the right input to iterate over can significantly reduce the search space.
+### [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
+>Given a list of preferred hats per person, count the number of ways each person is wearing a different preferred hat. 
+- There are 40 types of hats and at most 10 people.
+- Iterate over all 40 hats instead of `10*40` hats for every person
+	- O($k \cdot n \cdot 2 ^n$) vs O($k \cdot n\cdot 2^{k}$)
+```python
+def numberWays(self, hats: List[List[int]]) -> int:
+        @lru_cache(None)
+        def dp(hat, mask):
+            if mask == complete:
+                return 1
+            if hat > 40:
+                return 0
+            ans = dp(hat+1, mask)
+            for person in hats_to_people[hat]:
+                if mask & (1<<person) == 0:
+                    ans = (ans + dp(hat+1, mask|(1<<person)))%mod
+            return ans%mod
+
+        n = len(hats)
+        mod = 10**9+7
+        complete = 2**n-1
+
+        hats_to_people = defaultdict(list)
+        for i in range(len(hats)):
+            for hat in hats[i]:
+                hats_to_people[hat].append(i)
+        return dp(0, 0)
+```
+- Time complexity O($k \cdot n \cdot 2 ^n$): There are $k$ states for hat and $2^n$ states for mask. At each state, you have to iterate over all possible people for that hat for a max cost of 0($n$)
+- Space Complexity  O($k \cdot 2 ^n$): The total number of states
 
 ## List of Common Problems
 > Problems for which Greedy don't work for. Build intuition by using good test cases.
@@ -35,6 +72,8 @@ Useful for subsequences or when there is no greedy solution. DP problems are ess
 - Bitmask Dynamic Programming
 - Digit Dynamic Programming
 - Dynamic Programming on Trees
+- Longest Palindrome O($n^2$):dp, O($n$): Manacher's algorithm
+- Longest Arithmetic Sequence O($n^2$)
 
 ## Optimization (State Reduction)
 - Notice when it's not needed to generate all combinations
@@ -46,9 +85,44 @@ Useful for subsequences or when there is no greedy solution. DP problems are ess
 	- States are reduced from Exponential -> Polynomial
 #### Traversing duplicate states
 - For DP, not backtracking, we generally only need to traverse on the suffix/prefix 
-## Subsequences
-#### Longest Increasing Subsequence (LIS)
 
+
+## Fibonacci 
+
+### Maximum Total Damage With Spell Casting
+> Find max profit given i-2, i-1, i+1, i+2 cannot be taken if i is taken
+
+```python
+def maximumTotalDamage(self, power: List[int]) -> int:      
+        dp = [0]*3
+        freq = Counter(power)
+        arr = [0, 0, 0] + sorted(freq)
+        for i in range(3, len(arr)):
+            k = arr[i]
+            if arr[i]-arr[i-1] > 2:
+                dp[i%3] = dp[i%3-1] + k*freq[k]
+            elif arr[i]-arr[i-2] > 2:
+                dp[i%3] = max(dp[i%3-1], dp[i%3-2] + k*freq[k])
+            else:
+                dp[i%3] = max(dp[i%3-1], dp[i%3] + k*freq[k])
+        return dp[(len(arr)-1)%3]
+```
+
+## Matrix Path
+## General 
+
+### Maximal Square
+```python
+
+```
+
+### Maximal Rectangle
+
+
+## Subsequences
+> Generally uses hash map to save previously seen sequences with 'x' property
+
+### Longest Increasing Subsequence (LIS)
 - DP: 0($n^2$)
 - Approach 1: Build LIS
 - Approach 2: Binary search for first position cur num is smaller than `sequence[i]`
@@ -98,13 +172,17 @@ def longestPalindromeSubseq(self, s: str) -> int:
 	return dp[0][-1]
 ```
 
-#### Length of Longest Subsequence that Sums to Target
-
-https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/
-
+### [Length of the Longest Subsequence That Sums to Target](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target/)
 - Similar to coin change problem
 - Base case: sum 0 has subsequence length 0
 - Iterate over nums, update dp for num to target
+- **We iterate in reverse while updating the longest subsequence to avoid using the same num twice. This works because the recurrence relation: smaller sequences do not depend on larger sequences**
+	- This is important because we are using 1-D dp, we don't need to iterate in reverse if we store the results in `dp[i][j] = max(dp[i][j], dp[i-1][j-num]+1)` where $i$ represents the results using only the first $i$ nums 
+	- Example of when iterating in ascending order would fail for 1-D dp
+		- nums = `[4, 2]`, target = 4
+		- first loop, dp = `[0,0,0,0,1]`
+		- second loop, dp = `[0,0,1,0,2]`,  `dp[2]` is updated first to be 1, then `dp[4]` is updated using `dp[2]`
+		- Iterating in reverse would prevent overwriting the results of the previous loop
 
 ```python
 def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
@@ -118,6 +196,7 @@ def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
         return dp[target] if dp[target] != -math.inf else -
 
 # Coin Change
+# The difference with coin change is that coins are not unique and order does not matter
 def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [math.inf]*(amount+1)
         dp[0] = 0
@@ -130,6 +209,19 @@ def coinChange(self, coins: List[int], amount: int) -> int:
 
 ```
 
+### [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+- hash map of longest sequences at i with sequence diff
+```python
+def longestArithSeqLength(self, nums: List[int]) -> int:
+        dp = defaultdict(lambda:1)
+        for i in range(len(nums)):
+            for j in range(i):
+                diff = nums[i]-nums[j]
+                # store index and diff
+                dp[i, diff] = dp[j, diff] + 1
+
+        return max(dp.values())
+```
 
 ## 0/1 Knapsack
 

@@ -62,9 +62,9 @@ After reviewing, update applications for each algo
 [Sliding Window](</docs/Algorithms/Arrays/Sliding Window.md>)	- Shrinkable/non-shrinkable approach
 
 ## Sorts
-[Quick Sort](</docs/Algorithms/Priority Queue and Sorting/Quick Sort.md>)
+[Quick Sort](</docs/Algorithms/Sorting/Quick Sort.md>)
 ## Data Structures
-[Sorting and Heaps](</docs/Algorithms/Priority Queue and Sorting/Sorting and Heaps.md>)### Review
+[Heaps](</docs/Algorithms/Sorting/Heaps.md>)### Review
 [LC-1752. Check if Array Is Sorted and Rotate](</docs/Some Leetcode Questions/LC-1752. Check if Array Is Sorted and Rotated.md>)	- Compare all neighbour elements `(a,b)` in `A`,  
 		the case of `a > b` can happen at most once.
 		

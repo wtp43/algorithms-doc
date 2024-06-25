@@ -4,7 +4,6 @@ created: 2023-01-04
 ---
 # Bit Manipulation
 
-<<<<<<< HEAD
 ## Bit Operations
 
 - Largest bit will be greater than all other bits combined
@@ -49,6 +48,39 @@ n & -n
 #Isolate rightmost 1-bit and set all others bits to 0
 n & (-n) 
 
+```
+
+### [Shortest Subarray With OR at Least K II](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/)
+:::tip[tip] 
+
+A hash map is required to store the count of bits when working with prefixes or previous states.
+
+:::
+- Sliding window + bit count
+```python
+def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
+	cnt = [0]*30
+	cur = i = 0
+	res = math.inf
+	if max(nums)>=k:
+		return 1
+	for j,x in enumerate(nums):
+		for b in range(30):
+			if 1<<b&nums[j]:
+				if not cnt[b]:
+					cur += 1<<b
+				cnt[b] += 1
+
+		while i <= j and cur >= k:
+			for b in range(30):
+				if 1 << b & nums[i]:
+					cnt[b] -= 1
+					if not cnt[b]:
+						cur -= 1<<b
+			res = min(res, j-i+1)
+			i += 1
+		
+	return res if res != math.inf else -1
 ```
 
 ### Keeping Track of Numbers + Splitting Them Into Groups 
