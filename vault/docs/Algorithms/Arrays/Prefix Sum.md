@@ -1,61 +1,40 @@
 ---
 ---
 # Prefix Sums/ Frequency Map
-- Can be used if dealing with Subarrays
+
 - Store some 'useful value' for all prefixes in an array
 - Don't forget the base cases for the prefix sums
 - Not applicable for subsequences
+- Useful for subarray problems
 
 > [!tip] Intuition 
 > Can be used to find max/min of some f(subarray) for all subarrays in O(n) 
-## Example
-Useful for sum of ranges.
-sum i to j = `prefix[j] - prefix[i-1]
 
-Subarray sum = k? 
-- prefix sum
-- we are essentially looking to see if the prefix sum: `prefix_sum[i]-k` exists.
 ## Prefix Sum + Hash Map
-These questions are an extension of twosum.
-We use a Hash Map to find if a previous prefix sum exists.
+> Check if a prefix exists in the hash map
+> Storing indices or counters may be helpful
+### [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+```python
+def subarraySum(self, nums: List[int], k: int) -> int:
+	prefix_sums = Counter()
+	prefix_sums[0] = 1
+	cur = 0
+	count = 0
+	for i in range(len(nums)):
+		cur += nums[i]
+		count += prefix_sums[cur-k]
+		prefix_sums[cur] += 1
+	return count
 
-[[LC-560. Subarray Sum Equals K]]
-- We have to store a counter for the number of prefix sums because you can add a 0 to the same subarray and get a new subarray with the same sum.
-	- Take this example:  5,  2,  2,  0,  3
-	- For k = 3, we can take the subarray (0,3) or (3)
-- We want to see if we can jump from index 0 to index `prefix_sum[i]-k` for every i
-- Initialize `prefix_sum[0]=1` for the case that we use the entire prefix_sum
+```
 
-[[LC-523. Continuous Subarray Sum]]
 - Reduces to subarray sum equals k. 
 - Initialize `prefix_sums[0] = 1` for the case that we use the entire prefix_sum
 
-### Find Subarray with Bitwise & Closest to K
-https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
-- & property: monotonically decreasing
-- Sliding window + frequency map to store all ith bits
-- Decrease window if mask < k, frequency map helps restore the ith bit to 1 if the freq[i] == j-i, where j-i is the length of the decreased window length
-
-
-### Difference Array + Binary Search
-
-### Longest Subarray with Sum = k
-- Keep track of current sum
-```python
-def subarraySum(self, nums: List[int], k: int) -> int:
-        prefix_sums = Counter()
-        prefix_sums[0] = 1
-        cur = 0
-        count = 0
-        for i in range(len(nums)):
-            cur += nums[i]
-            count += prefix_sums[cur-k]
-            prefix_sums[cur] += 1
-        return count
-```
-#### Longest Subarray with Sum k = 1
-https://leetcode.com/problems/longest-well-performing-interval/description/
+### [Longest Subarray with Sum k = 1](https://leetcode.com/problems/longest-well-performing-interval/)
 - Categorize elements as either 1 or -1 
+- key = prefix sum
+- val = earliest index
 ```python
 # We want the longest subarray where the elements > 8 are strictly more than the elements that are <= 8
 def longestWPI(self, hours: List[int]) -> int:]
@@ -72,8 +51,77 @@ def longestWPI(self, hours: List[int]) -> int:]
         return res
 ```
 
-### Sum of Ranges
-https://leetcode.com/problems/subarray-sum-equals-k/description/
+### [Find Subarray with Sum Divisible by K with at Least 2 Elements](https://leetcode.com/problems/continuous-subarray-sum/)
+- Check if there is a previous subarray with remainder equal to the current remainder
+- Check if this subarray is at least length 2
+- Why does this work? we can omit the prefix subarray to get a subarray with remainder 0
+```python
+def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+        prefix = defaultdict(lambda: math.inf)
+        prefix[0] = -1
+        cur = 0
+        for i in range(len(nums)):
+            cur = (cur + nums[i])%k
+            if cur in prefix:
+                if prefix[cur]+1 < i:
+                    return True
+            else:
+                # we only want the earliest occurrence of the subarray
+                prefix[cur] = i
+        return False
+```
+
+
+### [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+- key = prefix sum
+- val = index
+```python
+def maxSubArrayLen(self, nums: List[int], k: int) -> int:
+        prefix_sum = defaultdict(int)
+        cur = 0
+        maxlen = 0
+        prefix_sum[0] = -1
+        for i in range(len(nums)):
+            cur += nums[i]
+            if cur-k in prefix_sum:
+                maxlen = max(maxlen, i-prefix_sum[cur-k])
+            if cur not in prefix_sum:
+                prefix_sum[cur] = i
+        return maxlen
+```
+
+### [Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)
+![[Pasted image 20240604181855.png]]
+Source: https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/solutions/3341928/c-java-python3-prefix-sums-binary-search/
+
+- Store prefix sum
+- Since q can be greater than n, it would be useful to 1 index the prefix sums
+
+```python
+def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
+        nums.sort()
+        n = len(nums)
+        prefix = [0]*(n+1)
+        prefix[1] = nums[0]
+        for i in range(1,len(nums)):
+            prefix[i+1] = prefix[i] + nums[i]
+        res = []
+        for q in queries:
+            i = bisect_left(nums, q)
+            res.append((q*i - prefix[i]) + (prefix[n]-prefix[i] - q*(n-i)))
+        return res
+```
+
+### Find Subarray with Bitwise & Closest to K
+https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
+- & property: monotonically decreasing
+- Sliding window + frequency map to store all ith bits
+- Decrease window if mask < k, frequency map helps restore the ith bit to 1 if the freq[i] == j-i, where j-i is the length of the decreased window length
+
+
+
+## Difference Array + Binary Search
+- Prefix sum for differences
 
 ```python
 def minimumDifference(self, nums: List[int], k: int) -> int:
@@ -97,45 +145,6 @@ def minimumDifference(self, nums: List[int], k: int) -> int:
                 res =min(res, abs(mask-k))
                 i += 1
         return res
-```
-
-### Find Subarray Divisible by K with at Least 2 Elements
-https://leetcode.com/problems/continuous-subarray-sum/
-```python
-def checkSubarraySum(self, nums: List[int], k: int) -> bool:
-        prefix = defaultdict(lambda: math.inf)
-        prefix[0] = -1
-        cur = 0
-        for i in range(len(nums)):
-            cur = (cur + nums[i])%k
-            if cur in prefix:
-                if prefix[cur]+1 < i:
-                    return True
-            else:
-                # we only want the earliest occurrence of the subarray
-                prefix[cur] = i
-        return False
-```
-
-### Minimum Operations to Make All Array Elements Equal
-
-![[Pasted image 20240604181855.png]]
-Source: https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/solutions/3341928/c-java-python3-prefix-sums-binary-search/
-
-```python
-def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
-        nums.sort()
-        n = len(nums)
-        prefix = [0]*(n+1)
-        prefix[1] = nums[0]
-        for i in range(1,len(nums)):
-            prefix[i+1] = prefix[i] + nums[i] - nums[i-1]
-        res = []
-        for q in queries:
-            i = bisect_left(nums, q)
-            res.append((q*i - prefix[i]) + (prefix[n]-))
-        return res
-
 ```
 
 ### Tracking Valid Subarrays
@@ -171,30 +180,30 @@ def distance(self, nums: List[int]) -> List[int]:
         return arr
 ```
 
-### Max Partitions Allowed to Make Sorted Array
-
-- Split arr into maxiumum number of individually sorted partitions such that concatenated array is also sorted
-- A partition is only possible if the maximum prefix is less than the minimum suffix
+### [Max Partitions Allowed to Make Sorted Array](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/)
+> Split arr into maxiumum number of individually sorted partitions such that concatenated array is also sorted
+- Notice that a partition is only possible if the maximum in the prefix subarray is less than the minimum in the suffix subarray
 
 ```python
 def maxChunksToSorted(self, arr: List[int]) -> int:
         # a partition can be made if
         # max[:i+1] < min[i+1:]
-
+        
         n = len(arr)
-        minSuffix = [math.inf]*(n+1)
-        for i in range(n-1, 0, -1):
+        minSuffix = [math.inf]*(n)
+        minSuffix[-1] = arr[-1]
+        for i in range(n-2, -1, -1):
             minSuffix[i] = min(arr[i], minSuffix[i+1])
-
+        
         maxPrefix = 0
-        partition = 0
-        for i in range(n):
+        partition = 1
+        for i in range(n-1):
             maxPrefix = max(maxPrefix, arr[i])
             if maxPrefix <= minSuffix[i+1]:
                 partition += 1
         return partition
-```
 
+```
 
 ## Tracking Multiple Prefixes
 ### Count Triplets
@@ -233,12 +242,42 @@ def countTriplets(self, arr: List[int]) -> int:
         return res
 ```
 
-### Sweep Line
-https://leetcode.com/problems/corporate-flight-bookings/description/
+## Sweep Line
+> O($n$) 
+- Initiate delta array
+- Store all delta changes at the boundary of ranges
+- Increment x at start of range
+- Decrement x at end of range
+- Sweep deltas and keep the running sum
+### [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/)
 
+```python
+Flight labels:        1   2   3   4   5
+Booking 1 reserved:  10  10
+Booking 2 reserved:      20  20
+Booking 3 reserved:      25  25  25  25
+Total seats:         10  55  45  25  25
+Hence, answer = [10,55,45,25,25]
 
-### Storing Prefix States
-https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/description/
+def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
+	res = [0]*(n+2) # since bookings is 1 indexed and j+1 can happen for index n-1
+
+	for i,j,x in bookings:
+		res[i] += x
+		res[j+1] -= x
+
+	cur = 0
+	for i in range(1, n+1):
+		cur += res[i] 
+		res[i] = cur
+
+	return res[1:n+1]
+```
+
+## Storing Prefix States
+
+### [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
+
 A k-bit flip is choosing a subarray of length k from nums and simultaneously changing every 0 in the subarray to 1, and every 1 in the subarray to 0.
 Return the minimum number of k-bit flips required so that there is no 0 in the array. If it is not possible, return -1.
 - Continuously flip the leftmost bit
