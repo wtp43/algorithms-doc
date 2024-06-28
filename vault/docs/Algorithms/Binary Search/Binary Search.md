@@ -64,7 +64,7 @@ hi = position before lo
 		else:
 			hi = mid - 1
 	return lo
-
+```
 # Related
 ## Structure
 

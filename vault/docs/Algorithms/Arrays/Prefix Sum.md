@@ -112,6 +112,25 @@ def minOperations(self, nums: List[int], queries: List[int]) -> List[int]:
         return res
 ```
 
+### [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/)
+> Remove the smallest subarray to make sum divisible by p
+- Remove the smallest subarray with remainder = sum(nums)%p
+```python
+def minSubarray(self, nums: List[int], p: int) -> int:
+	need = sum(nums)%p
+	dp = {0:-1}
+	dp[0] = -1
+	res = n = len(nums)
+	cur = 0
+	for i,x in enumerate(nums):
+		cur = (cur+x)%p
+		dp[cur] = i
+		t = (cur-need)%p
+		if t in dp:
+			res = min(res, i-dp[t])
+		
+	return res if res < n else -1
+```
 ### Find Subarray with Bitwise & Closest to K
 https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/description/
 - & property: monotonically decreasing
@@ -120,7 +139,9 @@ https://leetcode.com/problems/find-subarray-with-bitwise-and-closest-to-k/descri
 
 
 
-## Difference Array + Binary Search
+## Delta Array + Binary Search
+- Track prefix/suffix of deltas in hash map
+
 - Prefix sum for differences
 
 ```python
@@ -147,7 +168,33 @@ def minimumDifference(self, nums: List[int], k: int) -> int:
         return res
 ```
 
-### Tracking Valid Subarrays
+
+### [Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)
+> Return number of subarrays that have median equal to k
+- Track delta (nums greater than k) for left and right of the median
+- Valid subarrays must contain the median
+```python
+def countSubarrays(self, nums: List[int], k: int) -> int:
+	ind = nums.index(k)
+	d = defaultdict(int)
+	cur = 0
+	d[0] = 1
+	for i in range(ind+1, len(nums)):
+		cur += 1 if nums[i] > k else -1
+		d[cur] += 1
+	res = d[0] + d[1]
+	cur = 0
+	for i in range(ind):
+		cur += 1 if nums[i] > k else -1
+	for i in range(ind):
+		res += d[-cur]
+		res += d[-cur+1]
+		cur -= 1 if nums[i] > k else -1
+	return res
+```
+
+
+## Tracking Valid Subarrays
 
 ### Max/Min 'f(x)' of Subarray
 
@@ -301,3 +348,4 @@ def minKBitFlips(self, nums: List[int], k: int) -> int:
                 res += 1
         return res
 ```
+
