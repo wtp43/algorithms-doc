@@ -6,7 +6,7 @@
       {
         "id": "98196acffbbd2fea",
         "type": "tabs",
-        "dimension": 63.36270190895742,
+        "dimension": 63.36270190895741,
         "children": [
           {
             "id": "f7e8a55a54ebc028",
@@ -81,6 +81,25 @@
             }
           },
           {
+            "id": "e1b7208a85da279d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
             "id": "340d098c7e3f822a",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -115,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "54668333fd8096ac",
@@ -484,7 +503,7 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "adbb03dd2995ed73",
+  "active": "e1b7208a85da279d",
   "lastOpenFiles": [
     "docs/Algorithms/Stacks/Stacks.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
