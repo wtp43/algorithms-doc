@@ -78,6 +78,8 @@ def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:
 
 ## Counting
 
+### Count Subarrays with Exactly K 'x'
+- exactly k = (at least k) - (at least k-1)
 
 ### Number of Ways to Get from Top-Left to Bottom-Right
 > Only down and right moves are allowed
@@ -114,4 +116,21 @@ def appealSum(self, s: str) -> int:
             prev[ch] = i
         return res
 
+```
+
+
+### [Plates Between Candles](https://leetcode.com/problems/plates-between-candles/)
+> Count plates between 2 candles for all queries
+
+- We don't actually have to count plates
+- Number of plates between 2 candles = number of spots on the range (candle i, candle j) - number of candles in this range
+```python
+def platesBetweenCandles(self, s: str, queries: List[List[int]]) -> List[int]:
+        candles = [i for i,c in enumerate(s) if c == '|']
+        res = []
+        for a,b in queries:
+            i = bisect_left(candles, a)
+            j = bisect_right(candles, b)-1
+            res.append(candles[j]-candles[i] - (j-i) if i < j else 0)
+        return res
 ```

@@ -149,6 +149,29 @@ class Solution:
 [[LC-207. Course Schedule]]
 [[LC-210. Course Schedule II]]
 
+### [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
+- To guarantee sorted order of ancestors (without sorting the answer), iterate in sorted order
+- Skip the next node if it has already been visited before
+```python
+def getAncestors(self, n: int, edges: List[List[int]]) -> List[List[int]]:          
+	graph = [[]for _ in range(n)]
+	for u,v in edges:
+		graph[u].append(v)
+	ans = [[]for _ in range(n)]
+
+	def dfs(u, par):
+		for v in graph[u]:
+			if ans[v] and ans[v][-1] == par:
+				continue
+			ans[v].append(par)
+			dfs(v,par)     
+
+	for u in range(n):
+		dfs(u,u)
+
+	return ans
+```
+
 ### Scheduling
 #### Find All Possible Recipes From Given Supplies
 https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/

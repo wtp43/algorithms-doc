@@ -2,7 +2,7 @@
 ---
 
 # Heaps
-> Often useful for scheduling/assigning the next available smallest/largest element to a subset. 
+> Often useful for scheduling/assigning the next valid smallest/largest element to a subset. 
 ## Max heaps
 To make a max heap, push -x for x in array onto a min heap.
 
@@ -166,7 +166,40 @@ def leastInterval(self, tasks: List[str], n: int) -> int:
         return max(len(tasks), (max_freq-1) * (n+1) + n_max_freq)
 ```
 
-# Advanced Heaps
+
+## [Minimum Absolute Difference Between Elements With Indices Distance Constraint](https://leetcode.com/problems/minimum-absolute-difference-between-elements-with-constraint/)
+- If there were no constraints and the array was sorted, the minimum difference would occur between adjacent elements
+- Sort nums by (val, index)
+- Keep min heap and max heap of indices seen
+- Since the array is sorted, we are guaranteed that all numbers in the heap are smaller
+- Min heap helps us get the furthest number on the left
+- Max heap helps us get the furthest number on the right
+- Numbers can be popped after being evaluated since we are iterating according to ascending values
+```python
+def minAbsoluteDifference(self, nums: List[int], x: int) -> int:
+        # indices also need to be sorted
+        nums = sorted((val,i) for i,val in enumerate(nums))
+        pq1 = []
+        pq2 = []
+        res = math.inf
+        # heaps help us get the first possible index
+        for val,i in nums:
+            # left half, starting from smallest index
+            heappush(pq1, (i,val))
+            # right half(max heap), starting from largest index
+            # why is there a right half?
+            # since we are iterating nums in sorted order
+            # a smaller number on the right may be added first
+            heappush(pq2, (-i,val))
+            while pq1 and i - x >= pq1[0][0]:
+                res = min(res, val-heappop(pq1)[1])
+            while pq2 and -i - x >= pq2[0][0]:
+                res = min(res, val-heappop(pq2)[1])
+           
+        return res
+```
+
+## Advanced Problems
 
 [LC-2386. Find the K-Sum of an Array](</docs/Some Leetcode Questions/LC-2386. Find the K-Sum of an Array.md>)- Find the k-th largest array where nums contains positive and negative numbers
 - Maxheap (minheap with -nums)

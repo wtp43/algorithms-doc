@@ -7,20 +7,19 @@
   - Determine if this starting point passes edge cases
 - What algorithms and data structures can I use?
 - Does order in which we do the operations matter?
-
+- Can I reduce this to a problem I've seen before?
 ## Intuition
 
 - Find minimum chunk after k cuts/Minimum group size
-  - Binary search on group size then greedily make cuts once group reaches threshold
+	- Binary search on group size then greedily make cuts once group reaches threshold
 - Can the target we are optimizing be simplified?
-  - Compute some `cost[i] = s[i] - t[i]`
+	- Compute some `cost[i] = s[i] - t[i]`
 - What does a valid solution/representation of f() look like?
-  - Suppose we need to the minimum number of swaps to group all 1's in an array together
-  - Then the result of this is a k sized window
+	- Suppose we need to the minimum number of swaps to group all 1's in an array together
+	- Then the result of this is a k sized window
 - What operations can bring us to the target?
-  - https://leetcode.com/problems/merge-triplets-to-form-target-triplet/
-  - Think about which elements are valid/can be used in a operation
-
+	- https://leetcode.com/problems/merge-triplets-to-form-target-triplet/
+	- Think about which elements are valid/can be used in a operation
 
 ## Subarray
 - Prefix/Suffix sum
@@ -28,7 +27,6 @@
 ## Subsets
 - Order does not matter
 - Dynamic programming
-
 ## Subsequence
 - Order does matter
 - Dynamic Programming
