@@ -141,12 +141,19 @@ To build our bars for the histogram, we can set the current row as the y axis an
 https://leetcode.com/problems/daily-temperatures/description/
 
 >[!tip] Monotonically decreasing or increasing stack?
-> The stack should contain only 'valid' starting points for future elements.
-> Sanity check: The current element must be able to form a valid calculation (not necessarily the min/max) with at least 1 element in the stack (given it is non-empty after pruning)
+> The stack should contain 'valid' starting points/candidates for future elements.
 
-### Common Operations
-- For the current element, check possible answers with the stack while invalidating elements. Append the current element
+
+
+
 - Binary search can be useful to find closest valid starting point in the stack
+
+### Common Problems
+- Next Greater Element (mono dec)
+- Maximum Width Ramp (mono dec + two pointers)
+- 
+
+
 
 ### [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - We an only build a rectangle with the min height of all previous columns with 1's

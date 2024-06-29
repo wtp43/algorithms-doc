@@ -249,9 +249,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20bea53ddfb71acd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Stacks/Stacks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -354,7 +376,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Binary Search/Binary Search.md",
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -380,7 +402,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Binary Search/Binary Search.md",
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -439,7 +461,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Binary Search/Binary Search.md"
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md"
               }
             }
           }
@@ -462,19 +484,20 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "c555daeeea157bc5",
+  "active": "adbb03dd2995ed73",
   "lastOpenFiles": [
+    "docs/Algorithms/Stacks/Stacks.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
+    "docs/Algorithms/Arrays/Sliding Window.md",
+    "docs/Algorithms/Stacks/Monotonic Queue.md",
     "docs/Algorithms/Arrays/Prefix Sum.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
-    "docs/Algorithms/Arrays/Sliding Window.md",
     "docs/Algorithms/Sorting/Count Sort.md",
     "docs/Misc.md",
     "docs/Coding Style.md",
     "docs/Building Intuition.md",
     "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
     "docs/Some Leetcode Questions/LC-560. Subarray Sum Equals K.md",
-    "docs/Algorithms/Stacks/Stacks.md",
     "docs/Intuition",
     "docs/Algorithms/Sorting/Sort.md",
     "docs/Revision Feb 2024.md",
@@ -491,7 +514,6 @@
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "docs/Algorithms/Binary Tree/Binary Tree.md",
-    "docs/Algorithms/Arrays/Subset Sum.md",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "docs/Algorithms/Queue",
