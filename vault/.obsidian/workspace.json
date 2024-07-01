@@ -6,7 +6,7 @@
       {
         "id": "98196acffbbd2fea",
         "type": "tabs",
-        "dimension": 63.36270190895741,
+        "dimension": 53.56828193832599,
         "children": [
           {
             "id": "f7e8a55a54ebc028",
@@ -81,7 +81,7 @@
             }
           },
           {
-            "id": "e1b7208a85da279d",
+            "id": "f029385c928e107f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -89,44 +89,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "340d098c7e3f822a",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Coding Style",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Coding Style.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":3},\"to\":{\"line\":34,\"ch\":3}},\"scroll\":0}"
-                },
-                {
-                  "title": "Prefix Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":56,\"ch\":18},\"to\":{\"line\":56,\"ch\":18}},\"scroll\":38.208730185499924}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Misc.md",
+                "file": "docs/Algorithms/Sorting/Heaps.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +108,7 @@
       {
         "id": "54668333fd8096ac",
         "type": "tabs",
-        "dimension": 36.63729809104259,
+        "dimension": 46.43171806167401,
         "children": [
           {
             "id": "65d61c1b99caea8a",
@@ -290,9 +259,75 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e0e21a5cbe57384d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "005442b77fe837b9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46b73fba0d632c48",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -395,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -421,7 +456,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -480,7 +515,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md"
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
               }
             }
           }
@@ -503,16 +538,20 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "e1b7208a85da279d",
+  "active": "46b73fba0d632c48",
   "lastOpenFiles": [
+    "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Stacks/Stacks.md",
+    "docs/Algorithms/Graphs/Topological Sort.md",
+    "docs/Algorithms/Sorting/Heaps.md",
+    "docs/Algorithms/Arrays/Prefix Sum.md",
+    "docs/Misc.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Arrays/Sliding Window.md",
     "docs/Algorithms/Stacks/Monotonic Queue.md",
-    "docs/Algorithms/Arrays/Prefix Sum.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "docs/Algorithms/Sorting/Count Sort.md",
-    "docs/Misc.md",
     "docs/Coding Style.md",
     "docs/Building Intuition.md",
     "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
@@ -526,13 +565,9 @@
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Binary Tree/Segment Tree.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
-    "docs/Algorithms/Sorting/Heaps.md",
     "docs/TODO/Intuition.md",
     "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Greedy/Greedy Algorithm.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
-    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
-    "docs/Algorithms/Binary Tree/Binary Tree.md",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "docs/Algorithms/Queue",
