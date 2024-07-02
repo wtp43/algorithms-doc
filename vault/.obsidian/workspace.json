@@ -430,7 +430,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "docs/Algorithms/Sorting/Heaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -456,7 +456,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "docs/Algorithms/Sorting/Heaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -515,7 +515,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
+                "file": "docs/Algorithms/Sorting/Heaps.md"
               }
             }
           }
@@ -538,8 +538,9 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "46b73fba0d632c48",
+  "active": "f029385c928e107f",
   "lastOpenFiles": [
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Stacks/Stacks.md",
@@ -562,7 +563,6 @@
     "docs/Algorithms/Randomized Algorithms/Reservoir Sampling.md",
     "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
     "docs/Algorithms/Randomized Algorithms",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Binary Tree/Segment Tree.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
     "docs/TODO/Intuition.md",
