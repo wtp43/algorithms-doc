@@ -77,6 +77,12 @@ def numberWays(self, hats: List[List[int]]) -> int:
 - Longest Palindrome O($n^2$):dp, O($n$): Manacher's algorithm
 - Longest Arithmetic Sequence O($n^2$)
 - Floyd-Warshall (Shortest path from any vertex to all other vertices): O($n^3$)
+- Finite State Automaton (Best Time to Buy and Sell Stock)
+- Partitioning
+- Kadane's Algorithm
+
+## Top Down vs Bottom Up
+- Key distinction: top down traversal is always the reverse of bottom up, and vice versa. 
 
 ## Optimization (State Reduction)
 - Notice when it's not needed to generate all combinations

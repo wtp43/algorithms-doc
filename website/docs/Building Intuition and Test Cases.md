@@ -93,3 +93,15 @@ def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
 ## DP Tricks
 
 - Memoizing with dictionary by using sets as keys
+
+# Testing Your Code
+> Before writing any code, write at least a few short test cases that cover the general logic.
+## How to Pick Test Cases for Dry Runs
+- Pick numbers that are easy to operate on
+	- Multiples of 2 and the number 1
+	- Pick small numbers for k to test run on (important for DP)
+- Shorter test cases are generally better than large test cases
+- Test edge cases
+	- Numbers on the border to test equalities and inequalities
+
+
