@@ -6,9 +6,14 @@ created: 2023-01-31
 >Dynamic Programming is an algorithmic paradigm that solves a given complex problem by breaking it into subproblems using recursion and storing the results of subproblems to avoid computing the same results again. For DP to work, the following properties must be true for the problem.
 -   **Overlapping Subproblems** 
 	- A problem is said to have overlapping subproblems if the problem can be broken down into subproblems which are reused several times or a recursive algorithm for the problem solves the same subproblem over and over rather than always generating new subproblems.
+	- It's important to notice that only previous (`i-1`) requirements/decisions affect the answer for `i`.
+		- Decisions before that are already embodied in `dp[i-1]`. 
+	- Try to construct edges between adjacent different states 
+		- In other words, by taking 1 action (reducing/increasing search space 1, taking/not taking 1 element, partitioning 1 time), what can it transition to
 -   **Optimal Substructure**
 	- A problem is said to have optimal substructure **if an optimal solution can be constructed from optimal solutions of its subproblems**.
 	- The decisions we make depends on previously made decisions, which is very typical of a problem involving subsequences.
+	
 
 >[!note] Intuition
 >Useful for subsequences or when there is no greedy solution. DP problems are essentially graph problems where the edges are not given to you.
@@ -64,13 +69,14 @@ def numberWays(self, hats: List[List[int]]) -> int:
 - Longest Path in a Directed Acyclic Graph (DAG)
 - Coin Change
 - Longest Palindromic Subsequence
-- Rod Cutting
+- Rod Cutting (Partitioning)
 - Edit Distance
 - Bitmask Dynamic Programming
 - Digit Dynamic Programming
 - Dynamic Programming on Trees
 - Longest Palindrome O($n^2$):dp, O($n$): Manacher's algorithm
 - Longest Arithmetic Sequence O($n^2$)
+- Floyd-Warshall (Shortest path from any vertex to all other vertices): O($n^3$)
 
 ## Optimization (State Reduction)
 - Notice when it's not needed to generate all combinations
@@ -220,6 +226,21 @@ def longestArithSeqLength(self, nums: List[int]) -> int:
         return max(dp.values())
 ```
 
+### [Find the Maximum Length of Valid Subsequence II](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii/)
+```python
+def maximumLength(self, nums: List[int], k: int) -> int:
+	# dp['k' for current sequence][mod of last element in sequence]
+	dp = [[0]*(k) for _ in range(k)]
+	res = 0
+	for i in range(len(nums)):
+		rem = nums[i]%k
+		# mod = possible previous elements in all sequences that end with nums[i]
+		for mod in range(k):
+			seqk = (rem+mod)%k
+			dp[seqk][rem] = dp[seqk][mod] + 1
+			res = max(dp[seqk][rem], res)
+	return res
+```
 ## 0/1 Knapsack
 
 ### Maximum Number of Achievable Transfer Requests
@@ -389,7 +410,38 @@ def distinctSubseqII(self, s: str) -> int:
 
 
 
-## General DP
+## Partitioning
+> Outer loop: Iterate for all lengths. Inner loop: Partition once for all possible partition indices
+- In top down recursive solutions, it's a given that the smaller partitions (subproblems) are calculated first
+- Make sure that bottom up solutions also calculate smaller subproblems first 
+### Rod Cutting
+> Given some lengths of rods and their respective prices, find the maximum profit that can be obtained by cutting a given rod any amount of times
+
+```python
+def rodcutting(n, prices):
+	dp = [0]*(n+1)
+	# length of rod
+	for i in range(1, n+1):
+		# cut at j
+		for j in range(i):
+			dp[i] = max(dp[i], prices[j]+prices[i-j])
+	return dp[n]
+```
+### [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)
+```python
+def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
+	n = len(arr)
+	dp = [0]*(n+1)
+	for i in range(1,n+1):
+		mx = arr[i-1]
+		for j in range(1,k+1):
+			if i-j < 0:
+				break
+			max_e = max(max_e, arr[i-j])
+			dp[i] = max(dp[i], j*mx + dp[i-j])
+	return dp[n]
+
+```
 
 ### Largest Sum of Averages for at Most K Partitions
 https://leetcode.com/problems/largest-sum-of-averages/description/
@@ -417,6 +469,46 @@ def largestSumOfAverages(self, nums: List[int], k: int) -> float:
         return dfs(len(nums), k)
 
 ```
+
+### [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)
+> The cost to partition at the $i^{th}$ cut is the current length of the stick
+
+```python
+def minCost(self, n: int, cuts: List[int]) -> int:
+	cuts = [0] + sorted(cuts) + [n]
+	@lru_cache(None)
+	def cost(i, j):
+		# the cost is 0 if there are no more cuts that have to be 
+		# made in the current stick [i, j]
+		if j-i == 1:
+			return 0
+		res = math.inf
+		# cuts that can be made
+		for k in range(i+1, j):
+			res = min(res, cost(i,k) + cost(k,j) + cuts[j]-cuts[i])
+		return res
+	
+	return cost(0, len(cuts)-1)
+
+def minCost(self, n: int, cuts: List[int]) -> int:
+	cuts = [0] + sorted(cuts) + [n]
+	m = len(cuts)
+	dp = [[math.inf]*m for _ in range(m)]
+	res = math.inf
+
+	for i in range(1, m):
+		dp[i-1][i] = 0
+
+	# smaller sticks first
+	for diff in range(2, m):
+		for left in range(m-diff):
+			right = left+diff
+			for mid in range(left+1, right):
+				dp[left][right] = min(dp[left][right], dp[left][mid]+dp[mid][right]+cuts[right]-cuts[left])
+
+	return dp[0][m-1]
+```
+
 ### Restore The Array
 https://leetcode.com/problems/restore-the-array/description/?envType=study-plan-v2&envId=dynamic-programming-grandmaster
 - Return the number of possible partitions of s such that each partition of s is less than k
@@ -536,7 +628,30 @@ def tallestBillboard(self, rods: List[int]) -> int:
 		dp = new_dp
 	return dp[0]
 ```
-## Time Complexity
+
+## 2-D
+
+
+
+## Floyd-Warshall: Shortest Paths between All Pairs
+- Given n edges, relax each edge n times
+```python
+def floyd(G):
+    dis = [[math.inf] * n for _ in range(n)]
+	for i, j, w in edges:
+		dis[i][j] = dis[j][i] = w
+	for i in range(n):
+		dis[i][i] = 0
+	for k in range(n):
+		for i in range(n):
+			for j in range(n):
+				dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j])
+	return dis
+```
+
+
+
+## Reducing Time Complexity
 ### Memoization
 https://stackoverflow.com/questions/21273505/memoization-algorithm-time-complexity
 - Can reduce complexity to polynomial time

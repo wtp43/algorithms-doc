@@ -21,9 +21,7 @@ def floyd(G):
             for i in range(n):
                 for j in range(n):
                     dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j])
-        res = {sum(d <= maxd for d in dis[i]): i for i in range(n)}
 
-        return res[min(res)]
 ```
 
 ## Optimizations
