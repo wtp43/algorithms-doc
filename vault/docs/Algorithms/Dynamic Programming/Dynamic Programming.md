@@ -362,6 +362,11 @@ def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         return max([EDS(i) for i in range(len(nums))], key=len)
 ```
 
+## Finite State Automaton
+
+### Best Time to Buy and Sell Stock
+
+
 ## Bitmask DP 
 - Space optimization for subset
 ### Minimum Vertex Cover
@@ -609,8 +614,9 @@ def tallestBillboard(self, rods: List[int]) -> int:
 >[!tip] State Reduction
 > Notice that since we are looking for the max sum and not the count of all partitions, we don't need to generate/keep track of all combinations
 
-- Save the higher sum the two subsets in a dictionary with `diff` as the keys
-- If we were to skip (not use for either support) the new rod, then `dp` would not change. That's why we are initializing `new_dp` by copying `dp`. It implicitly considers this option.
+- Save the higher sum of the two subsets in a dictionary with `diff = taller - shorter` as the keys
+- Store results in a copy of the current dictionary for each iteration to avoid overwriting previous results
+	- This also guarantees that results not involving the current rod are also still considered
 
 ```python
 def tallestBillboard(self, rods: List[int]) -> int:
