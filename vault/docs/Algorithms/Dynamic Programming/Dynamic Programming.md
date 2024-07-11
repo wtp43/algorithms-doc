@@ -369,9 +369,13 @@ def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
 
 ## Bitmask DP 
 - Space optimization for subset
-### Minimum Vertex Cover
-https://leetcode.com/problems/smallest-sufficient-team/description
+### Minimum Vertex Cover/[Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/)
+
 - Optimization: Remove all inputs that are subsets of another
+
+### [Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
+
+
 
 ### Maximum Total Reward 
 > Take any untaken reward as long as it is less than your current reward. You start with reward = 0

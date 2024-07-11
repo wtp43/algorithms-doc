@@ -246,6 +246,30 @@ a^b == 0 if and  only if a == b
 ```
 
 >>>>>>> 5a71c508d3099d93f3f323e8771832c0fd64195d
+
+## Hard Problems
+
+### Find All Possible Distinct Values of Bitwise OR of all Strictly Increasing Subsequences
+- Key: we don't need the entire subsequence, calculating all possible increasing subsequences would be O($2^n$)
+- Keep bitmask of distinct values seen so far
+- Choose every index as the ending num, for all numbers before that which are smaller, bitwise or the smaller number with the chosen index 
+
+```python
+def goodness(arr):
+    bitmask = 0
+    n = len(arr)
+    for i in range(n):
+        bitmask |= 1 << arr[i]
+        for j in range(i):
+            if arr[j] < arr[i]:
+                bitmask |= 1 << (arr[j] | arr[i])
+    res = [0]
+    for i in range(1, 1024):
+        if bitmask & 1 << i:
+            res.append(i)
+    return res
+```
+
 # Related
 https://leetcode.com/problems/sum-of-two-integers/solutions/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently/
 

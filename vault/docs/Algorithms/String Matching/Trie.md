@@ -88,6 +88,7 @@ def replaceWords(self, dictionary: List[str], sentence: str) -> str:
             cur = trie
             for ch in w:
                 cur = cur.setdefault(ch,{})
+                cur = cur[ch]
             cur['$'] = w
         def find(w):
             cur = trie
@@ -107,4 +108,34 @@ def replaceWords(self, dictionary: List[str], sentence: str) -> str:
             else:
                 res.append(w)
         return ' '.join(res)
+```
+
+
+## DP + Trie
+
+### [Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/)
+> Construct target string from list of words with different costs
+```python
+def minimumCost(self, target: str, words: List[str], costs: List[int]) -> int:
+	dp = [math.inf]*(len(target)+1)
+	dp[0] = 0
+	trie = {}
+	for w,cost in zip(words, costs):
+		node = trie
+		for c in w:
+			node.setdefault(c, {})
+			node = node[c]
+		node['$'] = min(cost, node.get('$', inf))
+	for i in range(len(target)):
+		node = trie
+		for j in range(i, len(target)):
+			c = target[j]
+			if c not in node:
+				break
+			node = node[c]
+			cost = node.get('$', 0)
+			if cost:
+				dp[j+1] = min(dp[j+1], dp[i] + cost)
+
+	return dp[-1] if dp[-1] != inf else -1
 ```

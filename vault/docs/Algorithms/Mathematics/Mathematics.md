@@ -299,3 +299,15 @@ https://en.wikipedia.org/wiki/Mediant_(mathematics)#Properties
 
 ## Definitions
 - Idempotent: Denoting an element of a set is unchanged in value when multiplied or otherwise operated on by itself
+
+
+
+## Misc
+
+### Josephus Problem/Permutation
+> Counting-out game
+https://en.wikipedia.org/wiki/Josephus_problem
+![[Pasted image 20240708143231.png]]
+- DP recurrence relation for n people and every $k^{th}$ person is out: 
+	- $f(n,k) = (f(n-1), k) +k)$ mod $n$ with $f(1,k) = 1$ if the positions are 0 indexed
+	- `+ k`  because after each iteration, the indices are incremented by k
