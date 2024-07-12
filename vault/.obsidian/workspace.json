@@ -16,13 +16,41 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Dynamic Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":694,\"ch\":11},\"to\":{\"line\":694,\"ch\":11}},\"scroll\":677.0958646616541}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "Interview Prep/OOP Design Patterns.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb9e200ed6f80a78",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Stacks/Stacks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -51,94 +79,6 @@
               "type": "markdown",
               "state": {
                 "file": "docs/Building Intuition and Test Cases.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9615457011c11606",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/String Matching/Trie.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f83370492ad57fd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Mathematics/Mathematics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e36b12ba4eb78b9b",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f63c30f17fc08cbd",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -248,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "Interview Prep/OOP Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "file": "Interview Prep/OOP Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -333,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md"
+                "file": "Interview Prep/OOP Design Patterns.md"
               }
             }
           }
@@ -342,7 +282,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -357,13 +298,18 @@
   },
   "active": "46b73fba0d632c48",
   "lastOpenFiles": [
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
-    "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
-    "docs/Algorithms/String Matching/Trie.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
-    "docs/Algorithms/Mathematics/Mathematics.md",
-    "attachments/Pasted image 20240708143231.png",
+    "docs/Algorithms/Stacks/Stacks.md",
     "docs/Building Intuition and Test Cases.md",
+    "Interview Prep/OOP Design Patterns.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "Interview Prep",
+    "docs/Algorithms/Stacks/Minimum Stack (Optimized).md",
+    "docs/Algorithms/String Matching/Trie.md",
+    "docs/Algorithms/Mathematics/Mathematics.md",
+    "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
+    "docs/Algorithms/Stacks/Untitled.md",
+    "attachments/Pasted image 20240708143231.png",
     "docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md",
     "docs/Algorithms/Graphs/Bellman Ford's Algorithm.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
@@ -371,7 +317,6 @@
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "docs/Algorithms/Sorting/Count Sort.md",
     "docs/Revision Feb 2024.md",
-    "docs/Algorithms/Stacks/Stacks.md",
     "docs/Algorithms/Sorting/Heaps.md",
     "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
     "docs/Algorithms/Graphs/Topological Sort.md",
@@ -382,10 +327,7 @@
     "docs/Algorithms/Advanced Data Structures/Heap Implementation.md",
     "docs/Some Leetcode Questions/LC-560. Subarray Sum Equals K.md",
     "docs/Intuition",
-    "docs/Algorithms/Sorting/Sort.md",
-    "docs/Algorithms/Randomized Algorithms/Reservoir Sampling.md",
     "docs/Algorithms/Randomized Algorithms",
-    "docs/Algorithms/Binary Tree/Segment Tree.md",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "docs/Algorithms/Queue",
@@ -395,7 +337,6 @@
     "docs/Algorithms/Linked List",
     "docs/Algorithms/Stacks",
     "docs/Algorithms/Hash Map",
-    "docs/Algos/Arrays/Untitled",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",
     "attachments/Pasted image 20221205181815.png",

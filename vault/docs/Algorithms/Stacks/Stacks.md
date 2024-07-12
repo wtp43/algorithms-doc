@@ -136,6 +136,26 @@ Similar to [[LC-84. Largest Rectangle in Histogram]]. The first step is to recog
 To find all the rectangles, we have to look at every possible i,j. So the BTTC is O(NM).
 To build our bars for the histogram, we can set the current row as the y axis and use DP. If the current cell is a 0, we cannot reuse the height form the previous rows, otherwise we can extend the bar.
 
+## General Stack Problems
+### [Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
+- Store stack of open bracket indices
+- When a closing bracket is seen, reverse the substring starting at the most recent open bracket index
+
+```python
+  def reverseParentheses(self, s: str) -> str:
+	open_ind = []
+	res = []
+	for c in s:
+		if c == "(":
+			open_ind.append(len(res))
+		elif c == ")":
+			start = open_ind.pop()
+			res[start:] = res[start:][::-1]
+		else:
+			res.append(c)
+	return "".join(res)
+```
+
 
 ## Monotonic Stack
 https://leetcode.com/problems/daily-temperatures/description/
@@ -180,6 +200,9 @@ def maximalRectangle(self, matrix: List[List[str]]) -> int:
         return ans    
 ```
 
+
+
+
 ## Advanced: Monotonic Stack + Two Pointers
 
 ### [962. Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/)
@@ -204,3 +227,27 @@ def maxWidthRamp(self, A):
 ```
 
 
+
+### [Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
+- Find longest increasing suffix
+- Check every increasing prefix that can be matched with a valid suffix (delete the middle)
+```python
+def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
+	j = len(arr)-1
+
+	# find longest increasing suffix
+	while j > 0 and arr[j-1] <= arr[j]:
+		j -= 1
+
+	# check all increasing prefixes with valid suffixes
+	i = 0
+	res = j
+	while i < j and (i == 0 or arr[i-1] <= arr[i]):
+		# find a valid inc suffix
+		while j < len(arr) and arr[i] > arr[j]:
+			j += 1
+		res = min(res, j-i-1)
+		i += 1
+	return res
+```

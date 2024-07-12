@@ -121,12 +121,32 @@ def maximumTotalDamage(self, power: List[int]) -> int:
 ## General 
 
 ### Maximal Square
-```python
 
-```
 
 ### Maximal Rectangle
 
+
+## Prefix Sum + DP
+
+### [Maximum Number of Non-Overlapping Subarrays With Sum Equals Target](https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
+- Store dictionary of keys: (prefix sum, index) 
+
+```python
+def maxNonOverlapping(self, nums: List[int], target: int) -> int:
+	n = len(nums)
+	dp = [0]*(n+1)
+	prefix = defaultdict(int)
+	cur = 0
+	prefix[0] = 0
+	for i in range(n):
+		cur += nums[i]
+		dp[i+1] = dp[i]
+		if cur-target in prefix:
+			dp[i+1] = max(dp[i], dp[prefix[cur-target]]+1)
+		prefix[cur] = i+1
+
+	return dp[n]
+```
 
 ## Subsequences
 > Generally uses hash map to save previously seen sequences with 'x' property
@@ -665,6 +685,14 @@ def floyd(G):
 	return dis
 ```
 
+
+## Submask Enumeration
+
+### Iterating through all masks $m$ with their submasks $s$ O(3^n)$
+- For the $i^{th}$ bit, there are 3 options:
+	1. Not in mask $m$ and therefore not in submask $s$
+	2. It is included in $m$ but not in $s$
+	3. Only in $s$
 
 
 ## Reducing Time Complexity
