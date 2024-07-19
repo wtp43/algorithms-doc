@@ -84,8 +84,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b48ad7ebcdedb2ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Prep/OOP Design Patterns.md",
+                "file": "docs/Building Intuition and Test Cases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Prep/OOP Design Patterns.md",
+                "file": "docs/Building Intuition and Test Cases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +284,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Prep/OOP Design Patterns.md"
+                "file": "docs/Building Intuition and Test Cases.md"
               }
             }
           }
@@ -296,11 +307,11 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "46b73fba0d632c48",
+  "active": "b48ad7ebcdedb2ec",
   "lastOpenFiles": [
     "docs/Algorithms/Stacks/Stacks.md",
-    "docs/Building Intuition and Test Cases.md",
     "Interview Prep/OOP Design Patterns.md",
+    "docs/Building Intuition and Test Cases.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "Interview Prep",
     "docs/Algorithms/Stacks/Minimum Stack (Optimized).md",
