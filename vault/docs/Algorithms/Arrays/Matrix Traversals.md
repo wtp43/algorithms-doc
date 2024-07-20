@@ -1,6 +1,19 @@
 ---
 ---
 
+# Matrix Operations and Traversals
+
+
+## Rows to Cols
+```python
+matrix = [[3,7,8],[9,11,13],[15,16,17]]
+# x is a tuple
+columns = [list(x) for x in zip(*matrix)] 
+# [[3, 9, 15], [7, 11, 16], [8, 13, 17]]
+
+```
+
+
 ## Direction Vectors
 - Makes accessing neighbouring cells very easy
 
