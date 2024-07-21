@@ -66,53 +66,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/betstrategy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b42c4fab49bbcf22",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
                 },
                 {
                   "title": "betstrategy",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/betstrategy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":44,\"ch\":0},\"to\":{\"line\":44,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Game Theory",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ML/Game Theory.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":8},\"to\":{\"line\":3,\"ch\":19}}}"
-                },
-                {
-                  "title": "Deep Learning",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"ML/Deep Learning.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":9},\"to\":{\"line\":23,\"ch\":9}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Startup.md",
+                "file": "Personal/Scraping IG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -170,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Startup.md",
+                "file": "Personal/Scraping IG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -298,7 +264,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Startup.md",
+                "file": "Personal/Scraping IG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +323,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Startup.md"
+                "file": "Personal/Scraping IG.md"
               }
             }
           }
@@ -380,10 +346,13 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "b42c4fab49bbcf22",
+  "active": "1a4a1769390d4cec",
   "lastOpenFiles": [
     "Personal/betstrategy.md",
+    "Personal/Scraping IG.md",
+    "Code/Pyenv.md",
     "Personal/Startup.md",
+    "Code",
     "Personal",
     "ML/Game Theory.md",
     "ML/Deep Learning.md",
@@ -411,15 +380,12 @@
     "docs/Revision Feb 2024.md",
     "docs/Algorithms/Sorting/Heaps.md",
     "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
-    "docs/Algorithms/Graphs/Topological Sort.md",
-    "docs/Algorithms/Arrays/Prefix Sum.md",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "docs/Algorithms/Queue",
     "docs/Algorithms/Sorting",
-    "docs/Algorithms/Geometry",
     "attachments/Pasted image 20240601175345.png",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",
