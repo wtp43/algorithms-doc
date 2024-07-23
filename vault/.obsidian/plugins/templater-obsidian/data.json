@@ -20,14 +20,9 @@
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/LC.md",
-    "Templates/Callout.md",
-    "Templates/Default.md",
-    "Templates/Book.md",
-    "Templates/Algos.md",
-    "Templates/Recipe.md",
-    "Templates/Generic.md"
+    "Templates/Callout.md.md"
   ],
   "startup_templates": [
     ""

@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "OOP Design Patterns",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/OOP Design Patterns.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Estimating Quantities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Estimating Quantities.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "OOP Design Patterns",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/OOP Design Patterns.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Dynamic Programming",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -28,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/OOP Design Patterns.md",
+                "file": "Templates/Callout.md.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +54,7 @@
             }
           },
           {
-            "id": "4cac893266983db8",
+            "id": "7bb6f4a32da28151",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -50,93 +68,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Arrays/Matrix Traversals.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a4a1769390d4cec",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "betstrategy",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/betstrategy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Scraping IG.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb9e200ed6f80a78",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Stacks/Stacks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f7e8a55a54ebc028",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Prefix Sum",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":64,\"ch\":0},\"to\":{\"line\":64,\"ch\":0}},\"scroll\":16.202052534595662}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Building Intuition and Test Cases.md",
+                "file": "Interview Prep/Estimating Quantities.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Scraping IG.md",
+                "file": "Templates/Callout.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Scraping IG.md",
+                "file": "Templates/Callout.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -323,7 +262,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Scraping IG.md"
+                "file": "Templates/Callout.md.md"
               }
             }
           }
@@ -346,20 +285,25 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "1a4a1769390d4cec",
+  "active": "46b73fba0d632c48",
   "lastOpenFiles": [
-    "Personal/betstrategy.md",
+    "Interview Prep/OOP Design Patterns.md",
+    "Interview Prep/Estimating Quantities.md",
+    "Templates/Callout.md.md",
+    "docs/Algorithms/Stacks/Stacks.md",
+    "docs/Building Intuition and Test Cases.md",
+    "docs/Algorithms/Arrays/Matrix Traversals.md",
+    "Templates",
+    "Interview Prep/Delivery Framework.md",
+    "Interview Prep/Web Crawler Design.md",
     "Personal/Scraping IG.md",
+    "Personal/betstrategy.md",
     "Code/Pyenv.md",
     "Personal/Startup.md",
     "Code",
     "Personal",
     "ML/Game Theory.md",
     "ML/Deep Learning.md",
-    "docs/Algorithms/Stacks/Stacks.md",
-    "docs/Building Intuition and Test Cases.md",
-    "Interview Prep/OOP Design Patterns.md",
-    "docs/Algorithms/Arrays/Matrix Traversals.md",
     "ML/Deep Learning",
     "ML",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
@@ -376,16 +320,11 @@
     "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Arrays/Sliding Window.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
-    "docs/Algorithms/Sorting/Count Sort.md",
-    "docs/Revision Feb 2024.md",
-    "docs/Algorithms/Sorting/Heaps.md",
-    "docs/Algorithms/Advanced Data Structures/Dynamic Arrays.md",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "docs/Algorithms/Queue",
-    "docs/Algorithms/Sorting",
     "attachments/Pasted image 20240601175345.png",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",

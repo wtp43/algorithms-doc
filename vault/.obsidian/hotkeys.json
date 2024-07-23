@@ -259,5 +259,21 @@
       ],
       "key": "S"
     }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "templater-obsidian:Templates/Callout.md.md": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "C"
+    }
   ]
 }
