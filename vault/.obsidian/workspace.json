@@ -18,6 +18,78 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Web Dev",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Web Dev.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "CORS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "betstrategy",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/betstrategy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Intrend Features",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Startup",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Intrend Features",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}}}"
+                },
+                {
+                  "title": "CORS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":227},\"to\":{\"line\":5,\"ch\":227}},\"scroll\":0}"
+                },
+                {
+                  "title": "IG Scraper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":19},\"to\":{\"line\":132,\"ch\":19}},\"scroll\":117.80748708712096}"
+                },
+                {
+                  "title": "Web Crawler Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":5},\"to\":{\"line\":67,\"ch\":4}},\"scroll\":44.37224417467285}"
+                },
+                {
+                  "title": "IG Scraper",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":22.432499907567006}"
+                },
+                {
+                  "title": "Web Crawler Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":321},\"to\":{\"line\":57,\"ch\":321}},\"scroll\":24.42686759290177}"
+                },
+                {
+                  "title": "Callout.md",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Callout.md.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":148},\"to\":{\"line\":8,\"ch\":148}},\"scroll\":0}"
+                },
+                {
                   "title": "OOP Design Patterns",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/OOP Design Patterns.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -46,7 +118,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Callout.md.md",
+                "file": "Personal/IG Scraper System Design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -54,7 +126,7 @@
             }
           },
           {
-            "id": "7bb6f4a32da28151",
+            "id": "fd5cc9272bb01ece",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -62,20 +134,73 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "IG Scraper System Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Prep/Estimating Quantities.md",
+                "file": "Personal/Scrape IG.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f75b6b13476dd28",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Startup",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":12.532647917598775}"
+                },
+                {
+                  "title": "Intrend Features",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Startup",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.938311456452911}"
+                },
+                {
+                  "title": "Intrend Features",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":16},\"to\":{\"line\":2,\"ch\":16}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Intrend Features.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +277,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -177,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Callout.md.md",
+                "file": "Personal/Scrape IG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Callout.md.md",
+                "file": "Personal/Scrape IG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Callout.md.md"
+                "file": "Personal/Scrape IG.md"
               }
             }
           }
@@ -285,21 +411,29 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "46b73fba0d632c48",
+  "active": "fd5cc9272bb01ece",
   "lastOpenFiles": [
-    "Interview Prep/OOP Design Patterns.md",
-    "Interview Prep/Estimating Quantities.md",
+    "Personal/IG Scraper System Design.md",
+    "Personal/Scrape IG.md",
+    "Personal/Web Dev.md",
+    "Personal/CORS.md",
+    "Personal/betstrategy.md",
+    "Personal/Intrend Features.md",
+    "Personal/Startup.md",
+    "Interview Prep/Web Crawler Design.md",
+    "Code/Poetry.md",
+    "Code/Poetry",
+    "attachments/Pasted image 20240723175205.png",
+    "attachments/Pasted image 20240723175120.png",
     "Templates/Callout.md.md",
+    "Interview Prep/Estimating Quantities.md",
+    "Interview Prep/OOP Design Patterns.md",
     "docs/Algorithms/Stacks/Stacks.md",
     "docs/Building Intuition and Test Cases.md",
     "docs/Algorithms/Arrays/Matrix Traversals.md",
     "Templates",
     "Interview Prep/Delivery Framework.md",
-    "Interview Prep/Web Crawler Design.md",
-    "Personal/Scraping IG.md",
-    "Personal/betstrategy.md",
     "Code/Pyenv.md",
-    "Personal/Startup.md",
     "Code",
     "Personal",
     "ML/Game Theory.md",
@@ -315,23 +449,15 @@
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Stacks/Untitled.md",
     "attachments/Pasted image 20240708143231.png",
-    "docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md",
-    "docs/Algorithms/Graphs/Bellman Ford's Algorithm.md",
-    "docs/Algorithms/Binary Search/Binary Search.md",
-    "docs/Algorithms/Arrays/Sliding Window.md",
-    "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",
     "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
-    "docs/Algorithms/Queue",
     "attachments/Pasted image 20240601175345.png",
     "attachments/Pasted image 20221202190703.png",
     "attachments/Pasted image 20221202190928.png",
     "attachments/Pasted image 20221205181815.png",
     "attachments/Pasted image 20230203202802.png",
-    "attachments/Pasted image 20221208044205.png",
-    "attachments/Pasted image 20221208044235.png",
-    "attachments/Pasted image 20221208044247.png"
+    "attachments/Pasted image 20221208044205.png"
   ]
 }

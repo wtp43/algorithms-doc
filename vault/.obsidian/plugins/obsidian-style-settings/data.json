@@ -50,12 +50,13 @@
   "Editor@@border-focus-mode": false,
   "Appearance-dark@@background-primary@@dark": "#1F2127D9",
   "Appearance-dark@@text-normal@@dark": "#D2D8E0",
-  "Appearance-dark@@color-orange-rgb@@dark": "#F03999",
+  "Appearance-dark@@color-orange-rgb@@dark": "#EC66AC",
   "Appearance-dark@@color-red-rgb@@dark": "#82A5C8",
   "Appearance-dark@@color-purple-rgb@@dark": "#8393B8",
   "Appearance-dark@@color-pink-rgb@@dark": "#FFDF1E",
   "Appearance-dark@@background-secondary@@dark": "#0404047D",
   "Appearance-dark@@background-tertiary@@dark": "#1B1B1B",
   "Appearance-dark@@color-cyan-rgb@@dark": "#D3DFFA",
-  "Appearance-dark@@color-yellow-rgb@@dark": "#B8FF00"
+  "Appearance-dark@@color-yellow-rgb@@dark": "#B8FF00",
+  "Appearance-dark@@color-green-rgb@@dark": "#B9BCF4"
 }
