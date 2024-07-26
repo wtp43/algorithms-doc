@@ -200,7 +200,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -303,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Scrape IG.md",
+                "file": "Personal/Intrend Features.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Scrape IG.md",
+                "file": "Personal/Intrend Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Scrape IG.md"
+                "file": "Personal/Intrend Features.md"
               }
             }
           }
@@ -411,7 +411,7 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "fd5cc9272bb01ece",
+  "active": "7f75b6b13476dd28",
   "lastOpenFiles": [
     "Personal/IG Scraper System Design.md",
     "Personal/Scrape IG.md",
