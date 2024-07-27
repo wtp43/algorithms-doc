@@ -198,9 +198,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "618181fe18f19b65",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -303,7 +320,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Intrend Features.md",
+                "file": "Personal/Scrape IG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +346,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Intrend Features.md",
+                "file": "Personal/Scrape IG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +405,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Intrend Features.md"
+                "file": "Personal/Scrape IG.md"
               }
             }
           }
@@ -411,14 +428,14 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "7f75b6b13476dd28",
+  "active": "fd5cc9272bb01ece",
   "lastOpenFiles": [
     "Personal/IG Scraper System Design.md",
+    "Personal/Intrend Features.md",
     "Personal/Scrape IG.md",
     "Personal/Web Dev.md",
     "Personal/CORS.md",
     "Personal/betstrategy.md",
-    "Personal/Intrend Features.md",
     "Personal/Startup.md",
     "Interview Prep/Web Crawler Design.md",
     "Code/Poetry.md",
