@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "IG Scraper System Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.152022042406909}"
+                },
+                {
                   "title": "Web Dev",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Web Dev.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -60,7 +66,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":227},\"to\":{\"line\":5,\"ch\":227}},\"scroll\":0}"
                 },
                 {
-                  "title": "IG Scraper",
+                  "title": "IG Scraper System Design",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":19},\"to\":{\"line\":132,\"ch\":19}},\"scroll\":117.80748708712096}"
@@ -72,7 +78,7 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":5},\"to\":{\"line\":67,\"ch\":4}},\"scroll\":44.37224417467285}"
                 },
                 {
-                  "title": "IG Scraper",
+                  "title": "IG Scraper System Design",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":22.432499907567006}"
@@ -118,35 +124,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/IG Scraper System Design.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd5cc9272bb01ece",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "IG Scraper System Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Scrape IG.md",
+                "file": "Code/Pyenv.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -199,8 +177,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,8 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -303,7 +279,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Scrape IG.md",
+                "file": "Code/Pyenv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +305,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Scrape IG.md",
+                "file": "Code/Pyenv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Scrape IG.md"
+                "file": "Code/Pyenv.md"
               }
             }
           }
@@ -411,11 +387,13 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "fd5cc9272bb01ece",
+  "active": "46b73fba0d632c48",
   "lastOpenFiles": [
-    "Personal/Intrend Features.md",
-    "Personal/Scrape IG.md",
     "Personal/IG Scraper System Design.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
+    "Personal/Scrape IG.md",
+    "Personal/Intrend Features.md",
     "Personal/Web Dev.md",
     "Personal/CORS.md",
     "Personal/betstrategy.md",
@@ -440,13 +418,11 @@
     "ML/Deep Learning.md",
     "ML/Deep Learning",
     "ML",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "Interview Prep",
     "docs/Algorithms/Stacks/Minimum Stack (Optimized).md",
     "docs/Algorithms/String Matching/Trie.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
     "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "docs/Algorithms/Stacks/Untitled.md",
     "attachments/Pasted image 20240708143231.png",
     "docs/Intuition",
