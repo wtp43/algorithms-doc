@@ -142,6 +142,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Delivery Framework",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Delivery Framework.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Process Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Process Log.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":41},\"to\":{\"line\":11,\"ch\":41}},\"scroll\":4.611887559361396}"
+                },
+                {
                   "title": "Scrape IG",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Scrape IG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -182,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Process Log.md",
+                "file": "Personal/IG Scraper System Design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -292,7 +304,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Process Log.md",
+                "file": "Personal/IG Scraper System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -318,7 +330,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Process Log.md",
+                "file": "Personal/IG Scraper System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -377,7 +389,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Process Log.md"
+                "file": "Personal/IG Scraper System Design.md"
               }
             }
           }
@@ -400,10 +412,11 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "7f75b6b13476dd28",
+  "active": "602e749129210847",
   "lastOpenFiles": [
-    "Personal/Scrape IG.md",
+    "Interview Prep/Delivery Framework.md",
     "Personal/Process Log.md",
+    "Personal/Scrape IG.md",
     "Personal/Intrend Features.md",
     "Code/Pyenv.md",
     "Personal/IG Scraper System Design.md",
@@ -425,7 +438,6 @@
     "docs/Building Intuition and Test Cases.md",
     "docs/Algorithms/Arrays/Matrix Traversals.md",
     "Templates",
-    "Interview Prep/Delivery Framework.md",
     "Code",
     "Personal",
     "ML/Game Theory.md",
