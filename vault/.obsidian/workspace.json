@@ -142,6 +142,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Web Crawler Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "IG Scraper System Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Delivery Framework",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Delivery Framework.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -194,7 +206,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/IG Scraper System Design.md",
+                "file": "ML/Unsupervised Learning.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -279,7 +291,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -304,7 +317,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/IG Scraper System Design.md",
+                "file": "ML/Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +343,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/IG Scraper System Design.md",
+                "file": "ML/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -389,7 +402,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/IG Scraper System Design.md"
+                "file": "ML/Unsupervised Learning.md"
               }
             }
           }
@@ -412,21 +425,22 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "602e749129210847",
+  "active": "7f75b6b13476dd28",
   "lastOpenFiles": [
+    "Interview Prep/Web Crawler Design.md",
+    "ML/Unsupervised Learning.md",
+    "Personal/IG Scraper System Design.md",
     "Interview Prep/Delivery Framework.md",
     "Personal/Process Log.md",
     "Personal/Scrape IG.md",
     "Personal/Intrend Features.md",
     "Code/Pyenv.md",
-    "Personal/IG Scraper System Design.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "Personal/Web Dev.md",
     "Personal/CORS.md",
     "Personal/betstrategy.md",
     "Personal/Startup.md",
-    "Interview Prep/Web Crawler Design.md",
     "Code/Poetry.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
@@ -448,7 +462,6 @@
     "docs/Algorithms/Stacks/Minimum Stack (Optimized).md",
     "docs/Algorithms/String Matching/Trie.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
-    "docs/Algorithms/Bit Manipulation/Bit Manipulation.md",
     "attachments/Pasted image 20240708143231.png",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",
