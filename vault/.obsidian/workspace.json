@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54668333fd8096ac",
+        "id": "775e715c46acd9e0",
         "type": "tabs",
         "children": [
           {
-            "id": "46b73fba0d632c48",
+            "id": "28cc82893cdd44ac",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,203 +18,78 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "IG Scraper System Design",
+                  "title": "Intervals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":12.152022042406909}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":5},\"to\":{\"line\":25,\"ch\":5}}}"
                 },
                 {
-                  "title": "Web Dev",
+                  "title": "Range Queries",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Web Dev.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Range Queries.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
-                  "title": "CORS",
+                  "title": "Intervals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
-                  "title": "betstrategy",
+                  "title": "Intersection of Intervals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/betstrategy.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intersection of Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
-                  "title": "Intrend Features",
+                  "title": "Intervals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
                 },
                 {
-                  "title": "Startup",
+                  "title": "Prefix Sum",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":229,\"ch\":27},\"to\":{\"line\":229,\"ch\":27}},\"scroll\":89.3283260673085}"
                 },
                 {
-                  "title": "Intrend Features",
+                  "title": "Matrix Traversals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":13},\"to\":{\"line\":16,\"ch\":13}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Matrix Traversals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
-                  "title": "CORS",
+                  "title": "Prefix Sum",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":227},\"to\":{\"line\":5,\"ch\":227}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
-                  "title": "IG Scraper System Design",
+                  "title": "Kadane's Algorithm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":132,\"ch\":19},\"to\":{\"line\":132,\"ch\":19}},\"scroll\":117.80748708712096}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Kadane's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":35},\"to\":{\"line\":12,\"ch\":35}},\"scroll\":2}"
                 },
                 {
-                  "title": "Web Crawler Design",
+                  "title": "Matrix Traversals",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":67,\"ch\":5},\"to\":{\"line\":67,\"ch\":4}},\"scroll\":44.37224417467285}"
-                },
-                {
-                  "title": "IG Scraper System Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":27,\"ch\":0},\"to\":{\"line\":27,\"ch\":0}},\"scroll\":22.432499907567006}"
-                },
-                {
-                  "title": "Web Crawler Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":321},\"to\":{\"line\":57,\"ch\":321}},\"scroll\":24.42686759290177}"
-                },
-                {
-                  "title": "Callout.md",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Templates/Callout.md.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":148},\"to\":{\"line\":8,\"ch\":148}},\"scroll\":0}"
-                },
-                {
-                  "title": "OOP Design Patterns",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/OOP Design Patterns.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Estimating Quantities",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Estimating Quantities.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "OOP Design Patterns",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/OOP Design Patterns.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Dynamic Programming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":694,\"ch\":11},\"to\":{\"line\":694,\"ch\":11}},\"scroll\":677.0958646616541}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Matrix Traversals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Pyenv.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f75b6b13476dd28",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Web Crawler Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Web Crawler Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "IG Scraper System Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Delivery Framework",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Interview Prep/Delivery Framework.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Process Log",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Process Log.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":41},\"to\":{\"line\":11,\"ch\":41}},\"scroll\":4.611887559361396}"
-                },
-                {
-                  "title": "Scrape IG",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Scrape IG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":62,\"ch\":0},\"to\":{\"line\":62,\"ch\":0}},\"scroll\":49.586203202360444}"
-                },
-                {
-                  "title": "Intrend Features",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":43},\"to\":{\"line\":45,\"ch\":43}},\"scroll\":29.026685788199178}"
-                },
-                {
-                  "title": "Startup",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":12.532647917598775}"
-                },
-                {
-                  "title": "Intrend Features",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Startup",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Startup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.938311456452911}"
-                },
-                {
-                  "title": "Intrend Features",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":16},\"to\":{\"line\":2,\"ch\":16}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Unsupervised Learning.md",
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -316,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Unsupervised Learning.md",
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Unsupervised Learning.md",
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -401,7 +276,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Unsupervised Learning.md"
+                "file": "docs/Algorithms/Arrays/Prefix Sum.md"
               }
             }
           }
@@ -424,16 +299,22 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "7f75b6b13476dd28",
+  "active": "28cc82893cdd44ac",
   "lastOpenFiles": [
-    "Interview Prep/Web Crawler Design.md",
+    "docs/Algorithms/Intervals/Intervals.md",
+    "docs/Algorithms/Intervals/Range Queries.md",
+    "docs/Algorithms/Intervals/Intersection of Intervals.md",
+    "docs/Algorithms/Arrays/Prefix Sum.md",
+    "docs/Algorithms/Arrays/Matrix Traversals.md",
+    "docs/Algorithms/Arrays/Kadane's Algorithm.md",
+    "Code/Pyenv.md",
     "ML/Unsupervised Learning.md",
+    "Interview Prep/Web Crawler Design.md",
     "Personal/IG Scraper System Design.md",
     "Interview Prep/Delivery Framework.md",
     "Personal/Process Log.md",
     "Personal/Scrape IG.md",
     "Personal/Intrend Features.md",
-    "Code/Pyenv.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
     "Personal/Web Dev.md",
@@ -449,18 +330,12 @@
     "Interview Prep/OOP Design Patterns.md",
     "docs/Algorithms/Stacks/Stacks.md",
     "docs/Building Intuition and Test Cases.md",
-    "docs/Algorithms/Arrays/Matrix Traversals.md",
     "Templates",
     "Code",
     "Personal",
-    "ML/Game Theory.md",
-    "ML/Deep Learning.md",
     "ML/Deep Learning",
     "ML",
     "Interview Prep",
-    "docs/Algorithms/Stacks/Minimum Stack (Optimized).md",
-    "docs/Algorithms/String Matching/Trie.md",
-    "docs/Algorithms/Mathematics/Mathematics.md",
     "attachments/Pasted image 20240708143231.png",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",

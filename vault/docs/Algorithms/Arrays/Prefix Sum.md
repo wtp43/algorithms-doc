@@ -349,3 +349,50 @@ def minKBitFlips(self, nums: List[int], k: int) -> int:
         return res
 ```
 
+## Substrings State
+- When dealing with the state of subarray/substring where the state of each element in the subarray/substring is relevant, the prefix must save the individual states 
+- ie: store in array
+### [Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/)
+```python
+ def canMakePaliQueries(self, s, queries):
+        res=[]
+        pre=[[0]*26]
+        for i,ch in enumerate(s):
+            counter=pre[-1][:]
+            counter[ord(ch)-ord('a')]^= 1
+            pre.append(counter)     
+        for l,r,k in queries:
+            res.append(2*k>=sum((pre[r+1][i]-pre[l][i])%2==1 for i in range(26))-1)
+        return res
+```
+
+## Modifying/Updating Prefixes
+
+### [Maximum Number of Ways to Partition an Array](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)
+> how many pivot points are there where both partitions have equal sum?
+> you are allowed to keep the array or modify just one element into k for all queries
+
+```python
+def waysToPartition(self, nums: List[int], k: int) -> int:
+	n = len(nums)
+	prefix_sums = list(accumulate(nums))
+	total_sum = prefix_sums[-1]
+	res = 0
+
+	# only possible if even sums
+	if total_sum%2 ==0:
+		res = prefix_sums[:-1].count(total_sum//2)
+	# all the differences we see after the pivot point
+	after_freq = Counter(total_sum-2*prefix for prefix in prefix_sums[:-1])
+	# all the differences we have seen so far
+	before_freq = Counter()
+	# change first num to k
+	res = max(res, after_freq[k-nums[0]])
+	for i in range(1,n):
+		gap = total_sum - 2*prefix_sums[i-1]
+		after_freq[gap] -=1
+		before_freq[gap] += 1
+		# count the
+		res = max(res, after_freq[k-nums[i]] + before_freq[nums[i]-k])
+	return res
+```
