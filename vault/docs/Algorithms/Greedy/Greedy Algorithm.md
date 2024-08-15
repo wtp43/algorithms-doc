@@ -13,7 +13,8 @@ We want to take the biggest amount at every step. Track this to help solve the p
 - Coin Problem/Matching -> DP/Backtracking: You can't always match the largest x to the largest y
 	- Ex: `x = [a,a,a,a,b,b,b], y = [3,2,2]`. The goal is to take `y[i]` quantities of identical objects in x 
 	- If we sort both x and y, then we would match 3 to `a` but then we would be left with `[a,b,b,b]` instead of `[a,a,a,a]`
-
+- Minimum moves to spread stones over grid
+	- BFS will not work since the least moves to allocate 1 stone is not necessarily the least moves to allocate all stones
 ## Examples
 
 - [ ] Fractional Knapsack

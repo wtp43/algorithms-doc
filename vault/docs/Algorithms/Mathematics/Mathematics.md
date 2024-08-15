@@ -204,6 +204,27 @@ def isPalindrome(self, x: int) -> bool:
         return reverseX == x or x == reverseX//1
 ```
 
+
+### Calculating Sqrt(x):
+- Bitshift
+- Binary search
+- Newtons's Method (Fastest)
+	- $x_{k+1} = \frac{1}{2}[x_k+\frac{x}{x_k}]$ converges to $\sqrt{x}$ if $x_0 = x$
+	- Define the error to be less than 1 and proceed iteratively
+	- https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Rough_estimation
+```python
+def NewtonsWithoutSeedTrimming(self, x: int) -> int:
+	if x < 2:
+		return x
+
+	x0 = x
+	x1 = (x0 + x / x0) / 2
+	while abs(x0 - x1) >= 1:
+		x0 = x1
+		x1 = (x0 + float(x) / x0) / 2
+
+	return int(x1)
+```
 ### Absolute Value Rules
 
 |–a| = |a|

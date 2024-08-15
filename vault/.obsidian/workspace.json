@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28cc82893cdd44ac",
+            "id": "29ff93a83be939f8",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,71 +18,183 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Intervals",
+                  "title": "Segmentation",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":5},\"to\":{\"line\":25,\"ch\":5}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Segmentation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}}}"
                 },
                 {
-                  "title": "Range Queries",
+                  "title": "Multithreading",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Range Queries.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Multithreading.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
+                },
+                {
+                  "title": "Dynamic Programming",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":313,\"ch\":28},\"to\":{\"line\":313,\"ch\":28}},\"scroll\":4}"
+                },
+                {
+                  "title": "Topological Sort",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":71.09988523446752}"
+                },
+                {
+                  "title": "Maze-solving Algorithms",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Maze-solving Algorithms.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
-                  "title": "Intervals",
+                  "title": "Prim's Algorithm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Intersection of Intervals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intersection of Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Intervals",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Intervals/Intervals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
                 },
                 {
-                  "title": "Prefix Sum",
+                  "title": "Binary Search",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":229,\"ch\":27},\"to\":{\"line\":229,\"ch\":27}},\"scroll\":89.3283260673085}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":35.087703278654494}"
                 },
                 {
-                  "title": "Matrix Traversals",
+                  "title": "Binary Tree",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Matrix Traversals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Maze-solving Algorithms",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Maze-solving Algorithms.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
+                },
+                {
+                  "title": "Prim's Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":67.48685253185252}"
+                },
+                {
+                  "title": "Union Find (Disjoint Sets)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Union Find (Disjoint Sets).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Topological Sort",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":176,\"ch\":0},\"to\":{\"line\":176,\"ch\":0}},\"scroll\":154.55420128645036}"
+                },
+                {
+                  "title": "Hashing",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Hash Map/Hashing.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":2},\"to\":{\"line\":38,\"ch\":2}},\"scroll\":2}"
+                },
+                {
+                  "title": "Topological Sort",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":59.058156861983065}"
+                },
+                {
+                  "title": "Prim's Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":15.427320217625484}"
+                },
+                {
+                  "title": "Kruskal's Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Kruskal's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 },
                 {
-                  "title": "Prefix Sum",
+                  "title": "Floyd's Cycle Detection Algorithm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Prefix Sum.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Floyd's Cycle Detection Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
-                  "title": "Kadane's Algorithm",
+                  "title": "Floyd-Warshall's Algorithm",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Kadane's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":35},\"to\":{\"line\":12,\"ch\":35}},\"scroll\":2}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
                 },
                 {
-                  "title": "Matrix Traversals",
+                  "title": "Eulerian Path",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Matrix Traversals.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Eulerian Path.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Dijkstra's Shortest Path Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":4},\"to\":{\"line\":38,\"ch\":4}},\"scroll\":37.125306911962646}"
+                },
+                {
+                  "title": "DFS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/DFS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":19.73979170235332}"
+                },
+                {
+                  "title": "BFS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/BFS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Sliding Window",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Sliding Window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":18},\"to\":{\"line\":101,\"ch\":18}},\"scroll\":62.48397890702279}"
+                },
+                {
+                  "title": "Combinatorics",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":43},\"to\":{\"line\":81,\"ch\":43}},\"scroll\":66.24311341172726}"
+                },
+                {
+                  "title": "Greedy Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Greedy/Greedy Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":119},\"to\":{\"line\":16,\"ch\":119}},\"scroll\":4}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
+                "file": "Code/ssh.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf13161b88fd4ed7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Binary Search/Binary Search.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -191,7 +303,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
+                "file": "Code/ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md",
+                "file": "Code/ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -276,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Algorithms/Arrays/Prefix Sum.md"
+                "file": "Code/ssh.md"
               }
             }
           }
@@ -299,37 +411,37 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "28cc82893cdd44ac",
+  "active": "602e749129210847",
   "lastOpenFiles": [
-    "docs/Algorithms/Intervals/Intervals.md",
-    "docs/Algorithms/Intervals/Range Queries.md",
-    "docs/Algorithms/Intervals/Intersection of Intervals.md",
-    "docs/Algorithms/Arrays/Prefix Sum.md",
-    "docs/Algorithms/Arrays/Matrix Traversals.md",
-    "docs/Algorithms/Arrays/Kadane's Algorithm.md",
-    "Code/Pyenv.md",
-    "ML/Unsupervised Learning.md",
-    "Interview Prep/Web Crawler Design.md",
-    "Personal/IG Scraper System Design.md",
-    "Interview Prep/Delivery Framework.md",
-    "Personal/Process Log.md",
-    "Personal/Scrape IG.md",
-    "Personal/Intrend Features.md",
+    "Code/Segmentation.md",
+    "Code/ssh.md",
+    "Code/Multithreading.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming (DP).md",
-    "Personal/Web Dev.md",
-    "Personal/CORS.md",
-    "Personal/betstrategy.md",
-    "Personal/Startup.md",
-    "Code/Poetry.md",
+    "docs/Algorithms/Binary Search/Binary Search.md",
+    "docs/Algorithms/Graphs/Topological Sort.md",
+    "docs/Algorithms/Graphs/Maze-solving Algorithms.md",
+    "docs/Algorithms/Graphs/Prim's Algorithm.md",
+    "docs/Algorithms/Binary Tree/Binary Tree.md",
+    "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
+    "docs/Algorithms/Hash Map/Hashing.md",
+    "docs/Algorithms/Graphs/Kruskal's Algorithm.md",
+    "docs/Algorithms/Graphs/Floyd's Cycle Detection Algorithm.md",
+    "docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md",
+    "docs/Algorithms/Graphs/Eulerian Path.md",
+    "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
+    "docs/Algorithms/Graphs/DFS.md",
+    "docs/Algorithms/Graphs/BFS.md",
+    "docs/Algorithms/Arrays/Sliding Window.md",
+    "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
+    "docs/Algorithms/Greedy/Greedy Algorithm.md",
+    "docs/Algorithms/Dynamic Programming/Backtracking.md",
+    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
+    "docs/Algorithms/Mathematics/Mathematics.md",
+    "docs/Algorithms/Arrays/Prefix Sum.md",
+    "docs/Algorithms/Intervals/Intervals.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
-    "Templates/Callout.md.md",
-    "Interview Prep/Estimating Quantities.md",
-    "Interview Prep/OOP Design Patterns.md",
-    "docs/Algorithms/Stacks/Stacks.md",
-    "docs/Building Intuition and Test Cases.md",
     "Templates",
     "Code",
     "Personal",

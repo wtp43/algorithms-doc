@@ -120,32 +120,32 @@ def minimizeMax(self, nums: List[int], p: int) -> int:
 	# in each step of the binary search (total logV steps)
 	# we have to determine how many pairs are valid (n steps)
 ```
-#### Kth Smallest Pair Distance
-https://leetcode.com/problems/find-k-th-smallest-pair-distance
+#### [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) 
+-  Key: sliding window to calculate distances <= dist
+	- O(n) since 
 ```python
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
-        start = 0
-        end = max(nums)
+        lo = 0
+        hi = max(nums)
         n = len(nums)
         # sort to calc min distances iteratively
         nums.sort()
         # how many pairs have less distance than cur
         def count(nums, dist):
             ans = i = j = 0
-            while i < n or j < n:
-                while j < n and nums[j] - nums[i] <= dist:
-                    j += 1
-                ans += j-i-1
-                i += 1
+			for j in range(n):
+				while nums[j] - nums[i] > dist:
+					i += 1
+				ans += j-i
             return ans
 
-        while start <= end:
-            mid = start + (end-start)//2
+        while lo <= hi:
+            mid = lo + (hi-lo)//2
             if count(nums,mid) < k:
-                start = mid + 1
+                lo = mid + 1
             else:
-                end = mid - 1
-        return start
+                hi = mid - 1
+        return lo 
 ```
 
 #### Largest Subarray Sum After K Splits

@@ -278,9 +278,7 @@ def uniquePathsIII(self, grid: List[List[int]]) -> int:
 	return paths
 ```
 
-
 # Spiral Backtracking
-
 
 
 # Related

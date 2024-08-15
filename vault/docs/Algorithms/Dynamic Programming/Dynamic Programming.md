@@ -27,7 +27,7 @@ created: 2023-01-31
 ### [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 >Given a list of preferred hats per person, count the number of ways each person is wearing a different preferred hat. 
 - There are 40 types of hats and at most 10 people.
-- Iterate over all 40 hats instead of `10*40` hats for every person
+- hats = k, people = n
 	- O($k \cdot n \cdot 2 ^n$) vs O($k \cdot n\cdot 2^{k}$)
 ```python
 def numberWays(self, hats: List[List[int]]) -> int:
@@ -725,4 +725,8 @@ https://stackoverflow.com/questions/21273505/memoization-algorithm-time-complexi
 - Ex: Word Break Problem 
 	- Use of **memoization** reduces worst case time complexity to O($n^2$) since `SegmentString` is only called on suffixes of the original input string, and that there are only O(n) suffixes
 
+## Hungarian Assignment
+
+https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/solutions/4024777/python-hungarian-assignment-10-lines-o-n-3-beats-100/?envType=company&envId=tiktok&favoriteSlug=tiktok-thirty-days
+- 
 ## [[LC-174. Dungeon Game]]

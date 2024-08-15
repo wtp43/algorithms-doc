@@ -83,6 +83,27 @@ public:
 };
 ```
 
+### [2799. Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/)
+- Count the number of subarrays that has all the distinct elements in the entire array
+- The key to prevent double counting is to add all the valid subarrays ending at the current position
+- 
+```python
+def countCompleteSubarrays(self, A: List[int]) -> int:
+	n, k = len(A), len(set(A))
+	res = i = 0
+	count = Counter()
+	for j in range(n):
+		count[A[j]] += 1
+		# Find the smallest valid subarray that ends at j
+		# Then the start indices of all the valid subarrays is [0...i] 
+		while len(count) == k:
+			count[A[i]] -= 1
+			if count[A[i]] == 0:
+				del count[A[i]]
+			i += 1
+		res += i
+	return res
+```
 - [ ] https://leetcode.com/problems/substring-with-concatenation-of-all-words/
 - [ ] [[LC-2302. Count Subarrays With Score Less Than K]]
 
