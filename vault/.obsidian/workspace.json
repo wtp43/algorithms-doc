@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Networks and Proxies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Networks and Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}},\"scroll\":12.389158024692879}"
+                },
+                {
+                  "title": "ssh",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/ssh.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":67},\"to\":{\"line\":1,\"ch\":67}}}"
+                },
+                {
                   "title": "Segmentation",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Segmentation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -172,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/ssh.md",
+                "file": "Code/Linux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -200,8 +212,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "362ab140721960e8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Code/Networks and Proxies.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -278,7 +313,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -303,7 +339,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/ssh.md",
+                "file": "Code/Networks and Proxies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/ssh.md",
+                "file": "Code/Networks and Proxies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -388,7 +424,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/ssh.md"
+                "file": "Code/Networks and Proxies.md"
               }
             }
           }
@@ -411,10 +447,12 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "602e749129210847",
+  "active": "362ab140721960e8",
   "lastOpenFiles": [
-    "Code/Segmentation.md",
+    "Code/Linux.md",
+    "Code/Networks and Proxies.md",
     "Code/ssh.md",
+    "Code/Segmentation.md",
     "Code/Multithreading.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
@@ -437,8 +475,6 @@
     "docs/Algorithms/Dynamic Programming/Backtracking.md",
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
-    "docs/Algorithms/Arrays/Prefix Sum.md",
-    "docs/Algorithms/Intervals/Intervals.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
