@@ -52,3 +52,6 @@ ingress:
 - Add client IP whitelist
 - Define time to live (TTL) of token
 
+## Ubuntu
+- edit networking options: /etc/sys/sysctl.conf
+- to apply the settings: sudo sysctl -p /etc/sysctl.conf
