@@ -222,13 +222,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Networks and Proxies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Networks and Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":0},\"to\":{\"line\":57,\"ch\":0}},\"scroll\":22.567832978124642}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Networks and Proxies.md",
+                "file": "Personal/Intrend LOG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -339,7 +345,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Networks and Proxies.md",
+                "file": "Personal/Intrend LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -365,7 +371,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Networks and Proxies.md",
+                "file": "Personal/Intrend LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -424,7 +430,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Networks and Proxies.md"
+                "file": "Personal/Intrend LOG.md"
               }
             }
           }
@@ -449,8 +455,9 @@
   },
   "active": "362ab140721960e8",
   "lastOpenFiles": [
-    "Code/Linux.md",
     "Code/Networks and Proxies.md",
+    "Personal/Intrend LOG.md",
+    "Code/Linux.md",
     "Code/ssh.md",
     "Code/Segmentation.md",
     "Code/Multithreading.md",
@@ -474,7 +481,6 @@
     "docs/Algorithms/Greedy/Greedy Algorithm.md",
     "docs/Algorithms/Dynamic Programming/Backtracking.md",
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
-    "docs/Algorithms/Mathematics/Mathematics.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
