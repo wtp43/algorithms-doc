@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Linux",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Linux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Networks and Proxies",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Networks and Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -184,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Linux.md",
+                "file": "Code/LLMS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -343,7 +349,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Linux.md",
+                "file": "Code/LLMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -369,7 +375,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/Linux.md",
+                "file": "Code/LLMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -428,7 +434,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/Linux.md"
+                "file": "Code/LLMS.md"
               }
             }
           }
@@ -456,9 +462,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Code/Linux.md",
+    "Code/LLMS.md",
     "Personal/Intrend LOG.md",
     "Code/Networks and Proxies.md",
-    "Code/Linux.md",
     "Code/ssh.md",
     "Code/Segmentation.md",
     "Code/Multithreading.md",
@@ -481,7 +488,6 @@
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "docs/Algorithms/Greedy/Greedy Algorithm.md",
     "docs/Algorithms/Dynamic Programming/Backtracking.md",
-    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
