@@ -241,8 +241,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -319,8 +318,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -345,7 +343,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Code/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -371,7 +369,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Code/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -430,7 +428,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Intrend LOG.md"
+                "file": "Code/Linux.md"
               }
             }
           }
@@ -453,10 +451,13 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "362ab140721960e8",
+  "active": "29ff93a83be939f8",
+  "ophidian:layout-settings": {
+    "pane-relief:focus-lock": true
+  },
   "lastOpenFiles": [
-    "Code/Networks and Proxies.md",
     "Personal/Intrend LOG.md",
+    "Code/Networks and Proxies.md",
     "Code/Linux.md",
     "Code/ssh.md",
     "Code/Segmentation.md",

@@ -1,7 +1,3 @@
-
-
-
-
 ### chmod
 >ls -l 
 `drwxr-xr-x`
@@ -16,3 +12,8 @@
 5: (101) Read and execute permissions.
 6: (110) Read and write permissions.
 7: (111) Read, write, and execute permissions.
+
+### Systemctl
+- systemctl restart/enable/disable/stop/start
+- service <service> status
+- 
