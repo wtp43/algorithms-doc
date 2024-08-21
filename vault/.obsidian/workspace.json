@@ -190,7 +190,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/LLMS.md",
+                "file": "Code/LLM Hardware.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -246,8 +246,70 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37bbd5f44d1666e5",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Arrays/Arrays.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9192ccc93b50ebbf",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Arrays/Two Pointers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7f05d849e39ce1e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -349,7 +411,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/LLMS.md",
+                "file": "Personal/Intrend LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -375,7 +437,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Code/LLMS.md",
+                "file": "Personal/Intrend LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -434,7 +496,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Code/LLMS.md"
+                "file": "Personal/Intrend LOG.md"
               }
             }
           }
@@ -457,20 +519,22 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "29ff93a83be939f8",
+  "active": "362ab140721960e8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Code/Linux.md",
-    "Code/LLMS.md",
+    "docs/Algorithms/Binary Search/Binary Search.md",
+    "Code/LLM Hardware.md",
+    "docs/Algorithms/Arrays/Two Pointers.md",
+    "docs/Algorithms/Arrays/Arrays.md",
     "Personal/Intrend LOG.md",
+    "Code/Linux.md",
     "Code/Networks and Proxies.md",
     "Code/ssh.md",
     "Code/Segmentation.md",
     "Code/Multithreading.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
-    "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Graphs/Topological Sort.md",
     "docs/Algorithms/Graphs/Maze-solving Algorithms.md",
     "docs/Algorithms/Graphs/Prim's Algorithm.md",
@@ -486,8 +550,6 @@
     "docs/Algorithms/Graphs/BFS.md",
     "docs/Algorithms/Arrays/Sliding Window.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
-    "docs/Algorithms/Greedy/Greedy Algorithm.md",
-    "docs/Algorithms/Dynamic Programming/Backtracking.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",

@@ -34,3 +34,31 @@ Find three elements in an array that sum to the target
 
 - [ ] [[LC-1268. Search Suggestions System]]
 - Keep a left and right pointer that have the prefix 
+
+## Increasing/Decreasing Sequences
+### 2972. Count the Number of Incremovable Subarrays II
+- A subarray is incremovable if nums becomes strictly increasing on removing only that subarray
+- Find longest increasing seq from the left
+- Iterate from the right and find the longest decreasing seq from the right
+
+```python
+def incremovableSubarrayCount(self, nums: List[int]) -> int:
+	n = len(nums)
+	i = res = 0
+	# find the longest increasing seq from the start of the arr
+	while i+1< n and nums[i] < nums[i+1]:
+		i += 1
+	# we can delete [i:] from 0 to i+1 inclusive, which equals i+2 possible arrays 
+	if i == n-1:
+		return n*(n+1)//2
+	res = i + 2
+	for j in range(n-1, -1,-1):
+		#
+		while i >= 0 and nums[i] >= nums[j]:
+			i -= 1
+		if j < n-1 and nums[j] >= nums[j+1]:
+			# we have met the longest increasing seq from the right
+			break
+		res += i+2
+	return res
+```
