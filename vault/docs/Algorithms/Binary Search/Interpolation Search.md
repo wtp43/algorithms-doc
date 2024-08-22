@@ -3,9 +3,6 @@ title:  "Interpolation Search"
 created: 2022-12-13
 ---
 
-
-
-
 # Interpolation Search
 A fast alternative to a binary search when the elements are uniformly distributed. This algorithm runs in a time complexity of ~O(log(log(n))).  
 

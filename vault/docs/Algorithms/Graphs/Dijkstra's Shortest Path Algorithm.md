@@ -32,7 +32,7 @@ def lazy_dijkstra(self, start):
 	prev = [None] * n
 	dist[start] = 0
 	seen = [0] * n
-	pq = [(start, 0)]
+	pq = [(0, start)]
 	heapq.heapify(pq)
 	while pq:
 		min_value, index = heapq.heappop(pq)

@@ -54,18 +54,18 @@ class Trie:
 
 ```python
 trie = {}
-    for w in dictionary:
-        cur = trie
-        for ch in w:
-            cur = cur.setdefault(ch,{})
-        cur['$'] = w
-    def find(w):
-        cur = trie
-        for ch in w:
-            if ch not in cur:
-                return True
-            cur = cur[ch]
-        return cur.get('$', False):
+for w in dictionary:
+	cur = trie
+	for ch in w:
+		cur = cur.setdefault(ch,{})
+	cur['$'] = w
+def find(w):
+	cur = trie
+	for ch in w:
+		if ch not in cur:
+			return True
+		cur = cur[ch]
+	return cur.get('$', False):
 ```
 
 ## Optimization:  Pre Order Traversal

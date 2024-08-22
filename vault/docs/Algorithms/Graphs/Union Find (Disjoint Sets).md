@@ -47,7 +47,7 @@ class Union_find:
 		elif self.rank[px] < self.rank[py]:
 			self.parent[px] = py
 		else:
-			SElf.rank[py] = self.rank[px]
+			self.rank[py] = self.rank[px]
 ```
 
 ## Applications

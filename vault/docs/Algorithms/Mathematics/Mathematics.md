@@ -332,3 +332,6 @@ https://en.wikipedia.org/wiki/Josephus_problem
 - DP recurrence relation for n people and every $k^{th}$ person is out: 
 	- $f(n,k) = (f(n-1), k) +k)$ mod $n$ with $f(1,k) = 1$ if the positions are 0 indexed
 	- `+ k`  because after each iteration, the indices are incremented by k
+
+###  Modular Arithmetic
+if a + b = c, then b%c = (-a)%c

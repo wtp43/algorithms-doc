@@ -4,201 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "775e715c46acd9e0",
+        "id": "67ba575db9908413",
         "type": "tabs",
         "children": [
           {
-            "id": "29ff93a83be939f8",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Linux",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Linux.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Networks and Proxies",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Networks and Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":2},\"to\":{\"line\":20,\"ch\":2}},\"scroll\":12.389158024692879}"
-                },
-                {
-                  "title": "ssh",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/ssh.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":67},\"to\":{\"line\":1,\"ch\":67}}}"
-                },
-                {
-                  "title": "Segmentation",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Segmentation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":25},\"to\":{\"line\":0,\"ch\":25}}}"
-                },
-                {
-                  "title": "Multithreading",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Multithreading.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}}}"
-                },
-                {
-                  "title": "Dynamic Programming",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Dynamic Programming/Dynamic Programming.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":313,\"ch\":28},\"to\":{\"line\":313,\"ch\":28}},\"scroll\":4}"
-                },
-                {
-                  "title": "Topological Sort",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":71.09988523446752}"
-                },
-                {
-                  "title": "Maze-solving Algorithms",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Maze-solving Algorithms.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Prim's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
-                },
-                {
-                  "title": "Binary Search",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Search/Binary Search.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":35.087703278654494}"
-                },
-                {
-                  "title": "Binary Tree",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Binary Tree/Binary Tree.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Maze-solving Algorithms",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Maze-solving Algorithms.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":4}"
-                },
-                {
-                  "title": "Prim's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":67.48685253185252}"
-                },
-                {
-                  "title": "Union Find (Disjoint Sets)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Union Find (Disjoint Sets).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
-                },
-                {
-                  "title": "Topological Sort",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":176,\"ch\":0},\"to\":{\"line\":176,\"ch\":0}},\"scroll\":154.55420128645036}"
-                },
-                {
-                  "title": "Hashing",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Hash Map/Hashing.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":2},\"to\":{\"line\":38,\"ch\":2}},\"scroll\":2}"
-                },
-                {
-                  "title": "Topological Sort",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Topological Sort.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}},\"scroll\":59.058156861983065}"
-                },
-                {
-                  "title": "Prim's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Prim's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":15.427320217625484}"
-                },
-                {
-                  "title": "Kruskal's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Kruskal's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
-                },
-                {
-                  "title": "Floyd's Cycle Detection Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Floyd's Cycle Detection Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Floyd-Warshall's Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
-                },
-                {
-                  "title": "Eulerian Path",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Eulerian Path.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "Dijkstra's Shortest Path Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":4},\"to\":{\"line\":38,\"ch\":4}},\"scroll\":37.125306911962646}"
-                },
-                {
-                  "title": "DFS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/DFS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":19.73979170235332}"
-                },
-                {
-                  "title": "BFS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/BFS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
-                },
-                {
-                  "title": "Sliding Window",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Arrays/Sliding Window.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":18},\"to\":{\"line\":101,\"ch\":18}},\"scroll\":62.48397890702279}"
-                },
-                {
-                  "title": "Combinatorics",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":81,\"ch\":43},\"to\":{\"line\":81,\"ch\":43}},\"scroll\":66.24311341172726}"
-                },
-                {
-                  "title": "Greedy Algorithm",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Greedy/Greedy Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":119},\"to\":{\"line\":16,\"ch\":119}},\"scroll\":4}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code/LLM Hardware.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf13161b88fd4ed7",
+            "id": "5051f638d782e20f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -212,7 +22,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Binary Search/Binary Search.md",
+                "file": "Personal/Algo Reference.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -220,7 +30,7 @@
             }
           },
           {
-            "id": "362ab140721960e8",
+            "id": "37c5087be20c72c5",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -228,12 +38,6 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Networks and Proxies",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Code/Networks and Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":57,\"ch\":0},\"to\":{\"line\":57,\"ch\":0}},\"scroll\":22.567832978124642}"
                 }
               ]
             },
@@ -248,7 +52,7 @@
             }
           },
           {
-            "id": "37bbd5f44d1666e5",
+            "id": "35f2dad8efd1302d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -262,54 +66,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Arrays/Arrays.md",
+                "file": "docs/Algorithms/Mathematics/Mathematics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "9192ccc93b50ebbf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Arrays/Two Pointers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7f05d849e39ce1e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -386,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -519,37 +285,37 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "362ab140721960e8",
+  "active": "37c5087be20c72c5",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "docs/Algorithms/Binary Search/Binary Search.md",
-    "Code/LLM Hardware.md",
-    "docs/Algorithms/Arrays/Two Pointers.md",
-    "docs/Algorithms/Arrays/Arrays.md",
-    "Personal/Intrend LOG.md",
-    "Code/Linux.md",
-    "Code/Networks and Proxies.md",
-    "Code/ssh.md",
-    "Code/Segmentation.md",
-    "Code/Multithreading.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "Personal/Algo Reference.md",
+    "docs/Algorithms/Mathematics/Mathematics.md",
     "docs/Algorithms/Graphs/Topological Sort.md",
-    "docs/Algorithms/Graphs/Maze-solving Algorithms.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "docs/Algorithms/Dynamic Programming/0-1 Knapsack.md",
+    "docs/Algorithms/Randomized Algorithms/Reservoir Sampling.md",
+    "docs/Algorithms/Stacks/Maximum Frequency Stack.md",
+    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+    "docs/Algorithms/String Matching/Trie.md",
     "docs/Algorithms/Graphs/Prim's Algorithm.md",
-    "docs/Algorithms/Binary Tree/Binary Tree.md",
     "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
-    "docs/Algorithms/Hash Map/Hashing.md",
+    "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Graphs/Kruskal's Algorithm.md",
-    "docs/Algorithms/Graphs/Floyd's Cycle Detection Algorithm.md",
-    "docs/Algorithms/Graphs/Floyd-Warshall's Algorithm.md",
-    "docs/Algorithms/Graphs/Eulerian Path.md",
+    "docs/Revision Feb 2024.md",
     "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
-    "docs/Algorithms/Graphs/DFS.md",
     "docs/Algorithms/Graphs/BFS.md",
-    "docs/Algorithms/Arrays/Sliding Window.md",
-    "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
+    "docs/Algorithms/Binary Tree/Binary Tree.md",
+    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
+    "Code/LLM Hardware.md",
+    "docs/Algorithms/Binary Search/Binary Search.md",
+    "Personal/Intrend LOG.md",
+    "docs/Algorithms/Arrays/Arrays.md",
+    "docs/Algorithms/Binary Search/Interpolation Search.md",
+    "docs/Algorithms/Arrays/Two Pointers.md",
+    "docs/Algorithms/Arrays/Subsets.md",
+    "docs/Algorithms/Arrays/Subset Sum.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
