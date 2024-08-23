@@ -10,6 +10,7 @@ max_depth: 6
 ```
 # Quick Select
 
+- Time complexity: O(n) on average, O(n2) in the worst case
 # Implementation
 
 ```python

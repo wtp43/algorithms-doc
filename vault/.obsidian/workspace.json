@@ -38,13 +38,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":17},\"to\":{\"line\":54,\"ch\":17}},\"scroll\":43.67418346305201}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "docs/SQL/SQL Basics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +58,7 @@
             }
           },
           {
-            "id": "35f2dad8efd1302d",
+            "id": "733bf38eaea2bdb0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -66,7 +72,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Algorithms/Mathematics/Mathematics.md",
+                "file": "docs/Algorithms/Sorting/Quick Select.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "538f2d10d3bc1715",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Intrend LOG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -177,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "docs/SQL/SQL Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "docs/SQL/SQL Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,7 +290,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Intrend LOG.md"
+                "file": "docs/SQL/SQL Basics.md"
               }
             }
           }
@@ -290,8 +318,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Personal/Intrend LOG.md",
     "Personal/Algo Reference.md",
+    "docs/SQL/SQL Basics.md",
+    "docs/Algorithms/Sorting/Quick Select.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
+    "docs/SQL",
     "docs/Algorithms/Graphs/Topological Sort.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
     "docs/Algorithms/Dynamic Programming/0-1 Knapsack.md",
@@ -310,12 +342,9 @@
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "Code/LLM Hardware.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
-    "Personal/Intrend LOG.md",
     "docs/Algorithms/Arrays/Arrays.md",
     "docs/Algorithms/Binary Search/Interpolation Search.md",
     "docs/Algorithms/Arrays/Two Pointers.md",
-    "docs/Algorithms/Arrays/Subsets.md",
-    "docs/Algorithms/Arrays/Subset Sum.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
@@ -328,7 +357,6 @@
     "attachments/Pasted image 20240708143231.png",
     "docs/Intuition",
     "docs/Algorithms/Randomized Algorithms",
-    "docs/Algorithms/Mathematics",
     "attachments/Pasted image 20240604181855.png",
     "attachments/Pasted image 20240601175345.png",
     "attachments/Pasted image 20221202190703.png",
