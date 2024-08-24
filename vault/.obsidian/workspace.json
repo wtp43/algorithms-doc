@@ -30,57 +30,7 @@
             }
           },
           {
-            "id": "37c5087be20c72c5",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Intrend LOG",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":54,\"ch\":17},\"to\":{\"line\":54,\"ch\":17}},\"scroll\":43.67418346305201}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/SQL/SQL Basics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "733bf38eaea2bdb0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Algorithms/Sorting/Quick Select.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "538f2d10d3bc1715",
+            "id": "3aec65657d319be0",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -205,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/SQL/SQL Basics.md",
+                "file": "Personal/Intrend LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/SQL/SQL Basics.md",
+                "file": "Personal/Intrend LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -290,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/SQL/SQL Basics.md"
+                "file": "Personal/Intrend LOG.md"
               }
             }
           }
@@ -313,15 +263,15 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "37c5087be20c72c5",
+  "active": "3aec65657d319be0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "Personal/Intrend LOG.md",
     "Personal/Algo Reference.md",
-    "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Sorting/Quick Select.md",
+    "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
     "docs/SQL",
     "docs/Algorithms/Graphs/Topological Sort.md",

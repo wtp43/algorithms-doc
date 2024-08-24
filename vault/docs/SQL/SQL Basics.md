@@ -9,6 +9,7 @@
 - TEXT, LONGTEXT: text data whose maximum length is unknown
 - DATE, MONTH, YEAR, DATETIME, TIMESTAMP
 	- To query the year from a date in postgres do: `SELECT date_part('year', now())`
+	- Or `sql to_char(timestamp, 'YYYY-MM')
 - NULL
 - RANGE
 	- `'(30, 35]':: int4range`
@@ -115,20 +116,20 @@ https://leetcode.com/problems/sales-person/description/
 - MIN,MAX
 	- can be used to get the earliest or latest date
 
-Example:
+#### Example:
 
-| date_id   | make_name | lead_id | partner_id |
-| --------- | --------- | ------- | ---------- |
-| 2020-12-8 | toyota    | 0       | 1          |
-| 2020-12-8 | toyota    | 1       | 0          |
-| 2020-12-8 | toyota    | 1       | 2          |
-| 2020-12-7 | toyota    | 0       | 2          |
-| 2020-12-7 | toyota    | 0       | 1          |
-| 2020-12-8 | honda     | 1       | 2          |
-| 2020-12-8 | honda     | 2       | 1          |
-| 2020-12-7 | honda     | 0       | 1          |
-| 2020-12-7 | honda     | 1       | 2          |
-| 2020-12-7 | honda     | 2       | 1          |
+| date_id   | make_name | lead_id | partner_id |     |
+| --------- | --------- | ------- | ---------- | --- |
+| 2020-12-8 | toyota    | 0       | 1          |     |
+| 2020-12-8 | toyota    | 1       | 0          |     |
+| 2020-12-8 | toyota    | 1       | 2          |     |
+| 2020-12-7 | toyota    | 0       | 2          |     |
+| 2020-12-7 | toyota    | 0       | 1          |     |
+| 2020-12-8 | honda     | 1       | 2          |     |
+| 2020-12-8 | honda     | 2       | 1          |     |
+| 2020-12-7 | honda     | 0       | 1          |     |
+| 2020-12-7 | honda     | 1       | 2          |     |
+| 2020-12-7 | honda     | 2       | 1          |     |
 
 Output:
 
@@ -149,7 +150,14 @@ FROM
     DailySales
 GROUP BY date_id, make_name;
 ```
-
+#### Getting Average Rate 
+[1934. Confirmation Rate](https://leetcode.com/problems/confirmation-rate/)
+```sql
+select s.user_id,
+ROUND(AVG(case when action = 'confirmed' then 1 else 0 end),2) as confirmation_rate
+from Signups as s LEFT JOIN Confirmations as c ON s.user_id = c.user_id
+group by s.user_id;
+```
 #### Querying with MAX/MIN
 Example: Get all records that are not the minimum or maximum
 ```sql
@@ -254,7 +262,21 @@ null |    6
 null |    5
 ```
 
+## Intermediate SQL
+### [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/)(Comparing minimum to second smallest in groups)
 
+```sql
+with q as (
+select player_id, MIN(event_date) as min_date from Activity
+group by player_id
+), 
+r as (select a.player_id, CASE WHEN (event_date = ('1 day'::interval + q.min_date)::date) THEN 1 ELSE 0 END as valid
+from Activity as a LEFT JOIN q as q ON q.player_id = a.player_id
+)
+select ROUND(SUM(valid)/COUNT(DISTINCT(player_id))::decimal, 2) as fraction
+from r as r;
+
+```
 
 ## Foreign Key, Transaction, ACID, Index, User Privilege
 https://leetcode.com/explore/learn/card/sql-language/685/intermediate-sql/4347/
@@ -275,3 +297,8 @@ where c.name = 'RED'
 - Since a LEFT JOIN is used, if c.name is not 'RED', a default NULL value is set
 - Using WHERE will actually filter the records to only include c.name = 'RED'
 - Alternatively, using AND with an INNER JOIN will also produce the intended query
+
+### Integer Division
+- `/` does not explicitly do integer or decimal division
+- When you want float division from 2 integers, remember to cast one of the integers to a decimal
+	- `a/b::decimal`

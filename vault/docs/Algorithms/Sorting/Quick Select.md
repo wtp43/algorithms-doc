@@ -14,6 +14,7 @@ max_depth: 6
 # Implementation
 
 ```python
+#k is 0 indexed here
 def findKthLargest(self, nums: List[int], k: int) -> int:
     def qselect(nums: List[int], l: int, r: int, k: int) -> None:
         p = partition(nums, l, r)
@@ -29,7 +30,11 @@ def findKthLargest(self, nums: List[int], k: int) -> int:
         pivot, p = nums[r], r
 
         i = l
+        # find the correct position of nums[p] in the arr[l:r]
         while i < p:
+			# if nums[i] is greather than pivot, swap with nums[p-1],
+			# then swap nums[p-1] with nums[p]
+			# decrement i and p by one since we have reduced the arr size by swapping
             if nums[i] > pivot: 
                 nums[i], nums[p - 1] = nums[p - 1], nums[i]
                 nums[p], nums[p - 1] = nums[p - 1], nums[p]
@@ -39,8 +44,10 @@ def findKthLargest(self, nums: List[int], k: int) -> int:
             i += 1
 
         return p
-
+	#kth largest
     return qselect(nums, 0, len(nums) - 1, len(nums) - k)
+    #kth smallest
+    return qselect(nums, 0, len(nums) - 1, k)
 ```
 
 ## Optimizations
