@@ -249,8 +249,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,8 +267,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Personal/Intrend LOG.md",
     "Personal/Algo Reference.md",
+    "Personal/Intrend LOG.md",
     "docs/Algorithms/Sorting/Quick Select.md",
     "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
