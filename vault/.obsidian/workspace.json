@@ -50,6 +50,28 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82222e9367ca8fc9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/Design.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -129,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -267,8 +288,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Personal/Algo Reference.md",
+    "Personal/Design.md",
     "Personal/Intrend LOG.md",
+    "Personal/Algo Reference.md",
     "docs/Algorithms/Sorting/Quick Select.md",
     "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
@@ -293,7 +315,6 @@
     "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Arrays/Arrays.md",
     "docs/Algorithms/Binary Search/Interpolation Search.md",
-    "docs/Algorithms/Arrays/Two Pointers.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
