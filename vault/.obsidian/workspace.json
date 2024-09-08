@@ -30,7 +30,7 @@
             }
           },
           {
-            "id": "3aec65657d319be0",
+            "id": "95553bf5cfeb9e24",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -38,13 +38,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Self-hosting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Self-hosting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":6,\"ch\":34}},\"scroll\":0}"
+                },
+                {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":0},\"to\":{\"line\":125,\"ch\":3}},\"scroll\":413.16368570310897}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Personal/Error Tracking with Sentry.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -176,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Personal/Error Tracking with Sentry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Personal/Error Tracking with Sentry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +273,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Intrend LOG.md"
+                "file": "Personal/Error Tracking with Sentry.md"
               }
             }
           }
@@ -283,14 +295,16 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "3aec65657d319be0",
+  "active": "95553bf5cfeb9e24",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Personal/Design.md",
-    "Personal/Intrend LOG.md",
+    "Personal/Self-hosting.md",
+    "Personal/Error Tracking with Sentry.md",
     "Personal/Algo Reference.md",
+    "Personal/Intrend LOG.md",
+    "Personal/Design.md",
     "docs/Algorithms/Sorting/Quick Select.md",
     "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
@@ -313,8 +327,6 @@
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "Code/LLM Hardware.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
-    "docs/Algorithms/Arrays/Arrays.md",
-    "docs/Algorithms/Binary Search/Interpolation Search.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
