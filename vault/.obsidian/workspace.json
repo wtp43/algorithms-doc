@@ -8,28 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5051f638d782e20f",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Algo Reference.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "95553bf5cfeb9e24",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -38,6 +16,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Error Tracking with Sentry",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Error Tracking with Sentry.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Self-hosting",
@@ -56,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Error Tracking with Sentry.md",
+                "file": "Personal/Kubernetes and Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -64,7 +48,7 @@
             }
           },
           {
-            "id": "82222e9367ca8fc9",
+            "id": "d97f69db1601e48f",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -72,21 +56,32 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Kubernetes and Docker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Kubernetes and Docker.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Scrape IG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Scrape IG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":54.4143816441668}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Design.md",
+                "file": "Personal/Intrend LOG.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -188,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Error Tracking with Sentry.md",
+                "file": "Personal/Kubernetes and Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Error Tracking with Sentry.md",
+                "file": "Personal/Kubernetes and Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +269,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Error Tracking with Sentry.md"
+                "file": "Personal/Kubernetes and Docker.md"
               }
             }
           }
@@ -282,7 +278,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,11 +297,13 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Personal/Self-hosting.md",
-    "Personal/Error Tracking with Sentry.md",
-    "Personal/Algo Reference.md",
     "Personal/Intrend LOG.md",
+    "Personal/Kubernetes and Docker.md",
+    "Personal/Scrape IG.md",
     "Personal/Design.md",
+    "Personal/Algo Reference.md",
+    "Personal/Error Tracking with Sentry.md",
+    "Personal/Self-hosting.md",
     "docs/Algorithms/Sorting/Quick Select.md",
     "docs/SQL/SQL Basics.md",
     "docs/Algorithms/Mathematics/Mathematics.md",
@@ -325,8 +324,6 @@
     "docs/Algorithms/Graphs/BFS.md",
     "docs/Algorithms/Binary Tree/Binary Tree.md",
     "docs/Algorithms/Binary Tree/Binary Search Tree.md",
-    "Code/LLM Hardware.md",
-    "docs/Algorithms/Binary Search/Binary Search.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
