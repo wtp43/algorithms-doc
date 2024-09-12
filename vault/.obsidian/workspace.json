@@ -58,6 +58,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":376,\"ch\":0},\"to\":{\"line\":376,\"ch\":0}},\"scroll\":389.4576461037863}"
+                },
+                {
                   "title": "Kubernetes and Docker",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/Kubernetes and Docker.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -74,14 +80,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Intrend LOG.md",
+                "file": "Personal/Handling DB Transactions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c208b9072a72940",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal/STAR Problems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -158,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -184,7 +212,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Kubernetes and Docker.md",
+                "file": "Personal/STAR Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Kubernetes and Docker.md",
+                "file": "Personal/STAR Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Kubernetes and Docker.md"
+                "file": "Personal/STAR Problems.md"
               }
             }
           }
@@ -292,11 +320,13 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "95553bf5cfeb9e24",
+  "active": "3c208b9072a72940",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Personal/STAR Problems.md",
+    "Personal/Handling DB Transactions.md",
     "Personal/Intrend LOG.md",
     "Personal/Kubernetes and Docker.md",
     "Personal/Scrape IG.md",
@@ -322,8 +352,6 @@
     "docs/Revision Feb 2024.md",
     "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
     "docs/Algorithms/Graphs/BFS.md",
-    "docs/Algorithms/Binary Tree/Binary Tree.md",
-    "docs/Algorithms/Binary Tree/Binary Search Tree.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
