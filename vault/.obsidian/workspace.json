@@ -96,13 +96,37 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "BFS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/BFS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":2}"
+                },
+                {
+                  "title": "Dijkstra's Shortest Path Algorithm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":97.81717915292404}"
+                },
+                {
+                  "title": "Union Find (Disjoint Sets)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"docs/Algorithms/Graphs/Union Find (Disjoint Sets).md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}},\"scroll\":74.51256637119403}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Personal/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":56,\"ch\":20},\"to\":{\"line\":56,\"ch\":20}},\"scroll\":12.19837938224205}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/STAR Problems.md",
+                "file": "docs/Algorithms/Graphs/Cycle Detection.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -212,7 +236,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/STAR Problems.md",
+                "file": "docs/Algorithms/Graphs/Cycle Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +262,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/STAR Problems.md",
+                "file": "docs/Algorithms/Graphs/Cycle Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/STAR Problems.md"
+                "file": "docs/Algorithms/Graphs/Cycle Detection.md"
               }
             }
           }
@@ -325,6 +349,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "docs/Algorithms/Graphs/BFS.md",
+    "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
+    "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
     "Personal/STAR Problems.md",
     "Personal/Handling DB Transactions.md",
     "Personal/Intrend LOG.md",
@@ -346,12 +373,9 @@
     "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
     "docs/Algorithms/String Matching/Trie.md",
     "docs/Algorithms/Graphs/Prim's Algorithm.md",
-    "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
     "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Graphs/Kruskal's Algorithm.md",
     "docs/Revision Feb 2024.md",
-    "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
-    "docs/Algorithms/Graphs/BFS.md",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
     "attachments/Pasted image 20240723175120.png",
