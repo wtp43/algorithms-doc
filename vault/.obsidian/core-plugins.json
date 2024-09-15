@@ -9,5 +9,6 @@
   "command-palette",
   "editor-status",
   "outline",
-  "file-recovery"
+  "file-recovery",
+  "sync"
 ]
