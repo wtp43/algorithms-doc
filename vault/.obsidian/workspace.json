@@ -8,46 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "95553bf5cfeb9e24",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Error Tracking with Sentry",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Error Tracking with Sentry.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Self-hosting",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Self-hosting.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":6,\"ch\":34}},\"scroll\":0}"
-                },
-                {
-                  "title": "Intrend LOG",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":125,\"ch\":0},\"to\":{\"line\":125,\"ch\":3}},\"scroll\":413.16368570310897}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intrend Engineering/Kubernetes and Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d97f69db1601e48f",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -288,8 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -314,7 +273,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Kubernetes and Docker.md",
+                "file": "Intrend Engineering/Handling DB Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -340,7 +299,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Kubernetes and Docker.md",
+                "file": "Intrend Engineering/Handling DB Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -399,7 +358,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Kubernetes and Docker.md"
+                "file": "Intrend Engineering/Handling DB Transactions.md"
               }
             }
           }
@@ -422,13 +381,16 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "95553bf5cfeb9e24",
+  "active": "d97f69db1601e48f",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Handling DB Transactions.md",
+    "Intrend Research/Turning the data into a product.md",
+    "Intrend Research/Colors.md",
+    "Intrend Engineering/Distributed Logs.md",
     "Intrend Engineering/Kubernetes and Docker.md",
+    "Intrend Engineering/Handling DB Transactions.md",
     "docs/Algorithms/Graphs/Graphs.md",
     "docs/Algorithms/Graphs/Untitled.md",
     "Personal/Algo Reference.md",
@@ -452,9 +414,6 @@
     "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
     "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
     "Intrend Engineering/Intrend LOG.md",
-    "Intrend Engineering/Scrape IG.md",
-    "Intrend Engineering/Error Tracking with Sentry.md",
-    "Intrend Engineering/Self-hosting.md",
     "docs/SQL",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",

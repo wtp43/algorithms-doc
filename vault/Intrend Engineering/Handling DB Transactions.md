@@ -1,4 +1,4 @@
-https://www.reddit.com/r/golang/comments/147uc6v/how_did_you_solve_the_problem_of_transactions/l
+https://www.reddit.com/r/golang/comments/148uc6v/how_did_you_solve_the_problem_of_transactions/l
 
 
 This is far beyond Go and is a legitimately hard problem. This is coming from someone who has worked on an eventually consistent distributed data store for years.
