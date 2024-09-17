@@ -170,8 +170,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7e4f6ef6edb9e967",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Networking.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -248,7 +271,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -273,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Handling DB Transactions.md",
+                "file": "Intrend Engineering/Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -299,7 +323,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Handling DB Transactions.md",
+                "file": "Intrend Engineering/Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -358,7 +382,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Handling DB Transactions.md"
+                "file": "Intrend Engineering/Networking.md"
               }
             }
           }
@@ -381,16 +405,17 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "d97f69db1601e48f",
+  "active": "7e4f6ef6edb9e967",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Networking.md",
+    "Intrend Engineering/Handling DB Transactions.md",
     "Intrend Research/Turning the data into a product.md",
     "Intrend Research/Colors.md",
     "Intrend Engineering/Distributed Logs.md",
     "Intrend Engineering/Kubernetes and Docker.md",
-    "Intrend Engineering/Handling DB Transactions.md",
     "docs/Algorithms/Graphs/Graphs.md",
     "docs/Algorithms/Graphs/Untitled.md",
     "Personal/Algo Reference.md",
@@ -413,7 +438,6 @@
     "docs/Algorithms/Graphs/BFS.md",
     "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
     "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
-    "Intrend Engineering/Intrend LOG.md",
     "docs/SQL",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
