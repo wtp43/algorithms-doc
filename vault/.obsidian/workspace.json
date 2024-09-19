@@ -180,13 +180,73 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Networking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Networking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "CORS",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "IG Scraper System Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Turning the data into a product",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Research/Turning the data into a product.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Colors",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Research/Colors.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Scrape IG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Scrape IG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Process Log",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Process Log.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Networking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Networking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Networking.md",
+                "file": "Intrend Engineering/Proxies.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -271,8 +331,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -297,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Networking.md",
+                "file": "Intrend Engineering/Proxies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -323,7 +382,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Networking.md",
+                "file": "Intrend Engineering/Proxies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,7 +441,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Networking.md"
+                "file": "Intrend Engineering/Proxies.md"
               }
             }
           }
@@ -411,9 +470,16 @@
   },
   "lastOpenFiles": [
     "Intrend Engineering/Networking.md",
-    "Intrend Engineering/Handling DB Transactions.md",
+    "Intrend Engineering/Proxies.md",
+    "Intrend Engineering/Design.md",
+    "Intrend Engineering/CORS.md",
+    "Intrend Engineering/IG Scraper System Design.md",
     "Intrend Research/Turning the data into a product.md",
     "Intrend Research/Colors.md",
+    "Intrend Engineering/STAR Problems.md",
+    "Intrend Engineering/Scrape IG.md",
+    "Intrend Engineering/Process Log.md",
+    "Intrend Engineering/Handling DB Transactions.md",
     "Intrend Engineering/Distributed Logs.md",
     "Intrend Engineering/Kubernetes and Docker.md",
     "docs/Algorithms/Graphs/Graphs.md",
@@ -421,23 +487,16 @@
     "Personal/Algo Reference.md",
     "Personal/betstrategy.md",
     "Personal/Startup.md",
-    "Intrend Engineering/Process Log.md",
-    "Intrend Engineering/CORS.md",
     "Intrend Engineering/Intrend Features.md",
-    "Intrend Engineering/IG Scraper System Design.md",
-    "Intrend Engineering/Design.md",
     "Intrend Engineering/RPC.md",
     "Personal/Web Dev.md",
     "Personal/Untitled.md",
     "Intrend Research",
     "docs/Algorithms/Graphs/Intrend Research.md",
-    "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering",
     "docs/Algorithms/Graphs/Intrend Engineering.md",
     "docs/Algorithms/Graphs/Cycle Detection.md",
     "docs/Algorithms/Graphs/BFS.md",
-    "docs/Algorithms/Graphs/Dijkstra's Shortest Path Algorithm.md",
-    "docs/Algorithms/Graphs/Union Find (Disjoint Sets).md",
     "docs/SQL",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
