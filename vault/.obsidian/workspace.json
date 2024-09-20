@@ -182,6 +182,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "IG Scraper System Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/IG Scraper System Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Proxies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":9},\"to\":{\"line\":11,\"ch\":9}}}"
+                },
+                {
                   "title": "Networking",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Networking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -246,7 +258,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Proxies.md",
+                "file": "Intrend Engineering/Apache Pulsar.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -331,7 +343,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -356,7 +369,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Proxies.md",
+                "file": "Intrend Engineering/Apache Pulsar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +395,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Proxies.md",
+                "file": "Intrend Engineering/Apache Pulsar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -441,7 +454,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Proxies.md"
+                "file": "Intrend Engineering/Apache Pulsar.md"
               }
             }
           }
@@ -469,11 +482,12 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Networking.md",
+    "Intrend Engineering/IG Scraper System Design.md",
+    "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Proxies.md",
+    "Intrend Engineering/Networking.md",
     "Intrend Engineering/Design.md",
     "Intrend Engineering/CORS.md",
-    "Intrend Engineering/IG Scraper System Design.md",
     "Intrend Research/Turning the data into a product.md",
     "Intrend Research/Colors.md",
     "Intrend Engineering/STAR Problems.md",
@@ -496,7 +510,6 @@
     "Intrend Engineering",
     "docs/Algorithms/Graphs/Intrend Engineering.md",
     "docs/Algorithms/Graphs/Cycle Detection.md",
-    "docs/Algorithms/Graphs/BFS.md",
     "docs/SQL",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",
