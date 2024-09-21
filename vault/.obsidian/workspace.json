@@ -264,6 +264,50 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "39ce0e78e37f35d9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4aba4c837e84670f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -482,8 +526,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/IG Scraper System Design.md",
+    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
     "Intrend Engineering/Apache Pulsar.md",
+    "Intrend Engineering/IG Scraper System Design.md",
     "Intrend Engineering/Proxies.md",
     "Intrend Engineering/Networking.md",
     "Intrend Engineering/Design.md",
@@ -508,8 +554,6 @@
     "Intrend Research",
     "docs/Algorithms/Graphs/Intrend Research.md",
     "Intrend Engineering",
-    "docs/Algorithms/Graphs/Intrend Engineering.md",
-    "docs/Algorithms/Graphs/Cycle Detection.md",
     "docs/SQL",
     "Code/Poetry",
     "attachments/Pasted image 20240723175205.png",

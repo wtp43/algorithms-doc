@@ -4,7 +4,8 @@
 ### Maximal Boundaries
 
 - Maximal boundary is longest prefix that is also a suffix
-- F is an array of maximal boundaries for every substring `s[0:i] for i in range(len(s))`
+>[!important]
+>F is an array of maximal boundaries for every substring `s[0:i] for i in range(len(s))`
 
 ```python
 def maximum_border_length(w):
@@ -27,8 +28,7 @@ def maximum_border_length(w):
 ```python
 def KMP(s, t):
 	w = t + "#" + s
-	n = len(t)
-	f = [0] * n # init f[0] = 0
+	f = [0] * len(w) # init f[0] = 0
 	k = 0 # current longest border length
 	for i in range(1, len(w)): # compute f[i]
 		while w[k] != w[i] and k > 0:

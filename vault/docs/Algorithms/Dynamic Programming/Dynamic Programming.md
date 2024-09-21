@@ -21,6 +21,38 @@ created: 2023-01-31
 ## Recognizing DP
 - A problem cannot be greedily solved if choosing an element affects the profit/reward of another element
 	- Ex: House Robber (taking $i^{th}$ element means you can't take the previous element)
+	- DFS: Given starting health, is there a path that ends with health > 0
+		- This is equivalent to finding the largest health path/min penalty path which isn't possible with just DFS
+		- DP is needed to store the least paths
+		- Dijkstra or DFS + DP
+
+## Problems where choice affects profit/reward of ANOTHER element
+### DFS but with Path Values
+[3286. Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/)
+> Walk to bottom right with at least 1 health
+```python
+def findSafeWalk(self, grid: List[List[int]], health: int) -> bool:
+	m = len(grid)
+	n = len(grid[0])
+	dp = [[0]*n for _ in range(m)]
+	def dfs(i,j, h):
+		h -= grid[i][j]
+		if dp[i][j] >= h:
+			return 
+		dp[i][j] = h
+		if (i,j) == [m-1, n-1]:
+			return
+		for a,b in [[0,1], [1,0], [-1,0], [0,-1]]:
+			r = i+a
+			c = j+b
+			if r < 0 or c < 0 or r >= m or c >= n:
+				continue
+			dfs(r,c,h)
+	dfs(0,0,health)
+	return dp[-1][-1] > 0
+```
+
+
 
 ## Efficient Iteration (Reducing Search Space and States)
 > Choosing the right input to iterate over can significantly reduce the search space.
