@@ -34,8 +34,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ade3f3dcfbbbd572",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Kubernetes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -138,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md"
+                "file": "Intrend Engineering/Kubernetes.md"
               }
             }
           }
@@ -246,13 +268,14 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "bf3f16a1ed2fbf6d",
+  "active": "ade3f3dcfbbbd572",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Self-hosting.md",
+    "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Proxmox.md",
+    "Intrend Engineering/Self-hosting.md",
     "Intrend Engineering/Handling DB Transactions.md",
     "Personal/Algo Reference.md",
     "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
@@ -277,7 +300,6 @@
     "docs/Algorithms/Graphs/Untitled.md",
     "Personal/betstrategy.md",
     "Personal/Startup.md",
-    "Intrend Engineering/Intrend Features.md",
     "Intrend Research",
     "Intrend Engineering",
     "docs/SQL",
