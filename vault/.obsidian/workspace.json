@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Why Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Pulsar Config",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Pulsar Config.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":7,\"ch\":0},\"to\":{\"line\":10,\"ch\":13}},\"scroll\":0}"
+                },
+                {
                   "title": "Apache Pulsar",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Apache Pulsar.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -166,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Pulsar Config.md",
+                "file": "Intrend Engineering/STAR Problems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -275,7 +293,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Pulsar Config.md",
+                "file": "Intrend Engineering/STAR Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -301,7 +319,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Pulsar Config.md",
+                "file": "Intrend Engineering/STAR Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -360,7 +378,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Pulsar Config.md"
+                "file": "Intrend Engineering/STAR Problems.md"
               }
             }
           }
@@ -388,9 +406,10 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Apache Pulsar.md",
-    "Intrend Engineering/Pulsar Config.md",
+    "Intrend Engineering/Why Kafka.md",
     "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Pulsar Config.md",
+    "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/CORS.md",
     "Intrend Research/Startups.md",
     "Intrend Research/Colors.md",
@@ -414,7 +433,6 @@
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Distributed Logs.md",
     "docs/Algorithms/Graphs/Graphs.md",
-    "docs/Algorithms/Graphs/Untitled.md",
     "Intrend Research",
     "Intrend Engineering",
     "docs/SQL",

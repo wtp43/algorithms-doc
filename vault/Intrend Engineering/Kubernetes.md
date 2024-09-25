@@ -57,6 +57,9 @@ talosctl bootstrap -n 192.168.50.201
 
 # K8s 
 
+## kubectl
+
+##
 
 ## Control Plane
  -  manages state of cluster

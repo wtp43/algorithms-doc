@@ -58,3 +58,41 @@ alembic upgrade head
 
 
 ```
+
+
+## Kafka vs Pulsar vs Redpanda
+My requirements
+- asyncio
+aiokafka is the only library that supports asyncio
+- pulsar is async but not suitable for my use case
+- redpanda is much easier to deploy as it only needs to handle one type of node unlike kafka
+- redpanda is also compatible with all kafka clients
+
+
+## Kubernetes control planes
+- the control planes chooses where to place nodes based on resource requirements
+
+## My setup
+- kubernetes clusters on talos vm's which are immutable os's
+- services
+	- redpandas cluster
+	- some form of s3 cluster
+
+## Async
+
+### Design choice
+Combo:
+- multiprocess
+- async batch
+Benefits:
+- my proxy provider limits connections
+- httpx and async allows connection pooling
+- threading will await on only 1 network request and switch to another thread: lots of ipc overhead
+- asyncio allows more than 1 network request to be started on a single thread, limit is how much memory you have
+- asyncio is very useful especially if latency of network requests are high in my case as requests must be forwarded to a proxy
+
+
+### Why `httpx` Is Simpler than aiohttp:
+
+- In `httpx`, setting up a proxy for the entire client is much easier, as you only need to specify the `proxies` argument when creating the client.
+- `httpx` handles connection pooling by default, which allows the client to reuse the same connection to the proxy across multiple requests, without needing custom connectors.
