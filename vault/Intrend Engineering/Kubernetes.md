@@ -1,60 +1,3 @@
-# Talos
-## Cluster  Configs
-```python
-talosctl gen secrets
-# kubernetes
-talosctl gen config
-```
-
-- kubectl is used to manage multiple kubernetes clusters
-- talosctl is sued to manage multiple talos clusters
-- switching between clusters is done using context which are identified by name
-- kubernetes api should be a dns or load balancer placed in front of the control plane nodes of your kubernetes clusters to achieve high availability
-- talos provides a VIP(virtual ip address) to load balance control plane nodes. have to use kubernetes end point
-- **YAML**: You will still use YAML for managing Talos itself (the OS layer). YAML is the required format for Talos cluster and node configuration.
-- **Helm**: You would use Helm to deploy and manage applications on the Kubernetes cluster that Talos is running. Helm could be used to deploy Kubernetes resources (e.g., Pulsar, Prometheus, MinIO), but not Talos OS configuration.
-### Control Plane Settings
-https://mirceanton.com/posts/2023-11-28-the-best-os-for-kubernetes/
-- optional: allow control plane node to be allowed to complete tasks
-- disable predictable interface names allows generic configurations
-- enable dhcp on eth0 interface
-- configure virtual ip
-- 
-```sh 
-# @ specifies yaml and not json
-talosctl gen config intrend-cluster https://192.168.50.200:6443 \
-  --with-secrets secrets.yaml \
-  --config-patch @patches/allow-controlplane-workloads.yaml \
-  --config-patch @patches/cni.yaml \
-  --config-patch @patches/dhcp.yaml \
-  --config-patch @patches/install-disk.yaml \
-  --config-patch @patches/interface-names.yaml \
-  --config-patch @patches/kubelet-certificates.yaml \
-  --config-patch-control-plane @patches/vip.yaml \
-  --output rendered/
-```
-
-- the controlplane.yaml generated specifies settings for both kubernetes and talos clusters
-- worker.yaml is the machine config file for the worker, not the cluster
-- the talosconfig file is the equivalent a kube config file in the talos os
-	- specifies the api endpoint at which the talos api is available
-	- needs to be configured
-#### Apply the config to all machines
-```sh
-talosctl apply -f rendered/controlplane.yaml -n 192.168.50.201 --insecure
-talosctl apply -f rendered/controlplane.yaml -n 192.168.50.202 --insecure
-talosctl apply -f rendered/controlplane.yaml -n 192.168.50.203 --insecure
-```
-- --insecure is needed since PKI is not initialized yet
-#### Configure talosctl to work with the new cluster
-
-#### Bootstrap Kubernetes
-```sh
-# use any node in the talos cluster
-talosctl bootstrap -n 192.168.50.201
-```
-- starts etcd
-
 # K8s 
 
 ## kubectl
@@ -76,3 +19,74 @@ talosctl bootstrap -n 192.168.50.201
 
 
 ![Components of Kubernetes](https://kubernetes.io/images/docs/components-of-kubernetes.svg)
+
+## Namespaces
+- cluster can have multiple namespaces
+- divides cluster resources
+
+
+
+
+## Access a Container's Shell Using Kubectl Exec
+## Create  a deployment
+```sh
+kubectl create deployment mynginx --image=nginx
+kubectl get pods
+
+# Open & access container's shell
+kubectl exec -it mynginx-56766fcf49-4b6ls -- /bin/bash
+
+```
+
+
+## DaemonSet
+
+```sh
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: fluentd-elasticsearch
+  namespace: kube-system
+  labels:
+    k8s-app: fluentd-logging
+spec:
+  selector:
+    matchLabels:
+      name: fluentd-elasticsearch
+  template:
+    metadata:
+      labels:
+        name: fluentd-elasticsearch
+    spec:
+      tolerations:
+      # these tolerations are to have the daemonset runnable on control plane nodes
+      # remove them if your control plane nodes should not run pods
+      - key: node-role.kubernetes.io/control-plane
+        operator: Exists
+        effect: NoSchedule
+      - key: node-role.kubernetes.io/master
+        operator: Exists
+        effect: NoSchedule
+      containers:
+      - name: fluentd-elasticsearch
+        image: quay.io/fluentd_elasticsearch/fluentd:v2.5.2
+        resources:
+          limits:
+            memory: 200Mi
+          requests:
+            cpu: 100m
+            memory: 200Mi
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+      # it may be desirable to set a high priority class to ensure that a DaemonSet Pod
+      # preempts running Pods
+      # priorityClassName: important
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - name: varlog
+        hostPath:
+          path: /var/log
+
+```
+A DaemonSet defines Pods that provide node-local facilities. These might be fundamental to the operation of your cluster, such as a networking helper tool, or be part of an add-on.

@@ -94,3 +94,12 @@ iptables -t mangle -A POSTROUTING -o wan -m mark --mark 2 -j MARK --set-mark 1
 
 
 ```
+
+
+## 10Gb NIC
+https://forums.servethehome.com/index.php?threads/lenovo-thinkcentre-thinkstation-tiny-project-tinyminimicro-reference-thread.34925/page-97
+Intel X520-DA2
+
+
+Use NICs with SFP+ ports, and use fiber (not copper). Will save you money down the line.
+For short runs, use a DAC.

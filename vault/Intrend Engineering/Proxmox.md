@@ -71,3 +71,14 @@ https://www.youtube.com/watch?v=MyxigW4_QFM&t=83s
 
 
 https://www.reddit.com/r/homelab/comments/1faqgs4/proxmox_vs_kubernetes_for_cluster/
+
+
+
+
+## Reset dhcp leases 
+```sh
+ssh daisy@192.168.50.1
+killall dnsmasq
+rm /var/lib/misc/dnsmasq.leases
+service restart_dnsmasq
+```
