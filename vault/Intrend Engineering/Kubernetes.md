@@ -90,3 +90,48 @@ spec:
 
 ```
 A DaemonSet defines Pods that provide node-local facilities. These might be fundamental to the operation of your cluster, such as a networking helper tool, or be part of an add-on.
+
+```sh
+# Daemonsets show up under daemonset.apps and not deployments.apps
+kubectl get all -l app=nginx
+kubectl get all
+```
+
+### Executing shell command from container
+```sh
+kubectl exec -it mynginx-id -- /bin/bash
+```
+## Deleting a pod
+- kubebctl delete pod 
+- **Cordoning the node**. This action prevents new pods from spawning on the machine.
+- **Draining the node**. Draining removes the currently present pods.
+
+## Deleting a service
+```sh
+kubectl get deployments
+kubectl delete deploymentname -n namespace
+```
+
+
+
+## Manually delete a terminating namespace
+https://www.ibm.com/docs/en/cloud-private/3.2.0?topic=console-namespace-is-stuck-in-terminating-state
+```sh
+# create tmp json file
+kubectl get namespace redpanda -o json >tmp.json
+
+# remove 'kubernetes' value from the 'finalizers' field
+
+# set a temporary proxy ip and port
+kubectl proxy
+
+# in another terminal
+curl -k -H "Content-Type: application/json" -X PUT --data-binary @tmp.json http://127.0.0.1:8001/api/v1/namespaces/redpanda/finalize
+```
+
+```sh
+alternative is to patch
+kubectl patch configmap/mymap \
+    --type json \
+    --patch='[ { "op": "remove", "path": "/metadata/finalizers" } 
+```

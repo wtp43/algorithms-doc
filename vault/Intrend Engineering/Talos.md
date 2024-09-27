@@ -76,7 +76,7 @@ talosctl dashboard -n talos-01
 talosctl get members -n talos-01
 
 # fetch kubeconfig of the cluster 
-talosctl kubeconfig -n talos-demo-01
+talosctl kubeconfig -n talos-01
 
 # show pods
 kubectl get pods -o wide
