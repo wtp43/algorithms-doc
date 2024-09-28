@@ -85,5 +85,4 @@ kubectl get secrets -n <namespace>
 kubectl exec -it <pod-name> -- ping <docker-container-ip>
 
 
-
 ```
