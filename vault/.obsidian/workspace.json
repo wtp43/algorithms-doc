@@ -50,13 +50,19 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Redpanda",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Redpanda.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":84,\"ch\":57},\"to\":{\"line\":84,\"ch\":57}},\"scroll\":30.01169610862517}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Redpanda.md",
+                "file": "Intrend Engineering/Persistent Volumes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Redpanda.md",
+                "file": "Intrend Engineering/Talos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Redpanda.md",
+                "file": "Intrend Engineering/Talos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +279,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Redpanda.md"
+                "file": "Intrend Engineering/Talos.md"
               }
             }
           }
@@ -296,20 +302,20 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "a38eb43ff6632818",
+  "active": "8fa77a5820da3fbf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Talos.md",
+    "Intrend Engineering/Persistent Volumes.md",
     "Intrend Engineering/Redpanda.md",
+    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Proxies.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Why Kafka.md",
     "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Pulsar Config.md",
-    "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Kubernetes and Docker.md",
     "Intrend Engineering/Networking.md",
     "Intrend Engineering/Design.md",

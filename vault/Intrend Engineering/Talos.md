@@ -30,6 +30,7 @@ talosctl gen config intrend-cluster https://192.168.50.200:6443 \
   --config-patch @patches/install-disk.yaml \
   --config-patch @patches/interface-names.yaml \
   --config-patch @patches/kubelet-certificates.yaml \
+  --config-patch @patches/longhorn-config.yaml \
   --config-patch-control-plane @patches/vip.yaml \
   --output rendered/
 ```
@@ -70,7 +71,7 @@ talosctl config contexts
 talosctl config endpoint 10.0.10.11 10.0.10.12 10.0.10.13
 
 # bootstrap kubernetes
-talosctl dashboard -n talos-01
+talosctl bootstrap -n talos-01
 
 # get members by passing in ip of any controlplane node
 talosctl get members -n talos-01
@@ -84,6 +85,18 @@ kubectl get pods -o wide
 # get services kubectl get services
 kubectl get services
 ```
+
+## If rolling back vm and error is
+error executing bootstrap: rpc error: code = Unavailable desc = last connection error: connection error: desc = "transport
+: authentication handshake failed: tls: failed to verify certificate: x509: certificate has expired or is not yet valid: c
+urrent time 2024-09-28T13:24:47-04:00 is after 2024-09-28T00:40:10Z"
+
+- re-generate secrets.yaml from new config
+https://discuss.kubernetes.io/t/unable-to-connect-to-the-server-x509-certificate-has-expired-or-is-not-yet-valid/16484/4
+```sh
+talosctl gen secrets --from rendered/controlplane.yaml -o secrets.yaml
+rm -rf ~/.talos
+```
 ## In Case of Emergency, Break Glass, Remove Failed Node, Then Add New Node
 
 Superficially, adding a new node and then removing the failed node seems the same as removing the failed node then adding a new one. However, the risks are greater in the former case.
@@ -95,4 +108,52 @@ If the new member was misconfigured, and cannot join the cluster, you now have t
 ```sh
 talosctl -n <ip> reset
 kubectl delete node <node-name>
+```
+
+
+## Extensions and Tailscale
+- tailscale configuration: https://www.youtube.com/watch?v=wjDtoe-CYoI&t=500s
+```sh
+talosctl get extensions -n 192.168.50.203
+
+# Check logs for tailscale and login
+talosctl logs ext-tailscale -f -n 192.168.50.203  
+
+k get pods -n kube-system
+```
+
+
+## Longhorn
+- Talos specific settings: https://longhorn.io/docs/1.8.0/advanced-resources/os-distro-specific/talos-linux-support/#requirements  
+- Install with helm: https://longhorn.io/docs/1.7.1/deploy/install/install-with-helm/
+- Longhorn-ingress/Enable UI from outside cluster: https://longhorn.io/docs/1.8.0/deploy/accessing-the-ui/longhorn-ingress/
+- expose port
+```sh
+k apply -f services/longhorn-ingress.yaml
+kubectl -n longhorn-system get ingress
+
+```
+## Namespaces
+```sh
+kubectl get namespace <namespace-name> --show-labels
+```
+
+### Longhorn Requires Pod Security `enforce: privileged`
+```sh
+kubectl label namespace longhorn-system pod-security.kubernetes.io/enforce=privileged
+
+```
+### Longhorn Ingress
+```sh
+kubectl -n longhorn-system get ingress
+```
+
+
+## Cilium
+
+### Hubble: Disable ipv6
+```sh
+helm upgrade --install cilium cilium/cilium --namespace kube-system -f services/hubble.yaml
+# must enable on restart
+cilium hubble enable
 ```
