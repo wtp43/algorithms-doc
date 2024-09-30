@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Emails",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Emails.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":1},\"to\":{\"line\":0,\"ch\":1}}}"
+                },
+                {
+                  "title": "Rabbitmq",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Rabbitmq.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":44},\"to\":{\"line\":18,\"ch\":44}},\"scroll\":0}"
+                },
+                {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":141,\"ch\":28},\"to\":{\"line\":141,\"ch\":28}},\"scroll\":131.95371367507545}"
+                },
+                {
                   "title": "Proxmox",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -34,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,8 +109,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -194,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +237,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,7 +296,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Talos.md"
+                "file": "Intrend Engineering/Asyncio.md"
               }
             }
           }
@@ -302,15 +319,18 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "8fa77a5820da3fbf",
+  "active": "290810c9968296c7",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Emails.md",
+    "Intrend Engineering/Asyncio.md",
+    "Intrend Engineering/Rabbitmq.md",
+    "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Persistent Volumes.md",
     "Intrend Engineering/Redpanda.md",
-    "Intrend Engineering/Talos.md",
-    "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Proxies.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Why Kafka.md",
@@ -330,9 +350,6 @@
     "Intrend Research/Trend Analysis.md",
     "Intrend Engineering/Process Log.md",
     "Intrend Engineering/Handling DB Transactions.md",
-    "Personal/Algo Reference.md",
-    "docs/Algorithms/Dynamic Programming/Dynamic Programming.md",
-    "docs/Algorithms/String Matching/Knuth-Morris-Pratt (KMP).md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",

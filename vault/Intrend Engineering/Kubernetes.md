@@ -135,3 +135,10 @@ kubectl patch configmap/mymap \
     --type json \
     --patch='[ { "op": "remove", "path": "/metadata/finalizers" } 
 ```
+
+## Port Forwarding
+https://www.youtube.com/watch?v=ZUmcOVlm6To
+```sh
+k get svc -n longhorn-system
+k port-forward service/longhorn-frontend port:80
+```
