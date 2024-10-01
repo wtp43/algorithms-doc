@@ -1,0 +1,3 @@
+- instance_variables: defined in `__init__` are unique to each instance
+- global class variables are accessible from all instances of the class
+	- if one instance modifies this variable, the change is reflected across all instances

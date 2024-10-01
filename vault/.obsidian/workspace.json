@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Why Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Asyncio",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Asyncio.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Emails",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Emails.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -52,7 +70,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Asyncio.md",
+                "file": "Intrend Engineering/Python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -211,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Asyncio.md",
+                "file": "Intrend Engineering/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -237,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Asyncio.md",
+                "file": "Intrend Engineering/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -296,7 +314,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Asyncio.md"
+                "file": "Intrend Engineering/Python.md"
               }
             }
           }
@@ -324,16 +342,17 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Emails.md",
+    "Intrend Engineering/Why Kafka.md",
+    "Intrend Engineering/Python.md",
+    "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Asyncio.md",
+    "Intrend Engineering/Emails.md",
     "Intrend Engineering/Rabbitmq.md",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Persistent Volumes.md",
     "Intrend Engineering/Redpanda.md",
     "Intrend Engineering/Proxies.md",
-    "Intrend Engineering/STAR Problems.md",
-    "Intrend Engineering/Why Kafka.md",
     "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Pulsar Config.md",
     "Intrend Engineering/Kubernetes and Docker.md",
@@ -349,7 +368,6 @@
     "Intrend Research/Turning the data into a product.md",
     "Intrend Research/Trend Analysis.md",
     "Intrend Engineering/Process Log.md",
-    "Intrend Engineering/Handling DB Transactions.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
