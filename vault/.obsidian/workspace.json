@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":605,\"ch\":333},\"to\":{\"line\":605,\"ch\":333}},\"scroll\":601.2103308511773}"
+                },
+                {
                   "title": "Intrend Features",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend Features.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -94,7 +100,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Intrend LOG.md",
+                "file": "Intrend Engineering/Proxmox.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -254,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Intrend LOG.md",
+                "file": "Intrend Engineering/Proxmox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +286,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Intrend LOG.md",
+                "file": "Intrend Engineering/Proxmox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,7 +345,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Intrend LOG.md"
+                "file": "Intrend Engineering/Proxmox.md"
               }
             }
           }
@@ -367,6 +373,7 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Intrend LOG.md",
     "Intrend Engineering/Intrend Features.md",
     "Intrend Engineering/Process Log.md",
     "Intrend Engineering/Questions for Tutor.md",
@@ -392,7 +399,6 @@
     "Intrend Engineering/RPC.md",
     "Intrend Engineering/CORS.md",
     "Intrend Research/Startups.md",
-    "Intrend Research/Colors.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
