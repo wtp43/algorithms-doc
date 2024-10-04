@@ -68,7 +68,7 @@ cp rendered/talosconfig ~/.talos/config
 talosctl config contexts
 
 # update endpoints
-talosctl config endpoint 10.0.10.11 10.0.10.12 10.0.10.13
+talosctl config endpoint 100.104.14.94 100.109.231.59 100.106.232.65 192.168.50.201 192.168.50.202 192.168.50.203
 
 # bootstrap kubernetes
 talosctl bootstrap -n talos-01

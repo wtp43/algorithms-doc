@@ -96,3 +96,9 @@ Benefits:
 
 - In `httpx`, setting up a proxy for the entire client is much easier, as you only need to specify the `proxies` argument when creating the client.
 - `httpx` handles connection pooling by default, which allows the client to reuse the same connection to the proxy across multiple requests, without needing custom connectors.
+
+
+
+# Load Balance Messsage Queue
+- hash message by user_id
+- 

@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":76,\"ch\":14},\"to\":{\"line\":76,\"ch\":14}},\"scroll\":63.05450580631679}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Intrend LOG",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -100,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -144,20 +156,51 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Python",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Python.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":1},\"to\":{\"line\":101,\"ch\":1}},\"scroll\":72.80774891518975}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,8 +273,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -260,7 +302,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -286,7 +328,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,7 +387,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md"
+                "file": "Intrend Engineering/Asyncio.md"
               }
             }
           }
@@ -368,37 +410,37 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "290810c9968296c7",
+  "active": "8fa77a5820da3fbf",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Python.md",
+    "Intrend Engineering/STAR Problems.md",
+    "Intrend Engineering/Design.md",
+    "Intrend Engineering/Talos.md",
+    "Untitled.md",
+    "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Intrend LOG.md",
     "Intrend Engineering/Intrend Features.md",
     "Intrend Engineering/Process Log.md",
     "Intrend Engineering/Questions for Tutor.md",
     "Intrend Engineering/Persistent Volumes.md",
-    "Intrend Engineering/Python.md",
     "Intrend Engineering/Why Kafka.md",
-    "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Emails.md",
     "Intrend Engineering/Rabbitmq.md",
-    "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Redpanda.md",
     "Intrend Engineering/Proxies.md",
-    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Pulsar Config.md",
     "Intrend Engineering/Kubernetes and Docker.md",
     "Intrend Engineering/Networking.md",
-    "Intrend Engineering/Design.md",
     "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Self-hosting.md",
     "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/RPC.md",
     "Intrend Engineering/CORS.md",
-    "Intrend Research/Startups.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
