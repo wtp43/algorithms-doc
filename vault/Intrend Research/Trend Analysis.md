@@ -2,7 +2,8 @@
 
 
 
-# WSGN
+----------
+# WGSN
 https://www.wgsn.com/en/blog
 ![[Pasted image 20240921122319.png]]
 

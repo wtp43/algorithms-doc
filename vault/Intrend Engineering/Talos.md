@@ -68,7 +68,9 @@ cp rendered/talosconfig ~/.talos/config
 talosctl config contexts
 
 # update endpoints
-talosctl config endpoint 100.104.14.94 100.109.231.59 100.106.232.65 192.168.50.201 192.168.50.202 192.168.50.203
+talosctl config endpoint 100.104.14.94 100.109.231.59 100.106.232.65 
+
+talosctl config endpoint 192.168.50.201 192.168.50.202 192.168.50.203 100.97.78.55 100.74.169.101 100.79.68.38
 
 # bootstrap kubernetes
 talosctl bootstrap -n talos-01
@@ -86,6 +88,12 @@ kubectl get pods -o wide
 kubectl get services
 ```
 
+## Scale up cluster
+```sh
+  talosctl apply-config --insecure \
+    --nodes [NODE IP] \
+    --file controlplane.yaml
+```
 ## If rolling back vm and error is
 error executing bootstrap: rpc error: code = Unavailable desc = last connection error: connection error: desc = "transport
 : authentication handshake failed: tls: failed to verify certificate: x509: certificate has expired or is not yet valid: c
@@ -94,7 +102,7 @@ urrent time 2024-09-28T13:24:47-04:00 is after 2024-09-28T00:40:10Z"
 - re-generate secrets.yaml from new config
 https://discuss.kubernetes.io/t/unable-to-connect-to-the-server-x509-certificate-has-expired-or-is-not-yet-valid/16484/4
 ```sh
-talosctl gen secrets --from rendered/controlplane.yaml -o secrets.yaml
+talosctl gen secrets --from-controlplane-config rendered/controlplane.yaml -o secrets.yaml
 rm -rf ~/.talos
 ```
 ## In Case of Emergency, Break Glass, Remove Failed Node, Then Add New Node
@@ -109,7 +117,7 @@ If the new member was misconfigured, and cannot join the cluster, you now have t
 talosctl -n <ip> reset
 kubectl delete node <node-name>
 ```
-
+**IMPORTANT: Delete node from kubectl after resetting**
 
 ## Extensions and Tailscale
 - tailscale configuration: https://www.youtube.com/watch?v=wjDtoe-CYoI&t=500s

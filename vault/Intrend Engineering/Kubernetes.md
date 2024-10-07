@@ -95,7 +95,7 @@ A DaemonSet defines Pods that provide node-local facilities. These might be fund
 # Daemonsets show up under daemonset.apps and not deployments.apps
 kubectl get all -l app=nginx
 kubectl get all
-```
+	```
 
 ### Executing shell command from container
 ```sh
@@ -110,8 +110,12 @@ kubectl exec -it mynginx-id -- /bin/bash
 ```sh
 kubectl get deployments
 kubectl delete deploymentname -n namespace
+k delete -f values.yaml
 ```
 
+
+> [!NOTE] Title
+> Contents
 
 
 ## Manually delete a terminating namespace
