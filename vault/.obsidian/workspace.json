@@ -98,6 +98,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Talos",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -108,7 +114,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Production Setup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -193,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -218,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Production Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Production Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md"
+                "file": "Intrend Engineering/Production Setup.md"
               }
             }
           }
@@ -331,8 +338,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Production Setup.md",
+    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Persistent Volumes.md",
     "Intrend Engineering/Python.md",
@@ -356,7 +364,6 @@
     "Intrend Engineering/Self-hosting.md",
     "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/RPC.md",
-    "Intrend Engineering/CORS.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
