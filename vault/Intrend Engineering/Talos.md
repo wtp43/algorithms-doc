@@ -150,6 +150,7 @@ kubectl get namespace <namespace-name> --show-labels
 ```sh
 kubectl label namespace longhorn-system pod-security.kubernetes.io/enforce=privileged
 
+helm install longhorn longhorn/longhorn --namespace longhorn-system --create-namespace --version 1.7.1
 ```
 ### Longhorn Ingress
 ```sh

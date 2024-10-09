@@ -82,3 +82,26 @@ killall dnsmasq
 rm /var/lib/misc/dnsmasq.leases
 service restart_dnsmasq
 ```
+
+
+## Removing node from proxmox cluster
+```sh
+pvecm expected 1
+
+systemctl stop pve-cluster
+systemctl stop corosync
+
+# Start the cluster filesystem again in local mode:
+pmxcfs -l
+
+# Delete the corosync configuration files:
+rm /etc/pve/corosync.conf
+rm -r /etc/corosync/*
+
+# Start the filesystem again as normal service:
+
+killall pmxcfs
+systemctl start pve-cluster
+
+rm /etc/pve/nodes/<all_other_nodes_in_cluster>
+```

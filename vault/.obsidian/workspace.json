@@ -46,6 +46,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Asyncio",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Asyncio.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Python",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Python.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -80,7 +86,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Asyncio.md",
+                "file": "Intrend Engineering/Talos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -88,7 +94,7 @@
             }
           },
           {
-            "id": "eca7fcba98cd04af",
+            "id": "859e6b650c9cf42d",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -98,23 +104,29 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Kubernetes",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
                   "title": "Talos",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":152,\"ch\":2},\"to\":{\"line\":152,\"ch\":2}},\"scroll\":150.42648954458693}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":163,\"ch\":0},\"to\":{\"line\":163,\"ch\":0}},\"scroll\":147.47836207912098}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":32,\"ch\":53},\"to\":{\"line\":32,\"ch\":53}},\"scroll\":1.8802822478354673}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":89,\"ch\":0},\"to\":{\"line\":89,\"ch\":0}},\"scroll\":86.08330438982168}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Production Setup.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -225,7 +237,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Production Setup.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +263,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Production Setup.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +322,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Production Setup.md"
+                "file": "Intrend Engineering/Kubernetes.md"
               }
             }
           }
@@ -333,21 +345,22 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "eca7fcba98cd04af",
+  "active": "859e6b650c9cf42d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Production Setup.md",
     "Intrend Engineering/Talos.md",
+    "Intrend Engineering/Terraform.md",
+    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Asyncio.md",
+    "Intrend Engineering/Production Setup.md",
+    "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Persistent Volumes.md",
     "Intrend Engineering/Python.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Design.md",
     "Untitled.md",
-    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Intrend LOG.md",
     "Intrend Engineering/Intrend Features.md",
     "Intrend Engineering/Process Log.md",
@@ -363,7 +376,6 @@
     "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Self-hosting.md",
     "Intrend Engineering/Scrape IG.md",
-    "Intrend Engineering/RPC.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",

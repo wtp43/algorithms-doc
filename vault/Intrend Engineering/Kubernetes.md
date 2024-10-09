@@ -144,5 +144,21 @@ kubectl patch configmap/mymap \
 https://www.youtube.com/watch?v=ZUmcOVlm6To
 ```sh
 k get svc -n longhorn-system
-k port-forward service/longhorn-frontend port:80
+k port-forward -n longhorn-system service/longhorn-frontend port:80
+```
+## Longhorn
+```sh
+helm install longhorn longhorn/longhorn --namespace longhorn-system --create-namespace --version 1.7.1
+```
+## Rabbitmq
+
+### Get credentials
+
+```sh
+kubectl get secret rabbitmq-default-user -n api -o yaml
+# rabbitmq is the name of the server as defined in rabbitmq.yaml
+
+# Get username and password decoded
+kubectl get secret rabbitmq-default-user -n api -o jsonpath='{.data.username}' | base64 --decode; echo -n " "; kubectl get secret rabbitmq-default-user -n api -o jsonpath='{.data.password}' | base64 --decode
+
 ```
