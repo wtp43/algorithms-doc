@@ -18,6 +18,114 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Why Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":26},\"to\":{\"line\":22,\"ch\":26}}}"
+                },
+                {
+                  "title": "Handling DB Transactions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Handling DB Transactions.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Error Tracking with Sentry",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Error Tracking with Sentry.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Emails",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Emails.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Redpanda",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Redpanda.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Colors",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Research/Colors.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Why Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Redpanda",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Redpanda.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Production Setup",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Production Setup.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Emails",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Emails.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Persistent Volumes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Persistent Volumes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Redpanda",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Redpanda.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -28,65 +136,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Persistent Volumes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fa77a5820da3fbf",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "Asyncio",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Asyncio.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Python",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Python.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "STAR Problems",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Design",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
-                {
-                  "title": "STAR Problems",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":101,\"ch\":1},\"to\":{\"line\":101,\"ch\":1}},\"scroll\":72.80774891518975}"
-                },
-                {
-                  "title": "Talos",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/Terraform.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,9 +182,42 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9d4d57adf2bf1d34",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "ArgoCD + Kustomize Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":38,\"ch\":48},\"to\":{\"line\":38,\"ch\":48}},\"scroll\":11.811470773749221}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Talos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,8 +294,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -237,7 +319,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,7 +345,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -322,7 +404,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md"
+                "file": "Intrend Engineering/Terraform.md"
               }
             }
           }
@@ -345,37 +427,38 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "859e6b650c9cf42d",
+  "active": "a38eb43ff6632818",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
     "Intrend Engineering/Talos.md",
-    "Intrend Engineering/Terraform.md",
-    "Intrend Engineering/Proxmox.md",
-    "Intrend Engineering/Asyncio.md",
-    "Intrend Engineering/Production Setup.md",
     "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Persistent Volumes.md",
-    "Intrend Engineering/Python.md",
-    "Intrend Engineering/STAR Problems.md",
-    "Intrend Engineering/Design.md",
-    "Untitled.md",
+    "Intrend Engineering/Terraform.md",
+    "Pasted image 20241010214051.png",
+    "User relevance.md",
+    "Untitled 1.md",
+    "Intrend Engineering/Why Kafka.md",
     "Intrend Engineering/Intrend LOG.md",
+    "Intrend Engineering/Handling DB Transactions.md",
+    "Intrend Engineering/Error Tracking with Sentry.md",
+    "Intrend Engineering/Design.md",
+    "Intrend Engineering/Emails.md",
+    "Intrend Engineering/Proxmox.md",
+    "Intrend Engineering/Redpanda.md",
+    "Intrend Engineering/STAR Problems.md",
+    "Intrend Research/Colors.md",
+    "Intrend Engineering/Production Setup.md",
+    "Intrend Engineering/Persistent Volumes.md",
+    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+    "attachments/Pasted image 20241010160352.png",
+    "Intrend Engineering/Asyncio.md",
+    "Intrend Engineering/Python.md",
+    "Untitled.md",
     "Intrend Engineering/Intrend Features.md",
     "Intrend Engineering/Process Log.md",
     "Intrend Engineering/Questions for Tutor.md",
-    "Intrend Engineering/Why Kafka.md",
-    "Intrend Engineering/Emails.md",
     "Intrend Engineering/Rabbitmq.md",
-    "Intrend Engineering/Redpanda.md",
-    "Intrend Engineering/Proxies.md",
-    "Intrend Engineering/Pulsar Config.md",
-    "Intrend Engineering/Kubernetes and Docker.md",
-    "Intrend Engineering/Networking.md",
-    "Intrend Engineering/Apache Pulsar.md",
-    "Intrend Engineering/Self-hosting.md",
-    "Intrend Engineering/Scrape IG.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
@@ -393,8 +476,6 @@
     "attachments/Pasted image 20240604181855.png",
     "attachments/Pasted image 20240601175345.png",
     "attachments/Pasted image 20221202190703.png",
-    "attachments/Pasted image 20221202190928.png",
-    "attachments/Pasted image 20221205181815.png",
-    "attachments/Pasted image 20230203202802.png"
+    "attachments/Pasted image 20221202190928.png"
   ]
 }

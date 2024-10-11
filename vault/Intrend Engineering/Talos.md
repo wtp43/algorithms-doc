@@ -159,7 +159,7 @@ kubectl -n longhorn-system get ingress
 
 
 ## Cilium
-
+https://surajremanan.com/posts/automating-talos-installation-on-proxmox-with-packer-and-terraform/
 ### Hubble: Disable ipv6
 ```sh
 helm upgrade --install cilium cilium/cilium --namespace kube-system -f services/hubble.yaml
