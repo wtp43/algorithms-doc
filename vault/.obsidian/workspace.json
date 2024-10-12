@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "ArgoCD + Kustomize Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":36,\"ch\":13},\"to\":{\"line\":36,\"ch\":13}},\"scroll\":27.27927854352921}"
+                },
+                {
                   "title": "Terraform",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -142,7 +148,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+                "file": "Intrend Engineering/Talos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -158,6 +164,12 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":122,\"ch\":0},\"to\":{\"line\":121,\"ch\":101}},\"scroll\":37.872268219253236}"
                 },
                 {
                   "title": "Talos",
@@ -182,7 +194,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -223,7 +235,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -433,14 +446,15 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "a38eb43ff6632818",
+  "active": "859e6b650c9cf42d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Terraform.md",
-    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Talos.md",
+    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+    "Intrend Engineering/Terraform.md",
     "Pasted image 20241010214051.png",
     "User relevance.md",
     "Untitled 1.md",
@@ -456,7 +470,6 @@
     "Intrend Research/Colors.md",
     "Intrend Engineering/Production Setup.md",
     "Intrend Engineering/Persistent Volumes.md",
-    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "attachments/Pasted image 20241010160352.png",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Python.md",
