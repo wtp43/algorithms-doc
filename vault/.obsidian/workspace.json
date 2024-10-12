@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":26},\"to\":{\"line\":23,\"ch\":26}},\"scroll\":5.776974007851465}"
+                },
+                {
                   "title": "Why Kafka",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -136,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Terraform.md",
+                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -319,7 +325,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Terraform.md",
+                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -345,7 +351,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Terraform.md",
+                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -404,7 +410,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Terraform.md"
+                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md"
               }
             }
           }
@@ -432,9 +438,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Terraform.md",
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Terraform.md",
     "Pasted image 20241010214051.png",
     "User relevance.md",
     "Untitled 1.md",
