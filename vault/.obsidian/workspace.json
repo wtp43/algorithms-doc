@@ -166,6 +166,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "ArgoCD + Kustomize Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Kubernetes",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -194,7 +200,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+                "file": "Intrend Engineering/Postgres.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -210,6 +216,24 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "ArgoCD + Kustomize Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":38.0338244354933}"
+                },
+                {
+                  "title": "Apache Pulsar",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Apache Pulsar.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Proxmox",
@@ -228,7 +252,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/SSL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -236,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -313,7 +337,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -338,7 +363,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+                "file": "Intrend Engineering/SSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -364,7 +389,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+                "file": "Intrend Engineering/SSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -423,7 +448,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/ArgoCD + Kustomize Helm.md"
+                "file": "Intrend Engineering/SSL.md"
               }
             }
           }
@@ -446,14 +471,18 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "859e6b650c9cf42d",
+  "active": "9d4d57adf2bf1d34",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Talos.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+    "Intrend Engineering/SSL.md",
+    "Intrend Engineering/Apache Pulsar.md",
+    "Intrend Engineering/Talos.md",
+    "Intrend Engineering/Postgres.md",
+    "Intrend Engineering/Untitled",
+    "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Terraform.md",
     "Pasted image 20241010214051.png",
     "User relevance.md",
@@ -476,8 +505,6 @@
     "Untitled.md",
     "Intrend Engineering/Intrend Features.md",
     "Intrend Engineering/Process Log.md",
-    "Intrend Engineering/Questions for Tutor.md",
-    "Intrend Engineering/Rabbitmq.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
@@ -490,7 +517,6 @@
     "Personal",
     "ML/Deep Learning",
     "ML",
-    "Interview Prep",
     "attachments/Pasted image 20240708143231.png",
     "attachments/Pasted image 20240604181855.png",
     "attachments/Pasted image 20240601175345.png",
