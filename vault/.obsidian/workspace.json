@@ -218,6 +218,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "SSL",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/SSL.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":86},\"to\":{\"line\":21,\"ch\":86}},\"scroll\":0}"
+                },
+                {
                   "title": "ArgoCD + Kustomize Helm",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -252,7 +258,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/SSL.md",
+                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -337,8 +343,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -363,7 +368,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/SSL.md",
+                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -389,7 +394,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/SSL.md",
+                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -448,7 +453,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/SSL.md"
+                "file": "Intrend Engineering/Github Actions + Docker Automation.md"
               }
             }
           }
@@ -476,8 +481,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/SSL.md",
+    "Intrend Engineering/Github Actions + Docker Automation.md",
+    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Postgres.md",
@@ -504,7 +510,6 @@
     "Intrend Engineering/Python.md",
     "Untitled.md",
     "Intrend Engineering/Intrend Features.md",
-    "Intrend Engineering/Process Log.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
