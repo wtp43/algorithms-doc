@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Design",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":3},\"to\":{\"line\":6,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":108.92469387882133}"
+                },
+                {
                   "title": "ArgoCD + Kustomize Helm",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -148,7 +160,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Talos.md",
+                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -218,6 +230,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Github Actions + Docker Automation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Github Actions + Docker Automation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":4},\"to\":{\"line\":2,\"ch\":4}}}"
+                },
+                {
                   "title": "SSL",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/SSL.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -258,15 +288,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
+                "file": "Intrend Engineering/Proxies.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -476,17 +505,21 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "9d4d57adf2bf1d34",
+  "active": "a38eb43ff6632818",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/SSL.md",
+    "Intrend Engineering/Design.md",
+    "Intrend Engineering/Talos.md",
+    "Intrend Engineering/Untitled.md",
+    "Intrend Engineering/Postgres.md",
+    "Intrend Engineering/Proxies.md",
+    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Github Actions + Docker Automation.md",
+    "Intrend Engineering/SSL.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
-    "Intrend Engineering/Talos.md",
-    "Intrend Engineering/Postgres.md",
     "Intrend Engineering/Untitled",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Terraform.md",
@@ -497,9 +530,7 @@
     "Intrend Engineering/Intrend LOG.md",
     "Intrend Engineering/Handling DB Transactions.md",
     "Intrend Engineering/Error Tracking with Sentry.md",
-    "Intrend Engineering/Design.md",
     "Intrend Engineering/Emails.md",
-    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Redpanda.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Research/Colors.md",
@@ -508,8 +539,6 @@
     "attachments/Pasted image 20241010160352.png",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Python.md",
-    "Untitled.md",
-    "Intrend Engineering/Intrend Features.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",

@@ -20,3 +20,9 @@
 - rutm50 works good
 - to save on data/bandwidth -> speed, route only ig requests through mobile interface
 - route all other tailscale traffic through wan/ethernet via ip rules/tables
+
+
+## Unlimited Rotating IP Addresses on AWS Gateway
+https://freedium.cfd/https://medium.com/@devinjaystokes/using-proxycannon-ng-to-create-unlimited-rotating-proxies-fccffa70a728
+- fireprox
+- proxycannon-ng
