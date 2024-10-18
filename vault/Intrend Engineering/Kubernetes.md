@@ -162,3 +162,8 @@ kubectl get secret rabbitmq-default-user -n api -o yaml
 kubectl get secret rabbitmq-default-user -n api -o jsonpath='{.data.username}' | base64 --decode; echo -n " "; kubectl get secret rabbitmq-default-user -n api -o jsonpath='{.data.password}' | base64 --decode
 
 ```
+
+
+## Secrets
+
+- **Secrets are namespace scoped**

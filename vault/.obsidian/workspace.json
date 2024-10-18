@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Github Actions + Docker Automation",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Github Actions + Docker Automation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":9,\"ch\":0}}}"
+                },
+                {
                   "title": "Design",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Design.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -160,11 +166,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Kubernetes"
+            }
+          },
+          {
+            "id": "1e41539860bc5a7d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           },
           {
@@ -216,7 +245,9 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Postgres"
             }
           },
           {
@@ -292,10 +323,13 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Proxies"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -324,7 +358,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -348,7 +384,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -365,7 +403,9 @@
             },
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ]
@@ -397,7 +437,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -405,7 +445,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Kubernetes"
             }
           },
           {
@@ -423,10 +465,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intrend Engineering/Github Actions + Docker Automation.md",
+                "file": "Intrend Engineering/Kubernetes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Kubernetes"
             }
           },
           {
@@ -443,7 +487,9 @@
             },
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -464,7 +510,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -482,8 +530,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intrend Engineering/Github Actions + Docker Automation.md"
-              }
+                "file": "Intrend Engineering/Kubernetes.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kubernetes"
             }
           }
         ],
@@ -505,18 +555,18 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "a38eb43ff6632818",
+  "active": "1e41539860bc5a7d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Github Actions + Docker Automation.md",
     "Intrend Engineering/Design.md",
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Postgres.md",
     "Intrend Engineering/Proxies.md",
     "Intrend Engineering/Proxmox.md",
-    "Intrend Engineering/Github Actions + Docker Automation.md",
     "Intrend Engineering/SSL.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
