@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Kubernetes and Docker",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes and Docker.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Kubernetes and Docker\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":54.90298977268769}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxmox\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Kubernetes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Github Actions + Docker Automation",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Github Actions + Docker Automation.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -166,49 +184,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Kubernetes.md",
+                "file": "Intrend Engineering/Proxmox.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kubernetes"
-            }
-          },
-          {
-            "id": "1e41539860bc5a7d",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "CORS",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/CORS.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"CORS\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":57},\"to\":{\"line\":20,\"ch\":57}},\"scroll\":0}"
-                },
-                {
-                  "title": "Release Notes 1.7.4",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"release-notes\",\"state\":{\"currentVersion\":\"1.7.4\"},\"icon\":\"lucide-file\",\"title\":\"Release Notes 1.7.4\"}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intrend Engineering/Scrape IG.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scrape IG"
+              "title": "Proxmox"
             }
           },
           {
@@ -343,8 +325,7 @@
               "title": "Proxies"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -393,7 +374,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proxy",
+                "query": "lvm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -428,7 +409,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -571,11 +553,15 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "1e41539860bc5a7d",
+  "active": "a38eb43ff6632818",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Kubernetes and Docker.md",
+    "Intrend Engineering/Proxmox.md",
+    "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/CORS.md",
     "Intrend Engineering/Github Actions + Docker Automation.md",
     "Intrend Engineering/Design.md",
@@ -583,12 +569,10 @@
     "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Postgres.md",
     "Intrend Engineering/Proxies.md",
-    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/SSL.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Untitled",
-    "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Terraform.md",
     "Pasted image 20241010214051.png",
     "User relevance.md",
@@ -602,9 +586,7 @@
     "Intrend Engineering/STAR Problems.md",
     "Intrend Research/Colors.md",
     "Intrend Engineering/Production Setup.md",
-    "Intrend Engineering/Persistent Volumes.md",
     "attachments/Pasted image 20241010160352.png",
-    "Intrend Engineering/Asyncio.md",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
     "Intrend Engineering",
