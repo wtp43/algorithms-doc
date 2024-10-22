@@ -23,3 +23,8 @@ to overseas factories, patterns in overall acceptability of certain items
 
 
 ##  Other Fields (outside fashion)
+Email Lists:
+There are legitimate email list provider companies (e.g., Cognism, Lusha), 
+https://www.cognism.com/blog/buy-email-lists
+→ i think it's illegal to sell personal emails/non-business emails without consent according to laws like Canada anti-spam legislation
+- publicly available personal emails may be gray area

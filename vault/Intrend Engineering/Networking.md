@@ -1,4 +1,41 @@
 
+
+
+## Firewall settings
+```sh
+#/etc/sysctl.conf
+net.ipv4.ip_forward =1
+
+
+# check firewall status
+sudo ufw status verbose
+```
+
+## Prioritize Network Interface
+- lower metric has priority
+```sh
+#/etc/dhcpcd.conf
+interface wlo1
+metric 100
+
+interface en02
+metric 300
+```
+## Squid Server Setup
+```sh
+sudo apt install squid
+
+http_port 8888
+visible_hostname proxy
+
+acl intrendlab src 99.229.120.124
+http_access allow intrendlab
+
+sudo systemctl restart squid.service
+systemctl status squid.service
+
+```
+
 ip route add default via 192.168.1.1 dev wan
 
 # mark packets from tailscale

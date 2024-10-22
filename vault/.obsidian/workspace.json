@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Networking",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Networking.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Networking\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":0},\"to\":{\"line\":26,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Proxies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxmox\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Kubernetes and Docker",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes and Docker.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Kubernetes and Docker\"}",
@@ -184,13 +202,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Intrend Engineering/Kubernetes and Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox"
+              "title": "Kubernetes and Docker"
             }
           },
           {
@@ -258,6 +276,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Proxies",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxies.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxies\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Proxmox",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false}}",
@@ -316,16 +340,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Proxies.md",
+                "file": "Intrend Engineering/Networking.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxies"
+              "title": "Networking"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -374,7 +399,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lvm",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -404,13 +429,11 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -553,12 +576,15 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "a38eb43ff6632818",
+  "active": "9d4d57adf2bf1d34",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Proxies.md",
+    "Intrend Engineering/Postgres.md",
     "Intrend Engineering/Kubernetes and Docker.md",
+    "Intrend Engineering/Networking.md",
     "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Scrape IG.md",
@@ -567,8 +593,6 @@
     "Intrend Engineering/Design.md",
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Untitled.md",
-    "Intrend Engineering/Postgres.md",
-    "Intrend Engineering/Proxies.md",
     "Intrend Engineering/SSL.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
@@ -585,7 +609,6 @@
     "Intrend Engineering/Redpanda.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Research/Colors.md",
-    "Intrend Engineering/Production Setup.md",
     "attachments/Pasted image 20241010160352.png",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
