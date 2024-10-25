@@ -65,7 +65,7 @@ sudo ufw allow 15672/tcp
 sudo ufw status
 
 # uncomment this in /etc/sysctl.conf
-net.ipv4.ip_forward=1
+net.ipv6.ip_forward=1
 #Apply changes without rebooting
 sudo sysctl -p 
 ```

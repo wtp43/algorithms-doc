@@ -125,7 +125,7 @@ kubectl delete node <node-name>
 talosctl get extensions -n 192.168.50.203
 
 # Check logs for tailscale and login
-talosctl logs ext-tailscale -f -n 192.168.50.203  
+
 
 k get pods -n kube-system
 ```

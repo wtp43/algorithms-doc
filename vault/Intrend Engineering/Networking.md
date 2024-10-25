@@ -20,6 +20,22 @@ metric 100
 
 interface en02
 metric 300
+
+
+/etc/NetworkManager/dispatcher.d/99-network-change.sh
+#!/bin/bash
+
+INTERFACE=$1  # Interface name (e.g., eth0, wlan0)
+STATUS=$2     # Status (e.g., 'up', 'down')
+
+sudo ip route add default via 192.168.1.1 dev eno2 table gw1
+sudo ip rule add from 192.168.1.75 lookup gw1
+
+if [["$INTERFACE" == "wlo1"]] || [[ "$STATUS" == "up" ]]
+then
+  sudo ifmetric wlo1 50
+fi
+
 ```
 ## Squid Server Setup
 ```sh
