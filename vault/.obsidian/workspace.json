@@ -438,6 +438,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Longhorn",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Longhorn.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Longhorn\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":26},\"to\":{\"line\":16,\"ch\":26}}}"
+                },
+                {
+                  "title": "Intrend LOG",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Intrend LOG.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Intrend LOG\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":131},\"to\":{\"line\":4,\"ch\":131}}}"
+                },
+                {
                   "title": "Untitled",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
@@ -448,13 +460,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Intrend LOG.md",
+                "file": "Intrend Engineering/Rabbitmq.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intrend LOG"
+              "title": "Rabbitmq"
             }
           }
         ],
@@ -537,13 +549,11 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -691,6 +701,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Longhorn.md",
+    "Intrend Engineering/Intrend LOG.md",
     "Untitled.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Postgres.md",
@@ -716,9 +728,7 @@
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Untitled",
-    "Intrend Engineering/Terraform.md",
     "Pasted image 20241010214051.png",
-    "User relevance.md",
     "attachments/Pasted image 20241010160352.png",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
