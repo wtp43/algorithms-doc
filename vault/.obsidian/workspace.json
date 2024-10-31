@@ -438,6 +438,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "ArgoCD + Kustomize Helm",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/ArgoCD + Kustomize Helm.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"ArgoCD + Kustomize Helm\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Rabbitmq",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Rabbitmq.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Rabbitmq\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":34,\"ch\":0},\"to\":{\"line\":34,\"ch\":0}},\"scroll\":33.618746459940425}"
+                },
+                {
                   "title": "Longhorn",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Longhorn.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Longhorn\"}",
@@ -460,13 +478,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Rabbitmq.md",
+                "file": "Intrend Engineering/Asyncio.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rabbitmq"
+              "title": "Asyncio"
             }
           }
         ],
@@ -701,6 +719,9 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
+    "Intrend Engineering/Untitled.md",
+    "Intrend Engineering/Rabbitmq.md",
     "Intrend Engineering/Longhorn.md",
     "Intrend Engineering/Intrend LOG.md",
     "Untitled.md",
@@ -724,9 +745,6 @@
     "Intrend Engineering/CORS.md",
     "Intrend Engineering/Github Actions + Docker Automation.md",
     "Intrend Engineering/Design.md",
-    "Intrend Engineering/SSL.md",
-    "Intrend Engineering/ArgoCD + Kustomize Helm.md",
-    "Intrend Engineering/Apache Pulsar.md",
     "Intrend Engineering/Untitled",
     "Pasted image 20241010214051.png",
     "attachments/Pasted image 20241010160352.png",
