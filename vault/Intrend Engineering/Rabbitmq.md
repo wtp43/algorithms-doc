@@ -48,3 +48,9 @@ A queue that is declared with the _x-dead-letter-exchange_ property will send 
 # Acknowledging every N messages
 
 Secondly, consider not acknowledging every message, but instead acknowledging every N messages and setting the `multiple` flag on the acknowledgement. When the queue is overloaded, it's because it has too much work to do (profound, I know). As a consumer, you can reduce the amount of work it has to do by ensuring you don't flood it with acknowledgements. Thus, for example, you set the `basic.qos` prefetch to 20, but you only send an acknowledgement after you've processed every 10 messages and you set the `multiple` flag to true on the acknowledgement. The queue will now receive one-tenth of the acknowledgements it would have previously received. It will still internally acknowledge all ten messages, but it can do it in a more efficient way if it receives one acknowledgement that accounts for several messages, rather than lots of individual acknowledgements. However, if you're only acknowledging every N messages, be sure that your `basic.qos` prefetch value is higher than N. Probably at least 2*N. If your prefetch value is the same as N, then your consumer will once again be left idle whilst the acknowledgement makes its way back to the queue and the queue sends out a fresh batch of messages.
+
+
+## Separate Channels for Separate Threads
+
+## Use Channel Pool
+- reduce overhead associated with creating and closing channels
