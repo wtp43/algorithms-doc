@@ -33,3 +33,29 @@ asyncio.run(main())
 ```python
 await loop.run_in_executor(...)
 ```
+
+
+## Handling Exceptions
+```python
+import asyncio
+async def factorial(a,b, raise_exception=False):
+    if raise_exception:
+        raise Exception('bad')
+    return 1 
+async def main():
+    tasks = [factorial('A', 5),  # this will not be finished
+             factorial('B', 10, raise_exception=True),
+             factorial('C', 2)]
+
+
+    # Handle results in the order the task are completed
+    # if exeption you can handle that as well. 
+    for coroutine in asyncio.as_completed(tasks):
+        try:
+            results = await coroutine
+        except Exception as e:
+            print('Got an exception:', e)
+        else:
+            print('Results:', results)
+asyncio.run(main())
+```
