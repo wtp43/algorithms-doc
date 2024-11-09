@@ -18,6 +18,12 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "STAR Problems",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/STAR Problems.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"STAR Problems\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Asyncio",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Asyncio.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Asyncio\"}",
@@ -64,13 +70,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/STAR Problems.md",
+                "file": "Intrend Engineering/IG Endpoints.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STAR Problems"
+              "title": "IG Endpoints"
             }
           },
           {
@@ -466,6 +472,8 @@
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/STAR Problems.md",
+    "Intrend Engineering/IG Endpoints.md",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Postgres.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
@@ -475,7 +483,6 @@
     "Intrend Engineering/Longhorn.md",
     "Intrend Engineering/Intrend LOG.md",
     "Untitled.md",
-    "Intrend Engineering/STAR Problems.md",
     "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Binary Search/Interpolation Search.md",
@@ -491,7 +498,6 @@
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/CORS.md",
-    "Intrend Engineering/Github Actions + Docker Automation.md",
     "Intrend Engineering/Untitled",
     "Pasted image 20241010214051.png",
     "attachments/Pasted image 20241010160352.png",
