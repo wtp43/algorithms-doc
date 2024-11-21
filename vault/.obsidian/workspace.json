@@ -80,6 +80,30 @@
             }
           },
           {
+            "id": "1c706f530578f7c9",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Proxmox.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxmox"
+            }
+          },
+          {
             "id": "9d4d57adf2bf1d34",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -241,7 +265,8 @@
               "title": "Rabbitmq"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -324,7 +349,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -467,17 +493,18 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "859e6b650c9cf42d",
+  "active": "1c706f530578f7c9",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/STAR Problems.md",
+    "Intrend Engineering/Rabbitmq.md",
+    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/IG Endpoints.md",
+    "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Postgres.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
-    "Intrend Engineering/Rabbitmq.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
     "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Longhorn.md",
@@ -494,7 +521,6 @@
     "Intrend Engineering/Proxies.md",
     "Intrend Engineering/Kubernetes and Docker.md",
     "Intrend Engineering/Talos.md",
-    "Intrend Engineering/Proxmox.md",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/CORS.md",

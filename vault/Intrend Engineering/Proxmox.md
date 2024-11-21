@@ -4,6 +4,13 @@
 
 ## Setup
 
+### Installing Proxmox with Nvidia GPU
+
+#### Problems
+- No iso found
+- When the installer does the "testing device" loop, unplug the install media then plug it in another port. For some reason it worked. I do not know why. Grub is weird. 
+- https://forum.proxmox.com/threads/error-no-device-with-valid-iso-found.134510/page-2
+
 ### On single drive VM
 - delete lvm
 - https://www.youtube.com/watch?v=tbOe_-XJQS8
@@ -71,7 +78,6 @@ https://www.youtube.com/watch?v=MyxigW4_QFM&t=83s
 
 
 https://www.reddit.com/r/homelab/comments/1faqgs4/proxmox_vs_kubernetes_for_cluster/
-
 
 
 
