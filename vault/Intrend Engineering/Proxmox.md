@@ -12,7 +12,7 @@
 - https://forum.proxmox.com/threads/error-no-device-with-valid-iso-found.134510/page-2
 
 ### On single drive VM
-- delete lvm
+- delete local-lvm entry in storage
 - https://www.youtube.com/watch?v=tbOe_-XJQS8
 ```sh
 lvremove /dev/pve/data
@@ -20,6 +20,13 @@ lvresize -l +100%FREE /dev/pve/root
 resize2fs /dev/mapper/pve-root
 ```
 
+### Configuring a Disk as Storage
+- Go to Disks -> Directory -> Create: Directory
+### Provisioning CPUs 
+- Over-provisioning of CPUs for VMs is allowed to take advantage of idle VMs
+### Wiping a disk that is in use
+https://forum.proxmox.com/threads/sda-has-a-holder.97771/
+Navigate to the VM section under disks and delete the entries that corresponded with the disks that were throwing the errors. 
 ### Making a Cluster
 - save configs of existing vms
 - delete them
@@ -28,6 +35,7 @@ resize2fs /dev/mapper/pve-root
 ### Promox host + vm's
 
 ### No subscription
+https://github.com/foundObjects/pve-nag-buster/
 ```sh
 # disable enterprise updates
 sed -i 's:^deb :#deb :g' /etc/apt/sources.list.d/pve-enterprise.list
@@ -37,8 +45,6 @@ sed -i 's:^deb :#deb :g' /etc/apt/sources.list.d/pve-enterprise.list
 #File /etc/apt/sources.list.d/ceph.list
 
 deb http://download.proxmox.com/debian/ceph-reef bookworm no-subscription
-
-#File /etc/apt/sources.list.d/ceph.list
 
 deb http://download.proxmox.com/debian/ceph-quincy bookworm no-subscription
 

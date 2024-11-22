@@ -88,19 +88,25 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxmox\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Proxmox.md",
+                "file": "Personal/Dell T640.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox"
+              "title": "Dell T640"
             }
           },
           {
@@ -264,9 +270,56 @@
               "icon": "lucide-file",
               "title": "Rabbitmq"
             }
+          },
+          {
+            "id": "1ff7485537e38c3e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Proxmox.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proxmox"
+            }
+          },
+          {
+            "id": "92043a5e4d15c73d",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Terraform.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Terraform"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -493,13 +546,15 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "1c706f530578f7c9",
+  "active": "859e6b650c9cf42d",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Rabbitmq.md",
     "Intrend Engineering/Proxmox.md",
+    "Personal/Dell T640.md",
+    "Hardware",
+    "Intrend Engineering/Rabbitmq.md",
     "Intrend Engineering/IG Endpoints.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Asyncio.md",
@@ -523,7 +578,6 @@
     "Intrend Engineering/Talos.md",
     "Intrend Engineering/Kubernetes.md",
     "Intrend Engineering/Scrape IG.md",
-    "Intrend Engineering/CORS.md",
     "Intrend Engineering/Untitled",
     "Pasted image 20241010214051.png",
     "attachments/Pasted image 20241010160352.png",
@@ -538,7 +592,6 @@
     "Code",
     "Personal",
     "ML/Deep Learning",
-    "ML",
     "attachments/Pasted image 20240708143231.png",
     "attachments/Pasted image 20240604181855.png",
     "attachments/Pasted image 20240601175345.png",
