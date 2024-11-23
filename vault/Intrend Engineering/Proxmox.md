@@ -11,7 +11,7 @@
 - When the installer does the "testing device" loop, unplug the install media then plug it in another port. For some reason it worked. I do not know why. Grub is weird. 
 - https://forum.proxmox.com/threads/error-no-device-with-valid-iso-found.134510/page-2
 
-### On single drive VM
+### Configuring Single Drive Usage
 - delete local-lvm entry in storage
 - https://www.youtube.com/watch?v=tbOe_-XJQS8
 ```sh
@@ -19,7 +19,7 @@ lvremove /dev/pve/data
 lvresize -l +100%FREE /dev/pve/root
 resize2fs /dev/mapper/pve-root
 ```
-
+- Then go to storage and allow local to be used as a container
 ### Configuring a Disk as Storage
 - Go to Disks -> Directory -> Create: Directory
 ### Provisioning CPUs 

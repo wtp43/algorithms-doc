@@ -304,6 +304,102 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Terraform\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Why Kafka",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Why Kafka.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Why Kafka\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "User relevance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"User relevance.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"User relevance\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":61},\"to\":{\"line\":2,\"ch\":21}}}"
+                },
+                {
+                  "title": "Untitled",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Untitled.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Untitled\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "User relevance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"User relevance.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"User relevance\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Talos\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":153.77689655279588}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Terraform\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talos",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Talos.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Talos\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Terraform\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":15.01414014307745}"
+                },
+                {
+                  "title": "Proxmox",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Proxmox.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Proxmox\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":94.33327653925215}"
+                },
+                {
+                  "title": "Kubernetes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Kubernetes.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Kubernetes\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":118.7904521102853}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Terraform\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Intrend Engineering/Talos.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Talos"
+            }
+          },
+          {
+            "id": "dd9555c6515e29a8",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
                 }
               ]
             },
@@ -318,8 +414,30 @@
               "icon": "lucide-file",
               "title": "Terraform"
             }
+          },
+          {
+            "id": "ae988fd8034468b0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -402,8 +520,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -546,25 +663,31 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "859e6b650c9cf42d",
+  "active": "ae988fd8034468b0",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
+    "Intrend Engineering/Talos.md",
+    "Intrend Engineering/Terraform.md",
+    "Intrend Engineering/Why Kafka.md",
+    "User relevance.md",
+    "Pasted image 20241010214051.png",
+    "Untitled.md",
+    "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Proxmox.md",
+    "Intrend Engineering/Kubernetes.md",
+    "Intrend Engineering/IG Endpoints.md",
     "Personal/Dell T640.md",
     "Hardware",
     "Intrend Engineering/Rabbitmq.md",
-    "Intrend Engineering/IG Endpoints.md",
     "Intrend Engineering/STAR Problems.md",
     "Intrend Engineering/Asyncio.md",
     "Intrend Engineering/Postgres.md",
     "docs/Algorithms/Combinatorics and Number Theory/Combinatorics.md",
     "Intrend Engineering/ArgoCD + Kustomize Helm.md",
-    "Intrend Engineering/Untitled.md",
     "Intrend Engineering/Longhorn.md",
     "Intrend Engineering/Intrend LOG.md",
-    "Untitled.md",
     "docs/Algorithms/Brainteasers/Logic.md",
     "docs/Algorithms/Binary Search/Binary Search.md",
     "docs/Algorithms/Binary Search/Interpolation Search.md",
@@ -573,13 +696,7 @@
     "Interview Prep/Delivery Framework.md",
     "Intrend Engineering/Networking.md",
     "Intrend Engineering/Ipv6.md",
-    "Intrend Engineering/Proxies.md",
-    "Intrend Engineering/Kubernetes and Docker.md",
-    "Intrend Engineering/Talos.md",
-    "Intrend Engineering/Kubernetes.md",
-    "Intrend Engineering/Scrape IG.md",
     "Intrend Engineering/Untitled",
-    "Pasted image 20241010214051.png",
     "attachments/Pasted image 20241010160352.png",
     "attachments/Pasted image 20240921122319.png",
     "Intrend Research",
