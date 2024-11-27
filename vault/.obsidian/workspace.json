@@ -400,44 +400,29 @@
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Terraform",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Intrend Engineering/Terraform.md\",\"mode\":\"source\",\"backlinks\":false,\"source\":false},\"icon\":\"lucide-file\",\"title\":\"Terraform\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":231},\"to\":{\"line\":11,\"ch\":231}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intrend Engineering/Terraform.md",
+                "file": "docs/Coding Style.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Terraform"
-            }
-          },
-          {
-            "id": "ae988fd8034468b0",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "Coding Style"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -520,7 +505,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2b3a55884ce239a9",
@@ -663,13 +649,13 @@
       "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "ae988fd8034468b0",
+  "active": "dd9555c6515e29a8",
   "ophidian:layout-settings": {
     "pane-relief:focus-lock": true
   },
   "lastOpenFiles": [
-    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Terraform.md",
+    "Intrend Engineering/Talos.md",
     "Intrend Engineering/Why Kafka.md",
     "User relevance.md",
     "Pasted image 20241010214051.png",

@@ -2,7 +2,13 @@
 
 ## What data/analysis can we sell?
 
+### labeled images
+- Give to trend analysis companies to use themselves
 
+### Brand's performance
+- directly to brands
+- difficult to determine for brands with low presence 
+- difficult to sell to big brand, but would be very useful 
 ### Clothing Trends
 to overseas factories, patterns in overall acceptability of certain items
 
